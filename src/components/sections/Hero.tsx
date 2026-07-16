@@ -2,16 +2,16 @@ import Image from "next/image";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 5161:2417).
-// O primeiro item (bandeira UE) preenche o círculo inteiro sem padding interno;
+// O primeiro item (bandeira) preenche o círculo inteiro sem padding interno;
 // os outros 4 têm o ícone menor, com respiro ao redor (12px) — diferença real do Figma.
 const TRUST_ITEMS = [
   {
-    icon: "/assets/hero/eu-flag.svg",
-    bg: "bg-[#1342a0]",
+    icon: "/assets/footer/usa-flag.svg",
+    bg: "bg-[#F4F4F5]",
     iconSize: 60,
     padded: false,
     title: "Especificações",
-    subtitle: "Europeias",
+    subtitle: "Americanas",
   },
   {
     icon: "/assets/hero/globe.svg",
