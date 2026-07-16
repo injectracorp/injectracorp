@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Paleta INJECTRA — extraída da coleção de variáveis do Figma (arquivo INJECTRA - SITE) */
+  --color-wt: #ffffff;
+  --color-texto: #2a2a2b;
+  --color-border-line-bd: #cbd0d4;
+  --color-texto-sem-destaque: #c8cfd8;
+  --color-bg-cinza: #f6f9fe;
+  --color-icon-acq: #00ff09;
+  --color-gold: #dfa727;
+  --color-azul-light: #73d0ff;
+  --color-texto-sem-destaque-2: #8a8f97;
+  --color-bg-light-clean: #f2f6fd;
+  --color-bg-light-clean-minus: #f9fafe;
+  --color-bg-light-clean-plus: #f1f5fe;
+  --color-positivo-verde: #07b6b2;
+  --color-mid-roxo: #6e54ef;
+  --color-mid-mag: #e240ba;
+  --color-blue-lt: #dae9ff;
+  --color-roxo-lt: #e9e5fd;
+  --color-verde-lt: #e1f3e7;
+  --color-amarelo-lt: #fef3e3;
+  --color-cy-cian-bg-lt: #dbf4f5;
+  --color-texto-com-menos-destaque: #3e4650;
+  --color-verde-bg-2: #eff5f4;
+  --color-verde-escuro: #0b8650;
+  --color-azul-claro: #305af5;
+  --color-azul-claro-plus: #1441e8;
+  --color-azul-claro-minus: #5579ff;
+  --color-magenta-claro: #be4bee;
+  --color-magenta-claro-plus: #ae2fe3;
+  --color-magenta-claro-minus: #d879ff;
+  --color-dark-blue: #000d59;
+  --color-azul-light-bg: #d8e0ff;
+  --color-verde-pvc: #22b714;
+  --color-roxo: #6a21c3;
+
+  /* Cores das linhas de máquinas (seção CAPACIDADE) */
+  --color-prime-ip: #1a50d9;
+  --color-speed-is: #2d66f5;
+  --color-velocity-iv: #602dc8;
+  --color-form-if: #4087a3;
+  --color-neo-ex-ie: #103586;
+  --color-atlas-ia: #f6762f;
+  --color-hydro-ih: #287445;
+  --color-titan-it: #51259e;
+  --color-max-im: #b02fb1;
+
+  /* Gradientes (azul-claro -> magenta-claro; ângulo varia ~93-168deg entre instâncias no Figma,
+     aqui fixado em 120deg como aproximação única para todas as ocorrências de texto/traço em gradiente) */
+  --gradient-brand: linear-gradient(120deg, #305af5 6.191%, #be4bee 93.351%);
+  /* Gradiente do botão "Solicitar Cotação" do HEADER */
+  --gradient-cta-header: linear-gradient(-8.0723deg, rgb(0, 31, 145) 27.262%, rgb(27, 54, 195) 85.153%);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "avenir-next-lt-pro", sans-serif;
+  --font-mono: var(--font-geist-mono);
+
+  --color-wt: var(--color-wt);
+  --color-texto: var(--color-texto);
+  --color-border-line-bd: var(--color-border-line-bd);
+  --color-texto-sem-destaque: var(--color-texto-sem-destaque);
+  --color-bg-cinza: var(--color-bg-cinza);
+  --color-gold: var(--color-gold);
+  --color-azul-light: var(--color-azul-light);
+  --color-texto-sem-destaque-2: var(--color-texto-sem-destaque-2);
+  --color-bg-light-clean: var(--color-bg-light-clean);
+  --color-bg-light-clean-minus: var(--color-bg-light-clean-minus);
+  --color-bg-light-clean-plus: var(--color-bg-light-clean-plus);
+  --color-positivo-verde: var(--color-positivo-verde);
+  --color-mid-roxo: var(--color-mid-roxo);
+  --color-mid-mag: var(--color-mid-mag);
+  --color-blue-lt: var(--color-blue-lt);
+  --color-roxo-lt: var(--color-roxo-lt);
+  --color-verde-lt: var(--color-verde-lt);
+  --color-amarelo-lt: var(--color-amarelo-lt);
+  --color-cy-cian-bg-lt: var(--color-cy-cian-bg-lt);
+  --color-texto-com-menos-destaque: var(--color-texto-com-menos-destaque);
+  --color-verde-bg-2: var(--color-verde-bg-2);
+  --color-verde-escuro: var(--color-verde-escuro);
+  --color-azul-claro: var(--color-azul-claro);
+  --color-azul-claro-plus: var(--color-azul-claro-plus);
+  --color-azul-claro-minus: var(--color-azul-claro-minus);
+  --color-magenta-claro: var(--color-magenta-claro);
+  --color-magenta-claro-plus: var(--color-magenta-claro-plus);
+  --color-magenta-claro-minus: var(--color-magenta-claro-minus);
+  --color-dark-blue: var(--color-dark-blue);
+  --color-azul-light-bg: var(--color-azul-light-bg);
+  --color-verde-pvc: var(--color-verde-pvc);
+  --color-roxo: var(--color-roxo);
+
+  --color-prime-ip: var(--color-prime-ip);
+  --color-speed-is: var(--color-speed-is);
+  --color-velocity-iv: var(--color-velocity-iv);
+  --color-form-if: var(--color-form-if);
+  --color-neo-ex-ie: var(--color-neo-ex-ie);
+  --color-atlas-ia: var(--color-atlas-ia);
+  --color-hydro-ih: var(--color-hydro-ih);
+  --color-titan-it: var(--color-titan-it);
+  --color-max-im: var(--color-max-im);
+}
+
+body {
+  background: var(--color-wt);
+  color: var(--color-texto);
+  font-family: "avenir-next-lt-pro", Arial, Helvetica, sans-serif;
+}
+
+/* "GD CLARO" — gradiente aplicado como preenchimento de texto (usado em vários títulos) */
+.text-gradient-brand {
+  background: var(--gradient-brand);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* "DARK BLUE GD" aplicado como preenchimento de texto (títulos dos cards de pilares) */
+.text-gradient-navy {
+  background: var(--gradient-cta-header);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
