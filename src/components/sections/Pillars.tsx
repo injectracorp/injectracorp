@@ -2,42 +2,49 @@ import Image from "next/image";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7008:2551).
+// Cada pilar usa a cor de uma linha de máquina específica (atualizado no Figma).
 const PILLARS = [
   {
     label: "Máquinas",
     description: "Máquinas de injeção de alta performance para diversas aplicações.",
     icon: "/assets/pillars/machine.svg",
     bg: "bg-[#eef5fd]",
+    color: "var(--color-prime-ip)",
   },
   {
     label: "Robótica",
     description: "Soluções que aumentam a produtividade e reduzem tempos de ciclo.",
     icon: "/assets/pillars/robotica.svg",
     bg: "bg-[#f3faf3]",
+    color: "var(--color-hydro-ih)",
   },
   {
     label: "IA",
     description: "Inteligência Artificial que transforma dados em decisões inteligentes.",
     icon: "/assets/pillars/ia.svg",
     bg: "bg-[#f6f3fc]",
+    color: "var(--color-titan-it)",
   },
   {
     label: "IoT",
     description: "Dispositivos conectados e sensores para total visibilidade.",
     icon: "/assets/pillars/iot.svg",
-    bg: "bg-[#f1fbfc]",
+    bg: "bg-[#fcf3f7]",
+    color: "var(--color-max-im)",
   },
   {
     label: "Software",
     description: "Software industrial poderoso para gerenciar toda a operação.",
     icon: "/assets/pillars/software.svg",
     bg: "bg-[#fef7ef]",
+    color: "var(--color-atlas-ia)",
   },
   {
     label: "Serviços",
     description: "Suporte completo da instalação à evolução contínua.",
     icon: "/assets/pillars/servicos.svg",
-    bg: "bg-[#f6f3fe]",
+    bg: "bg-[#f4fbfb]",
+    color: "var(--color-form-if)",
   },
 ];
 
@@ -70,7 +77,10 @@ export default function Pillars() {
           >
             <Image src={pillar.icon} alt="" width={60} height={60} />
             {/* Subtítulo BK 20 — 20px/22px, 85 Heavy (700) */}
-            <span className="text-gradient-navy text-xl font-bold leading-[22px] tracking-normal">
+            <span
+              className="text-xl font-bold leading-[22px] tracking-normal"
+              style={{ color: pillar.color }}
+            >
               {pillar.label}
             </span>
             {/* Desc 14 — 14px/16px, 55 Roman (400) */}

@@ -30,17 +30,17 @@ export default function AboutEcosystem() {
         </a>
       </div>
 
-      <div className="flex w-full flex-1 items-center justify-center overflow-hidden rounded-2xl bg-bg-cinza">
-        {/* NOTA: no Figma este elemento é um vídeo em loop ("ECOSSISTEMA INJECTRA 1",
-            910x512). A API do Figma usada aqui só exporta um frame estático — ver
-            observação ao final da resposta sobre como resolver isso com o vídeo real. */}
-        <Image
-          src="/assets/ecosystem/ecossistema-injectra.png"
-          alt="Ecossistema Injectra"
-          width={910}
-          height={512}
-          className="h-auto w-full max-w-[910px]"
+      <div className="relative flex w-full flex-1 items-center justify-center overflow-hidden rounded-2xl bg-bg-cinza">
+        <video
+          src="/assets/ecosystem/ecossistema-injectra.mp4"
+          className="h-auto w-full max-w-[910px] mix-blend-multiply"
+          autoPlay
+          loop
+          muted
+          playsInline
         />
+        {/* Tarja para esconder uma linha de artefato na borda inferior do vídeo */}
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-2 bg-bg-cinza" />
       </div>
     </Section>
   );

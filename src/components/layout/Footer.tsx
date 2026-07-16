@@ -1,13 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "@/components/Logo";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 5007:727).
+// YouTube mantém a proporção real do ícone (22x15.5, não quadrado) — os
+// demais são ~quadrados (30x30 no Figma), daí o default 22x22.
 const SOCIAL_ICONS = [
-  { icon: "/assets/footer/social-instagram.svg", label: "Instagram" },
-  { icon: "/assets/footer/social-x.svg", label: "X (Twitter)" },
-  { icon: "/assets/footer/social-linkedin.svg", label: "LinkedIn" },
-  { icon: "/assets/footer/social-youtube.svg", label: "YouTube" },
-  { icon: "/assets/footer/social-facebook.svg", label: "Facebook" },
+  { icon: "/assets/footer/social-instagram.svg", label: "Instagram", width: 22, height: 22 },
+  { icon: "/assets/footer/social-x.svg", label: "X (Twitter)", width: 22, height: 22 },
+  { icon: "/assets/footer/social-linkedin.svg", label: "LinkedIn", width: 22, height: 22 },
+  { icon: "/assets/footer/social-youtube.svg", label: "YouTube", width: 22, height: 15.5 },
+  { icon: "/assets/footer/social-facebook.svg", label: "Facebook", width: 22, height: 22 },
 ];
 
 const COLUMNS = [
@@ -18,6 +21,7 @@ const COLUMNS = [
         icon: "/assets/footer/icon-maquinas.svg",
         title: "Máquinas",
         description: "Linhas hidráulicas e elétricas para todos os segmentos.",
+        href: "/maquinas",
       },
       {
         icon: "/assets/footer/icon-robotica.svg",
@@ -122,7 +126,7 @@ export default function Footer() {
 
       {/* Colunas principais */}
       <div className="relative flex w-full flex-col items-center px-5">
-        <div className="flex w-full max-w-[1400px] flex-wrap items-start justify-center gap-x-5 gap-y-10">
+        <div className="flex w-full max-w-[1400px] flex-wrap justify-center gap-x-5 gap-y-10">
           <div className="flex max-w-[450px] flex-1 flex-col items-start gap-5 pr-0 lg:pr-[30px]">
             <div className="flex w-full flex-col items-start gap-[15px]">
               <Logo src="/assets/footer/injectra-logo.svg" className="h-auto max-h-16 w-full max-w-[270px]" />
@@ -137,7 +141,8 @@ export default function Footer() {
               inteligência artificial e suporte regional para impulsionar a
               produtividade da indústria nas Américas.
             </p>
-            <div className="flex flex-wrap items-center gap-[15px]">
+            {/* Alinhado à base do bloco pai (que agora estica para a altura das colunas ao lado) */}
+            <div className="mt-auto flex flex-wrap items-center gap-[15px]">
               {SOCIAL_ICONS.map((social) => (
                 <a
                   key={social.label}
@@ -145,7 +150,7 @@ export default function Footer() {
                   aria-label={social.label}
                   className="flex h-[50px] w-[50px] items-center justify-center rounded-full border border-border-line-bd bg-wt transition-colors hover:bg-bg-light-clean hover:border-azul-claro"
                 >
-                  <Image src={social.icon} alt="" width={22} height={22} />
+                  <Image src={social.icon} alt="" width={social.width} height={social.height} />
                 </a>
               ))}
             </div>
@@ -160,25 +165,25 @@ export default function Footer() {
                 </span>
                 <span className="h-[1.5px] w-[30px] rounded-full bg-azul-claro-plus" />
               </div>
-              <div className="flex flex-col items-start gap-2">
+              <div className="flex flex-col items-start gap-5">
                 {column.items.map((item) => (
-                  <a
+                  <Link
                     key={item.title}
-                    href="#"
-                    className="flex w-full items-center gap-2.5 rounded-lg p-2.5 -m-2.5 transition-colors hover:bg-white/60"
+                    href={item.href ?? "#"}
+                    className="group flex w-full items-center gap-2.5"
                   >
                     <Image src={item.icon} alt="" width={36} height={36} className="shrink-0" />
                     <div className="flex flex-1 flex-col items-start gap-1 text-texto">
                       {/* 16px/20px, 85 Heavy (700) */}
-                      <span className="text-base font-bold leading-5 tracking-normal">
+                      <span className="text-base font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
                         {item.title}
                       </span>
                       {/* Desc 14 — 14px/16px, 55 Roman (400) */}
-                      <span className="text-sm font-normal leading-4 tracking-normal">
+                      <span className="text-sm font-normal leading-4 tracking-normal transition-colors group-hover:text-azul-claro">
                         {item.description}
                       </span>
                     </div>
-                  </a>
+                  </Link>
                 ))}
               </div>
             </div>
@@ -188,7 +193,7 @@ export default function Footer() {
 
       {/* Barra de informações */}
       <div className="relative flex w-full items-center justify-center px-5">
-        <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-2xl bg-bg-cinza px-10 py-5">
+        <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-2xl bg-wt px-10 py-5">
           {INFO_BAR.map((info) => (
             <div key={info.title} className="flex min-w-[160px] shrink-0 items-center justify-center gap-2.5">
               <Image src={info.icon} alt="" width={24} height={24} className="shrink-0" />
@@ -208,13 +213,10 @@ export default function Footer() {
 
       {/* CTA final */}
       <div className="relative flex w-full items-center justify-center px-5">
-        <div
-          className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 overflow-hidden rounded-2xl bg-cover bg-center p-10"
-          style={{ backgroundImage: "url(/assets/footer/cta-block-bg.png)" }}
-        >
+        <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 overflow-hidden rounded-2xl bg-wt p-10">
           <div className="flex min-w-px flex-1 flex-col items-start gap-10">
             <div className="flex w-full min-w-[210px] flex-wrap items-center justify-center gap-5">
-              <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-wt p-6">
+              <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-bg-cinza p-6">
                 <Image src="/assets/footer/icon-scale-graphic.svg" alt="" width={30} height={30} />
               </span>
               <div className="flex min-w-[190px] flex-1 flex-col items-start gap-2.5">
@@ -271,7 +273,6 @@ export default function Footer() {
                 </span>
               </div>
             </div>
-            <span className="hidden h-[53px] w-px bg-white/20 sm:block" />
             <div className="flex shrink-0 flex-col items-start justify-center gap-2.5">
               <span className="text-sm font-normal leading-4 tracking-normal text-wt">
                 Parte do Grupo
@@ -284,7 +285,7 @@ export default function Footer() {
                 className="h-auto max-w-[140px]"
               />
             </div>
-            <p className="min-w-[200px] shrink-0 text-sm font-normal leading-4 tracking-normal text-wt">
+            <p className="min-w-[200px] flex-1 text-sm font-normal leading-4 tracking-normal text-wt">
               Injectra Corporation © 2026. Todos os direitos reservados.
             </p>
           </div>

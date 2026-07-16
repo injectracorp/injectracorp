@@ -47,10 +47,10 @@ export default function Capacidade() {
       <div className="flex w-full flex-col gap-5 lg:flex-row">
         {/* Robótica Neo */}
         <div
-          className="relative flex flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 pt-5"
+          className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 pt-5"
           style={{ backgroundImage: "url(/assets/capacidade/panel-neo-bg.png)" }}
         >
-          <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 pb-5">
+          <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 self-start pb-5">
             {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
             <h3 className="text-2xl font-extrabold leading-[30px] tracking-normal text-gradient-brand sm:text-[32px] sm:leading-[39px]">
               Robótica Neo
@@ -69,7 +69,7 @@ export default function Capacidade() {
               <Image src="/assets/capacidade/arrow-side.svg" alt="" width={9} height={9} />
             </a>
           </div>
-          <div className="flex min-h-[240px] flex-1 items-end justify-center">
+          <div className="flex h-[380px] flex-1 items-center justify-end self-end">
             <Image
               src="/assets/capacidade/robot-photo.png"
               alt="Robô Humanoide Neo"
@@ -82,7 +82,7 @@ export default function Capacidade() {
 
         {/* Plataforma Injectra AI */}
         <div
-          className="relative flex flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-2.5"
+          className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-2.5"
           style={{ backgroundImage: "url(/assets/capacidade/panel-ai-bg.png)" }}
         >
           <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 py-2.5">
@@ -102,7 +102,7 @@ export default function Capacidade() {
               <Image src="/assets/capacidade/arrow-side.svg" alt="" width={9} height={9} />
             </a>
           </div>
-          <div className="flex min-h-[240px] flex-1 items-center justify-center">
+          <div className="flex h-[351px] flex-1 items-center justify-center">
             <Image
               src="/assets/capacidade/tablet-phone-photo.png"
               alt="Plataforma Injectra AI"
@@ -128,7 +128,7 @@ export default function Capacidade() {
         />
         <div className="flex min-w-[300px] flex-1 flex-col items-start gap-5">
           <div className="flex w-full flex-wrap items-center justify-center gap-5">
-            <div className="flex min-w-[200px] flex-1 flex-col items-start gap-2 text-dark-blue">
+            <div className="flex min-w-[200px] flex-1 flex-col items-start gap-5 text-dark-blue">
               {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
               <h3 className="text-[26px] font-bold leading-[28px] tracking-normal">
                 Experience Center

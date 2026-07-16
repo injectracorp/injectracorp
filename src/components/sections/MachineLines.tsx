@@ -16,9 +16,12 @@ type Machine = {
   icon: string;
   description: string;
   variants: MachineVariant[];
+  /** Largura exata do card no Figma — a 1ª fileira (5 cards) e a 2ª fileira (4 cards)
+   * usam larguras diferentes para preencher os mesmos 1400px, não são uniformes. */
+  width: number;
 };
 
-// Conteúdo exato extraído via Figma MCP (get_design_context, node 7011:2371).
+// Conteúdo exato extraído via Figma MCP (get_metadata + get_design_context, node 7011:2371).
 const MACHINES: Machine[] = [
   {
     name: "PRIME - IP",
@@ -26,6 +29,7 @@ const MACHINES: Machine[] = [
     icon: "/assets/machines/icon-prime.svg",
     description: "Alta precisão e versatilidade para aplicações gerais.",
     variants: [],
+    width: 264,
   },
   {
     name: "SPEED - IS",
@@ -33,6 +37,7 @@ const MACHINES: Machine[] = [
     icon: "/assets/machines/icon-speed.svg",
     description: "Ciclos rápidos e máxima eficiência para alta produtividade.",
     variants: [],
+    width: 264,
   },
   {
     name: "VELOCITY - IV",
@@ -41,6 +46,7 @@ const MACHINES: Machine[] = [
     description:
       "Ultra alta velocidade e ciclos extremamente rápidos para máxima produtividade.",
     variants: [],
+    width: 264,
   },
   {
     name: "FORM - IF",
@@ -49,6 +55,7 @@ const MACHINES: Machine[] = [
     description:
       "Soluções otimizadas para peças técnicas com alta precisão e acabamento.",
     variants: [],
+    width: 264,
   },
   {
     name: "NEO EX - IE",
@@ -57,6 +64,7 @@ const MACHINES: Machine[] = [
     description:
       "Linha elétrica de alta precisão, repetibilidade e eficiência energética.",
     variants: [],
+    width: 264,
   },
   {
     name: "ATLAS - IA",
@@ -65,6 +73,7 @@ const MACHINES: Machine[] = [
     description:
       "Especializada em caixas plásticas, palets e peças de grande porte. Estrutura robusta e alto desempenho.",
     variants: [],
+    width: 335,
   },
   {
     name: "HYDRO - IH",
@@ -73,6 +82,7 @@ const MACHINES: Machine[] = [
     description:
       "Sistema hidráulico de alta potência para aplicações exigentes e peças de grandes dimensões.",
     variants: [],
+    width: 335,
   },
   {
     name: "TITAN - IT",
@@ -81,6 +91,7 @@ const MACHINES: Machine[] = [
     description:
       "Potência extrema para moldes grandes e aplicações industriais de alta exigência.",
     variants: [],
+    width: 335,
   },
   {
     name: "MAX - IM",
@@ -88,6 +99,7 @@ const MACHINES: Machine[] = [
     icon: "/assets/machines/icon-max.svg",
     description: "Máxima capacidade e robustez para os maiores desafios da indústria.",
     variants: [],
+    width: 335,
   },
 ];
 
@@ -115,14 +127,15 @@ export default function MachineLines() {
         </a>
       </div>
 
-      {/* Cards com largura fixa (264px, igual ao Figma) e centralizados —
-          não usam flex-1 para não esticar de forma desigual quando a última
-          linha do wrap tem menos itens que as demais. */}
+      {/* Largura por card igual ao Figma (264px na 1ª fileira de 5, 335px na 2ª
+          fileira de 4 — não são uniformes) e centralizados; não usam flex-1 para
+          não esticar de forma desigual quando a última linha tem menos itens. */}
       <div className="flex w-full flex-wrap items-stretch justify-center gap-5">
         {MACHINES.map((machine) => (
           <div
             key={machine.name}
-            className="flex w-[264px] flex-none flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-[15px] py-[30px]"
+            className="flex flex-none flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-[15px] py-[30px]"
+            style={{ width: machine.width }}
           >
             <div className="flex w-full flex-col items-center gap-5">
               {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
