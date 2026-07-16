@@ -5,36 +5,137 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import { MenuIcon, CloseIcon } from "@/components/icons";
+import { NAV_COLUMNS, type NavItem } from "@/data/navColumns";
 
-// Itens exatos extraídos via Figma MCP (get_design_context, node 5057:1680).
-const NAV_ITEMS = [
-  { label: "Soluções", href: "#" },
-  { label: "Máquinas", href: "/maquinas" },
-  { label: "Injectra AI", href: "#" },
-  { label: "Experience Center", href: "#" },
-  { label: "Representantes", href: "#" },
-  { label: "Empresa", href: "#" },
-];
+const PRODUTOS_ITEMS = NAV_COLUMNS[0].items;
+const DROPDOWN_COLUMNS = NAV_COLUMNS.slice(1).map((column) => ({
+  label: column.title.charAt(0) + column.title.slice(1).toLowerCase(),
+  items: column.items,
+}));
+
+function NavDropdown({ label, items }: { label: string; items: NavItem[] }) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div
+      className="relative flex shrink-0 items-center"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <button
+        type="button"
+        aria-expanded={open}
+        className="flex max-w-[160px] shrink-0 items-center justify-center gap-1 whitespace-nowrap rounded px-2.5 py-2 text-sm font-bold leading-[17px] tracking-normal text-texto transition-colors hover:text-azul-claro 2xl:px-[15px]"
+      >
+        {label}
+        <Image
+          src="/assets/header/arrow-down.svg"
+          alt=""
+          width={10}
+          height={10}
+          className={`transition-transform ${open ? "rotate-180" : ""}`}
+        />
+      </button>
+
+      {open && (
+        <div className="absolute left-1/2 top-full z-50 w-[360px] -translate-x-1/2 pt-3">
+          <div className="flex flex-col gap-5 rounded-2xl border border-border-line-bd bg-wt p-5 shadow-lg">
+            {items.map((item) => (
+              <Link key={item.title} href={item.href} className="group flex w-full items-center gap-2.5">
+                <Image src={item.icon} alt="" width={36} height={36} className="shrink-0" />
+                <div className="flex flex-1 flex-col items-start gap-1 text-texto">
+                  <span className="text-base font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
+                    {item.title}
+                  </span>
+                  <span className="text-sm font-normal leading-4 tracking-normal transition-colors group-hover:text-azul-claro">
+                    {item.description}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function MobileNavSection({
+  label,
+  items,
+  onNavigate,
+}: {
+  label: string;
+  items: NavItem[];
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div className="flex flex-col">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className="flex items-center justify-between rounded-md px-4 py-3 text-left text-base font-bold text-texto transition-colors hover:text-azul-claro"
+      >
+        {label}
+        <Image
+          src="/assets/header/arrow-down.svg"
+          alt=""
+          width={10}
+          height={10}
+          className={`transition-transform ${open ? "rotate-180" : ""}`}
+        />
+      </button>
+      {open && (
+        <div className="flex flex-col gap-4 px-4 pb-3">
+          {items.map((item) => (
+            <Link
+              key={item.title}
+              href={item.href}
+              onClick={onNavigate}
+              className="group flex w-full items-center gap-2.5"
+            >
+              <Image src={item.icon} alt="" width={30} height={30} className="shrink-0" />
+              <div className="flex flex-1 flex-col items-start gap-0.5 text-texto">
+                <span className="text-sm font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
+                  {item.title}
+                </span>
+                <span className="text-xs font-normal leading-4 tracking-normal transition-colors group-hover:text-azul-claro">
+                  {item.description}
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="box-border flex w-full flex-col items-center bg-wt px-5">
+    <header className="sticky top-0 z-50 box-border flex w-full flex-col items-center bg-wt px-5">
       <div className="flex h-20 w-full max-w-[1400px] items-center justify-between gap-2 xl:justify-center xl:gap-5">
-        <a href="#top" className="flex shrink-0 items-center pr-5" aria-label="Injectra — início">
+        <Link href="/" className="flex shrink-0 items-center pr-5" aria-label="Injectra — início">
           <Logo />
-        </a>
+        </Link>
 
         <nav className="hidden flex-1 flex-nowrap items-center justify-center gap-0.5 px-2 xl:flex 2xl:px-[70px]">
-          {NAV_ITEMS.map((item) => (
+          {PRODUTOS_ITEMS.map((item) => (
             <Link
-              key={item.label}
+              key={item.title}
               href={item.href}
               className="flex max-w-[160px] shrink-0 items-center justify-center whitespace-nowrap rounded px-2.5 py-2 text-sm font-bold leading-[17px] tracking-normal text-texto transition-colors hover:text-azul-claro 2xl:px-[15px]"
             >
-              {item.label}
+              {item.title}
             </Link>
+          ))}
+          {DROPDOWN_COLUMNS.map((column) => (
+            <NavDropdown key={column.label} label={column.label} items={column.items} />
           ))}
         </nav>
 
@@ -68,7 +169,7 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="fixed inset-0 z-50 flex flex-col bg-wt p-5 xl:hidden">
+        <div className="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-wt p-5 xl:hidden">
           <div className="flex items-center justify-between">
             <Logo />
             <button
@@ -81,15 +182,23 @@ export default function Header() {
             </button>
           </div>
           <nav className="mt-8 flex flex-col gap-1">
-            {NAV_ITEMS.map((item) => (
+            {PRODUTOS_ITEMS.map((item) => (
               <Link
-                key={item.label}
+                key={item.title}
                 href={item.href}
                 onClick={() => setOpen(false)}
                 className="flex items-center rounded-md px-4 py-3 text-left text-base font-bold text-texto transition-colors hover:text-azul-claro"
               >
-                {item.label}
+                {item.title}
               </Link>
+            ))}
+            {DROPDOWN_COLUMNS.map((column) => (
+              <MobileNavSection
+                key={column.label}
+                label={column.label}
+                items={column.items}
+                onNavigate={() => setOpen(false)}
+              />
             ))}
           </nav>
           <a

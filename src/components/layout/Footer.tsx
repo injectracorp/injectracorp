@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import { NAV_COLUMNS as COLUMNS } from "@/data/navColumns";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 5007:727).
 // YouTube mantém a proporção real do ícone (22x15.5, não quadrado) — os
@@ -11,85 +12,6 @@ const SOCIAL_ICONS = [
   { icon: "/assets/footer/social-linkedin.svg", label: "LinkedIn", width: 22, height: 22 },
   { icon: "/assets/footer/social-youtube.svg", label: "YouTube", width: 22, height: 15.5 },
   { icon: "/assets/footer/social-facebook.svg", label: "Facebook", width: 22, height: 22 },
-];
-
-const COLUMNS = [
-  {
-    title: "PRODUTOS",
-    items: [
-      {
-        icon: "/assets/footer/icon-maquinas.svg",
-        title: "Máquinas",
-        description: "Linhas hidráulicas e elétricas para todos os segmentos.",
-        href: "/maquinas",
-      },
-      {
-        icon: "/assets/footer/icon-robotica.svg",
-        title: "Robótica",
-        description: "Robô Humanoide Neo, robôs cartesianos e automação.",
-      },
-      {
-        icon: "/assets/footer/icon-plataforma-ai.svg",
-        title: "Plataforma AI",
-        description: "Injectra AI, Cloud, IoT, Analytics, OEE e App Mobile.",
-      },
-      {
-        icon: "/assets/footer/icon-industrias.svg",
-        title: "Indústrias",
-        description: "Soluções para diversos segmentos industriais em toda a América.",
-      },
-    ],
-  },
-  {
-    title: "SERVIÇOS",
-    items: [
-      {
-        icon: "/assets/footer/icon-experience-center.svg",
-        title: "Experience Center",
-        description: "Demonstrações, testes de aplicação, treinamentos e showroom.",
-      },
-      {
-        icon: "/assets/footer/icon-representantes.svg",
-        title: "Representantes",
-        description: "Programa de representantes, expansão comercial e suporte.",
-      },
-      {
-        icon: "/assets/footer/icon-suporte.svg",
-        title: "Suporte",
-        description: "Assistência técnica, peças, manutenção, garantia e FAQ.",
-      },
-      {
-        icon: "/assets/footer/icon-catalogos.svg",
-        title: "Catálogos",
-        description: "Catálogos digitais. manuais técnicos, fichas técnicas e downloads.",
-      },
-    ],
-  },
-  {
-    title: "EMPRESA",
-    items: [
-      {
-        icon: "/assets/footer/icon-sobre-nos.svg",
-        title: "Sobre Nós",
-        description: "Sobre a Injectra, Grupo Interfy, sustentabilidade e carreira.",
-      },
-      {
-        icon: "/assets/footer/icon-contato.svg",
-        title: "Contato",
-        description: "Telefones, e-mails, endereço e canais de atendimento.",
-      },
-      {
-        icon: "/assets/footer/icon-cotacao.svg",
-        title: "Solicitar Cotação",
-        description: "Receba uma proposta personalizada para sua operação industrial.",
-      },
-      {
-        icon: "/assets/footer/icon-especialista.svg",
-        title: "Falar com Especialista",
-        description: "Converse com nossa equipe técnica e comercial especializada.",
-      },
-    ],
-  },
 ];
 
 const INFO_BAR = [
@@ -129,7 +51,9 @@ export default function Footer() {
         <div className="flex w-full max-w-[1400px] flex-wrap justify-center gap-x-5 gap-y-10">
           <div className="flex max-w-[450px] flex-1 flex-col items-start gap-5 pr-0 lg:pr-[30px]">
             <div className="flex w-full flex-col items-start gap-[15px]">
-              <Logo src="/assets/footer/injectra-logo.svg" className="h-auto max-h-16 w-full max-w-[270px]" />
+              <Link href="/" aria-label="Injectra — início">
+                <Logo src="/assets/footer/injectra-logo.svg" className="h-auto max-h-16 w-full max-w-[270px]" />
+              </Link>
               {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
               <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
                 Advance. <span className="font-bold text-azul-claro">Inject.</span> Mold the future.
@@ -169,7 +93,7 @@ export default function Footer() {
                 {column.items.map((item) => (
                   <Link
                     key={item.title}
-                    href={item.href ?? "#"}
+                    href={item.href}
                     className="group flex w-full items-center gap-2.5"
                   >
                     <Image src={item.icon} alt="" width={36} height={36} className="shrink-0" />
