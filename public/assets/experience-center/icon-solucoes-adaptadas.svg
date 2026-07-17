@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Vector">
+<path d="M22.1864 22.1864C22.1864 24.5266 20.2893 26.4237 17.9491 26.4237H5.23729C2.89714 26.4237 1 24.5266 1 22.1864V5.23729C1 2.89714 2.89714 1 5.23729 1H17.9491C20.2893 1 22.1864 2.89714 22.1864 5.23729V22.1864Z" stroke="var(--stroke-0, #1441E8)" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"/>
+<path d="M51 46.7627C51 49.1029 49.1029 51 46.7627 51H34.0508C31.7107 51 29.8136 49.1029 29.8136 46.7627V29.8136C29.8136 27.4734 31.7107 25.5763 34.0508 25.5763H46.7627C49.1029 25.5763 51 27.4734 51 29.8136V46.7627Z" stroke="var(--stroke-0, #1441E8)" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"/>
+<path d="M22.1864 46.7627C22.1864 49.1029 20.2893 51 17.9491 51H5.23729C2.89714 51 1 49.1029 1 46.7627V38.2881C1 35.948 2.89714 34.0508 5.23729 34.0508H17.9491C20.2893 34.0508 22.1864 35.948 22.1864 38.2881V46.7627Z" stroke="var(--stroke-0, #1441E8)" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"/>
+<path d="M51 13.7119C51 16.052 49.1029 17.9492 46.7627 17.9492H34.0508C31.7107 17.9492 29.8136 16.052 29.8136 13.7119V5.23729C29.8136 2.89714 31.7107 1 34.0508 1H46.7627C49.1029 1 51 2.89714 51 5.23729V13.7119Z" stroke="var(--stroke-0, #1441E8)" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"/>
+</g>
+</svg>

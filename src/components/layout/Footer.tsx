@@ -173,7 +173,7 @@ export default function Footer() {
             </div>
           </div>
           <Image
-            src="/assets/footer/machine-photo.png"
+            src="/assets/shared/machine-photo.png"
             alt="Máquina Injectra"
             width={500}
             height={188}

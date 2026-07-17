@@ -104,7 +104,7 @@ export default function Seletor() {
               className="flex shrink-0 items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
             >
               Ver todas as máquinas
-              <Image src="/assets/maquinas/arrow-side-blue.svg" alt="" width={9} height={9} />
+              <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
             </a>
           </div>
 
@@ -115,7 +115,7 @@ export default function Seletor() {
                 className="flex min-w-[140px] flex-1 flex-col items-center justify-center gap-5 rounded-2xl border border-border-line-bd bg-wt px-[15px] py-5"
               >
                 <Image
-                  src="/assets/machines/machine-photo.png"
+                  src="/assets/shared/machine-photo.png"
                   alt={machine.name}
                   width={150}
                   height={56}
@@ -158,7 +158,7 @@ export default function Seletor() {
                 className="flex min-w-[370px] flex-1 flex-col items-center justify-center gap-10 rounded-2xl bg-bg-cinza px-5 py-10"
               >
                 <Image
-                  src="/assets/machines/machine-photo.png"
+                  src="/assets/shared/machine-photo.png"
                   alt={machine.name}
                   width={300}
                   height={112}

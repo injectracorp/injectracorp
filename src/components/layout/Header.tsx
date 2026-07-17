@@ -154,7 +154,7 @@ export default function Header() {
             style={{ backgroundImage: "var(--gradient-cta-header)" }}
           >
             Solicitar Cotação
-            <Image src="/assets/header/arrow-side.svg" alt="" width={9} height={9} />
+            <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
           </a>
         </div>
 
@@ -208,7 +208,7 @@ export default function Header() {
             style={{ backgroundImage: "var(--gradient-cta-header)" }}
           >
             Solicitar Cotação
-            <Image src="/assets/header/arrow-side.svg" alt="" width={9} height={9} />
+            <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
           </a>
         </div>
       )}

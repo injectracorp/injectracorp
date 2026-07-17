@@ -1,0 +1,78 @@
+import Image from "next/image";
+import Section from "@/components/layout/Section";
+
+// Conteúdo exato extraído via Figma MCP (get_design_context, node 7174:4362).
+const HIGHLIGHTS = [
+  { icon: "/assets/industria/icon-solucoes-personalizadas.svg", label: "Soluções Personalizadas" },
+  { icon: "/assets/industria/icon-produtividade.svg", label: "Maior Produtividade" },
+  { icon: "/assets/industria/icon-qualidade.svg", label: "Qualidade e Confiabilidade" },
+  { icon: "/assets/industria/icon-presenca-americas.svg", label: "Presença nas Américas" },
+];
+
+export default function Banner() {
+  return (
+    <div className="flex w-full flex-col bg-wt">
+      <Section innerClassName="gap-10" className="py-10">
+        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
+          <div className="flex w-full min-w-[280px] max-w-[520px] flex-1 flex-col items-start gap-5">
+            <div className="flex flex-col items-start gap-5">
+              {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
+              <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">
+                INDÚSTRIA
+              </span>
+              <span
+                className="h-[3px] w-10 rounded-full"
+                style={{ background: "var(--gradient-brand)" }}
+              />
+            </div>
+            {/* TÍTULO 48 — 48px/55px, 95 Black (800) */}
+            <h1 className="text-4xl font-extrabold leading-[42px] tracking-normal text-dark-blue sm:text-[48px] sm:leading-[55px]">
+              Soluções inteligentes para impulsionar todos os segmentos da indústria.
+            </h1>
+            {/* Subtítulo 20 — 20px/26px, 55 Roman (400) */}
+            <p className="text-xl font-normal leading-[26px] tracking-normal text-texto">
+              A Injectra oferece máquinas, robótica e plataformas inteligentes para
+              aumentar produtividade, qualidade e competitividade em diferentes
+              setores industriais.
+            </p>
+            <div className="flex w-full flex-wrap items-center gap-5">
+              <a
+                href="#catalogos"
+                className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
+              >
+                Ver todos os catálogos
+                <Image src="/assets/industria/arrow-side-white.svg" alt="" width={9} height={9} />
+              </a>
+              <a
+                href="#contato"
+                className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
+              >
+                <Image src="/assets/industria/mail-icon.svg" alt="" width={18} height={18} />
+                Falar com Especialista
+                <Image src="/assets/industria/arrow-side-blue.svg" alt="" width={9} height={9} />
+              </a>
+            </div>
+            <div className="flex w-full items-center gap-5">
+              {HIGHLIGHTS.map((item) => (
+                <div
+                  key={item.label}
+                  className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
+                >
+                  <Image src={item.icon} alt="" width={40} height={40} />
+                  {/* Label 14 — 14px/17px, 85 Heavy (700) */}
+                  <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+                    {item.label}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Espaço reservado à direita — sem imagem de fundo neste banner no
+              Figma (diferente do Hero/Máquinas); a área aparece vazia no design. */}
+          <div className="hidden min-h-[280px] min-w-[280px] flex-1 lg:block" />
+        </div>
+      </Section>
+    </div>
+  );
+}

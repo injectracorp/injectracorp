@@ -66,7 +66,7 @@ export default function Capacidade() {
               className="flex items-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
             >
               Conheça o Neo
-              <Image src="/assets/capacidade/arrow-side.svg" alt="" width={9} height={9} />
+              <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
             </a>
           </div>
           <div className="flex h-[380px] flex-1 items-center justify-end self-end">
@@ -83,7 +83,7 @@ export default function Capacidade() {
         {/* Plataforma Injectra AI */}
         <div
           className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-2.5"
-          style={{ backgroundImage: "url(/assets/capacidade/panel-ai-bg.png)" }}
+          style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.png)" }}
         >
           <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 py-2.5">
             {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
@@ -99,7 +99,7 @@ export default function Capacidade() {
               className="flex items-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
             >
               Explorar Plataforma
-              <Image src="/assets/capacidade/arrow-side.svg" alt="" width={9} height={9} />
+              <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
             </a>
           </div>
           <div className="flex h-[351px] flex-1 items-center justify-center">
@@ -117,7 +117,7 @@ export default function Capacidade() {
       {/* Experience Center */}
       <div
         className="relative flex w-full flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center p-5"
-        style={{ backgroundImage: "url(/assets/capacidade/experience-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.png)" }}
       >
         <Image
           src="/assets/capacidade/building-photo.png"
@@ -142,7 +142,7 @@ export default function Capacidade() {
               className="flex shrink-0 items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
             >
               Agendar visita
-              <Image src="/assets/capacidade/arrow-side2.svg" alt="" width={9} height={9} />
+              <Image src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
             </a>
           </div>
           <div className="flex w-full flex-wrap items-center justify-center gap-5">

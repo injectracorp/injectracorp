@@ -26,7 +26,7 @@ export default function AboutEcosystem() {
           className="flex items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
         >
           Explorar o ecossistema
-          <Image src="/assets/ecosystem/arrow-side.svg" alt="" width={9} height={9} />
+          <Image src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
         </a>
       </div>
 

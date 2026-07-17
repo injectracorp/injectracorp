@@ -123,7 +123,7 @@ export default function MachineLines() {
           className="flex shrink-0 items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
         >
           Ver todas as máquinas
-          <Image src="/assets/machines/arrow-side.svg" alt="" width={9} height={9} />
+          <Image src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
         </a>
       </div>
 
@@ -151,7 +151,7 @@ export default function MachineLines() {
               />
             </div>
             <Image
-              src="/assets/machines/machine-photo.png"
+              src="/assets/shared/machine-photo.png"
               alt={machine.name}
               width={300}
               height={112}

@@ -25,7 +25,7 @@ export default function Recursos() {
           className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-border-line-bd bg-wt px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus transition-colors hover:bg-bg-light-clean"
         >
           Ver todos os catálogos
-          <Image src="/assets/maquinas/arrow-side-blue.svg" alt="" width={9} height={9} />
+          <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
         </a>
       </div>
 
@@ -47,13 +47,13 @@ export default function Recursos() {
           className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-border-line-bd bg-wt px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus transition-colors hover:bg-bg-light-clean"
         >
           Fala com especialista
-          <Image src="/assets/maquinas/arrow-side-blue.svg" alt="" width={9} height={9} />
+          <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
         </a>
       </div>
 
       <div
         className="relative flex min-h-[200px] min-w-[260px] flex-1 flex-col items-start gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-[30px]"
-        style={{ backgroundImage: "url(/assets/maquinas/video-card-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/shared/video-card-bg.jpg)" }}
       >
         <div className="flex flex-col items-start gap-5">
           <span className="text-lg font-bold leading-[22px] tracking-normal text-wt">

@@ -12,7 +12,7 @@ export default function Banner() {
   return (
     <div
       className="relative flex w-full flex-col bg-cover bg-right"
-      style={{ backgroundImage: "url(/assets/maquinas/banner-bg.png)" }}
+      style={{ backgroundImage: "url(/assets/shared/banner-bg.png)" }}
     >
       <Section innerClassName="gap-10" className="py-10">
         <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
@@ -43,15 +43,15 @@ export default function Banner() {
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
               >
                 Ver todos os catálogos
-                <Image src="/assets/maquinas/arrow-side-white.svg" alt="" width={9} height={9} />
+                <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
               </a>
               <a
                 href="#contato"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
-                <Image src="/assets/maquinas/mail-icon.svg" alt="" width={18} height={18} />
+                <Image src="/assets/shared/mail-icon.svg" alt="" width={18} height={18} />
                 Falar com Especialista
-                <Image src="/assets/maquinas/arrow-side-blue.svg" alt="" width={9} height={9} />
+                <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </a>
             </div>
             <div className="flex w-full items-center gap-5">
