@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7199:4291).
@@ -25,15 +26,15 @@ export default function Agendamento() {
               className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
             >
               Agendar uma Visita
-              <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+              <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
             </a>
-            <a
-              href="#contato"
+            <Link
+              href="/fale-com-especialista"
               className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
             >
               Falar com um Especialista
-              <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
-            </a>
+              <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+            </Link>
           </div>
         </div>
         <div className="min-h-[135px] min-w-[200px] flex-1" />

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7133:3394).
@@ -11,11 +12,11 @@ const STATS = [
 export default function Banner() {
   return (
     <div
-      className="relative flex w-full flex-col bg-cover bg-right"
+      className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-right"
       style={{ backgroundImage: "url(/assets/shared/banner-bg.png)" }}
     >
-      <Section innerClassName="gap-10" className="py-10">
-        <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
+      <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
+        <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">
           <div className="flex w-full min-w-[280px] max-w-[520px] flex-1 flex-col items-start gap-5">
             <div className="flex flex-col items-start gap-5">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
@@ -38,21 +39,21 @@ export default function Banner() {
               qualquer aplicação.
             </p>
             <div className="flex w-full flex-wrap items-center gap-5">
-              <a
-                href="#catalogos"
+              <Link
+                href="/catalogos"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
               >
                 Ver todos os catálogos
-                <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-              </a>
-              <a
-                href="#contato"
+                <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+              </Link>
+              <Link
+                href="/fale-com-especialista"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
                 <Image src="/assets/shared/mail-icon.svg" alt="" width={18} height={18} />
                 Falar com Especialista
-                <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
-              </a>
+                <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+              </Link>
             </div>
             <div className="flex w-full items-center gap-5">
               {STATS.map((stat) => (

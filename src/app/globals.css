@@ -41,20 +41,24 @@
 
   /* Cores das linhas de máquinas (seção CAPACIDADE) */
   --color-prime-ip: #1a50d9;
-  --color-speed-is: #2d66f5;
+  --color-speed-is: #48b3ff;
   --color-velocity-iv: #602dc8;
   --color-form-if: #4087a3;
-  --color-neo-ex-ie: #103586;
+  --color-neo-ex-ie: #ffa600f2;
   --color-atlas-ia: #f6762f;
   --color-hydro-ih: #287445;
   --color-titan-it: #51259e;
   --color-max-im: #b02fb1;
+  --color-equora-iq: #2fb133;
 
   /* Gradientes (azul-claro -> magenta-claro; ângulo varia ~93-168deg entre instâncias no Figma,
      aqui fixado em 120deg como aproximação única para todas as ocorrências de texto/traço em gradiente) */
   --gradient-brand: linear-gradient(120deg, #305af5 6.191%, #be4bee 93.351%);
   /* Gradiente do botão "Solicitar Cotação" do HEADER */
   --gradient-cta-header: linear-gradient(-8.0723deg, rgb(0, 31, 145) 27.262%, rgb(27, 54, 195) 85.153%);
+  /* "GD INJECTRA" — gradiente azul-marinho -> azul (rgb(21,46,154) -> rgb(17,100,233));
+     ângulo varia ~120-156deg entre instâncias no Figma (SOBRE NÓS), fixado em 135deg como aproximação única */
+  --gradient-injectra: linear-gradient(135deg, rgb(21, 46, 154) 6.191%, rgb(17, 100, 233) 93.351%);
 }
 
 @theme inline {
@@ -105,6 +109,7 @@
   --color-hydro-ih: var(--color-hydro-ih);
   --color-titan-it: var(--color-titan-it);
   --color-max-im: var(--color-max-im);
+  --color-equora-iq: var(--color-equora-iq);
 }
 
 body {
@@ -125,6 +130,15 @@ body {
 /* "DARK BLUE GD" aplicado como preenchimento de texto (títulos dos cards de pilares) */
 .text-gradient-navy {
   background: var(--gradient-cta-header);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* "GD INJECTRA" aplicado como preenchimento de texto (label "SOBRE NÓS" e afins) */
+.text-gradient-injectra {
+  background: var(--gradient-injectra);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

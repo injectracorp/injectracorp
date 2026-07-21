@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
 
 const ROBOTICA_ITEMS = [
@@ -27,7 +28,7 @@ const EXPERIENCE_ITEMS = [
 
 function Checklist({ items }: { items: string[] }) {
   return (
-    <div className="flex w-full max-w-[250px] min-w-[200px] flex-col items-start gap-2.5">
+    <div className="flex w-full max-w-[250px] min-w-[200px] flex-col items-start gap-1.5">
       {items.map((item) => (
         <div key={item} className="flex w-full items-center gap-2.5">
           <Image src="/assets/capacidade/checkin.svg" alt="" width={14} height={14} />
@@ -50,9 +51,9 @@ export default function Capacidade() {
           className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 pt-5"
           style={{ backgroundImage: "url(/assets/capacidade/panel-neo-bg.png)" }}
         >
-          <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 self-start pb-5">
+          <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 self-stretch pb-5">
             {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
-            <h3 className="text-2xl font-extrabold leading-[30px] tracking-normal text-gradient-brand sm:text-[32px] sm:leading-[39px]">
+            <h3 className="flex min-h-[60px] items-center text-2xl font-extrabold leading-[30px] tracking-normal text-gradient-brand sm:min-h-[78px] sm:text-[32px] sm:leading-[39px]">
               Robótica Neo
             </h3>
             {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
@@ -63,13 +64,13 @@ export default function Capacidade() {
             {/* Label 14 — 14px/17px, 85 Heavy (700) */}
             <a
               href="#robotica-neo"
-              className="flex items-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
+              className="mt-auto flex items-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
             >
               Conheça o Neo
-              <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+              <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
             </a>
           </div>
-          <div className="flex h-[380px] flex-1 items-center justify-end self-end">
+          <div className="flex h-[380px] flex-1 items-end justify-end self-end">
             <Image
               src="/assets/capacidade/robot-photo.png"
               alt="Robô Humanoide Neo"
@@ -94,13 +95,13 @@ export default function Capacidade() {
               Dados, inteligência e controle total na palma da sua mão.
             </p>
             <Checklist items={PLATAFORMA_ITEMS} />
-            <a
-              href="#plataforma-ai"
+            <Link
+              href="/plataforma-ai"
               className="flex items-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
             >
               Explorar Plataforma
-              <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-            </a>
+              <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+            </Link>
           </div>
           <div className="flex h-[351px] flex-1 items-center justify-center">
             <Image
@@ -137,13 +138,13 @@ export default function Capacidade() {
                 Inovação para você ver, testar e transformar.
               </p>
             </div>
-            <a
-              href="#experience-center"
+            <Link
+              href="/experience-center"
               className="flex shrink-0 items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
             >
               Agendar visita
-              <Image src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
-            </a>
+              <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
+            </Link>
           </div>
           <div className="flex w-full flex-wrap items-center justify-center gap-5">
             {EXPERIENCE_ITEMS.map((item) => (

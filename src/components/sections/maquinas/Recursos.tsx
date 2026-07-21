@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7168:4645).
@@ -20,13 +21,13 @@ export default function Recursos() {
         <p className="flex-1 text-sm font-bold leading-[17px] tracking-normal text-texto">
           Baixe os cátalogos completos de todas as linhas e máquinas
         </p>
-        <a
-          href="#catalogos"
+        <Link
+          href="/catalogos"
           className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-border-line-bd bg-wt px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus transition-colors hover:bg-bg-light-clean"
         >
           Ver todos os catálogos
-          <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
-        </a>
+          <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+        </Link>
       </div>
 
       <div className="flex min-h-[200px] min-w-[260px] flex-1 flex-col items-start gap-5 rounded-2xl bg-bg-cinza px-5 py-[30px]">
@@ -42,13 +43,13 @@ export default function Recursos() {
         <p className="flex-1 text-sm font-bold leading-[17px] tracking-normal text-texto">
           Fale com nosso especialista e controle a melhor solução para sua aplicação.
         </p>
-        <a
-          href="#contato"
+        <Link
+          href="/fale-com-especialista"
           className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-border-line-bd bg-wt px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus transition-colors hover:bg-bg-light-clean"
         >
           Fala com especialista
-          <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
-        </a>
+          <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+        </Link>
       </div>
 
       <div

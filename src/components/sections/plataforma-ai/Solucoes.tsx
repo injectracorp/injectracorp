@@ -79,7 +79,7 @@ export default function Solucoes() {
             key={item.title}
             className="flex min-w-[240px] flex-1 flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-5 py-[30px]"
           >
-            <Image src={item.icon} alt="" width={40} height={40} />
+            <Image className="object-contain" src={item.icon} alt="" width={40} height={40} />
             <div className="flex w-full flex-col items-center gap-[15px]">
               {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
               <h3 className="min-h-[25px] w-full text-center text-lg font-bold leading-[22px] tracking-normal text-gradient-brand">

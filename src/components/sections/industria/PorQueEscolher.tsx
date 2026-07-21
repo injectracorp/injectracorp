@@ -29,8 +29,8 @@ export default function PorQueEscolher() {
   return (
     <Section className="bg-bg-cinza" innerClassName="gap-10">
       {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
-      <h2 className="w-full text-[32px] font-extrabold leading-[39px] tracking-normal text-dark-blue">
-        Porque escolhe a Injectra para sua indústria?
+      <h2 className="w-full text-2xl font-extrabold leading-[30px] tracking-normal text-dark-blue sm:text-[32px] sm:leading-[39px]">
+        Porque escolher a Injectra para sua indústria?
       </h2>
       <div className="flex w-full flex-wrap items-center justify-center gap-10">
         {RAZOES.map((razao) => (
@@ -38,7 +38,7 @@ export default function PorQueEscolher() {
             key={razao.title}
             className="flex min-w-[180px] flex-1 items-center gap-5"
           >
-            <Image src={razao.icon} alt="" width={50} height={50} className="shrink-0" />
+            <Image src={razao.icon} alt="" width={50} height={50} className="shrink-0 object-contain" />
             <div className="flex flex-1 flex-col items-start gap-[15px]">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="w-full text-base font-bold leading-5 tracking-normal text-dark-blue">

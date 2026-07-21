@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
+import { LanguageProvider } from "@/context/LanguageContext";
 import "./globals.css";
 
 const geistMono = Geist_Mono({
@@ -24,7 +25,9 @@ export default function RootLayout({
         {/* Avenir Next LT Pro — kit Adobe Fonts do cliente (use.typekit.net) */}
         <link rel="stylesheet" href="https://use.typekit.net/xoa0wff.css" />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <LanguageProvider>{children}</LanguageProvider>
+      </body>
     </html>
   );
 }

@@ -58,7 +58,7 @@ export default function Segmentos() {
     <Section innerClassName="gap-5">
       <div className="flex flex-col items-start gap-5">
         {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
-        <h2 className="text-[32px] font-extrabold leading-[39px] tracking-normal text-dark-blue">
+        <h2 className="text-2xl font-extrabold leading-[30px] tracking-normal text-dark-blue sm:text-[32px] sm:leading-[39px]">
           Nossos Segmentos e Atuação
         </h2>
         <span
@@ -88,7 +88,7 @@ export default function Segmentos() {
                 className="flex items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
               >
                 Ver soluções
-                <Image src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
+                <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
               </a>
             </div>
             <span className="absolute left-5 top-[220px] flex size-[60px] items-center justify-center rounded-full bg-wt p-4 shadow-[2px_2px_6px_0px_rgba(76,95,224,0.25)]">

@@ -70,7 +70,7 @@ export default function Experiencias() {
                 <span className="text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus">
                   Saiba mais
                 </span>
-                <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+                <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </div>
             </div>
             <span className="absolute left-5 top-[220px] flex size-[60px] shrink-0 items-center justify-center rounded-full bg-wt p-4 shadow-[2px_2px_6px_0px_rgba(76,95,224,0.25)]">

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/components/Logo";
 import { NAV_COLUMNS as COLUMNS } from "@/data/navColumns";
+import { MACHINE_PHOTOS } from "@/data/machinePhotos";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 5007:727).
 // YouTube mantém a proporção real do ícone (22x15.5, não quadrado) — os
@@ -27,11 +28,11 @@ const INFO_BAR = [
 ];
 
 const LEGAL_LINKS = [
-  "Políticas de Privacidade",
-  "Termos de Uso",
-  "Cookies",
-  "Garantia e Suporte",
-  "Compliance",
+  { label: "Políticas de Privacidade", href: "/politicas-privacidade" },
+  { label: "Termos de Uso", href: "/termos-de-uso" },
+  { label: "Cookies", href: "/cookies" },
+  { label: "Garantia e Suporte", href: "/garantia-e-suporte" },
+  { label: "Compliance", href: "/compliance" },
 ];
 
 export default function Footer() {
@@ -96,7 +97,7 @@ export default function Footer() {
                     href={item.href}
                     className="group flex w-full items-center gap-2.5"
                   >
-                    <Image src={item.icon} alt="" width={36} height={36} className="shrink-0" />
+                    <Image src={item.icon} alt="" width={36} height={36} className="shrink-0 object-contain" />
                     <div className="flex flex-1 flex-col items-start gap-1 text-texto">
                       {/* 16px/20px, 85 Heavy (700) */}
                       <span className="text-base font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
@@ -120,7 +121,7 @@ export default function Footer() {
         <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-2xl bg-wt px-10 py-5">
           {INFO_BAR.map((info) => (
             <div key={info.title} className="flex min-w-[160px] shrink-0 items-center justify-center gap-2.5">
-              <Image src={info.icon} alt="" width={24} height={24} className="shrink-0" />
+              <Image src={info.icon} alt="" width={24} height={24} className="shrink-0 object-contain" />
               <div className="flex flex-col items-start gap-1 whitespace-nowrap text-dark-blue">
                 {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
                 <span className="text-base font-bold leading-5 tracking-normal">{info.title}</span>
@@ -156,28 +157,28 @@ export default function Footer() {
               </div>
             </div>
             <div className="flex w-full max-w-[480px] min-w-[250px] flex-wrap items-center justify-center gap-5">
-              <a
-                href="#contato"
+              <Link
+                href="/solicitar-cotacao"
                 className="flex min-w-[200px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal uppercase text-wt transition-opacity hover:opacity-90"
               >
-                <Image src="/assets/footer/icon-doc.svg" alt="" width={18} height={18} />
+                <Image className="object-contain" src="/assets/footer/icon-doc.svg" alt="" width={18} height={18} />
                 Solicitar Cotação
-              </a>
-              <a
-                href="#contato"
+              </Link>
+              <Link
+                href="/fale-com-especialista"
                 className="flex min-w-[200px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal uppercase text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
-                <Image src="/assets/footer/icon-headset.svg" alt="" width={18} height={18} />
+                <Image className="object-contain" src="/assets/footer/icon-headset.svg" alt="" width={18} height={18} />
                 Falar com Especialista
-              </a>
+              </Link>
             </div>
           </div>
           <Image
-            src="/assets/shared/machine-photo.png"
+            src={MACHINE_PHOTOS.MAX.src}
             alt="Máquina Injectra"
-            width={500}
-            height={188}
-            className="h-auto max-h-[188px] w-full max-w-[500px] flex-1"
+            width={MACHINE_PHOTOS.MAX.width}
+            height={MACHINE_PHOTOS.MAX.height}
+            className="h-auto max-h-[188px] w-full max-w-[500px] flex-1 object-contain"
           />
         </div>
       </div>
@@ -216,9 +217,9 @@ export default function Footer() {
           <span className="hidden h-[53px] w-px bg-white/20 sm:block" />
           <div className="flex w-full max-w-[580px] flex-wrap items-center justify-center gap-x-5 gap-y-2.5 text-sm font-normal leading-4 tracking-normal text-wt sm:w-auto sm:flex-1 sm:min-w-[400px] sm:justify-end">
             {LEGAL_LINKS.map((link) => (
-              <a key={link} href="#" className="hover:opacity-80">
-                {link}
-              </a>
+              <Link key={link.label} href={link.href} className="hover:opacity-80">
+                {link.label}
+              </Link>
             ))}
           </div>
         </div>

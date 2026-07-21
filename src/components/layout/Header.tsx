@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import LanguageSelector from "@/components/LanguageSelector";
 import { MenuIcon, CloseIcon } from "@/components/icons";
 import { NAV_COLUMNS, type NavItem } from "@/data/navColumns";
 
@@ -42,7 +43,7 @@ function NavDropdown({ label, items }: { label: string; items: NavItem[] }) {
           <div className="flex flex-col gap-5 rounded-2xl border border-border-line-bd bg-wt p-5 shadow-lg">
             {items.map((item) => (
               <Link key={item.title} href={item.href} className="group flex w-full items-center gap-2.5">
-                <Image src={item.icon} alt="" width={36} height={36} className="shrink-0" />
+                <Image src={item.icon} alt="" width={36} height={36} className="shrink-0 object-contain" />
                 <div className="flex flex-1 flex-col items-start gap-1 text-texto">
                   <span className="text-base font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
                     {item.title}
@@ -97,7 +98,7 @@ function MobileNavSection({
               onClick={onNavigate}
               className="group flex w-full items-center gap-2.5"
             >
-              <Image src={item.icon} alt="" width={30} height={30} className="shrink-0" />
+              <Image src={item.icon} alt="" width={30} height={30} className="shrink-0 object-contain" />
               <div className="flex flex-1 flex-col items-start gap-0.5 text-texto">
                 <span className="text-sm font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
                   {item.title}
@@ -140,22 +141,15 @@ export default function Header() {
         </nav>
 
         <div className="hidden shrink-0 items-center justify-end gap-3 pl-2 xl:flex xl:gap-5 xl:pl-5">
-          <button
-            type="button"
-            className="flex items-center gap-1.5 whitespace-nowrap rounded-full border border-border-line-bd p-2.5 text-sm font-bold text-texto transition-colors hover:text-azul-claro"
-          >
-            <Image src="/assets/header/idioma-icon.svg" alt="" width={18} height={18} />
-            BR
-            <Image src="/assets/header/arrow-down.svg" alt="" width={10} height={10} />
-          </button>
-          <a
-            href="#contato"
+          <LanguageSelector />
+          <Link
+            href="/solicitar-cotacao"
             className="flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-full px-[15px] text-sm font-bold text-wt transition-opacity hover:opacity-90"
             style={{ backgroundImage: "var(--gradient-cta-header)" }}
           >
             Solicitar Cotação
-            <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-          </a>
+            <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+          </Link>
         </div>
 
         <button
@@ -201,15 +195,15 @@ export default function Header() {
               />
             ))}
           </nav>
-          <a
-            href="#contato"
+          <Link
+            href="/solicitar-cotacao"
             onClick={() => setOpen(false)}
             className="mt-8 flex h-11 items-center justify-center gap-2.5 rounded-full px-4 text-sm font-bold text-wt"
             style={{ backgroundImage: "var(--gradient-cta-header)" }}
           >
             Solicitar Cotação
-            <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-          </a>
+            <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+          </Link>
         </div>
       )}
     </header>

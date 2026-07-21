@@ -1,4 +1,4 @@
-<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="52" height="52" overflow="visible" style="display: block;" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Vector">
 <path d="M22.1864 22.1864C22.1864 24.5266 20.2893 26.4237 17.9491 26.4237H5.23729C2.89714 26.4237 1 24.5266 1 22.1864V5.23729C1 2.89714 2.89714 1 5.23729 1H17.9491C20.2893 1 22.1864 2.89714 22.1864 5.23729V22.1864Z" stroke="var(--stroke-0, #1441E8)" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"/>
 <path d="M51 46.7627C51 49.1029 49.1029 51 46.7627 51H34.0508C31.7107 51 29.8136 49.1029 29.8136 46.7627V29.8136C29.8136 27.4734 31.7107 25.5763 34.0508 25.5763H46.7627C49.1029 25.5763 51 27.4734 51 29.8136V46.7627Z" stroke="var(--stroke-0, #1441E8)" stroke-width="2" stroke-miterlimit="22.9256" stroke-linecap="round"/>

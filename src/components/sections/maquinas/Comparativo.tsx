@@ -1,133 +1,104 @@
-import Image from "next/image";
 import Section from "@/components/layout/Section";
 
-// Conteúdo exato extraído via Figma MCP (get_design_context + get_screenshot, node 7110:3277).
+// Conteúdo exato extraído via Figma MCP (get_design_context, node 7110:3277 / 7152:3792).
 type Column = {
   name: string;
   color: string;
-  badge?: string;
-  sistema: string;
-  forca: string;
   aplicacao: string;
-  eficiencia: number;
-  personalizacao: string;
-  tecnologia: string;
+  acionamento: string;
+  tonelagem: string;
+  destaque: string;
 };
 
 const COLUMNS: Column[] = [
   {
-    name: "Prime IP",
+    name: "Prime",
     color: "var(--color-prime-ip)",
-    sistema: "Hidráulica",
-    forca: "50 - 1.000 t",
     aplicacao: "Geral",
-    eficiencia: 5,
-    personalizacao: "Alta",
-    tecnologia: "Servo Control",
+    acionamento: "Hidráulica",
+    tonelagem: "60 - 1.000 t",
+    destaque: "Precisão e Versatilidade",
   },
   {
-    name: "Speed IS",
+    name: "Speed",
     color: "var(--color-speed-is)",
-    sistema: "Hidráulica",
-    forca: "80 - 1.200 t",
-    aplicacao: "Alta Produtividade",
-    eficiencia: 0,
-    personalizacao: "Alta",
-    tecnologia: "Fast Cycle",
+    aplicacao: "Alta Velocidade",
+    acionamento: "Hidráulica",
+    tonelagem: "70 - 800 t",
+    destaque: "Ciclos rápidos e eficiência",
   },
   {
-    name: "Velocity IV",
+    name: "Velocity",
     color: "var(--color-velocity-iv)",
-    sistema: "Hidráulica",
-    forca: "80 - 1.000 t",
-    aplicacao: "Ultra Alta Velocidade",
-    eficiencia: 5,
-    personalizacao: "Alta",
-    tecnologia: "Ultra Speed System",
+    aplicacao: "Alta Produfividade",
+    acionamento: "Hidráulica",
+    tonelagem: "80 - 500 t",
+    destaque: "Velocidade Extrema",
   },
   {
-    name: "Form IF",
+    name: "Form",
     color: "var(--color-form-if)",
-    sistema: "Hidráulica",
-    forca: "100 - 1.300 t",
-    aplicacao: "Peças Técnicas",
-    eficiencia: 2,
-    personalizacao: "Alta",
-    tecnologia: "Precision Mold",
+    aplicacao: "Peças Técnicas Precisas",
+    acionamento: "Hidráulica",
+    tonelagem: "100 - 800 t",
+    destaque: "Alta Precisão",
   },
   {
-    name: "Neo EX IE",
+    name: "Neo",
     color: "var(--color-neo-ex-ie)",
-    badge: "100% ELÉTRICA",
-    sistema: "Elétrica",
-    forca: "50 - 1.000 t",
-    aplicacao: "Precisão e Eficiência",
-    eficiencia: 5,
-    personalizacao: "Muito Alta",
-    tecnologia: "100% Elétrica",
+    aplicacao: "Energia e Alta Precisão",
+    acionamento: "100% Elétrica",
+    tonelagem: "60 - 350 t",
+    destaque: "Eficiência energética e precisão",
   },
   {
-    name: "Altas IA",
+    name: "Altas",
     color: "var(--color-atlas-ia)",
-    sistema: "Hidráulica",
-    forca: "300 - 3.500 t",
-    aplicacao: "Grandes Volumes",
-    eficiencia: 1,
-    personalizacao: "Alta",
-    tecnologia: "Heavy Duty Structure",
+    aplicacao: "Grandes peças e embalagens",
+    acionamento: "Hidráulica",
+    tonelagem: "400 - 4.000 t",
+    destaque: "Robustez para grandes peças",
   },
   {
-    name: "Hydro IH",
+    name: "Hydro",
     color: "var(--color-hydro-ih)",
-    sistema: "Hidráulica",
-    forca: "200 - 5.000 t",
-    aplicacao: "Alta Potência",
-    eficiencia: 5,
-    personalizacao: "Alta",
-    tecnologia: "High Power System",
+    aplicacao: "Aplicações Pesadas",
+    acionamento: "Hidráulica",
+    tonelagem: "180 - 3.000 t",
+    destaque: "Força para aplicações exigentes",
   },
   {
-    name: "Titan IT",
+    name: "Titan",
     color: "var(--color-titan-it)",
-    sistema: "Hidráulica",
-    forca: "400 - 6.500 t",
-    aplicacao: "Moldes Grandes",
-    eficiencia: 0,
-    personalizacao: "Alta",
-    tecnologia: "Extra Large Mold",
+    aplicacao: "Moldes Robustos",
+    acionamento: "Hidráulica",
+    tonelagem: "650 - 4.000 t",
+    destaque: "Grandes tonelagens",
   },
   {
-    name: "Max IM",
+    name: "Max",
     color: "var(--color-max-im)",
-    sistema: "Hidráulica",
-    forca: "500 - 10.000 t",
-    aplicacao: "Máxima Capacidade",
-    eficiencia: 0,
-    personalizacao: "Muito Alta",
-    tecnologia: "Super Performance",
+    aplicacao: "Grandes Peças e Alta Exigência",
+    acionamento: "Hidráulica",
+    tonelagem: "800 - 5.000 t",
+    destaque: "Máxima Capacidade",
+  },
+  {
+    name: "Equora",
+    color: "var(--color-equora-iq)",
+    aplicacao: "Aplicações Exigentes e Versáteis",
+    acionamento: "Híbrida",
+    tonelagem: "100 - 2.000 t",
+    destaque: "Equilíbrio em força e eficiência",
   },
 ];
 
-const ROWS: { label: string; key: keyof Column; stars?: boolean }[] = [
-  { label: "Sistema", key: "sistema" },
-  { label: "Força de Fechamento", key: "forca" },
-  { label: "Aplicação Principal", key: "aplicacao" },
-  { label: "Eficiência Energética", key: "eficiencia", stars: true },
-  { label: "Personalização", key: "personalizacao" },
-  { label: "Tecnologia Exclusiva", key: "tecnologia" },
+const ROWS: { label: string; key: keyof Omit<Column, "name" | "color"> }[] = [
+  { label: "Aplicação", key: "aplicacao" },
+  { label: "Acionamento", key: "acionamento" },
+  { label: "Faixa de Tonelagem", key: "tonelagem" },
+  { label: "Destaque", key: "destaque" },
 ];
-
-function Stars({ count, color }: { count: number; color: string }) {
-  return (
-    <div className="flex items-center justify-center gap-1">
-      {Array.from({ length: 5 }, (_, i) => (
-        <svg key={i} viewBox="0 0 12 12" width={12} height={12} fill={i < count ? color : "#d5d9de"}>
-          <path d="M6 0l1.76 3.57 3.94.57-2.85 2.78.67 3.93L6 8.97 2.48 10.85l.67-3.93L.3 4.14l3.94-.57L6 0z" />
-        </svg>
-      ))}
-    </div>
-  );
-}
 
 export default function Comparativo() {
   return (
@@ -147,15 +118,15 @@ export default function Comparativo() {
         />
       </div>
 
-      <div className="w-full overflow-x-auto rounded-2xl border-[0.5px] border-border-line-bd bg-wt">
-        <div className="flex w-full min-w-[1080px]">
+      <div className="w-full overflow-x-auto rounded-2xl border-[0.3px] border-border-line-bd bg-wt">
+        <div className="flex w-full min-w-[1230px]">
           {/* Coluna fixa com os rótulos das linhas */}
-          <div className="flex w-[180px] shrink-0 flex-col border-r-[0.5px] border-border-line-bd">
-            <div className="flex h-20 items-center border-b-[0.5px] border-border-line-bd p-5" />
+          <div className="flex w-[170px] shrink-0 flex-col border-r-[0.3px] border-border-line-bd">
+            <div className="flex h-20 items-center border-b-[0.3px] border-border-line-bd py-5 pl-5 pr-2.5" />
             {ROWS.map((row) => (
               <div
                 key={row.key}
-                className="flex min-h-[60px] items-center border-b-[0.5px] border-border-line-bd px-5 py-2.5 last:border-b-0"
+                className="flex min-h-20 items-center border-b-[0.3px] border-border-line-bd py-2.5 pl-5 pr-2.5 last:border-b-0"
               >
                 {/* Label 14 — 14px/17px, 85 Heavy (700) */}
                 <span className="text-sm font-bold leading-[17px] tracking-normal text-texto">
@@ -169,9 +140,9 @@ export default function Comparativo() {
           {COLUMNS.map((col) => (
             <div
               key={col.name}
-              className="flex flex-1 flex-col border-r-[0.5px] border-border-line-bd last:border-r-0"
+              className="flex flex-1 flex-col border-r-[0.3px] border-border-line-bd last:border-r-0"
             >
-              <div className="flex h-20 flex-col items-center justify-center gap-2.5 border-b-[0.5px] border-border-line-bd px-5 py-2.5">
+              <div className="flex h-20 items-center justify-center border-b-[0.3px] border-border-line-bd p-2.5">
                 {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
                 <span
                   className="text-center text-base font-bold leading-5 tracking-normal"
@@ -179,29 +150,16 @@ export default function Comparativo() {
                 >
                   {col.name}
                 </span>
-                {col.badge && (
-                  <span
-                    className="flex shrink-0 items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-1 text-[10px] font-bold leading-[10px] tracking-normal text-wt"
-                    style={{ backgroundColor: col.color }}
-                  >
-                    <Image src="/assets/maquinas/raio.svg" alt="" width={9} height={9} />
-                    {col.badge}
-                  </span>
-                )}
               </div>
               {ROWS.map((row) => (
                 <div
                   key={row.key}
-                  className="flex min-h-[60px] items-center justify-center border-b-[0.5px] border-border-line-bd px-5 py-2.5 text-center last:border-b-0"
+                  className="flex min-h-20 items-center justify-center border-b-[0.3px] border-border-line-bd p-2.5 text-center last:border-b-0"
                 >
-                  {row.stars ? (
-                    <Stars count={col.eficiencia} color={col.color} />
-                  ) : (
-                    // Desc 14 — 14px/16px, 55 Roman (400)
-                    <span className="text-sm font-normal leading-4 tracking-normal text-texto">
-                      {col[row.key]}
-                    </span>
-                  )}
+                  {/* Desc 14 — 14px/16px, 55 Roman (400) */}
+                  <span className="text-sm font-normal leading-4 tracking-normal text-texto">
+                    {col[row.key]}
+                  </span>
                 </div>
               ))}
             </div>

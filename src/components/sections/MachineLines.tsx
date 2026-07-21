@@ -1,5 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
+import { getMachinePhoto } from "@/data/machinePhotos";
 
 // Cada linha (ex.: PRIME - IP) representa uma família de máquinas com variações/modelos
 // internos (ex.: tonelagens ou capacidades diferentes dentro da mesma linha). A UI ainda
@@ -16,90 +18,85 @@ type Machine = {
   icon: string;
   description: string;
   variants: MachineVariant[];
-  /** Largura exata do card no Figma — a 1ª fileira (5 cards) e a 2ª fileira (4 cards)
-   * usam larguras diferentes para preencher os mesmos 1400px, não são uniformes. */
-  width: number;
 };
 
 // Conteúdo exato extraído via Figma MCP (get_metadata + get_design_context, node 7011:2371).
 const MACHINES: Machine[] = [
   {
-    name: "PRIME - IP",
+    name: "PRIME",
     color: "var(--color-prime-ip)",
     icon: "/assets/machines/icon-prime.svg",
     description: "Alta precisão e versatilidade para aplicações gerais.",
     variants: [],
-    width: 264,
   },
   {
-    name: "SPEED - IS",
+    name: "SPEED",
     color: "var(--color-speed-is)",
     icon: "/assets/machines/icon-speed.svg",
     description: "Ciclos rápidos e máxima eficiência para alta produtividade.",
     variants: [],
-    width: 264,
   },
   {
-    name: "VELOCITY - IV",
+    name: "VELOCITY",
     color: "var(--color-velocity-iv)",
     icon: "/assets/machines/icon-velocity.svg",
     description:
       "Ultra alta velocidade e ciclos extremamente rápidos para máxima produtividade.",
     variants: [],
-    width: 264,
   },
   {
-    name: "FORM - IF",
+    name: "FORM",
     color: "var(--color-form-if)",
     icon: "/assets/machines/icon-form.svg",
     description:
       "Soluções otimizadas para peças técnicas com alta precisão e acabamento.",
     variants: [],
-    width: 264,
   },
   {
-    name: "NEO EX - IE",
+    name: "NEO",
     color: "var(--color-neo-ex-ie)",
     icon: "/assets/machines/icon-neo.svg",
     description:
       "Linha elétrica de alta precisão, repetibilidade e eficiência energética.",
     variants: [],
-    width: 264,
   },
   {
-    name: "ATLAS - IA",
+    name: "ATLAS",
     color: "var(--color-atlas-ia)",
     icon: "/assets/machines/icon-atlas.svg",
     description:
       "Especializada em caixas plásticas, palets e peças de grande porte. Estrutura robusta e alto desempenho.",
     variants: [],
-    width: 335,
   },
   {
-    name: "HYDRO - IH",
+    name: "HYDRO",
     color: "var(--color-hydro-ih)",
     icon: "/assets/machines/icon-hydro.svg",
     description:
       "Sistema hidráulico de alta potência para aplicações exigentes e peças de grandes dimensões.",
     variants: [],
-    width: 335,
   },
   {
-    name: "TITAN - IT",
+    name: "TITAN",
     color: "var(--color-titan-it)",
     icon: "/assets/machines/icon-titan.svg",
     description:
       "Potência extrema para moldes grandes e aplicações industriais de alta exigência.",
     variants: [],
-    width: 335,
   },
   {
-    name: "MAX - IM",
+    name: "MAX",
     color: "var(--color-max-im)",
     icon: "/assets/machines/icon-max.svg",
     description: "Máxima capacidade e robustez para os maiores desafios da indústria.",
     variants: [],
-    width: 335,
+  },
+  {
+    name: "EQUORA",
+    color: "var(--color-equora-iq)",
+    icon: "/assets/machines/icon-equora.svg",
+    description: "Híbrida, entregando alta eficiência energética e robustez.",
+    variants: [],
   },
 ];
 
@@ -118,24 +115,25 @@ export default function MachineLines() {
           </p>
         </div>
         {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-        <a
-          href="#maquinas"
+        <Link
+          href="/maquinas"
           className="flex shrink-0 items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
         >
           Ver todas as máquinas
-          <Image src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
-        </a>
+          <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
+        </Link>
       </div>
 
-      {/* Largura por card igual ao Figma (264px na 1ª fileira de 5, 335px na 2ª
-          fileira de 4 — não são uniformes) e centralizados; não usam flex-1 para
-          não esticar de forma desigual quando a última linha tem menos itens. */}
+      {/* Largura fixa de 264px por card, igual ao Figma (5 cards por fileira,
+          2 fileiras) e centralizados; não usam flex-1 para não esticar de
+          forma desigual quando a última linha tem menos itens. */}
       <div className="flex w-full flex-wrap items-stretch justify-center gap-5">
-        {MACHINES.map((machine) => (
+        {MACHINES.map((machine) => {
+          const photo = getMachinePhoto(machine.name);
+          return (
           <div
             key={machine.name}
-            className="flex flex-none flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-[15px] py-[30px]"
-            style={{ width: machine.width }}
+            className="flex w-[264px] flex-none flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-[15px] py-[30px]"
           >
             <div className="flex w-full flex-col items-center gap-5">
               {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
@@ -147,25 +145,30 @@ export default function MachineLines() {
               </span>
               <span
                 className="h-[2px] w-[60px] rounded-full"
-                style={{ background: "var(--gradient-brand)" }}
+                style={{ background: machine.color }}
               />
             </div>
-            <Image
-              src="/assets/shared/machine-photo.png"
-              alt={machine.name}
-              width={300}
-              height={112}
-              className="h-auto w-full max-w-[300px]"
-            />
+            {/* Slot com altura mínima fixa (120px, igual ao Figma) para que
+                fotos com aspect ratio diferentes não desalinhem os cards. */}
+            <div className="flex min-h-[120px] w-full max-w-[300px] shrink-0 items-center justify-center">
+              <Image
+                src={photo?.src ?? "/assets/shared/machine-photo.png"}
+                alt={machine.name}
+                width={photo?.width ?? 300}
+                height={photo?.height ?? 112}
+                className="h-auto w-full object-contain"
+              />
+            </div>
             <div className="flex w-full items-center gap-[15px]">
-              <Image src={machine.icon} alt="" width={30} height={30} className="shrink-0" />
+              <Image src={machine.icon} alt="" width={30} height={30} className="shrink-0 object-contain" />
               {/* Label 14 — 14px/17px, 85 Heavy (700) */}
               <p className="flex-1 text-sm font-bold leading-[17px] tracking-normal text-texto">
                 {machine.description}
               </p>
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
     </Section>
   );

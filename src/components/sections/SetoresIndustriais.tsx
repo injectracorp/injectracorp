@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7113:3844).
@@ -37,22 +38,25 @@ export default function SetoresIndustriais() {
                 className="h-auto max-h-[120px] w-auto max-w-[117px] object-contain"
               />
             </div>
-            {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-            <span className="text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+            {/* Label 14 — 14px/17px, 85 Heavy (700) — min-h reserva 2 linhas p/ labels longos (ex.: "Utilidades Domésticas") */}
+            <span className="flex min-h-[34px] w-full items-center justify-center text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
               {setor.label}
             </span>
           </div>
         ))}
-        <div className="flex w-[157.5px] flex-none flex-col items-center gap-2.5 rounded-xl bg-bg-cinza p-5">
+        <Link
+          href="/industria"
+          className="flex w-[157.5px] flex-none flex-col items-center gap-2.5 rounded-xl bg-bg-cinza p-5 transition-opacity hover:opacity-80"
+        >
           <div className="flex h-[120px] w-full items-center justify-center">
             <span className="flex h-[70px] w-[70px] items-center justify-center rounded-full border border-border-line-bd bg-wt">
               <Image src="/assets/setores/mais-icon.svg" alt="" width={40} height={8} />
             </span>
           </div>
-          <span className="text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+          <span className="flex min-h-[34px] w-full items-center justify-center text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
             E muito mais...
           </span>
-        </div>
+        </Link>
       </div>
     </Section>
   );

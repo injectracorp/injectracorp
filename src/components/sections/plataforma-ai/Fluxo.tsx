@@ -62,7 +62,7 @@ export default function Fluxo() {
                 {etapa.image ? (
                   <Image src={etapa.image} alt="" width={160} height={60} className="h-auto w-full" />
                 ) : (
-                  <Image src={etapa.icon!} alt="" width={40} height={40} />
+                  <Image className="object-contain" src={etapa.icon!} alt="" width={40} height={40} />
                 )}
               </div>
               <div className="flex flex-col items-center gap-5 text-center">

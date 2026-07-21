@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import Section from "@/components/layout/Section";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 5161:2417).
@@ -76,21 +77,21 @@ export default function Hero() {
                 Tudo conectado em uma única plataforma inteligente.
               </p>
               <div className="flex w-full flex-wrap items-center gap-5">
-                <a
-                  href="#plataforma"
+                <Link
+                  href="/plataforma-ai"
                   className="flex h-[42px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
                 >
                   Explore a Plataforma
-                  <Image src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-                </a>
-                <a
-                  href="#contato"
+                  <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+                </Link>
+                <Link
+                  href="/fale-com-especialista"
                   className="flex h-[42px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
                 >
                   <Image src="/assets/shared/mail-icon.svg" alt="" width={18} height={18} />
                   Falar com Especialista
-                  <Image src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
-                </a>
+                  <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+                </Link>
               </div>
             </div>
 

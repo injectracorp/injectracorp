@@ -36,7 +36,7 @@ export default function TrustBar() {
       <div className="flex w-full flex-wrap items-center justify-center gap-5 rounded-2xl bg-bg-cinza px-5 py-10">
         {ITEMS.map((item) => (
           <div key={item.title} className="flex min-w-[180px] flex-1 items-center gap-5">
-            <Image src={item.icon} alt="" width={40} height={40} className="shrink-0" />
+            <Image src={item.icon} alt="" width={40} height={40} className="shrink-0 object-contain" />
             <div className="flex flex-1 flex-col items-start gap-2.5">
               {/* Label 12 — 12px/13px, 85 Heavy (700) */}
               <span className="w-full text-xs font-bold leading-[13px] tracking-normal text-dark-blue">
