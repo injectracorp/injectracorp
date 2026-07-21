@@ -18,8 +18,8 @@ const SPECS = [
 export default function ComoFunciona() {
   const primePhoto = getMachinePhoto("Prime");
   return (
-    <Section innerClassName="gap-5">
-      <div className="flex w-full min-w-[280px] max-w-[450px] flex-1 flex-col items-start gap-5 text-dark-blue">
+    <Section innerClassName="gap-5" direction="row">
+      <div className="flex w-full min-w-[280px] max-w-[450px] flex-1 flex-col items-start gap-5 self-start text-dark-blue">
         {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
         <h2 className="text-2xl font-extrabold leading-[30px] tracking-normal sm:text-[32px] sm:leading-[39px]">
           Como funciona a navegação dos modelos
@@ -32,7 +32,7 @@ export default function ComoFunciona() {
         </p>
       </div>
 
-      <div className="flex min-w-[280px] flex-1 gap-5">
+      <div className="flex min-w-[280px] flex-1 gap-5 self-start">
         {/* Lista lateral (mockup ilustrativo) */}
         <div className="flex max-w-[180px] flex-1 flex-col overflow-hidden rounded-2xl border border-border-line-bd">
           {SIDEBAR_ITEMS.map((label, i) => (
