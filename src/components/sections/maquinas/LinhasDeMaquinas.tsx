@@ -1,7 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
 import { getMachinePhoto } from "@/data/machinePhotos";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // A cor do botão "Ver Modelos" muda por linha de máquina — a seta precisa
 // acompanhar via currentColor, então é um SVG inline (não um asset <img> fixo).
@@ -19,94 +20,45 @@ function ArrowIcon() {
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7168:3695 — "Frame 240/Variante 2").
 // Substitui a antiga tira seletora + grid "Selecione o modelo": agora é um único
 // grid de 10 cards (9 linhas + EQUORA - IQ, a nova linha híbrida).
-type Machine = {
+type MachineText = {
   name: string;
-  color: string;
   description: string;
-  /** Rota da primeira máquina com specs reais na linha — "#" enquanto a
-   * linha não tiver dados de modelo cadastrados em machineModels.ts. */
-  href: string;
 };
 
-const MACHINES: Machine[] = [
-  {
-    name: "PRIME",
-    color: "var(--color-azul-claro-plus)",
-    description: "Alta precisão e versatilidade para aplicações gerais.",
-    href: "/maquinas/prime-ip/60",
-  },
-  {
-    name: "SPEED",
-    color: "var(--color-speed-is)",
-    description: "Ciclos rápidos e máxima eficiência.",
-    href: "#",
-  },
-  {
-    name: "VELOCITY",
-    color: "var(--color-velocity-iv)",
-    description: "Ultra alta velocidade e produtividade extrema.",
-    href: "#",
-  },
-  {
-    name: "FORM",
-    color: "var(--color-form-if)",
-    description: "Soluções para peças técnicas com alta precisão.",
-    href: "#",
-  },
-  {
-    name: "NEO",
-    color: "var(--color-neo-ex-ie)",
-    description: "Linha 100% elétrica com alta repetibilidade e eficiência energética.",
-    href: "#",
-  },
-  {
-    name: "ATLAS",
-    color: "var(--color-atlas-ia)",
-    description: "Especializada em caixas plásticas, pallets e peças de grande porte.",
-    href: "#",
-  },
-  {
-    name: "HYDRO",
-    color: "var(--color-hydro-ih)",
-    description: "Potência hidráulica para aplicações exigentes.",
-    href: "#",
-  },
-  {
-    name: "TITAN",
-    color: "var(--color-titan-it)",
-    description: "Grandes toneladas para moldes robustos e alta exigência.",
-    href: "#",
-  },
-  {
-    name: "MAX",
-    color: "var(--color-max-im)",
-    description: "Máxima capacidade e robustez para os maiores desafios.",
-    href: "#",
-  },
-  {
-    name: "EQUORA",
-    color: "var(--color-equora-iq)",
-    description: "Equilíbrio entre força, eficiência e economia com tecnologia híbrida.",
-    href: "#",
-  },
+// Cor e rota acompanham a linha correspondente em dict.maquinas.linhasDeMaquinas.machines
+// (mesma ordem/índice) — "#" enquanto a linha não tiver dados de modelo cadastrados em
+// machineModels.ts.
+const MACHINE_META: { color: string; href: string }[] = [
+  { color: "var(--color-azul-claro-plus)", href: "/maquinas/prime-ip/60" },
+  { color: "var(--color-speed-is)", href: "#" },
+  { color: "var(--color-velocity-iv)", href: "#" },
+  { color: "var(--color-form-if)", href: "#" },
+  { color: "var(--color-neo-ex-ie)", href: "#" },
+  { color: "var(--color-atlas-ia)", href: "#" },
+  { color: "var(--color-hydro-ih)", href: "#" },
+  { color: "var(--color-titan-it)", href: "#" },
+  { color: "var(--color-max-im)", href: "#" },
+  { color: "var(--color-equora-iq)", href: "#" },
 ];
 
-export default function LinhasDeMaquinas() {
+export default function LinhasDeMaquinas({ dict }: { dict: Dictionary }) {
+  const t = dict.maquinas.linhasDeMaquinas;
   return (
     <Section innerClassName="gap-5">
       <div className="flex flex-col gap-5 text-dark-blue">
         {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
         <h2 className="text-2xl font-extrabold leading-[30px] tracking-normal sm:text-[32px] sm:leading-[39px]">
-          Nossas Linhas de Máquinas
+          {t.title}
         </h2>
         {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
         <p className="text-lg font-normal leading-[22px] tracking-normal">
-          Encontre rapidamente a linha ideal para sua necessidade.
+          {t.subtitle}
         </p>
       </div>
 
       <div className="flex w-full flex-wrap items-stretch justify-center gap-5">
-        {MACHINES.map((machine) => {
+        {t.machines.map((machine: MachineText, i: number) => {
+          const meta = MACHINE_META[i];
           const photo = getMachinePhoto(machine.name);
           return (
           <div
@@ -116,7 +68,7 @@ export default function LinhasDeMaquinas() {
             {/* Subtítulo BK 20 — 20px/22px, 85 Heavy (700) */}
             <span
               className="w-full text-center text-xl font-bold leading-[22px] tracking-normal"
-              style={{ color: machine.color }}
+              style={{ color: meta.color }}
             >
               {machine.name}
             </span>
@@ -136,11 +88,11 @@ export default function LinhasDeMaquinas() {
               {machine.description}
             </p>
             <Link
-              href={machine.href}
+              href={meta.href}
               className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
-              style={{ borderColor: machine.color, color: machine.color }}
+              style={{ borderColor: meta.color, color: meta.color }}
             >
-              Ver Modelos
+              {t.ctaVerModelos}
               <ArrowIcon />
             </Link>
           </div>

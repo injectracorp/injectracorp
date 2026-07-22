@@ -1,0 +1,2927 @@
+{
+  "shared": {
+    "meta": {
+      "title": "Injectra | 美国工业技术",
+      "description": "机械设备、机器人技术、物联网与人工智能,融合于同一工业平台。"
+    },
+    "header": {
+      "logoAriaLabel": "Injectra——首页",
+      "openMenuAriaLabel": "打开菜单",
+      "closeMenuAriaLabel": "关闭菜单",
+      "cta": "获取报价"
+    },
+    "footer": {
+      "taglinePrefix": "进阶。",
+      "taglineHighlight": "注塑。",
+      "taglineSuffix": " 塑造未来。",
+      "description": "优质塑料注塑技术,配备工业机械设备、人工智能与区域化支持,助力美洲工业提升生产力。",
+      "logoAriaLabel": "Injectra——首页",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "x": "X (Twitter)",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "facebook": "Facebook"
+      },
+      "infoBar": [
+        {
+          "title": "Injectra Corporation",
+          "subtitle": "美国佛罗里达州奥兰多"
+        },
+        {
+          "title": "+1 (321) 888-7963"
+        },
+        {
+          "title": "info@injectracorp.com"
+        },
+        {
+          "title": "专业技术支持"
+        },
+        {
+          "title": "服务覆盖全美洲"
+        }
+      ],
+      "ctaBanner": {
+        "title": "准备好改变您的产业了吗?",
+        "description": "了解 Injectra 如何提升生产力、降低成本,并通过统一的智能工业平台连接您的整个运营。",
+        "quoteButton": "获取报价",
+        "specialistButton": "咨询专家",
+        "machineImageAlt": "Injectra 机械设备"
+      },
+      "bottomBar": {
+        "countryBadge": "美国企业",
+        "location": "美国佛罗里达州奥兰多",
+        "groupLabel": "隶属集团",
+        "groupLogoAlt": "Interfy Group",
+        "copyright": "Injectra Corporation © 2026。保留所有权利。"
+      },
+      "legalLinks": [
+        {
+          "label": "隐私政策",
+          "href": "/politicas-privacidade"
+        },
+        {
+          "label": "使用条款",
+          "href": "/termos-de-uso"
+        },
+        {
+          "label": "Cookie 政策",
+          "href": "/cookies"
+        },
+        {
+          "label": "保修与支持",
+          "href": "/garantia-e-suporte"
+        },
+        {
+          "label": "合规",
+          "href": "/compliance"
+        }
+      ]
+    },
+    "nav": {
+      "columns": [
+        {
+          "title": "产品",
+          "items": [
+            {
+              "title": "机械设备",
+              "description": "适用于所有细分领域的液压与电动系列产品。"
+            },
+            {
+              "title": "机器人技术",
+              "description": "Neo 人形机器人、直角坐标机器人与自动化解决方案。"
+            },
+            {
+              "title": "AI 平台",
+              "description": "Injectra AI、云平台、物联网、数据分析、OEE 与移动应用。"
+            },
+            {
+              "title": "行业应用",
+              "description": "面向美洲各工业领域的定制解决方案。"
+            }
+          ]
+        },
+        {
+          "title": "服务",
+          "items": [
+            {
+              "title": "体验中心",
+              "description": "产品演示、应用测试、培训及展厅体验。"
+            },
+            {
+              "title": "代理商",
+              "description": "代理商计划、商务拓展与支持。"
+            },
+            {
+              "title": "支持服务",
+              "description": "技术支持、备件、维护、保修与常见问题。"
+            },
+            {
+              "title": "产品目录",
+              "description": "数字化产品目录、技术手册、技术参数表与下载资源。"
+            }
+          ]
+        },
+        {
+          "title": "公司",
+          "items": [
+            {
+              "title": "关于我们",
+              "description": "关于 Injectra、Interfy 集团、可持续发展与职业发展。"
+            },
+            {
+              "title": "联系我们",
+              "description": "电话、邮箱、地址及服务渠道。"
+            },
+            {
+              "title": "获取报价",
+              "description": "为您的工业运营获取专属定制方案。"
+            },
+            {
+              "title": "咨询专家",
+              "description": "与我们专业的技术及商务团队沟通交流。"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "美国工业技术",
+      "titlePrefix": "工业的未来,由此",
+      "titleHighlight": "启程。",
+      "subtitleLine1": "机械设备。机器人技术。人工智能。工业软件。",
+      "subtitleLine2": "一体化智能平台,全面互联。",
+      "ctaPrimary": "探索平台",
+      "ctaSecondary": "咨询专家",
+      "trustItems": [
+        {
+          "title": "规格标准",
+          "subtitle": "美国标准"
+        },
+        {
+          "title": "性能表现",
+          "subtitle": "高速运行"
+        },
+        {
+          "title": "解决方案",
+          "subtitle": "PET 专用"
+        },
+        {
+          "title": "服务保障",
+          "subtitle": "全方位解决方案"
+        },
+        {
+          "title": "AI 技术",
+          "subtitle": "Injectra"
+        }
+      ]
+    },
+    "aboutEcosystem": {
+      "titleLine1": "Injectra",
+      "titleLine2": "生态系统",
+      "description": "全面互联,打造更具生产力、智能化与竞争力的工业运营。",
+      "exploreLabel": "探索生态系统"
+    },
+    "capacidade": {
+      "roboticaNeo": {
+        "title": "Neo 机器人技术",
+        "description": "智能自动化,驱动卓越成果。",
+        "items": [
+          "Neo 人形机器人",
+          "直角坐标机器人",
+          "机器人工作单元",
+          "定制解决方案"
+        ],
+        "cta": "了解 Neo",
+        "photoAlt": "Neo 人形机器人"
+      },
+      "plataformaAi": {
+        "title": "Injectra AI 平台",
+        "description": "数据、智能与全面掌控,尽在您的掌心。",
+        "items": [
+          "实时数据看板",
+          "OEE 与性能分析",
+          "预测性维护",
+          "生产与质量管理",
+          "警报与通知",
+          "AI 智能助手"
+        ],
+        "cta": "探索平台",
+        "photoAlt": "Injectra AI 平台"
+      },
+      "experienceCenter": {
+        "title": "体验中心",
+        "description": "创新科技,亲眼见证、亲手体验、亲自变革。",
+        "cta": "预约参观",
+        "photoAlt": "Injectra 体验中心"
+      },
+      "experienceItems": [
+        {
+          "label": "科技展厅"
+        },
+        {
+          "label": "现场演示"
+        },
+        {
+          "label": "应用测试"
+        },
+        {
+          "label": "专业培训"
+        },
+        {
+          "label": "活动与工作坊"
+        }
+      ]
+    },
+    "machineLines": {
+      "title": "我们的机械产品线",
+      "subtitle": "为工业中最严苛的领域提供完整解决方案。",
+      "viewAllLabel": "查看全部机械设备",
+      "items": [
+        {
+          "description": "高精度与多功能性,适用于通用领域应用。"
+        },
+        {
+          "description": "快速成型周期与卓越效率,实现高产能。"
+        },
+        {
+          "description": "超高速运行与极短成型周期,实现最大产能。"
+        },
+        {
+          "description": "专为技术性部件优化的解决方案,兼具高精度与优良表面质量。"
+        },
+        {
+          "description": "高精度、高重复性与高能效的电动系列产品。"
+        },
+        {
+          "description": "专注于塑料箱、托盘及大型部件生产。结构坚固,性能卓越。"
+        },
+        {
+          "description": "高功率液压系统,适用于高要求应用及大尺寸部件。"
+        },
+        {
+          "description": "极致动力,适用于大型模具及高要求工业应用。"
+        },
+        {
+          "description": "最大产能与坚固性,应对行业最严峻的挑战。"
+        },
+        {
+          "description": "混合动力系列,兼具高能效与坚固耐用。"
+        }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "我们打造的不仅仅是机械设备",
+      "titlePrefix": "我们构建",
+      "titleHighlight": " 智能工业平台。",
+      "items": [
+        {
+          "label": "机械设备",
+          "description": "高性能注塑机,适用于多种应用场景。"
+        },
+        {
+          "label": "机器人技术",
+          "description": "提升生产力、缩短周期时间的解决方案。"
+        },
+        {
+          "label": "AI",
+          "description": "将数据转化为智能决策的人工智能技术。"
+        },
+        {
+          "label": "物联网",
+          "description": "互联设备与传感器,实现全面可视化管理。"
+        },
+        {
+          "label": "软件",
+          "description": "强大的工业软件,全面管理整体运营。"
+        },
+        {
+          "label": "服务",
+          "description": "从安装到持续优化的全方位支持。"
+        }
+      ]
+    },
+    "setoresIndustriais": {
+      "title": "面向主要行业的解决方案",
+      "items": [
+        {
+          "label": "汽车"
+        },
+        {
+          "label": "包装"
+        },
+        {
+          "label": "医疗"
+        },
+        {
+          "label": "建筑"
+        },
+        {
+          "label": "电子"
+        },
+        {
+          "label": "家居用品"
+        },
+        {
+          "label": "物流"
+        }
+      ],
+      "moreLabel": "及更多领域……"
+    }
+  },
+  "catalogos": {
+    "banner": {
+      "eyebrow": "产品目录",
+      "title": "Injectra 产品目录",
+      "subtitle": "获取机械产品线、机器人技术与 Injectra 数字平台的技术及商务资料。",
+      "ctaPrimary": "申请产品目录",
+      "ctaSecondary": "咨询专家",
+      "highlightsTitle": "我们的产品目录包含哪些内容",
+      "highlightsSubtitle": "亲身体验 Injectra 技术,发现我们如何助您的生产迈向新高度。",
+      "highlights": [
+        "技术规格参数",
+        "推荐应用场景",
+        "特色优势与效益",
+        "可选配件与附件",
+        "自动化与机器人技术",
+        "Injectra AI 与物联网",
+        "支持服务与商务联系方式"
+      ]
+    },
+    "cta": {
+      "title": "下载适合您项目的产品目录",
+      "subtitle": "咨询我们的专家,为您的行业找到最合适的 Injectra 解决方案。",
+      "ctaPrimary": "申请产品目录",
+      "ctaSecondary": "咨询专家",
+      "ctaTertiary": "获取报价",
+      "stats": [
+        {
+          "title": "美国技术",
+          "description": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "description": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "description": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "description": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "description": "能效优化与 ESG 实践"
+        }
+      ]
+    },
+    "catalogosGerais": {
+      "title": "综合产品目录",
+      "items": [
+        {
+          "name": "综合产品目录",
+          "description": "高精度与多功能性,适用于通用领域应用。"
+        }
+      ]
+    },
+    "linhasMaquinas": {
+      "title": "机械产品线",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "高精度与多功能性,适用于通用领域应用。"
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "快速成型周期与卓越效率,实现高产能。"
+        },
+        {
+          "name": "VELOCITY - IV",
+          "description": "超高速运行与极短成型周期,实现最大产能。"
+        },
+        {
+          "name": "FORM - IF",
+          "description": "专为技术性部件优化的解决方案,兼具高精度与优良表面质量。"
+        },
+        {
+          "name": "NEO EX - IE",
+          "description": "高精度、高重复性与高能效的电动系列产品。"
+        },
+        {
+          "name": "ATLAS - IA",
+          "description": "专注于塑料箱、托盘及大型部件生产。结构坚固,性能卓越。"
+        },
+        {
+          "name": "HYDRO - IH",
+          "description": "高功率液压系统,适用于高要求应用及大尺寸部件。"
+        },
+        {
+          "name": "TITAN - IT",
+          "description": "极致动力,适用于大型模具及高要求工业应用。"
+        },
+        {
+          "name": "MAX - IM",
+          "description": "最大产能与坚固性,应对行业最严峻的挑战。"
+        },
+        {
+          "name": "EQUORA - IQ",
+          "description": "混合动力系列,兼具高能效与坚固耐用。"
+        }
+      ]
+    },
+    "solucoesDigitais": {
+      "title": "数字化解决方案与自动化",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "高精度与多功能性,适用于通用领域应用。"
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "快速成型周期与卓越效率,实现高产能。"
+        }
+      ]
+    }
+  },
+  "legal": {
+    "shared": {
+      "tocHeading": "本页内容",
+      "contactCardTitle": "Injectra Corporation",
+      "lastUpdated": "最近更新日期:2026 年 7 月 21 日",
+      "contactLabels": {
+        "email": "电子邮箱",
+        "phone": "电话",
+        "address": "地址"
+      },
+      "contact": {
+        "email": "info@injectracorp.com",
+        "phone": "+1 (321) 888-7963",
+        "address": "美国佛罗里达州奥兰多"
+      }
+    },
+    "termsOfUse": {
+      "banner": {
+        "eyebrow": "法律信息",
+        "titleMain": "使用",
+        "titleHighlight": "条款",
+        "subtitle": "请仔细阅读适用于我们网站、产品目录、报价申请及其他产品与服务的条款与条件。"
+      },
+      "nav": [
+        "1. 条款接受",
+        "2. 关于 Injectra",
+        "3. 网站的允许使用",
+        "4. 用户账户",
+        "5. 产品、报价与服务",
+        "6. 知识产权",
+        "7. 责任限制",
+        "8. 第三方链接",
+        "9. 隐私",
+        "10. 赔偿",
+        "11. 修改",
+        "12. 终止",
+        "13. 适用法律",
+        "14. 联系我们"
+      ],
+      "introP1Before": "欢迎访问 ",
+      "introP1After": "(以下简称“Injectra”、“我们”)的网站。访问或使用我们的网站、产品目录、报价表单、应用程序或服务,即表示您同意本使用条款。如果您不同意本条款的任何部分,请勿使用我们的服务。",
+      "introP2": "本条款构成您(用户)与 Injectra Corporation(一家在美国注册成立、隶属于 Interfy Corporation 的公司)之间具有法律约束力的协议。",
+      "sections": {
+        "aceitacao": {
+          "title": "1. 条款接受",
+          "p1Before": "访问并使用 injectracorp.com 网站(及其子域名),或使用 Injectra 提供的任何产品目录、报价表单、应用程序或服务,即表示您声明已阅读、理解并同意本使用条款,以及我们的",
+          "p1LinkLabel": "隐私政策",
+          "p1After": "。",
+          "p2": "若您代表某公司或组织使用相关服务,即表示您声明拥有使该实体受本条款约束的授权。"
+        },
+        "sobre": {
+          "title": "2. 关于 Injectra",
+          "p1": "Injectra Corporation 是一家总部位于美国佛罗里达州奥兰多的美国企业,专注于注塑机(液压与电动系列)、工业机器人技术,以及集工业软件、物联网、云计算与人工智能于一体的 Injectra AI 平台,用于生产运营管理。",
+          "p2": "Injectra 隶属于 Interfy Corporation,该集团是一家在创新与数字化转型领域拥有超过 26 年经验的全球科技集团。"
+        },
+        "usoPermitido": {
+          "title": "3. 网站的允许使用",
+          "p1": "您可将本网站用于合法目的,并须遵守本条款。以下行为均被明确禁止:",
+          "list": [
+            "以违反适用法律法规的方式使用本网站",
+            "发送任何未经请求的广告或推广信息",
+            "试图未经授权访问网站、客户门户或 Injectra AI 平台的任何部分",
+            "干扰或破坏网站的完整性或性能",
+            "未经同意收集或获取其他用户的数据",
+            "使用机器人、爬虫或其他自动化手段访问网站",
+            "对平台的任何软件进行反向工程、反编译或反汇编"
+          ]
+        },
+        "contas": {
+          "title": "4. 用户账户",
+          "subsections": {
+            "criacao": {
+              "title": "4.1 账户创建",
+              "p": "部分功能(如客户门户及 Injectra AI 平台)可能需要注册账户。创建账户时,您需承诺提供真实、准确、完整的信息。"
+            },
+            "responsabilidadeConta": {
+              "title": "4.2 账户责任",
+              "p": "您有责任对自己的登录凭证保密,并对账户下发生的所有活动负责。如发现任何未经授权的使用,请立即通知 Injectra。"
+            },
+            "cancelamento": {
+              "title": "4.3 账户注销",
+              "p": "Injectra 保留在无需事先通知的情况下,注销或暂停违反本条款账户的权利。"
+            }
+          }
+        },
+        "produtos": {
+          "title": "5. 产品、报价与服务",
+          "subsections": {
+            "catalogos": {
+              "title": "5.1 产品目录与技术规格",
+              "p": "我们竭力确保产品目录、技术参数表及机械与机器人技术规格的准确性与时效性。但我们不保证这些信息完整无误,或完全反映每个项目的最终配置,因为实际配置可能因应用场景而有所不同。"
+            },
+            "cotacao": {
+              "title": "5.2 报价申请",
+              "p": "提交报价申请表或联系专家,并不构成具有约束力的采购订单。价格与商务条件将由我们的商务团队通过专门的报价方案予以正式确认。"
+            },
+            "plataforma": {
+              "title": "5.3 Injectra AI 与物联网平台",
+              "p": "使用 Injectra AI 平台、移动应用及物联网互联设备须遵守激活时提供的专项条款。这些条款是对本通用使用条款的补充。"
+            },
+            "representantes": {
+              "title": "5.4 代理商与合作伙伴",
+              "p": "经授权的代理商与商务合作伙伴依据其与 Injectra 签订的独立合同开展业务,在与第三方的关系中不自动受本条款约束。"
+            }
+          }
+        },
+        "propriedade": {
+          "title": "6. 知识产权",
+          "p1": "Injectra 网站上的所有内容——包括文本、图片、标识、图标、视频、产品目录、软件及设计——均为 Injectra Corporation 或其授权方的专有财产,受适用的著作权法、商标法及其他知识产权法律保护。",
+          "p2": "未经 Injectra 事先书面授权,禁止复制、传播、修改、公开展示或对网站任何内容进行演绎创作。",
+          "p3": "Injectra 名称、标识及 Injectra Corporation 的其他商标均为注册商标或正在申请注册中的商标。未经授权使用均属违法行为。"
+        },
+        "responsabilidade": {
+          "title": "7. 责任限制",
+          "p1": "在适用法律允许的最大范围内,Injectra 对因使用或无法使用本网站、产品或服务而产生的任何间接、附带、特殊、后果性或惩罚性损害概不负责。",
+          "p2": "对于因第三方基础设施故障、自然灾害或网络攻击等超出其控制范围的因素所导致的服务中断,Injectra 不承担责任。",
+          "p3": "用户确认,在法律规定的限度内,使用本网站及相关服务的风险由用户自行承担。"
+        },
+        "links": {
+          "title": "8. 第三方链接",
+          "p1": "我们的网站可能包含指向第三方网站的链接,包括代理商、合作伙伴及社交媒体平台。这些链接仅为方便用户浏览及获取信息而提供。Injectra 无法控制这些网站的内容,也不对其内容、隐私处理方式或可用性承担责任。",
+          "p2": "访问第三方网站的风险由用户自行承担,用户在使用前应自行核实相关网站的条款与政策。"
+        },
+        "privacidade": {
+          "title": "9. 隐私",
+          "p1Before": "Injectra 所收集的个人数据的处理受我们的",
+          "p1LinkLabel": "隐私政策",
+          "p1After": "约束,该政策是本使用条款的组成部分。使用我们的服务,即表示您同意该政策中所述的数据收集与使用方式。",
+          "p2": "Injectra 致力于遵守适用的数据保护法律,包括巴西《通用数据保护法》(LGPD)以及我们开展业务所在国家现行的其他数据保护法律。"
+        },
+        "indenizacao": {
+          "title": "10. 赔偿",
+          "p1": "您同意为 Injectra Corporation 及其董事、员工、合作伙伴与代理人进行辩护、赔偿,并使其免受因您使用本网站或违反本条款而产生的任何索赔、责任、损害、损失及费用(包括合理的律师费)的影响。"
+        },
+        "modificacoes": {
+          "title": "11. 条款修改",
+          "p1": "Injectra 保留随时修改本使用条款的权利。修改内容将自网站发布之日起立即生效,本页顶部日期将同步更新。",
+          "p2": "在条款修改发布后继续使用本网站,即视为您接受新的条款。我们建议您定期查阅本页面。"
+        },
+        "rescisao": {
+          "title": "12. 终止",
+          "p1": "Injectra 可随时以任何理由(包括违反本条款),在有或无事先通知的情况下终止或暂停您对网站、客户门户或 Injectra AI 平台的访问权限。",
+          "p2": "条款终止后,依其性质应继续有效的条款仍将持续有效,包括知识产权、责任限制及赔偿相关条款。"
+        },
+        "legislacao": {
+          "title": "13. 适用法律与管辖权",
+          "p1": "本使用条款受美国佛罗里达州法律管辖,但不影响用户居住国适用的消费者保护法律。",
+          "p2": "在巴西,与巴西用户及客户的关系还须遵守《巴西消费者保护法》(第 8.078/1990 号法律)及巴西适用的相关法律。",
+          "p3": "因本条款产生的任何争议,应优先通过调解方式解决;若无法通过调解解决,则由用户居住地法院管辖,并依照适用法律执行。"
+        },
+        "contato": {
+          "title": "14. 联系我们",
+          "p1": "如对本使用条款有任何疑问、建议或投诉,请通过以下方式联系 Injectra:"
+        }
+      }
+    },
+    "privacyPolicy": {
+      "banner": {
+        "eyebrow": "隐私与透明度",
+        "titleMain": "隐私",
+        "titleHighlight": "政策",
+        "subtitle": "了解 Injectra 如何通过我们的网站、产品目录、报价申请及 Injectra AI 平台收集、使用、共享和保护个人数据。"
+      },
+      "nav": [
+        "1. 数据控制者",
+        "2. 收集的数据",
+        "3. 处理目的",
+        "4. 法律依据",
+        "5. 数据共享",
+        "6. Cookie",
+        "7. 数据保留",
+        "8. 安全保障",
+        "9. 您的权利",
+        "10. 跨境数据传输",
+        "11. 未成年人",
+        "12. 政策变更",
+        "13. 数据保护负责人"
+      ],
+      "introP1Before": "本隐私政策说明 ",
+      "introP1After": "(以下简称“Injectra”、“我们”)如何收集、使用、存储及保护网站访问者、报价申请人、客户、代理商及 Injectra AI 平台用户的个人数据。",
+      "introP2Before": "使用我们的服务渠道,即表示您同意本政策所述的相关处理方式,本政策是对我们",
+      "introP2LinkLabel": "使用条款",
+      "introP2After": "的补充。",
+      "sections": {
+        "controlador": {
+          "title": "1. 数据控制者",
+          "p1": "本网站所处理个人数据的控制者为 Injectra Corporation,一家在美国注册成立、总部位于佛罗里达州奥兰多、隶属于 Interfy Corporation 的公司。"
+        },
+        "coleta": {
+          "title": "2. 收集的数据",
+          "p1": "我们可能收集以下类别的数据:",
+          "list": [
+            "身份识别与联系数据:在报价申请、联系表单或产品目录下载中提供的姓名、电子邮箱、电话、公司及职务信息",
+            "商务数据:所属行业、感兴趣的产品、生产量及为编制方案而提供的其他信息",
+            "浏览数据:IP 地址、设备类型、访问页面及访问来源,通过 Cookie 及类似技术收集",
+            "运营与遥测数据:适用情况下,连接至 Injectra AI/物联网平台的机械设备的性能与使用数据,依据与客户签订的具体合同处理"
+          ]
+        },
+        "finalidades": {
+          "title": "3. 处理目的",
+          "list": [
+            "回应报价申请、联系咨询及技术支持请求",
+            "编制商务方案,促成机械设备、机器人技术及服务的销售",
+            "提供并优化 Injectra AI 平台、移动应用及物联网/数据分析服务",
+            "在用户授权的情况下,发送商务通讯、产品目录及最新资讯",
+            "履行法律、监管及合同义务",
+            "防范欺诈,保障网站及平台安全"
+          ]
+        },
+        "basesLegais": {
+          "title": "4. 法律依据",
+          "p1": "Injectra 对个人数据的处理,依具体情形分别基于合同的履行或订立合同前的准备程序(如编制报价方案)、履行法定义务、Injectra 的合法利益,以及数据主体的同意——尤其是在发送营销通讯及使用非必要 Cookie 的情形下。"
+        },
+        "compartilhamento": {
+          "title": "5. 数据共享",
+          "p1": "您的数据可能与以下对象共享:",
+          "list": [
+            "Interfy Corporation 集团内公司,用于行政管理及企业支持目的",
+            "经授权的代理商及商务合作伙伴,仅用于促成报价及本地服务",
+            "服务提供商(如托管、电子邮件营销、数据分析服务),须遵守保密与安全的合同义务",
+            "公共机构,在法律、司法命令或监管要求下"
+          ],
+          "p2": "Injectra 不会向第三方出售个人数据。"
+        },
+        "cookies": {
+          "title": "6. Cookie",
+          "p1Before": "我们使用 Cookie 及类似技术以实现并优化网站浏览体验。有关我们使用的 Cookie 类型及如何管理您的偏好设置的详细信息,请参阅我们的",
+          "p1LinkLabel": "Cookie 政策",
+          "p1After": "。"
+        },
+        "retencao": {
+          "title": "7. 数据保留",
+          "p1": "我们将在履行本政策所述目的所需的期限内保留个人数据,并遵守适用的法定、合同及监管期限要求。商务关系及方案相关数据将在合作关系存续期间及此后为税务、会计及应对司法或行政程序辩护所需的额外期限内予以保留。"
+        },
+        "seguranca": {
+          "title": "8. 信息安全",
+          "p1": "我们采取适当的技术与组织措施,保护个人数据免遭未经授权的访问、丢失、篡改或不当披露,包括访问控制、传输加密以及对我们系统与 Injectra AI 平台的持续监控。"
+        },
+        "direitos": {
+          "title": "9. 您的权利",
+          "p1": "根据适用的数据保护法律,您可以要求:",
+          "list": [
+            "确认是否存在数据处理行为并查阅您的相关数据",
+            "更正不完整、不准确或过时的数据",
+            "对不再必要或违规处理的数据进行匿名化、限制处理或删除",
+            "将数据转移至其他服务或产品提供方",
+            "撤回同意,并对基于合法利益开展的处理提出反对"
+          ],
+          "p2": "如需行使上述权利,请通过第 13 节所列渠道与我们联系。"
+        },
+        "transferencias": {
+          "title": "10. 跨境数据传输",
+          "p1": "作为一家业务遍及美洲的美国企业,Injectra 可能会为本政策所述目的在不同国家(包括美国)之间传输个人数据。在此类传输中,我们将采取符合适用法律(包括数据主体位于巴西时适用的 LGPD)的合同及技术保障措施。"
+        },
+        "menores": {
+          "title": "11. 未成年人",
+          "p1": "我们的产品与服务面向企业及专业人士,并非针对未成年人。我们不会主动收集儿童或青少年的个人数据。"
+        },
+        "alteracoes": {
+          "title": "12. 本政策的变更",
+          "p1": "Injectra 可能会定期更新本隐私政策,以反映我们业务实践或适用法律的变化。本页顶部载明最近更新日期。我们建议您定期查阅本文件。"
+        },
+        "contato": {
+          "title": "13. 数据保护负责人",
+          "p1": "如对本政策有任何疑问,或需行使您作为数据主体的权利,请联系我们的数据保护负责人(DPO):"
+        }
+      }
+    },
+    "warrantySupport": {
+      "banner": {
+        "eyebrow": "法律信息",
+        "titleMain": "保修与",
+        "titleHighlight": "支持",
+        "subtitle": "了解 Injectra 机械设备与机器人产品的保修条件,以及如何获取技术支持、备件与专业服务。"
+      },
+      "nav": [
+        "1. 保修范围",
+        "2. 保修期限",
+        "3. 保修除外情形",
+        "4. 如何申请服务",
+        "5. 备件供应",
+        "6. 支持渠道",
+        "7. 合同与延保服务",
+        "8. 变更",
+        "9. 联系我们"
+      ],
+      "introBefore": "本政策说明适用于 ",
+      "introAfter": " 注塑机及机器人解决方案的一般保修条件,以及可获取的技术支持与服务渠道。若合同或发票中另有约定,各设备的具体条款优先于本一般政策适用。",
+      "sections": {
+        "cobertura": {
+          "title": "1. 保修范围",
+          "p1": "当设备按照 Injectra 提供的技术规格与手册进行操作、安装及维护时,Injectra 保修涵盖注塑机(液压与电动系列)及工业机器人解决方案在材料与部件方面的制造缺陷。"
+        },
+        "prazo": {
+          "title": "2. 保修期限",
+          "p1": "标准保修期限载明于商务方案、销售合同及随设备提供的技术文件中,可能因机械产品线(PRIME、SPEED、VELOCITY、FORM、NEO、ATLAS、HYDRO、TITAN、MAX、EQUORA)及部件(如电子系统、液压系统及外围设备)而有所不同。",
+          "p2": "保修期限自设备交付之日或试运行之日起计算,具体以合同约定为准。"
+        },
+        "exclusoes": {
+          "title": "3. 保修除外情形",
+          "p1": "以下情形不在保修范围内:",
+          "list": [
+            "密封件、过滤器及易损部件等消耗品的自然磨损",
+            "因操作不当、安装未按技术规格进行,或设备使用超出额定能力范围所造成的损坏",
+            "未经 Injectra 授权的第三方进行的技术干预",
+            "使用非 Injectra 原厂或未经认证的部件或耗材",
+            "因客户电力、液压或基础设施安装不当所导致的损坏",
+            "不可抗力事件,如停电、自然灾害或意外事故"
+          ]
+        },
+        "comoSolicitar": {
+          "title": "4. 如何申请保修服务",
+          "p1": "如需申请保修服务,客户应联系 Injectra 或所在地区的授权代理商,提供设备序列号、购买发票及故障情况说明。我们的技术团队将评估情况并确定合适的处理方式,可能包括远程协助、现场技术服务或备件寄送。"
+        },
+        "pecas": {
+          "title": "5. 备件与技术支持",
+          "p1Before": "即使保修期已结束,Injectra 及其代理商网络仍为全系列机械设备与机器人产品提供原厂备件与专业技术支持。有关备件规格及使用手册,请参阅我们的",
+          "p1LinkLabel": "技术产品目录",
+          "p1After": "。"
+        },
+        "canais": {
+          "title": "6. 技术支持渠道",
+          "p1Before": "除本政策外,我们还设有专门的支持中心,提供技术支持、备件申请、预防性及故障维护服务以及常见问题解答。请访问",
+          "p1LinkLabel": "支持",
+          "p1After": "页面提交工单或联系我们的技术团队。"
+        },
+        "contratos": {
+          "title": "7. 维护合同与延保服务",
+          "p1": "对于希望扩展标准保修范围或建立定期维护制度的客户,Injectra 提供预防性维护合同及延保计划。相关合同的商务条件由我们的团队或授权代理商与客户单独协商确定。"
+        },
+        "alteracoes": {
+          "title": "8. 本政策的变更",
+          "p1": "Injectra 可能会定期更新本保修与支持政策。变更自本页面发布之日起生效,但不影响已在现行合同及发票中正式确认的保修条件。"
+        },
+        "contato": {
+          "title": "9. 联系我们",
+          "p1": "如对保修、备件或技术支持有任何疑问,请联系我们:"
+        }
+      }
+    },
+    "cookies": {
+      "banner": {
+        "eyebrow": "法律信息",
+        "titleMain": "Cookie",
+        "titleHighlight": "政策",
+        "subtitle": "了解什么是 Cookie、Injectra 网站使用哪些类型的 Cookie,以及如何管理您的偏好设置。"
+      },
+      "nav": [
+        "1. 什么是 Cookie",
+        "2. 我们如何使用",
+        "3. Cookie 类型",
+        "4. 第三方 Cookie",
+        "5. 如何管理",
+        "6. 更新",
+        "7. 联系我们"
+      ],
+      "introBefore": "本 Cookie 政策说明 ",
+      "introMiddle": " 如何在 injectracorp.com 网站中使用 Cookie 及类似技术,是对我们",
+      "introLinkLabel": "隐私政策",
+      "introAfter": "的补充。",
+      "sections": {
+        "oQueSao": {
+          "title": "1. 什么是 Cookie",
+          "p1": "Cookie 是您访问网站时存储在浏览器或设备上的小型文本文件。它们使网站能够识别您的设备、记住您的偏好设置,并收集有关网站使用情况的信息。"
+        },
+        "comoUsamos": {
+          "title": "2. 我们如何使用 Cookie",
+          "p1": "我们使用 Cookie 用于:",
+          "list": [
+            "确保网站及报价申请表单的正常运行",
+            "记住浏览偏好设置,如语言与地区",
+            "了解访问者如何使用我们的网站,以及哪些产品目录与机械产品线最受关注",
+            "衡量营销与传播活动的效果"
+          ]
+        },
+        "tipos": {
+          "title": "3. 我们使用的 Cookie 类型",
+          "subsections": {
+            "essenciais": {
+              "title": "3.1 必要性 Cookie",
+              "p": "网站基本功能(如页面浏览与表单提交)所必需的 Cookie。此类 Cookie 无法在我们的系统中被禁用。"
+            },
+            "desempenho": {
+              "title": "3.2 性能与数据分析 Cookie",
+              "p": "收集访问者使用网站的相关信息——如访问量最高的页面、浏览时长及流量来源——帮助我们优化内容与可用性。"
+            },
+            "funcionalidade": {
+              "title": "3.3 功能性 Cookie",
+              "p": "用于记住用户的选择,如语言、地区或表单预填信息,以提供更加个性化的体验。"
+            },
+            "marketing": {
+              "title": "3.4 营销类 Cookie",
+              "p": "根据您对我们机械产品线、机器人技术及 Injectra AI 平台的兴趣,在站内及站外展示更相关的通讯与广告内容。"
+            }
+          }
+        },
+        "terceiros": {
+          "title": "4. 第三方 Cookie",
+          "p1": "我们页面中出现的部分 Cookie 由第三方服务设置,如流量分析工具、地图及嵌入式视频。Injectra 无法控制这些 Cookie,其使用受相应服务提供商各自隐私政策的约束。"
+        },
+        "gerenciar": {
+          "title": "5. 如何管理您的 Cookie 偏好设置",
+          "p1": "您可以直接在浏览器设置中管理或禁用 Cookie,阻止新 Cookie 的写入或删除已存储的 Cookie。请注意,禁用必要性 Cookie 可能影响网站的正常运行,包括报价及联系表单的提交功能。"
+        },
+        "alteracoes": {
+          "title": "6. 本政策的更新",
+          "p1": "本 Cookie 政策可能会定期更新,以反映我们业务实践或所用技术的变化。本页顶部载明最近更新日期。"
+        },
+        "contato": {
+          "title": "7. 联系我们",
+          "p1": "如对我们网站上 Cookie 的使用有任何疑问,请联系我们:"
+        }
+      }
+    },
+    "compliance": {
+      "banner": {
+        "eyebrow": "道德与诚信",
+        "titleMain": "Injectra",
+        "titleHighlight": "合规",
+        "subtitle": "了解 Injectra Corporation 在整个价值链中对道德、诚信、反腐败与合规的承诺。"
+      },
+      "nav": [
+        "1. 我们的承诺",
+        "2. 行为准则",
+        "3. 反腐败",
+        "4. 数据保护",
+        "5. 供应商与合作伙伴",
+        "6. 公平竞争",
+        "7. 举报渠道",
+        "8. 更新",
+        "9. 联系我们"
+      ],
+      "introBefore": "",
+      "introAfter": " 隶属于 Interfy Corporation,我们在所有开展业务的国家均以道德、透明及法律与监管合规为经营准则。本文件概述了指导我们与客户、代理商、供应商及员工关系的合规原则。",
+      "sections": {
+        "compromisso": {
+          "title": "1. 我们对道德与诚信的承诺",
+          "p1": "Injectra 承诺以诚信经营业务,遵守适用法律,并对客户、员工、代理商、供应商及所在社区负责,支持美洲工业的可持续发展。"
+        },
+        "codigoConduta": {
+          "title": "2. 行为准则",
+          "p1": "Injectra 的员工、董事及代理商须遵循诚信、相互尊重、非歧视及工作安全等原则,避免利益冲突,并始终遵守现行法律法规及公司内部政策。"
+        },
+        "anticorrupcao": {
+          "title": "3. 反腐败与反欺诈",
+          "p1": "Injectra 在与公共或私营机构的商业往来中,不容忍任何形式的腐败、贿赂或不当支付行为。作为一家美国企业,我们遵守《反海外腐败法》(FCPA)的相关原则,以及我们开展业务所在国家(包括巴西)适用的其他反腐败法律。",
+          "p2": "经授权的代理商及商务合作伙伴在代表 Injectra 开展业务时,同样须遵守上述准则。"
+        },
+        "protecaoDados": {
+          "title": "4. 数据保护法律合规",
+          "p1Before": "Injectra 遵守适用的数据保护法律,包括巴西《通用数据保护法》(LGPD),具体详见我们的",
+          "p1LinkLabel": "隐私政策",
+          "p1After": "。"
+        },
+        "fornecedores": {
+          "title": "5. 与供应商及合作伙伴的关系",
+          "p1": "我们期望 Injectra 的供应商、代理商及商务合作伙伴秉持与我们同等的道德、合法性及人权与劳工权利保护标准,包括拒绝使用童工、强迫劳动以及反竞争行为。"
+        },
+        "concorrencia": {
+          "title": "6. 公平竞争",
+          "p1": "Injectra 凭借产品与服务质量参与市场竞争,遵守适用的竞争法,避免任何不当限制自由竞争的协议或行为。"
+        },
+        "canalDenuncias": {
+          "title": "7. 举报渠道",
+          "p1": "员工、客户、代理商及供应商可通过下方联系方式所列渠道,以保密方式举报涉嫌违反本合规承诺的行为,包括不道德行为、腐败行为或违反适用法律的情形。"
+        },
+        "alteracoes": {
+          "title": "8. 更新",
+          "p1": "本文件可能会定期更新,以反映我们合规实践或适用法律的演变。本页顶部载明最近更新日期。"
+        },
+        "contato": {
+          "title": "9. 联系我们",
+          "p1": "如需举报相关问题或了解更多有关我们合规计划的信息,请联系我们:"
+        }
+      }
+    }
+  },
+  "contato": {
+    "banner": {
+      "eyebrow": "联系我们",
+      "titlePrefix": "联系 ",
+      "titleHighlight": "Injectra",
+      "description": "我们的团队随时准备通过机械设备、机器人技术、AI 平台、服务与工业咨询,为您在美洲各地的业务提供支持。",
+      "quoteButton": "获取报价",
+      "specialistButton": "咨询专家",
+      "atendimento": {
+        "title": "Injectra 服务支持",
+        "description": "我们的团队随时为您的企业提供帮助。",
+        "items": [
+          "专业咨询服务",
+          "全面解决方案",
+          "尖端技术",
+          "持续支持保障"
+        ]
+      },
+      "performance": {
+        "title": "行业绩效表现",
+        "stats": [
+          {
+            "label": "产量",
+            "description": "较上月"
+          },
+          {
+            "label": "效率",
+            "description": "达成目标"
+          },
+          {
+            "label": "可用性",
+            "description": "正常运行"
+          }
+        ],
+        "roboticaTitle": "Neo 机器人技术"
+      },
+      "infoCards": [
+        {
+          "title": "美国办公室",
+          "description": "美国佛罗里达州奥兰多"
+        },
+        {
+          "title": "商务电话",
+          "description": "+1 (321) 888-7963"
+        },
+        {
+          "title": "电子邮箱",
+          "description": "info@injectracorp.com"
+        },
+        {
+          "title": "区域服务",
+          "description": "服务覆盖全美洲"
+        },
+        {
+          "title": "技术支持",
+          "description": "为机械设备、机器人技术及 AI 平台提供的专业团队"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备好改变您的工业运营了吗?",
+      "description": "与我们的团队交流,为机械设备、机器人技术、软件与自动化找到最佳解决方案。",
+      "quoteButton": "获取报价",
+      "specialistButton": "咨询专家"
+    },
+    "presenca": {
+      "regionCard": {
+        "title": "服务覆盖美洲",
+        "description": "总部位于美国,Injectra 为北美、中美及南美的客户、合作伙伴及工业项目提供支持。",
+        "linkLabel": "查看服务区域"
+      },
+      "highlightsCard": {
+        "title": "服务覆盖美洲",
+        "items": [
+          {
+            "title": "顾问式响应",
+            "description": "深入了解您的挑战,提供最佳解决方案。"
+          },
+          {
+            "title": "全面解决方案",
+            "description": "机械设备、机器人技术、软件与服务一体化整合。"
+          },
+          {
+            "title": "行业专家团队",
+            "description": "拥有丰富实际应用经验的专业团队。"
+          },
+          {
+            "title": "与 Injectra AI 集成",
+            "description": "以技术与数据提升生产力。"
+          }
+        ]
+      }
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    }
+  },
+  "experienceCenter": {
+    "banner": {
+      "eyebrow": "体验中心",
+      "title": "亲身体验科技。\n成就卓越成果。",
+      "subtitle": "Injectra 体验中心让您亲眼见证、亲手测试并切实验证我们的解决方案如何提升您企业的生产力、质量与竞争力。",
+      "ctaVisita": "预约参观",
+      "ctaEspecialista": "咨询专家",
+      "trustItems": [
+        {
+          "label": "尖端技术"
+        },
+        {
+          "label": "成果验证"
+        },
+        {
+          "label": "专属专家团队"
+        },
+        {
+          "label": "安全与可靠保障"
+        }
+      ]
+    },
+    "confianca": {
+      "items": [
+        {
+          "title": "美国技术",
+          "description": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "description": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "description": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "description": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "description": "能效优化与 ESG 实践"
+        }
+      ]
+    },
+    "diferenciais": {
+      "title": "为什么要参观我们的体验中心?",
+      "stats": [
+        {
+          "label": "累计参观人次"
+        },
+        {
+          "label": "应用测试次数"
+        },
+        {
+          "label": "满意客户数量"
+        },
+        {
+          "label": "专属专家人数"
+        }
+      ]
+    },
+    "esperar": {
+      "title": "您可以期待什么",
+      "items": [
+        {
+          "label": "个性化服务"
+        },
+        {
+          "label": "量身定制的解决方案"
+        },
+        {
+          "label": "最新一代技术"
+        },
+        {
+          "label": "现代化互动环境"
+        },
+        {
+          "label": "真实验证的成果"
+        }
+      ]
+    },
+    "experiencias": {
+      "title": "我们的体验项目",
+      "saibaMais": "了解更多",
+      "items": [
+        {
+          "title": "产品演示",
+          "description": "现场观看我们的机械设备与解决方案运行,了解 Injectra 技术如何改变您的生产。"
+        },
+        {
+          "title": "应用测试",
+          "description": "带上您的模具、材料或部件,在我们专家的支持下进行真实测试。"
+        },
+        {
+          "title": "展厅体验",
+          "description": "在创新的环境中近距离了解我们完整的机械设备、机器人技术及智能解决方案系列。"
+        },
+        {
+          "title": "培训课程",
+          "description": "通过技术与操作培训提升团队能力,发挥设备最大性能。"
+        },
+        {
+          "title": "方案验证",
+          "description": "与您共同验证最适合项目的解决方案,确保性能表现与投资回报。"
+        }
+      ]
+    },
+    "agendamento": {
+      "title": "立即预约您的专属体验",
+      "description": "亲身体验 Injectra 技术,发现我们如何助您的生产迈向新高度。",
+      "ctaVisita": "预约参观",
+      "ctaEspecialista": "咨询专家"
+    }
+  },
+  "faleComEspecialista": {
+    "hero": {
+      "eyebrow": "专家咨询",
+      "titlePrefix": "咨询",
+      "titleHighlight": "Injectra 专家。",
+      "subtitle": "商务、技术及工程咨询,助您的运营选择最合适的解决方案。",
+      "body": "我们的专家团队可为您提供机械设备选型、自动化、机器人技术、Injectra AI 集成及应用验证等方面的支持——始终以性能、效率及切实成果为核心,服务于您的行业。",
+      "ctaSchedule": "预约会议",
+      "ctaWhatsapp": "通过 WhatsApp 联系",
+      "cards": [
+        {
+          "title": "商务咨询",
+          "description": "了解您的需求,为您提供机械设备、机器人技术及 Injectra 解决方案的最佳选择。"
+        },
+        {
+          "title": "技术咨询",
+          "description": "专业技术分析,验证您应用场景的需求、流程与可行性。"
+        },
+        {
+          "title": "应用工程",
+          "description": "以性能、生产力与系统集成为核心,开发定制解决方案。"
+        },
+        {
+          "title": "会议预约",
+          "description": "为您对接合适的专家,安排技术会议或产品演示。"
+        }
+      ]
+    },
+    "comoAjudamos": {
+      "title": "我们如何提供帮助",
+      "subtitle": "为工业中最严苛的领域提供完整解决方案。",
+      "items": [
+        {
+          "title": "选择合适产品线",
+          "description": "帮助您为生产选择最合适的机械设备。"
+        },
+        {
+          "title": "应用分析",
+          "description": "分析您的工艺流程,推荐最佳配置方案。"
+        },
+        {
+          "title": "自动化与机器人技术",
+          "description": "提升生产效率、质量与安全性的解决方案。"
+        },
+        {
+          "title": "数字化集成",
+          "description": "将您的设备接入 Injectra AI,把数据转化为成果。"
+        },
+        {
+          "title": "降低成本",
+          "description": "提升生产力,减少浪费,提高效率。"
+        },
+        {
+          "title": "扩大产能",
+          "description": "可扩展的解决方案,匹配您企业的发展速度。"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "运作流程",
+      "subtitle": "简单的顾问式流程,助您找到最佳解决方案。",
+      "steps": [
+        {
+          "title": "提交您的需求",
+          "description": "填写表单,提供您的信息与目标。"
+        },
+        {
+          "title": "我们的团队进行分析",
+          "description": "专家评估您的需求及要求。"
+        },
+        {
+          "title": "推荐最佳方案",
+          "description": "为您呈现最适合的应用方案选项。"
+        },
+        {
+          "title": "安排技术/商务会议",
+          "description": "为您提供个性化会议,商讨细节及后续步骤。"
+        }
+      ]
+    },
+    "cta": {
+      "title": "顾问式服务,加速您的工业决策。",
+      "subtitle": "咨询我们的专家,了解 Injectra 如何以技术与智能改变您的生产。",
+      "quoteButton": "获取报价",
+      "meetingButton": "预约会议"
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    }
+  },
+  "industria": {
+    "banner": {
+      "kicker": "行业应用",
+      "title": "智能解决方案,助力工业各细分领域发展。",
+      "subtitle": "Injectra 提供机械设备、机器人技术及智能平台,提升不同工业领域的生产力、质量与竞争力。",
+      "ctaCatalogos": "查看全部产品目录",
+      "ctaEspecialista": "咨询专家",
+      "highlights": [
+        "定制解决方案",
+        "更高生产力",
+        "品质与可靠保障",
+        "服务覆盖美洲"
+      ]
+    },
+    "porQueEscolher": {
+      "title": "为什么选择 Injectra 服务您的行业?",
+      "items": [
+        {
+          "title": "先进技术",
+          "description": "新一代电动与液压机械设备。"
+        },
+        {
+          "title": "智能自动化",
+          "description": "机器人技术与集成系统,实现最高效率。"
+        },
+        {
+          "title": "专业支持",
+          "description": "在您所在领域拥有丰富经验的技术团队。"
+        },
+        {
+          "title": "成果验证",
+          "description": "更高生产力、更优质量与更低成本。"
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "按行业分类的产品目录",
+        "description": "下载适用于您所在领域的产品目录及案例。",
+        "cta": "查看产品目录"
+      },
+      "ajuda": {
+        "kicker": "需要帮助?",
+        "description": "我们的团队深入了解您所在的行业,协助您找到最佳解决方案。",
+        "cta": "联系我们"
+      },
+      "tecnologia": {
+        "kicker": "因地制宜的行业技术",
+        "description": "设备、自动化与智能技术,创造切实成果。",
+        "cta": "咨询专家"
+      }
+    },
+    "segmentos": {
+      "title": "我们服务的行业领域",
+      "ctaLabel": "查看解决方案",
+      "items": [
+        {
+          "title": "汽车工业",
+          "description": "涵盖塑料注塑、部件加工、表面处理及自动化流程的完整解决方案。"
+        },
+        {
+          "title": "包装行业",
+          "description": "高速高精度的塑料包装机械及自动化系统。"
+        },
+        {
+          "title": "医疗行业",
+          "description": "以最高精度与可追溯性生产医疗部件的设备。"
+        },
+        {
+          "title": "消费品行业",
+          "description": "为日常消费品提供高效率、高质量、高竞争力的解决方案。"
+        },
+        {
+          "title": "电子行业",
+          "description": "面向电子元件的精密注塑及自动化装配。"
+        },
+        {
+          "title": "建筑行业",
+          "description": "面向技术性部件、管材接头及建材的坚固可靠解决方案。"
+        },
+        {
+          "title": "物流行业",
+          "description": "优化流程、仓储与物流搬运的系统与解决方案。"
+        },
+        {
+          "title": "其他领域",
+          "description": "以定制化的高科技解决方案服务各类工业领域。"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    }
+  },
+  "maquinas": {
+    "banner": {
+      "kicker": "机械设备",
+      "title": "面向工业各领域的注塑技术。",
+      "subtitle": "九大液压与电动机械产品线,专为各类应用场景的极致性能、精度与效率而设计。",
+      "ctaCatalogos": "查看全部产品目录",
+      "ctaEspecialista": "咨询专家",
+      "stats": [
+        "101 款机械型号",
+        "70+ 配件与外围设备",
+        "100% 全面集成技术"
+      ]
+    },
+    "comoFunciona": {
+      "title": "如何浏览各型号产品",
+      "description": "选择一个产品线,轻松浏览所有可用型号。每个页面均提供技术规格、产品目录及报价选项。",
+      "sidebarItemLabel": "Prime IP - X",
+      "detailTitle": "Prime IP - X",
+      "detailDescription": "精度、多功能性与性能,适用于通用领域应用。",
+      "ctaCatalogos": "查看全部产品目录",
+      "ctaEspecialista": "咨询专家",
+      "specs": [
+        {
+          "title": "X 吨锁模力",
+          "subtitle": "锁模力"
+        },
+        {
+          "title": "拉杆间距",
+          "subtitle": "X x X 毫米"
+        },
+        {
+          "title": "高精度"
+        },
+        {
+          "title": "技术支持",
+          "subtitle": "专业服务"
+        }
+      ]
+    },
+    "comparativo": {
+      "title": "产品线对比",
+      "subtitle": "快速找到最适合您需求的产品线。",
+      "rows": [
+        "应用领域",
+        "驱动方式",
+        "吨位范围",
+        "核心优势"
+      ],
+      "columns": [
+        {
+          "name": "Prime",
+          "aplicacao": "通用领域",
+          "acionamento": "液压驱动",
+          "tonelagem": "60 - 1,000 吨",
+          "destaque": "精度与多功能性"
+        },
+        {
+          "name": "Speed",
+          "aplicacao": "高速应用",
+          "acionamento": "液压驱动",
+          "tonelagem": "70 - 800 吨",
+          "destaque": "快速成型周期与高效率"
+        },
+        {
+          "name": "Velocity",
+          "aplicacao": "高产能应用",
+          "acionamento": "液压驱动",
+          "tonelagem": "80 - 500 吨",
+          "destaque": "极致速度"
+        },
+        {
+          "name": "Form",
+          "aplicacao": "精密技术性部件",
+          "acionamento": "液压驱动",
+          "tonelagem": "100 - 800 吨",
+          "destaque": "高精度"
+        },
+        {
+          "name": "Neo",
+          "aplicacao": "节能与高精度",
+          "acionamento": "100% 电动",
+          "tonelagem": "60 - 350 吨",
+          "destaque": "能效与精度兼备"
+        },
+        {
+          "name": "Altas",
+          "aplicacao": "大型部件与包装",
+          "acionamento": "液压驱动",
+          "tonelagem": "400 - 4,000 吨",
+          "destaque": "大型部件坚固性"
+        },
+        {
+          "name": "Hydro",
+          "aplicacao": "重型应用",
+          "acionamento": "液压驱动",
+          "tonelagem": "180 - 3,000 吨",
+          "destaque": "高要求应用动力保障"
+        },
+        {
+          "name": "Titan",
+          "aplicacao": "大型模具",
+          "acionamento": "液压驱动",
+          "tonelagem": "650 - 4,000 吨",
+          "destaque": "超大吨位"
+        },
+        {
+          "name": "Max",
+          "aplicacao": "大型部件与高要求应用",
+          "acionamento": "液压驱动",
+          "tonelagem": "800 - 5,000 吨",
+          "destaque": "最大产能"
+        },
+        {
+          "name": "Equora",
+          "aplicacao": "高要求多功能应用",
+          "acionamento": "混合动力",
+          "tonelagem": "100 - 2,000 吨",
+          "destaque": "力量与效率的平衡"
+        }
+      ]
+    },
+    "linhasDeMaquinas": {
+      "title": "我们的机械产品线",
+      "subtitle": "快速找到最适合您需求的产品线。",
+      "ctaVerModelos": "查看型号",
+      "machines": [
+        {
+          "name": "PRIME",
+          "description": "高精度与多功能性,适用于通用领域应用。"
+        },
+        {
+          "name": "SPEED",
+          "description": "快速成型周期与卓越效率。"
+        },
+        {
+          "name": "VELOCITY",
+          "description": "超高速运行与极致产能。"
+        },
+        {
+          "name": "FORM",
+          "description": "面向高精度技术性部件的解决方案。"
+        },
+        {
+          "name": "NEO",
+          "description": "100% 电动产品线,具有高重复性与能效表现。"
+        },
+        {
+          "name": "ATLAS",
+          "description": "专注于塑料箱、托盘及大型部件生产。"
+        },
+        {
+          "name": "HYDRO",
+          "description": "液压动力,适用于高要求应用。"
+        },
+        {
+          "name": "TITAN",
+          "description": "超大吨位,适用于坚固模具及高要求场景。"
+        },
+        {
+          "name": "MAX",
+          "description": "最大产能与坚固性,应对最严峻挑战。"
+        },
+        {
+          "name": "EQUORA",
+          "description": "混合动力技术,兼具力量、效率与经济性的平衡。"
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "产品目录",
+        "description": "下载所有产品线及机械设备的完整目录",
+        "cta": "查看全部产品目录"
+      },
+      "ajuda": {
+        "kicker": "需要帮助?",
+        "description": "咨询我们的专家,为您的应用找到最佳解决方案。",
+        "cta": "咨询专家"
+      },
+      "video": {
+        "title": "驱动工业发展的技术。",
+        "description": "观看视频,了解 Injectra 的核心优势。",
+        "ariaPlay": "观看视频"
+      }
+    },
+    "tecnologias": {
+      "title": "Injectra 技术",
+      "subtitle": "将性能转化为成果的创新技术。",
+      "items": [
+        {
+          "title": "智能伺服驱动",
+          "description": "精准运动控制,实现最高重复精度。"
+        },
+        {
+          "title": "先进液压系统",
+          "description": "高性能、高效率的液压系统。"
+        },
+        {
+          "title": "高精度注塑",
+          "description": "先进的注塑控制,打造高品质部件。"
+        },
+        {
+          "title": "能源效率",
+          "description": "降低能耗、提升可持续性的技术。"
+        },
+        {
+          "title": "全面互联",
+          "description": "机械设备接入 Injectra AI,实现智能管理。"
+        },
+        {
+          "title": "集成安全系统",
+          "description": "为操作人员与工艺流程提供完整的安全保障系统。"
+        }
+      ]
+    },
+    "tecnologiasDasLinhas": {
+      "tags": [
+        "液压驱动",
+        "100% 电动",
+        "混合动力",
+        "机器人技术",
+        "Injectra AI",
+        "工业物联网",
+        "OEE 与数据分析",
+        "移动应用",
+        "技术支持服务"
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    },
+    "modelo": {
+      "breadcrumb": {
+        "home": "首页",
+        "maquinas": "机械设备"
+      },
+      "hero": {
+        "ctaCotacao": "获取报价",
+        "ctaCatalogo": "下载产品目录",
+        "ctaEspecialista": "咨询专家"
+      },
+      "quickSpecs": {
+        "forca": {
+          "title": "吨锁模力",
+          "subtitle": "锁模力"
+        },
+        "tieBar": {
+          "title": "拉杆间距"
+        },
+        "precisao": {
+          "title": "高精度"
+        },
+        "suporte": {
+          "title": "技术支持",
+          "subtitle": "专业服务"
+        }
+      },
+      "comparativo": {
+        "title": "产品线对比",
+        "subtitle": "快速找到最适合您需求的产品线。",
+        "rows": {
+          "serie": "系列",
+          "modelo": "型号",
+          "forcaFechamento": "锁模力",
+          "tieBar": "拉杆间距",
+          "tecnologia": "技术",
+          "aplicacoesIndicadas": "推荐应用",
+          "configuracaoComercial": "商务配置",
+          "suporte": "支持服务"
+        }
+      },
+      "aplicacoesBeneficios": {
+        "title": "应用与优势",
+        "items": {
+          "pecasTecnicas": {
+            "title": "技术性部件",
+            "description": "适用于要求精度与重复性的部件。"
+          },
+          "consumo": {
+            "title": "消费品",
+            "description": "面向日常产品的高质量高效解决方案。"
+          },
+          "automacaoIntegrada": {
+            "title": "集成自动化",
+            "description": "兼容现代外围设备与自动化系统。"
+          },
+          "baixoCusto": {
+            "title": "低运营成本",
+            "description": "高效设计,降低能耗与维护成本。"
+          }
+        }
+      },
+      "ctaConfigurar": {
+        "titleTemplate": "准备好配置您的 {model} 了吗?",
+        "description": "加入正以技术与创新改变美洲工业的合作伙伴网络。",
+        "ctaCotacao": "获取报价",
+        "ctaEspecialista": "咨询专家",
+        "trustItems": [
+          {
+            "title": "美国技术",
+            "description": "研发于美国"
+          },
+          {
+            "title": "服务覆盖美洲",
+            "description": "本地化服务"
+          },
+          {
+            "title": "30 余年行业经验",
+            "description": "深耕工业解决方案"
+          },
+          {
+            "title": "24/7 全天候支持",
+            "description": "专业技术支持服务"
+          },
+          {
+            "title": "可持续发展",
+            "description": "能效优化与 ESG 实践"
+          }
+        ]
+      },
+      "especificacoes": {
+        "prime-ip": {
+          "forcaTonelagem": "60 吨",
+          "tieBar": "290 x 270 毫米",
+          "aplicacoesIndicadas": "家居用品、技术性部件、消费品及工业部件",
+          "configuracaoComercial": "可提供定制化报价",
+          "suporte": "专业技术支持与咨询服务"
+        }
+      },
+      "linhas": {
+        "prime-ip": {
+          "description": "精度、多功能性与性能,适用于通用领域应用。"
+        }
+      }
+    }
+  },
+  "plataformaAi": {
+    "banner": {
+      "eyebrow": "AI 平台",
+      "title": "数据、连接与智能,重塑您的生产。",
+      "subtitle": "Injectra AI 平台将机械设备、人员与流程连接至一个智能生态系统,提升生产力、减少停机时间,并实现实时决策。",
+      "ctaPrimary": "申请演示",
+      "ctaSecondary": "咨询专家",
+      "trustItems": [
+        {
+          "label": "100% 安全云平台"
+        },
+        {
+          "label": "人工智能技术"
+        },
+        {
+          "label": "实时决策支持"
+        },
+        {
+          "label": "最高安全与可靠保障"
+        }
+      ]
+    },
+    "fluxo": {
+      "title": "立即预约您的专属体验",
+      "description": "亲身体验 Injectra 技术,发现我们如何助您的生产迈向新高度。",
+      "etapas": [
+        {
+          "title": "Injectra 机械设备",
+          "description": "实时数据采集"
+        },
+        {
+          "title": "传感器与设备",
+          "description": "数据采集"
+        },
+        {
+          "title": "AI 云平台",
+          "description": "数据处理与人工智能分析"
+        },
+        {
+          "title": "数据看板与报告",
+          "description": "可视化与分析"
+        },
+        {
+          "title": "行动与决策",
+          "description": "成果与效率提升"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "驱动工业发展的解决方案",
+      "items": [
+        {
+          "title": "云端数据看板",
+          "description": "随时随地、任何设备,实时掌握生产各项指标。"
+        },
+        {
+          "title": "移动应用",
+          "description": "生产管理尽在掌心。随时随地监控、接收警报并采取行动。"
+        },
+        {
+          "title": "工业物联网",
+          "description": "连接机械设备、传感器与终端,实现高安全性的实时数据采集。"
+        },
+        {
+          "title": "OEE",
+          "description": "实时监控设备可用性、性能与质量,提升运营效率。"
+        },
+        {
+          "title": "数据分析",
+          "description": "通过先进分析与定制报告,将数据转化为有价值的洞察。"
+        },
+        {
+          "title": "预测性维护",
+          "description": "借助 AI 与机器学习算法,提前预知故障,减少非计划停机。"
+        },
+        {
+          "title": "智能警报",
+          "description": "接收关键警报与智能建议,在问题影响生产前及时处理。"
+        },
+        {
+          "title": "OTA 远程更新",
+          "description": "远程软件与固件更新,确保平台始终保持最新与安全状态。"
+        },
+        {
+          "title": "Injectra AI",
+          "description": "应用于工业领域的人工智能技术,持续优化流程、质量与生产力。"
+        }
+      ]
+    }
+  },
+  "representantes": {
+    "banner": {
+      "badge": "代理商计划",
+      "title": "成为 Injectra 代理商,将尖端科技带入您所在的地区。",
+      "subtitle": "合作、支持与技术,助您与全球领先的工业解决方案品牌共同成长。",
+      "ctaPrimary": "申请成为代理商",
+      "ctaSecondary": "咨询专家",
+      "highlights": [
+        "全球领先技术",
+        "高性能产品",
+        "全方位支持",
+        "携手共同成长"
+      ]
+    },
+    "beneficios": {
+      "title": "成为 Injectra 代理商的优势",
+      "items": [
+        {
+          "title": "丰厚佣金",
+          "description": "获取具有竞争力的佣金,实现持续增长。"
+        },
+        {
+          "title": "高品质产品",
+          "description": "面向多个工业领域的创新可靠解决方案。"
+        },
+        {
+          "title": "支持与培训",
+          "description": "持续的技术与商务培训,助您取得成功。"
+        },
+        {
+          "title": "营销与物料支持",
+          "description": "营销支持、专属物料及需求开发协助。"
+        },
+        {
+          "title": "值得信赖的全球品牌",
+          "description": "代表在整个美洲广受认可的品牌。"
+        },
+        {
+          "title": "成长机遇",
+          "description": "扩大您的产品组合,拓展业务规模。"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "成为 Injectra 代理商的优势",
+      "items": [
+        {
+          "title": "注册申请",
+          "description": "填写完整表单并提交您的资料。"
+        },
+        {
+          "title": "评估审核",
+          "description": "我们的团队将评估您的资质及所在地区的潜力。"
+        },
+        {
+          "title": "审批通过",
+          "description": "审批通过后,正式加入该计划。"
+        },
+        {
+          "title": "培训",
+          "description": "接受全面的技术与商务培训。"
+        },
+        {
+          "title": "正式运营",
+          "description": "开始代理业务,将 Injectra 技术带入您所在地区。"
+        }
+      ]
+    },
+    "nossasExperiencias": {
+      "title": "我们的服务足迹",
+      "mapAlt": "美洲地图",
+      "ctaLabel": "查看合作机会",
+      "regioes": [
+        {
+          "title": "北美洲",
+          "description": "美国、加拿大及墨西哥"
+        },
+        {
+          "title": "中美洲",
+          "description": "危地马拉、巴拿马、哥斯达黎加及其他国家"
+        },
+        {
+          "title": "加勒比地区",
+          "description": "加勒比群岛及加勒比国家"
+        },
+        {
+          "title": "南美洲",
+          "description": "巴西、阿根廷、智利、哥伦比亚及其他国家"
+        },
+        {
+          "title": "安第斯地区",
+          "description": "厄瓜多尔、秘鲁、玻利维亚及委内瑞拉"
+        },
+        {
+          "title": "其他市场",
+          "description": "新兴市场的合作机会"
+        }
+      ]
+    },
+    "cta": {
+      "title": "携手共同成长!",
+      "description": "加入正以技术与创新改变美洲工业的合作伙伴网络。",
+      "stats": [
+        {
+          "label": "活跃代理商数量"
+        },
+        {
+          "label": "服务国家数量"
+        },
+        {
+          "label": "已安装机械设备数量"
+        },
+        {
+          "label": "全球从业经验年限"
+        }
+      ],
+      "trustItems": [
+        {
+          "title": "美国技术",
+          "description": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "description": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "description": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "description": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "description": "能效优化与 ESG 实践"
+        }
+      ]
+    }
+  },
+  "robotica": {
+    "banner": {
+      "badge": "机器人技术",
+      "title": "智能自动化,驱动卓越成果。",
+      "subtitle": "涵盖搬运、装卸、码垛及与 Injectra 机械设备集成的完整机器人与自动化解决方案。",
+      "highlights": [
+        {
+          "label": "高生产力"
+        },
+        {
+          "label": "精度与重复性"
+        },
+        {
+          "label": "全面灵活性"
+        },
+        {
+          "label": "与 Injectra AI 集成"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    },
+    "aplicacoes": {
+      "title": "跨领域应用场景",
+      "items": [
+        {
+          "title": "塑料注塑",
+          "description": "部件取出与物料供给。"
+        },
+        {
+          "title": "物料搬运",
+          "description": "高速取放作业。"
+        },
+        {
+          "title": "装配",
+          "description": "部件装配与插接。"
+        },
+        {
+          "title": "检测",
+          "description": "智能视觉与质量控制。"
+        },
+        {
+          "title": "码垛",
+          "description": "分层堆叠与码垛作业。"
+        },
+        {
+          "title": "包装",
+          "description": "装箱与包装作业。"
+        },
+        {
+          "title": "内部物流",
+          "description": "自主搬运与运输。"
+        }
+      ]
+    },
+    "capacidade": {
+      "title": "Neo 人形机器人",
+      "subtitle": "专为与人员及工业环境安全、灵活、智能互动而设计。",
+      "checklist": [
+        "3D 感知与计算机视觉",
+        "先进移动能力与动态平衡",
+        "与人员安全交互",
+        "持续学习与自适应能力",
+        "原生集成 Injectra AI"
+      ],
+      "ctaLabel": "了解 Neo",
+      "robotImageAlt": "Neo 人形机器人",
+      "specs": [
+        "自由度",
+        "视觉与感知",
+        "最大速度",
+        "有效载荷",
+        "工业防护等级"
+      ],
+      "videoThumbAlt": "Neo 机器人运行中",
+      "videoTitle": "自动化,超越想象。",
+      "videoDescription": "观看 Neo 在工业现场的实际运行",
+      "watchLabel": "观看演示"
+    },
+    "solucoes": {
+      "title": "我们的机器人解决方案",
+      "detailsLabel": "查看详情",
+      "items": [
+        {
+          "title": "Neo 人形机器人",
+          "description": "智能自动化的未来。具备移动、感知与交互能力,可执行复杂任务。"
+        },
+        {
+          "title": "直角坐标机器人",
+          "description": "高速高精度,适用于物料搬运、取放及部件取出。"
+        },
+        {
+          "title": "机器人工作单元",
+          "description": "针对不同应用及自动化水平的完整定制解决方案。"
+        },
+        {
+          "title": "码垛系统",
+          "description": "高效码垛系统,提升生产力并实现流程标准化。"
+        },
+        {
+          "title": "智能自动化",
+          "description": "集成传感器与控制系统,打造更智能、更互联的工厂。"
+        },
+        {
+          "title": "与 Injectra AI 集成",
+          "description": "与 Injectra AI 平台全面集成,实现智能监控与决策。"
+        }
+      ]
+    },
+    "integracao": {
+      "title": "与工业生产的全面集成",
+      "subtitle": "完美融入您生产流程的解决方案。",
+      "etapas": [
+        {
+          "title": "Injectra 机械设备",
+          "description": "液压与电动注塑机。"
+        },
+        {
+          "title": "机器人与自动化",
+          "description": "直角坐标机器人 Neo 及机器人工作单元。"
+        },
+        {
+          "title": "输送与传输",
+          "description": "智能物料搬运。"
+        },
+        {
+          "title": "码垛",
+          "description": "整理与堆叠。"
+        },
+        {
+          "title": "Injectra AI 平台",
+          "description": "实时监控与控制。"
+        }
+      ],
+      "cardTitle": "一切互联。",
+      "cardDescription": "实时监控、数据与决策,实现最高效率。",
+      "ctaLabel": "了解 AI 平台"
+    },
+    "comparativo": {
+      "title": "对比:哪种方案最适合您的需求?",
+      "columns": {
+        "solucao": "方案",
+        "velocidade": "速度",
+        "precisao": "精度",
+        "flexibilidade": "灵活性",
+        "cargaUtil": "有效载荷",
+        "aplicacoes": "应用场景",
+        "integracaoAi": "AI 集成"
+      },
+      "rows": [
+        {
+          "solucao": "Neo 人形机器人",
+          "cargaUtil": "10+ 千克",
+          "aplicacoes": "交互、检测、辅助作业",
+          "integracaoAi": "原生集成"
+        },
+        {
+          "solucao": "直角坐标机器人",
+          "cargaUtil": "最高 50 千克",
+          "aplicacoes": "取放、物料搬运",
+          "integracaoAi": "全面集成"
+        },
+        {
+          "solucao": "机器人工作单元",
+          "cargaUtil": "最高 200 千克",
+          "aplicacoes": "自动化流程",
+          "integracaoAi": "全面集成"
+        },
+        {
+          "solucao": "码垛系统",
+          "cargaUtil": "最高 500 千克",
+          "aplicacoes": "码垛、拆垛",
+          "integracaoAi": "全面集成"
+        },
+        {
+          "solucao": "智能自动化",
+          "cargaUtil": "可变",
+          "aplicacoes": "流程集成",
+          "integracaoAi": "全面集成"
+        },
+        {
+          "solucao": "AI 集成",
+          "cargaUtil": "无限制",
+          "aplicacoes": "监控与决策",
+          "integracaoAi": "原生集成"
+        }
+      ],
+      "helpTitle": "需要帮助选择方案吗?",
+      "helpDescription": "我们的专家团队将为您的运营推荐最合适的解决方案。",
+      "helpCta": "咨询专家"
+    },
+    "cta": {
+      "title": "准备好将您的生产提升到新高度了吗?",
+      "description": "咨询我们的专家,了解 Injectra 机器人技术如何以更高的生产力与安全性改变您的行业。",
+      "quoteButton": "获取报价",
+      "specialistButton": "咨询专家"
+    }
+  },
+  "sobreNos": {
+    "banner": {
+      "eyebrow": "关于我们",
+      "title": "关于 Injectra",
+      "subtitle": "以工业技术改变美洲制造业。",
+      "description": "Injectra Corporation 是一家专注于注塑机、机器人技术、工业软件、物联网、云计算与人工智能的美国企业。我们的目标是为追求以技术实现增长的工业企业,带来生产力、自动化与效率的提升。",
+      "highlights": [
+        {
+          "label": "美国企业"
+        },
+        {
+          "label": "服务覆盖美洲"
+        },
+        {
+          "label": "专注工业与创新"
+        }
+      ]
+    },
+    "quemSomos": {
+      "title": "关于我们",
+      "paragraph1": "Injectra 的诞生,旨在将工业工程、自动化与数字智能融为一体的统一平台。",
+      "paragraph2": "我们不仅仅销售机械设备,更构建了涵盖设备、机器人技术、服务与软件的完整生态系统。",
+      "pilares": [
+        {
+          "title": "注塑机",
+          "description": "尖端技术,实现卓越性能与可靠性。"
+        },
+        {
+          "title": "工业机器人技术",
+          "description": "智能自动化,提升生产力与质量。"
+        },
+        {
+          "title": "Injectra AI 平台",
+          "description": "集人工智能、数据与分析于一体的工业软件,助力更优决策。"
+        },
+        {
+          "title": "服务与支持",
+          "description": "技术支持、培训及服务,确保您的成果达成。"
+        }
+      ]
+    },
+    "missaoVisaoValores": {
+      "title": "我们的使命、愿景与价值观",
+      "items": [
+        {
+          "title": "使命",
+          "description": "以智能、普惠、可扩展的解决方案推动工业发展。"
+        },
+        {
+          "title": "愿景",
+          "description": "打造美洲领先的智能工业平台之一。"
+        },
+        {
+          "title": "价值观",
+          "description": "创新、信任、效率、贴近客户与可持续增长。"
+        }
+      ]
+    },
+    "ecossistema": {
+      "title": "我们的生态系统",
+      "items": [
+        {
+          "title": "机械设备",
+          "description": "高精度、卓越性能的注塑设备。"
+        },
+        {
+          "title": "Neo 机器人",
+          "description": "协作机器人技术与自动化解决方案。"
+        },
+        {
+          "title": "工业物联网",
+          "description": "实时连接与监控。"
+        },
+        {
+          "title": "Injectra AI",
+          "description": "应用于工业领域的人工智能技术。"
+        },
+        {
+          "title": "移动应用",
+          "description": "随时随地掌控与追踪。"
+        },
+        {
+          "title": "云平台与数据分析",
+          "description": "安全数据与战略决策分析。"
+        },
+        {
+          "title": "体验中心",
+          "description": "用于测试、培训与创新的沉浸式空间。"
+        },
+        {
+          "title": "技术支持",
+          "description": "随时为您的运营提供支持的专家团队。"
+        }
+      ]
+    },
+    "grupoInterfy": {
+      "logoAlt": "Interfy Corporation",
+      "paragraph1": "Injectra 隶属于 Interfy Corporation 集团,该集团在科技、软件、数字化转型与业务拓展领域拥有超过 26 年的经验。",
+      "paragraph2": "这一坚实基础为 Injectra 带来了全球视野、企业化架构、创新经验及国际化发展能力。",
+      "destaques": [
+        {
+          "title": "26 年以上行业经验"
+        },
+        {
+          "title": "全球视野"
+        },
+        {
+          "title": "企业化架构"
+        },
+        {
+          "title": "创新与技术"
+        }
+      ]
+    },
+    "cta": {
+      "title": "准备好深入了解 Injectra 了吗?",
+      "description": "咨询我们的专家,了解我们的解决方案如何改变您的行业。",
+      "quoteButton": "获取报价",
+      "specialistButton": "咨询专家",
+      "trustItems": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    }
+  },
+  "solicitarCotacao": {
+    "banner": {
+      "eyebrow": "获取报价",
+      "title": "获取报价",
+      "subtitle": "为 Injectra 机械设备、机器人技术及工业平台申请专属定制方案。",
+      "description": "凭借我们的专业能力,以技术、创新与性能为您的项目打造最佳解决方案。",
+      "highlights": [
+        {
+          "lines": [
+            "尖端",
+            "技术"
+          ]
+        },
+        {
+          "lines": [
+            "一体化",
+            "解决方案"
+          ]
+        },
+        {
+          "lines": [
+            "卓越性能验证"
+          ]
+        }
+      ]
+    },
+    "configurador": {
+      "selecaoLinha": {
+        "title": "选择产品线",
+        "subtitle": "选择您感兴趣的机械产品线",
+        "linhas": [
+          {
+            "name": "Prime",
+            "description": "可靠性与多功能性。"
+          },
+          {
+            "name": "Speed",
+            "description": "高性能与高产能。"
+          },
+          {
+            "name": "Velocity",
+            "description": "应对重大挑战的精度与动力。"
+          },
+          {
+            "name": "Form",
+            "description": "精密及薄壁技术性部件加工精度。"
+          },
+          {
+            "name": "Neo",
+            "description": "电动高效,低能耗。"
+          },
+          {
+            "name": "Atlas",
+            "description": "大型部件所需的力量与稳定性。"
+          },
+          {
+            "name": "Hydro",
+            "description": "先进液压技术与坚固耐用性。"
+          },
+          {
+            "name": "Titan",
+            "description": "应对极端应用的最大动力。"
+          },
+          {
+            "name": "Max",
+            "description": "超高产能解决方案。"
+          },
+          {
+            "name": "Equora",
+            "description": "混合动力技术,兼具力量、效率与经济性的平衡。"
+          }
+        ],
+        "alertText": "在下一步骤中,您可以配置机械设备的全部详细参数。",
+        "nextButton": "下一步:机械配置"
+      },
+      "configuracaoMaquina": {
+        "title": "机械配置",
+        "subtitle": "根据您项目的需求定制您的机械设备。",
+        "fields": {
+          "forca": {
+            "label": "锁模力",
+            "placeholder": "选择锁模力(吨)"
+          },
+          "aplicacao": {
+            "label": "应用类型",
+            "placeholder": "选择应用类型"
+          },
+          "automacao": {
+            "label": "自动化程度",
+            "placeholder": "选择自动化等级"
+          },
+          "robotica": {
+            "label": "机器人技术",
+            "placeholder": "选择相应选项"
+          },
+          "opcionais": {
+            "label": "可选配置",
+            "placeholder": "选择可选配置"
+          },
+          "voltagem": {
+            "label": "电压",
+            "placeholder": "选择电压"
+          },
+          "produtividade": {
+            "label": "预计产能",
+            "placeholder": "选择产能水平"
+          },
+          "acessorios": {
+            "label": "配件",
+            "placeholder": "选择配件"
+          },
+          "integracaoAI": {
+            "label": "与 Injectra AI 集成",
+            "placeholder": "选择集成方案"
+          }
+        },
+        "options": {
+          "forcaUnidade": "吨",
+          "aplicacao": [
+            "包装",
+            "汽车",
+            "电子",
+            "医疗",
+            "消费品",
+            "建筑",
+            "其他"
+          ],
+          "automacao": [
+            "人工操作",
+            "半自动化",
+            "集成自动化",
+            "全面自动化(含机器人技术)"
+          ],
+          "robotica": [
+            "无机器人配置",
+            "直角坐标机器人",
+            "关节型机器人(6 轴)",
+            "协作机器人"
+          ],
+          "opcionais": [
+            "无",
+            "高级冷却系统",
+            "自动送料机",
+            "干燥系统",
+            "其他"
+          ],
+          "voltagem": [
+            "220V",
+            "380V",
+            "440V",
+            "其他"
+          ],
+          "produtividade": [
+            "低产量",
+            "中等产量",
+            "高产量",
+            "超高产量(24/7 连续生产)"
+          ],
+          "acessorios": [
+            "无",
+            "定制模具",
+            "自动化系统",
+            "干燥系统",
+            "其他"
+          ],
+          "integracaoAI": [
+            "无集成",
+            "基础监控",
+            "Injectra AI 全面平台"
+          ]
+        },
+        "alertText": "我们的技术团队将利用这些信息,为您的项目打造最合适的解决方案。"
+      },
+      "resumo": {
+        "title": "已选配置",
+        "linhaSelecionadaLabel": "已选产品线",
+        "emptyValue": "-",
+        "saveButton": "保存配置"
+      }
+    },
+    "cta": {
+      "title": "准备好接收您的专属定制方案了吗?",
+      "description": "填写相关信息,配置您的机械设备并提交申请。我们的团队将尽快为您的项目提供最佳解决方案。",
+      "primaryButton": "获取报价",
+      "secondaryButton": "咨询专家"
+    },
+    "envioDaProposta": {
+      "title": "方案提交流程",
+      "etapas": [
+        {
+          "title": "技术分析",
+          "description": "我们的技术团队分析您项目的信息,确定最佳解决方案。"
+        },
+        {
+          "title": "商务审核",
+          "description": "对可行性及个性化商务条件进行审核确认。"
+        },
+        {
+          "title": "专属方案",
+          "description": "我们将为您的项目提供包含规格、周期及条件的完整方案。"
+        },
+        {
+          "title": "专家全程支持",
+          "description": "我们的专家将全程陪伴您,直至方案落地实施。"
+        }
+      ]
+    },
+    "porQueEscolher": {
+      "title": "为什么选择 Injectra?",
+      "razoes": [
+        {
+          "title": "顾问式服务",
+          "description": "深入了解您的项目,提供最佳解决方案。"
+        },
+        {
+          "title": "量身定制方案",
+          "description": "每一处细节均按您的需求量身打造。"
+        },
+        {
+          "title": "快速响应",
+          "description": "快速反馈,提供个性化方案。"
+        },
+        {
+          "title": "技术支持",
+          "description": "售前、售中及售后的专业跟进服务。"
+        },
+        {
+          "title": "一体化解决方案",
+          "description": "机械设备、机器人技术与 AI 平台互联,实现最高效率。"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "description": "本地化服务,支持覆盖全美洲。"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "美国技术",
+          "subtitle": "研发于美国"
+        },
+        {
+          "title": "服务覆盖美洲",
+          "subtitle": "本地化服务"
+        },
+        {
+          "title": "30 余年行业经验",
+          "subtitle": "深耕工业解决方案"
+        },
+        {
+          "title": "24/7 全天候支持",
+          "subtitle": "专业技术支持服务"
+        },
+        {
+          "title": "可持续发展",
+          "subtitle": "能效优化与 ESG 实践"
+        }
+      ]
+    }
+  },
+  "suporte": {
+    "banner": {
+      "eyebrow": "支持服务",
+      "title": "我们随时为您的生产保驾护航,持续运转不停歇",
+      "description": "全面专业的支持服务,确保 Injectra 解决方案在您运营的每个环节都发挥最佳性能。",
+      "openTicketLabel": "提交工单",
+      "talkToSpecialistLabel": "咨询专家",
+      "highlights": [
+        {
+          "label": "专属专家团队"
+        },
+        {
+          "label": "快速高效的支持服务"
+        },
+        {
+          "label": "服务覆盖全美洲"
+        },
+        {
+          "label": "永不停歇的技术"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "我们的支持解决方案",
+      "accessLabel": "访问",
+      "items": [
+        {
+          "title": "技术支持",
+          "description": "提供远程或现场专业诊断服务,全面解决问题并提供技术指导。"
+        },
+        {
+          "title": "保修服务",
+          "description": "查询 Injectra 设备的保修范围,快速便捷地完成保修登记。"
+        },
+        {
+          "title": "使用手册",
+          "description": "获取 Injectra 设备的安装、操作及维护手册。"
+        },
+        {
+          "title": "下载中心",
+          "description": "下载软件、固件、技术文档及其他重要资源。"
+        },
+        {
+          "title": "常见问题",
+          "description": "快速查找关于我们产品与服务的常见问题解答。"
+        },
+        {
+          "title": "备件申请",
+          "description": "安全便捷地申请原厂备件。"
+        }
+      ]
+    },
+    "atendimento": {
+      "title": "服务覆盖全美洲",
+      "description": "本地支持与授权经销商随时随地为您提供服务。",
+      "ctaLabel": "查看服务网点",
+      "stats": [
+        {
+          "value": "+30",
+          "label": "服务国家数量"
+        },
+        {
+          "value": "+100",
+          "label": "认证技术人员数量"
+        },
+        {
+          "value": "+5,000",
+          "label": "满意客户数量"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "运作流程",
+      "description": "简单的顾问式流程,助您找到最佳解决方案。",
+      "etapas": [
+        {
+          "title": "1. 联系我们",
+          "description": "通过网站、电话或电子邮件提交工单。"
+        },
+        {
+          "title": "2. 故障诊断",
+          "description": "我们的团队分析您的请求,确定最佳解决方案。"
+        },
+        {
+          "title": "3. 解决方案",
+          "description": "提供理想的解决方式:远程支持、操作指导或现场服务。"
+        },
+        {
+          "title": "4. 跟进服务",
+          "description": "全程跟进,直至问题彻底解决。"
+        },
+        {
+          "title": "5. 生产不中断",
+          "description": "Injectra 支持服务,始终保障性能与生产力。"
+        }
+      ]
+    },
+    "pecas": {
+      "title": "Injectra 原厂备件",
+      "description": "为您的设备提供最高品质与耐用性保障。立即申请原厂备件。",
+      "imageAlt": "Injectra 原厂备件",
+      "requestPartsLabel": "申请备件",
+      "items": [
+        {
+          "title": "品质保障"
+        },
+        {
+          "title": "快速交付"
+        },
+        {
+          "title": "全面兼容"
+        }
+      ]
+    }
+  },
+  "forms": {
+    "shared": {
+      "title": "发送消息",
+      "subtitle": "为工业中最严苛的领域提供完整解决方案。",
+      "fields": {
+        "nome": {
+          "placeholder": "姓名"
+        },
+        "empresa": {
+          "placeholder": "公司名称"
+        },
+        "email": {
+          "placeholder": "企业邮箱"
+        },
+        "telefone": {
+          "placeholder": "电话 / WhatsApp"
+        },
+        "pais": {
+          "placeholder": "国家 / 地区"
+        },
+        "segmento": {
+          "placeholder": "所属行业"
+        },
+        "solucao": {
+          "placeholder": "感兴趣的解决方案"
+        },
+        "mensagem": {
+          "placeholder": "留言(选填)"
+        }
+      },
+      "submitButton": "提交申请",
+      "consent": {
+        "prefix": "我已阅读并同意",
+        "linkLabel": "《隐私政策》。"
+      },
+      "validation": {
+        "emailInvalid": "请输入有效的企业邮箱。",
+        "phoneInvalid": "所选国家的电话号码格式无效。",
+        "requiredField": "此为必填项。"
+      },
+      "options": {
+        "segmentos": [
+          "汽车",
+          "包装",
+          "医疗",
+          "消费品",
+          "电子",
+          "建筑",
+          "物流",
+          "其他行业"
+        ],
+        "solucoes": [
+          "机械设备",
+          "机器人技术",
+          "AI 平台",
+          "行业应用",
+          "其他"
+        ],
+        "tiposProjeto": [
+          "新项目",
+          "产能扩张",
+          "设备更换",
+          "咨询与技术评估",
+          "其他"
+        ],
+        "prazosProjeto": [
+          "立即",
+          "1至3个月",
+          "3至6个月",
+          "6至12个月",
+          "待定"
+        ]
+      }
+    },
+    "contato": {
+      "canaisAtendimentoTitle": "服务渠道",
+      "canaisAtendimento": [
+        {
+          "title": "商务咨询",
+          "description": "定制化解决方案与提案"
+        },
+        {
+          "title": "技术咨询",
+          "description": "技术支持与规格说明"
+        },
+        {
+          "title": "应用工程",
+          "description": "解决方案分析与开发"
+        },
+        {
+          "title": "会议预约",
+          "description": "现场或线上会议"
+        },
+        {
+          "title": "售后支持",
+          "description": "持续跟进与支持"
+        }
+      ],
+      "equipeTitle": "联系我们的团队",
+      "equipeLinks": [
+        {
+          "title": "获取报价"
+        },
+        {
+          "title": "咨询专家"
+        },
+        {
+          "title": "技术支持"
+        },
+        {
+          "title": "产品目录与下载"
+        },
+        {
+          "title": "Experience Center"
+        },
+        {
+          "title": "代理商"
+        }
+      ],
+      "horario": {
+        "title": "服务时间",
+        "dias": "周一至周五",
+        "horas": "8:00 至 18:00",
+        "tipo": "商务及技术支持"
+      }
+    },
+    "faleComEspecialista": {
+      "equipeTitle": "联系我们的团队",
+      "equipeSubtitle": "专家团队随时为您提供帮助。",
+      "contatos": [
+        {
+          "title": "商务专家",
+          "description": "商业解决方案与提案"
+        },
+        {
+          "title": "技术专家",
+          "description": "技术规格与需求"
+        },
+        {
+          "title": "应用工程",
+          "description": "定制解决方案与流程"
+        },
+        {
+          "title": "区域支持",
+          "description": "本地化专业服务"
+        }
+      ],
+      "destaques": [
+        {
+          "label": "服务覆盖全美洲"
+        },
+        {
+          "label": "快速、个性化响应"
+        },
+        {
+          "label": "支持语言：葡语·英语·西语"
+        }
+      ]
+    },
+    "solicitarCotacao": {
+      "title": "智能表单",
+      "fields": {
+        "nome": {
+          "label": "姓名",
+          "placeholder": "请输入您的姓名"
+        },
+        "empresa": {
+          "label": "公司",
+          "placeholder": "请输入公司名称"
+        },
+        "email": {
+          "label": "电子邮箱",
+          "placeholder": "you@company.com"
+        },
+        "telefone": {
+          "label": "电话"
+        },
+        "pais": {
+          "label": "国家",
+          "placeholder": "选择国家"
+        },
+        "segmento": {
+          "label": "行业",
+          "placeholder": "选择行业"
+        },
+        "tipoProjeto": {
+          "label": "项目类型",
+          "placeholder": "选择项目类型"
+        },
+        "capacidade": {
+          "label": "所需产能",
+          "placeholder": "选择产能"
+        },
+        "prazoProjeto": {
+          "label": "项目周期",
+          "placeholder": "选择周期"
+        },
+        "mensagem": {
+          "label": "留言",
+          "placeholder": "请告诉我们更多关于您项目的目标与具体需求。"
+        }
+      },
+      "consent": {
+        "prefix": "我已阅读并同意",
+        "linkLabel": "《隐私政策》。"
+      },
+      "submitButton": "下一步:选择产品线",
+      "validation": {
+        "emailInvalid": "请输入有效的电子邮箱。",
+        "phoneInvalid": "所选国家的电话号码格式无效。",
+        "requiredField": "此为必填项。"
+      }
+    }
+  }
+}

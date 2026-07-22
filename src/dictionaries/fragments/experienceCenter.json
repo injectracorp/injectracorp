@@ -1,0 +1,77 @@
+{
+  "experienceCenter": {
+    "banner": {
+      "eyebrow": "EXPERIENCE CENTER",
+      "title": "Viva a tecnologia.\nTransforme resultados.",
+      "subtitle": "O Experience Center Injectra foi criado para que você veja, teste e comprove na prática como nossas soluções podem elevar a produtividade, a qualidade e a competividade da sua indústria.",
+      "ctaVisita": "Agendar uma Visita",
+      "ctaEspecialista": "Falar com um Especialista",
+      "trustItems": [
+        { "label": "Tecnologia de Ponta" },
+        { "label": "Resultados Comprovados" },
+        { "label": "Especialistas Dedicados" },
+        { "label": "Segurança e Confiabilidade" }
+      ]
+    },
+    "confianca": {
+      "items": [
+        { "title": "Tecnologia Americana", "description": "Desenvolvida nos EUA" },
+        { "title": "Presença nas Américas", "description": "Atendimento local" },
+        { "title": "Mais de 30 anos de experiência", "description": "em soluções industriais" },
+        { "title": "Suporte 24/7", "description": "Assistência técnica especializada" },
+        { "title": "Sustentabilidade", "description": "Eficiência energética e ESG" }
+      ]
+    },
+    "diferenciais": {
+      "title": "Por que visitar nosso Experience Center?",
+      "stats": [
+        { "label": "Visitas realizadas" },
+        { "label": "Testes de aplicação" },
+        { "label": "Clientes satisfeitos" },
+        { "label": "Especialistas dedicados" }
+      ]
+    },
+    "esperar": {
+      "title": "O que você pode esperar",
+      "items": [
+        { "label": "Atendimento personalizado" },
+        { "label": "Soluções adaptadas para sua necessidade" },
+        { "label": "Tecnologia de última geração" },
+        { "label": "Ambiente moderno e interativo" },
+        { "label": "Resultados reais comprovados" }
+      ]
+    },
+    "experiencias": {
+      "title": "Nossas Experiências",
+      "saibaMais": "Saiba mais",
+      "items": [
+        {
+          "title": "Demonstrações",
+          "description": "Veja nossas máquinas & soluções em funcionamento e descubra como a tecnologia Injectra pode transformar sua produção."
+        },
+        {
+          "title": "Testes de Aplicação",
+          "description": "Traga seu molde, material ou peça e realize testes reais com o suporte dos nossos especialistas."
+        },
+        {
+          "title": "Showroom",
+          "description": "Conheça de perto nossa linha completa de máquinas, robótica e soluções inteligentes em um ambiente inovador."
+        },
+        {
+          "title": "Treinamentos",
+          "description": "Capacite sua equipe com treinamentos técnicos e operacionais para extrair o máximo desempenho."
+        },
+        {
+          "title": "Validação de Projetos",
+          "description": "Validamos junto com você a melhor solução para o seu projeto, garantindo performance e retorno sobre o investimento."
+        }
+      ]
+    },
+    "agendamento": {
+      "title": "Agende sua experiência agora",
+      "description": "Viva a tecnologia Injectra na prática e descubra como podemos levar sua produção para o próximo nível.",
+      "ctaVisita": "Agendar uma Visita",
+      "ctaEspecialista": "Falar com um Especialista"
+    }
+  }
+}

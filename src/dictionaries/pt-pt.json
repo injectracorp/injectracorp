@@ -1,0 +1,2927 @@
+{
+  "shared": {
+    "meta": {
+      "title": "Injectra | Tecnologia Industrial Americana",
+      "description": "Máquinas, robótica, IoT e inteligência artificial ligadas numa única plataforma industrial."
+    },
+    "header": {
+      "logoAriaLabel": "Injectra — início",
+      "openMenuAriaLabel": "Abrir menu",
+      "closeMenuAriaLabel": "Fechar menu",
+      "cta": "Solicitar Orçamento"
+    },
+    "footer": {
+      "taglinePrefix": "Advance. ",
+      "taglineHighlight": "Inject.",
+      "taglineSuffix": " Mold the future.",
+      "description": "Tecnologia premium em injeção plástica, com máquinas industriais, inteligência artificial e apoio regional para impulsionar a produtividade da indústria nas Américas.",
+      "logoAriaLabel": "Injectra — início",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "x": "X (Twitter)",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "facebook": "Facebook"
+      },
+      "infoBar": [
+        {
+          "title": "Injectra Corporation",
+          "subtitle": "Orlando, Flórida, EUA"
+        },
+        {
+          "title": "+1 (321) 888-7963"
+        },
+        {
+          "title": "info@injectracorp.com"
+        },
+        {
+          "title": "Assistência Técnica Especializada"
+        },
+        {
+          "title": "Apoio a Toda a América"
+        }
+      ],
+      "ctaBanner": {
+        "title": "Pronto para transformar a sua indústria?",
+        "description": "Descubra como a Injectra pode aumentar a produtividade, reduzir custos e ligar toda a sua operação numa única plataforma industrial inteligente.",
+        "quoteButton": "Solicitar Orçamento",
+        "specialistButton": "Falar com Especialista",
+        "machineImageAlt": "Máquina Injectra"
+      },
+      "bottomBar": {
+        "countryBadge": "EMPRESA AMERICANA",
+        "location": "Orlando, Florida • USA",
+        "groupLabel": "Parte do Grupo",
+        "groupLogoAlt": "Interfy Group",
+        "copyright": "Injectra Corporation © 2026. Todos os direitos reservados."
+      },
+      "legalLinks": [
+        {
+          "label": "Políticas de Privacidade",
+          "href": "/politicas-privacidade"
+        },
+        {
+          "label": "Termos de Uso",
+          "href": "/termos-de-uso"
+        },
+        {
+          "label": "Cookies",
+          "href": "/cookies"
+        },
+        {
+          "label": "Garantia e Suporte",
+          "href": "/garantia-e-suporte"
+        },
+        {
+          "label": "Compliance",
+          "href": "/compliance"
+        }
+      ]
+    },
+    "nav": {
+      "columns": [
+        {
+          "title": "PRODUTOS",
+          "items": [
+            {
+              "title": "Máquinas",
+              "description": "Linhas hidráulicas e elétricas para todos os segmentos."
+            },
+            {
+              "title": "Robótica",
+              "description": "Robô Humanoide Neo, robôs cartesianos e automação."
+            },
+            {
+              "title": "Plataforma AI",
+              "description": "Injectra AI, Cloud, IoT, Analytics, OEE e App Mobile."
+            },
+            {
+              "title": "Indústrias",
+              "description": "Soluções para diversos segmentos industriais em toda a América."
+            }
+          ]
+        },
+        {
+          "title": "SERVIÇOS",
+          "items": [
+            {
+              "title": "Experience Center",
+              "description": "Demonstrações, testes de aplicação, formações e showroom."
+            },
+            {
+              "title": "Representantes",
+              "description": "Programa de representantes, expansão comercial e apoio."
+            },
+            {
+              "title": "Suporte",
+              "description": "Assistência técnica, peças, manutenção, garantia e FAQ."
+            },
+            {
+              "title": "Catálogos",
+              "description": "Catálogos digitais, manuais técnicos, fichas técnicas e downloads."
+            }
+          ]
+        },
+        {
+          "title": "EMPRESA",
+          "items": [
+            {
+              "title": "Sobre Nós",
+              "description": "Sobre a Injectra, Grupo Interfy, sustentabilidade e carreira."
+            },
+            {
+              "title": "Contacto",
+              "description": "Telefones, e-mails, morada e canais de atendimento."
+            },
+            {
+              "title": "Solicitar Cotação",
+              "description": "Receba uma proposta personalizada para a sua operação industrial."
+            },
+            {
+              "title": "Falar com Especialista",
+              "description": "Fale com a nossa equipa técnica e comercial especializada."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "TECNOLOGIA INDUSTRIAL AMERICANA",
+      "titlePrefix": "O Futuro da Indústria Começa",
+      "titleHighlight": "Aqui.",
+      "subtitleLine1": "Máquinas. Robótica. Inteligência Artificial. Software Industrial.",
+      "subtitleLine2": "Tudo ligado numa única plataforma inteligente.",
+      "ctaPrimary": "Explore a Plataforma",
+      "ctaSecondary": "Falar com Especialista",
+      "trustItems": [
+        {
+          "title": "Especificações",
+          "subtitle": "Americanas"
+        },
+        {
+          "title": "Performance",
+          "subtitle": "Alta Velocidade"
+        },
+        {
+          "title": "Soluções",
+          "subtitle": "PET"
+        },
+        {
+          "title": "Serviço",
+          "subtitle": "Solução Completa"
+        },
+        {
+          "title": "AI",
+          "subtitle": "Injectra"
+        }
+      ]
+    },
+    "aboutEcosystem": {
+      "titleLine1": "O Ecossistema",
+      "titleLine2": "Injectra",
+      "description": "Tudo ligado para criar operações industriais mais produtivas, inteligentes e competitivas.",
+      "exploreLabel": "Explorar o ecossistema"
+    },
+    "capacidade": {
+      "roboticaNeo": {
+        "title": "Robótica Neo",
+        "description": "Automação inteligente que impulsiona resultados.",
+        "items": [
+          "Robô Humanoide Neo",
+          "Robôs Cartesianos",
+          "Células Robotizadas",
+          "Soluções Personalizadas"
+        ],
+        "cta": "Conheça o Neo",
+        "photoAlt": "Robô Humanoide Neo"
+      },
+      "plataformaAi": {
+        "title": "Plataforma Injectra AI",
+        "description": "Dados, inteligência e controlo total na palma da sua mão.",
+        "items": [
+          "Dashboard em tempo real",
+          "OEE e Performance",
+          "Manutenção Preditiva",
+          "Produção e Qualidade",
+          "Alertas e Notificações",
+          "Assistente de IA"
+        ],
+        "cta": "Explorar a Plataforma",
+        "photoAlt": "Plataforma Injectra AI"
+      },
+      "experienceCenter": {
+        "title": "Experience Center",
+        "description": "Inovação para ver, testar e transformar.",
+        "cta": "Marcar visita",
+        "photoAlt": "Experience Center Injectra"
+      },
+      "experienceItems": [
+        {
+          "label": "Showroom Tecnológico"
+        },
+        {
+          "label": "Demonstrações ao Vivo"
+        },
+        {
+          "label": "Testes de Aplicação"
+        },
+        {
+          "label": "Formações Especializadas"
+        },
+        {
+          "label": "Eventos e Workshops"
+        }
+      ]
+    },
+    "machineLines": {
+      "title": "As Nossas Linhas de Máquinas",
+      "subtitle": "Soluções completas para os setores mais exigentes da indústria.",
+      "viewAllLabel": "Ver todas as máquinas",
+      "items": [
+        {
+          "description": "Alta precisão e versatilidade para aplicações gerais."
+        },
+        {
+          "description": "Ciclos rápidos e máxima eficiência para alta produtividade."
+        },
+        {
+          "description": "Ultra alta velocidade e ciclos extremamente rápidos para máxima produtividade."
+        },
+        {
+          "description": "Soluções otimizadas para peças técnicas com alta precisão e acabamento."
+        },
+        {
+          "description": "Linha elétrica de alta precisão, repetibilidade e eficiência energética."
+        },
+        {
+          "description": "Especializada em caixas plásticas, paletes e peças de grande porte. Estrutura robusta e alto desempenho."
+        },
+        {
+          "description": "Sistema hidráulico de alta potência para aplicações exigentes e peças de grandes dimensões."
+        },
+        {
+          "description": "Potência extrema para moldes grandes e aplicações industriais de alta exigência."
+        },
+        {
+          "description": "Máxima capacidade e robustez para os maiores desafios da indústria."
+        },
+        {
+          "description": "Híbrida, com elevada eficiência energética e robustez."
+        }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "NÓS NÃO CONSTRUÍMOS APENAS MÁQUINAS",
+      "titlePrefix": "Construímos",
+      "titleHighlight": " Plataformas Industriais Inteligentes.",
+      "items": [
+        {
+          "label": "Máquinas",
+          "description": "Máquinas de injeção de alta performance para diversas aplicações."
+        },
+        {
+          "label": "Robótica",
+          "description": "Soluções que aumentam a produtividade e reduzem os tempos de ciclo."
+        },
+        {
+          "label": "IA",
+          "description": "Inteligência Artificial que transforma dados em decisões inteligentes."
+        },
+        {
+          "label": "IoT",
+          "description": "Dispositivos conectados e sensores para visibilidade total."
+        },
+        {
+          "label": "Software",
+          "description": "Software industrial poderoso para gerir toda a operação."
+        },
+        {
+          "label": "Serviços",
+          "description": "Apoio completo desde a instalação até à evolução contínua."
+        }
+      ]
+    },
+    "setoresIndustriais": {
+      "title": "Soluções para os principais setores",
+      "items": [
+        {
+          "label": "Automóvel"
+        },
+        {
+          "label": "Embalagens"
+        },
+        {
+          "label": "Médico"
+        },
+        {
+          "label": "Construção"
+        },
+        {
+          "label": "Eletrónicos"
+        },
+        {
+          "label": "Utilidades Domésticas"
+        },
+        {
+          "label": "Logística"
+        }
+      ],
+      "moreLabel": "E muito mais..."
+    }
+  },
+  "catalogos": {
+    "banner": {
+      "eyebrow": "CATÁLOGOS",
+      "title": "Catálogos Injectra",
+      "subtitle": "Aceda aos materiais técnicos e comerciais das linhas de máquinas, robótica e plataforma digital Injectra.",
+      "ctaPrimary": "Solicitar Catálogo",
+      "ctaSecondary": "Falar com um Especialista",
+      "highlightsTitle": "O que encontra nos nossos catálogos",
+      "highlightsSubtitle": "Viva a tecnologia Injectra na prática e descubra como podemos levar a sua produção para o próximo nível.",
+      "highlights": [
+        "Especificações Técnicas",
+        "Aplicações recomendadas",
+        "Diferenciais e benefícios",
+        "Opcionais e acessórios",
+        "Automação e robótica",
+        "Injectra AI e IoT",
+        "Apoio e contacto comercial"
+      ]
+    },
+    "cta": {
+      "title": "Descarregue o catálogo ideal para o seu projeto",
+      "subtitle": "Fale com os nossos especialistas e encontre a solução Injectra perfeita para a sua indústria.",
+      "ctaPrimary": "Solicitar Catálogo",
+      "ctaSecondary": "Falar com um Especialista",
+      "ctaTertiary": "Solicitar Orçamento",
+      "stats": [
+        {
+          "title": "Tecnologia Americana",
+          "description": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "description": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "description": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "description": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "description": "Eficiência energética e ESG"
+        }
+      ]
+    },
+    "catalogosGerais": {
+      "title": "Catálogos Gerais",
+      "items": [
+        {
+          "name": "Catálogo Geral",
+          "description": "Alta precisão e versatilidade para aplicações gerais."
+        }
+      ]
+    },
+    "linhasMaquinas": {
+      "title": "Linhas de Máquinas",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Alta precisão e versatilidade para aplicações gerais."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Ciclos rápidos e máxima eficiência para alta produtividade."
+        },
+        {
+          "name": "VELOCITY - IV",
+          "description": "Ultra alta velocidade e ciclos extremamente rápidos para máxima produtividade."
+        },
+        {
+          "name": "FORM - IF",
+          "description": "Soluções otimizadas para peças técnicas com alta precisão e acabamento."
+        },
+        {
+          "name": "NEO EX - IE",
+          "description": "Linha elétrica de alta precisão, repetibilidade e eficiência energética."
+        },
+        {
+          "name": "ATLAS - IA",
+          "description": "Especializada em caixas plásticas, paletes e peças de grande porte. Estrutura robusta e alto desempenho."
+        },
+        {
+          "name": "HYDRO - IH",
+          "description": "Sistema hidráulico de alta potência para aplicações exigentes e peças de grandes dimensões."
+        },
+        {
+          "name": "TITAN - IT",
+          "description": "Potência extrema para moldes grandes e aplicações industriais de alta exigência."
+        },
+        {
+          "name": "MAX - IM",
+          "description": "Máxima capacidade e robustez para os maiores desafios da indústria."
+        },
+        {
+          "name": "EQUORA - IQ",
+          "description": "Híbrida, com elevada eficiência energética e robustez."
+        }
+      ]
+    },
+    "solucoesDigitais": {
+      "title": "Soluções Digitais e Automação",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Alta precisão e versatilidade para aplicações gerais."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Ciclos rápidos e máxima eficiência para alta produtividade."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "shared": {
+      "tocHeading": "Nesta página",
+      "contactCardTitle": "Injectra Corporation",
+      "lastUpdated": "Última atualização: 21 de julho de 2026",
+      "contactLabels": {
+        "email": "E-mail",
+        "phone": "Telefone",
+        "address": "Morada"
+      },
+      "contact": {
+        "email": "info@injectracorp.com",
+        "phone": "+1 (321) 888-7963",
+        "address": "Orlando, Florida, EUA"
+      }
+    },
+    "termsOfUse": {
+      "banner": {
+        "eyebrow": "INFORMAÇÕES LEGAIS",
+        "titleMain": "Termos de",
+        "titleHighlight": "Uso",
+        "subtitle": "Leia com atenção os termos e condições que regem a utilização do nosso site, catálogos, orçamentos e demais produtos e serviços."
+      },
+      "nav": [
+        "1. Aceitação dos Termos",
+        "2. Sobre a Injectra",
+        "3. Utilização Permitida do Site",
+        "4. Contas de Utilizador",
+        "5. Produtos, Orçamentos e Serviços",
+        "6. Propriedade Intelectual",
+        "7. Limitação de Responsabilidade",
+        "8. Ligações de Terceiros",
+        "9. Privacidade",
+        "10. Indemnização",
+        "11. Modificações",
+        "12. Rescisão",
+        "13. Legislação Aplicável",
+        "14. Contacto"
+      ],
+      "introP1Before": "Bem-vindo ao site da ",
+      "introP1After": " (\"Injectra\", \"nós\" ou \"nosso\"). Ao aceder ou utilizar o nosso site, catálogos, formulários de orçamento, aplicação ou serviços, concorda com estes Termos de Uso. Caso não concorde com qualquer parte destes termos, pedimos que não utilize os nossos serviços.",
+      "introP2": "Estes termos constituem um acordo legal entre o utilizador e a Injectra Corporation, empresa constituída nos Estados Unidos e integrante do Interfy Corporation.",
+      "sections": {
+        "aceitacao": {
+          "title": "1. Aceitação dos Termos",
+          "p1Before": "Ao aceder e utilizar o site injectracorp.com (e os seus subdomínios) ou qualquer catálogo, formulário de orçamento, aplicação ou serviço oferecido pela Injectra, declara ter lido, compreendido e concordado com estes Termos de Uso, bem como com a nossa ",
+          "p1LinkLabel": "Política de Privacidade",
+          "p1After": ".",
+          "p2": "Caso esteja a aceder aos serviços em nome de uma empresa ou organização, declara ter autoridade para vincular essa entidade a estes termos."
+        },
+        "sobre": {
+          "title": "2. Sobre a Injectra",
+          "p1": "A Injectra Corporation é uma empresa americana, sediada em Orlando, Florida, EUA, especializada em máquinas injetoras (linhas hidráulicas e elétricas), robótica industrial e na plataforma Injectra AI, que integra software industrial, IoT, cloud e inteligência artificial para a gestão de operações produtivas.",
+          "p2": "A Injectra faz parte do Interfy Corporation, grupo global de tecnologia com mais de 26 anos de atuação em inovação e transformação digital."
+        },
+        "usoPermitido": {
+          "title": "3. Utilização Permitida do Site",
+          "p1": "Pode utilizar o nosso site para fins lícitos e em conformidade com estes Termos. É expressamente proibido:",
+          "list": [
+            "Utilizar o site de forma que viole leis ou regulamentos aplicáveis",
+            "Transmitir qualquer material publicitário ou promocional não solicitado",
+            "Tentar obter acesso não autorizado a qualquer parte do site, portal ou plataforma Injectra AI",
+            "Interferir ou interromper a integridade ou o desempenho do site",
+            "Recolher dados de outros utilizadores sem consentimento",
+            "Usar robôs, scrapers ou outros meios automatizados para aceder ao site",
+            "Fazer engenharia inversa, descompilar ou desmontar qualquer software da plataforma"
+          ]
+        },
+        "contas": {
+          "title": "4. Contas de Utilizador",
+          "subsections": {
+            "criacao": {
+              "title": "4.1 Criação de conta",
+              "p": "Algumas funcionalidades, como o portal do cliente e a plataforma Injectra AI, podem exigir o registo de uma conta. Ao criar uma conta, compromete-se a fornecer informações verdadeiras, precisas e completas."
+            },
+            "responsabilidadeConta": {
+              "title": "4.2 Responsabilidade pela conta",
+              "p": "É responsável por manter a confidencialidade das suas credenciais de acesso e por todas as atividades realizadas na sua conta. Notifique de imediato a Injectra sobre qualquer utilização não autorizada."
+            },
+            "cancelamento": {
+              "title": "4.3 Cancelamento",
+              "p": "A Injectra reserva-se o direito de cancelar ou suspender contas que violem estes Termos, sem aviso prévio."
+            }
+          }
+        },
+        "produtos": {
+          "title": "5. Produtos, Orçamentos e Serviços",
+          "subsections": {
+            "catalogos": {
+              "title": "5.1 Catálogos e especificações",
+              "p": "Fazemos o possível para manter os catálogos, fichas técnicas e especificações de máquinas e robótica precisos e atualizados. No entanto, não garantimos que essas informações estejam completas, isentas de erros ou reflitam a configuração final de cada projeto, que pode variar consoante a aplicação."
+            },
+            "cotacao": {
+              "title": "5.2 Pedido de orçamento",
+              "p": "O envio de um formulário de orçamento ou o contacto com um especialista não constitui uma encomenda vinculativa. Os preços e as condições comerciais são formalizados em proposta específica, enviada pela nossa equipa comercial."
+            },
+            "plataforma": {
+              "title": "5.3 Plataforma Injectra AI e IoT",
+              "p": "A utilização da plataforma Injectra AI, da aplicação móvel e dos dispositivos ligados de IoT está sujeita a termos específicos apresentados no momento da ativação. Esses termos complementam os presentes Termos de Uso gerais."
+            },
+            "representantes": {
+              "title": "5.4 Representantes e parceiros",
+              "p": "Os representantes e parceiros comerciais autorizados atuam ao abrigo de contrato próprio com a Injectra e não estão automaticamente vinculados a estes Termos nas suas relações com terceiros."
+            }
+          }
+        },
+        "propriedade": {
+          "title": "6. Propriedade Intelectual",
+          "p1": "Todo o conteúdo presente no site da Injectra — incluindo textos, imagens, logótipos, ícones, vídeos, catálogos, software e design — é propriedade exclusiva da Injectra Corporation ou dos seus licenciantes, e está protegido por leis de direitos de autor, marcas registadas e demais leis de propriedade intelectual aplicáveis.",
+          "p2": "É proibida a reprodução, distribuição, modificação, exibição pública ou criação de obras derivadas de qualquer conteúdo do site sem autorização prévia e por escrito da Injectra.",
+          "p3": "O nome Injectra, o logótipo e outras marcas comerciais da Injectra Corporation são marcas registadas ou em processo de registo. A sua utilização não autorizada é proibida."
+        },
+        "responsabilidade": {
+          "title": "7. Limitação de Responsabilidade",
+          "p1": "Na máxima extensão permitida pela lei aplicável, a Injectra não será responsável por danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes da utilização ou da incapacidade de utilização do site, dos produtos ou dos serviços.",
+          "p2": "A Injectra não se responsabiliza por interrupções causadas por fatores fora do seu controlo, incluindo falhas de infraestrutura de terceiros, catástrofes naturais ou ataques informáticos.",
+          "p3": "O utilizador reconhece que a utilização do site e dos serviços é por sua conta e risco, dentro dos limites previstos na lei."
+        },
+        "links": {
+          "title": "8. Ligações de Terceiros",
+          "p1": "O nosso site pode conter ligações para sites de terceiros, incluindo representantes, parceiros e redes sociais. Essas ligações são fornecidas apenas para conveniência e informação. A Injectra não tem controlo sobre o conteúdo desses sites e não se responsabiliza pelo seu conteúdo, práticas de privacidade ou disponibilidade.",
+          "p2": "O acesso a sites de terceiros é da inteira responsabilidade do utilizador, devendo este verificar os termos e políticas desses sites antes de os utilizar."
+        },
+        "privacidade": {
+          "title": "9. Privacidade",
+          "p1Before": "O tratamento de dados pessoais recolhidos pela Injectra é regido pela nossa ",
+          "p1LinkLabel": "Política de Privacidade",
+          "p1After": ", que integra estes Termos de Uso. Ao utilizar os nossos serviços, aceita as práticas de recolha e utilização de dados descritas nessa política.",
+          "p2": "A Injectra está empenhada no cumprimento da legislação de proteção de dados aplicável, incluindo a Lei Geral de Proteção de Dados (LGPD) no Brasil e demais leis de proteção de dados em vigor nos países onde atuamos."
+        },
+        "indenizacao": {
+          "title": "10. Indemnização",
+          "p1": "Concorda em defender, indemnizar e isentar a Injectra Corporation, os seus diretores, colaboradores, parceiros e agentes de quaisquer reclamações, responsabilidades, danos, perdas e despesas (incluindo honorários de advogados razoáveis) decorrentes da sua utilização do site ou da violação destes Termos."
+        },
+        "modificacoes": {
+          "title": "11. Modificações dos Termos",
+          "p1": "A Injectra reserva-se o direito de modificar estes Termos de Uso a qualquer momento. As alterações entram em vigor imediatamente após a publicação no site, com a atualização da data no topo desta página.",
+          "p2": "A utilização continuada do site após a publicação de alterações constitui aceitação dos novos Termos. Recomendamos que reveja esta página periodicamente."
+        },
+        "rescisao": {
+          "title": "12. Rescisão",
+          "p1": "A Injectra pode encerrar ou suspender o seu acesso ao site, ao portal do cliente ou à plataforma Injectra AI a qualquer momento, com ou sem aviso prévio, por qualquer motivo, incluindo a violação destes Termos.",
+          "p2": "Após a rescisão, as disposições destes Termos que, pela sua natureza, devam subsistir permanecerão em vigor, incluindo as secções de propriedade intelectual, limitação de responsabilidade e indemnização."
+        },
+        "legislacao": {
+          "title": "13. Legislação Aplicável e Foro",
+          "p1": "Estes Termos de Uso são regidos pelas leis do Estado da Florida, Estados Unidos, sem prejuízo das leis de proteção do consumidor aplicáveis no país de residência do utilizador.",
+          "p2": "No Brasil, as relações com utilizadores e clientes brasileiros estão também sujeitas ao Código de Defesa do Consumidor (Lei nº 8.078/1990) e à legislação brasileira aplicável.",
+          "p3": "Qualquer litígio decorrente destes Termos será preferencialmente resolvido por meio de mediação. Não sendo possível, fica eleito o foro da comarca de residência do utilizador, nos termos da legislação aplicável."
+        },
+        "contato": {
+          "title": "14. Contacto",
+          "p1": "Em caso de dúvidas, sugestões ou reclamações relacionadas com estes Termos de Uso, contacte a Injectra:"
+        }
+      }
+    },
+    "privacyPolicy": {
+      "banner": {
+        "eyebrow": "PRIVACIDADE & TRANSPARÊNCIA",
+        "titleMain": "Políticas de",
+        "titleHighlight": "Privacidade",
+        "subtitle": "Saiba como a Injectra recolhe, utiliza, partilha e protege os dados pessoais tratados através do nosso site, catálogos, orçamentos e plataforma Injectra AI."
+      },
+      "nav": [
+        "1. Responsável pelo Tratamento",
+        "2. Dados Recolhidos",
+        "3. Finalidades do Tratamento",
+        "4. Bases Legais",
+        "5. Partilha de Dados",
+        "6. Cookies",
+        "7. Retenção",
+        "8. Segurança",
+        "9. Os Seus Direitos",
+        "10. Transferências Internacionais",
+        "11. Menores de Idade",
+        "12. Alterações",
+        "13. Encarregado de Proteção de Dados"
+      ],
+      "introP1Before": "Esta Política de Privacidade descreve como a ",
+      "introP1After": " (\"Injectra\", \"nós\" ou \"nosso\") recolhe, utiliza, armazena e protege os dados pessoais de visitantes do site, requerentes de orçamento, clientes, representantes e utilizadores da plataforma Injectra AI.",
+      "introP2Before": "Ao utilizar os nossos canais, aceita as práticas descritas nesta Política, que complementa os nossos ",
+      "introP2LinkLabel": "Termos de Uso",
+      "introP2After": ".",
+      "sections": {
+        "controlador": {
+          "title": "1. Responsável pelo Tratamento",
+          "p1": "O responsável pelo tratamento dos dados pessoais tratados neste site é a Injectra Corporation, empresa constituída nos Estados Unidos, com sede em Orlando, Florida, e integrante do Interfy Corporation."
+        },
+        "coleta": {
+          "title": "2. Dados Recolhidos",
+          "p1": "Podemos recolher as seguintes categorias de dados:",
+          "list": [
+            "Dados de identificação e contacto: nome, e-mail, telefone, empresa e cargo, fornecidos em formulários de orçamento, contacto ou download de catálogos",
+            "Dados comerciais: segmento industrial, produtos de interesse, volume de produção e demais informações fornecidas para a elaboração de propostas",
+            "Dados de navegação: endereço IP, tipo de dispositivo, páginas visitadas e origem do acesso, recolhidos através de cookies e tecnologias semelhantes",
+            "Dados operacionais e de telemetria: quando aplicável, dados de desempenho e utilização de máquinas ligadas à plataforma Injectra AI/IoT, conforme contrato específico com o cliente"
+          ]
+        },
+        "finalidades": {
+          "title": "3. Finalidades do Tratamento",
+          "list": [
+            "Responder a pedidos de orçamento, contacto e apoio técnico",
+            "Elaborar propostas comerciais e viabilizar a venda de máquinas, robótica e serviços",
+            "Disponibilizar e melhorar a plataforma Injectra AI, a aplicação móvel e os serviços de IoT/analytics",
+            "Enviar comunicações comerciais, catálogos e novidades, quando autorizado pelo utilizador",
+            "Cumprir obrigações legais, regulatórias e contratuais",
+            "Prevenir fraudes e garantir a segurança do site e da plataforma"
+          ]
+        },
+        "basesLegais": {
+          "title": "4. Bases Legais",
+          "p1": "O tratamento de dados pessoais pela Injectra assenta, consoante o caso, na execução de contrato ou de diligências pré-contratuais (como a elaboração de orçamentos), no cumprimento de obrigação legal, no interesse legítimo da Injectra e no consentimento do titular, especialmente para o envio de comunicações de marketing e utilização de cookies não essenciais."
+        },
+        "compartilhamento": {
+          "title": "5. Partilha de Dados",
+          "p1": "Os seus dados podem ser partilhados com:",
+          "list": [
+            "Empresas do Interfy Corporation, para fins administrativos e de apoio corporativo",
+            "Representantes e parceiros comerciais autorizados, exclusivamente para viabilizar orçamentos e apoio local",
+            "Prestadores de serviços (alojamento, e-mail marketing, análise de dados), sujeitos a obrigações contratuais de confidencialidade e segurança",
+            "Autoridades públicas, quando exigido por lei, ordem judicial ou requisição regulatória"
+          ],
+          "p2": "A Injectra não vende dados pessoais a terceiros."
+        },
+        "cookies": {
+          "title": "6. Cookies",
+          "p1Before": "Utilizamos cookies e tecnologias semelhantes para viabilizar e melhorar a navegação no site. Os detalhes sobre os tipos de cookies utilizados e como gerir as suas preferências estão disponíveis na nossa ",
+          "p1LinkLabel": "Política de Cookies",
+          "p1After": "."
+        },
+        "retencao": {
+          "title": "7. Retenção de Dados",
+          "p1": "Mantemos os dados pessoais pelo tempo necessário ao cumprimento das finalidades descritas nesta Política, respeitados os prazos legais, contratuais e regulatórios aplicáveis. Os dados de relacionamento comercial e propostas são retidos durante a vigência da relação e por um prazo adicional exigido para fins fiscais, contabilísticos e de defesa em processos judiciais ou administrativos."
+        },
+        "seguranca": {
+          "title": "8. Segurança da Informação",
+          "p1": "Adotamos medidas técnicas e organizativas adequadas para proteger os dados pessoais contra acesso não autorizado, perda, alteração ou divulgação indevida, incluindo controlos de acesso, encriptação em trânsito e monitorização dos nossos sistemas e da plataforma Injectra AI."
+        },
+        "direitos": {
+          "title": "9. Os Seus Direitos",
+          "p1": "Nos termos da legislação de proteção de dados aplicável, pode solicitar:",
+          "list": [
+            "Confirmação da existência de tratamento e acesso aos seus dados",
+            "Correção de dados incompletos, inexatos ou desatualizados",
+            "Anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade com a lei",
+            "Portabilidade dos dados para outro fornecedor de serviço ou produto",
+            "Revogação do consentimento e oposição a tratamentos realizados com base no interesse legítimo"
+          ],
+          "p2": "Para exercer estes direitos, contacte-nos através dos canais indicados na secção 13."
+        },
+        "transferencias": {
+          "title": "10. Transferências Internacionais",
+          "p1": "Como empresa americana com atuação nas Américas, a Injectra pode transferir dados pessoais entre países, incluindo para os Estados Unidos, para as finalidades descritas nesta Política. Nessas transferências, adotamos salvaguardas contratuais e técnicas compatíveis com a legislação aplicável, incluindo a LGPD, quando o titular se encontrar no Brasil."
+        },
+        "menores": {
+          "title": "11. Menores de Idade",
+          "p1": "Os nossos produtos e serviços destinam-se a empresas e profissionais e não são direcionados a menores de idade. Não recolhemos intencionalmente dados pessoais de crianças ou adolescentes."
+        },
+        "alteracoes": {
+          "title": "12. Alterações desta Política",
+          "p1": "A Injectra pode atualizar esta Política de Privacidade periodicamente para refletir alterações nas nossas práticas ou na legislação aplicável. A data da última atualização consta no topo desta página. Recomendamos a revisão periódica deste documento."
+        },
+        "contato": {
+          "title": "13. Encarregado de Proteção de Dados",
+          "p1": "Em caso de dúvidas sobre esta Política ou para exercer os seus direitos como titular de dados, contacte o nosso Encarregado de Proteção de Dados (DPO):"
+        }
+      }
+    },
+    "warrantySupport": {
+      "banner": {
+        "eyebrow": "INFORMAÇÕES LEGAIS",
+        "titleMain": "Garantia e",
+        "titleHighlight": "Suporte",
+        "subtitle": "Conheça as condições de garantia das máquinas e robótica Injectra, e como aceder a assistência técnica, peças e apoio especializado."
+      },
+      "nav": [
+        "1. Cobertura da Garantia",
+        "2. Prazo de Garantia",
+        "3. Exclusões da Garantia",
+        "4. Como Solicitar Assistência",
+        "5. Peças de Substituição",
+        "6. Canais de Apoio",
+        "7. Contratos e Garantia Estendida",
+        "8. Alterações",
+        "9. Contacto"
+      ],
+      "introBefore": "Esta política descreve as condições gerais de garantia aplicáveis às máquinas injetoras e soluções de robótica da ",
+      "introAfter": ", bem como os canais disponíveis para assistência técnica e apoio. As condições específicas de cada equipamento prevalecem sobre esta política geral quando previstas em contrato ou fatura.",
+      "sections": {
+        "cobertura": {
+          "title": "1. Cobertura da Garantia",
+          "p1": "A garantia Injectra cobre defeitos de fabrico em materiais e componentes das máquinas injetoras (linhas hidráulicas e elétricas) e das soluções de robótica industrial, quando o equipamento é operado, instalado e mantido em conformidade com as especificações técnicas e manuais fornecidos pela Injectra."
+        },
+        "prazo": {
+          "title": "2. Prazo de Garantia",
+          "p1": "O prazo padrão de garantia é indicado na proposta comercial, no contrato de venda e na documentação técnica que acompanha cada equipamento, podendo variar consoante a linha de máquina (PRIME, SPEED, VELOCITY, FORM, NEO, ATLAS, HYDRO, TITAN, MAX, EQUORA) e o componente (por exemplo, sistemas eletrónicos, hidráulicos e periféricos).",
+          "p2": "A contagem do prazo de garantia inicia-se na data de entrega ou de arranque do equipamento, conforme definido em contrato."
+        },
+        "exclusoes": {
+          "title": "3. Exclusões da Garantia",
+          "p1": "Não estão cobertos pela garantia:",
+          "list": [
+            "Desgaste natural de peças de consumo, como vedantes, filtros e componentes de atrito",
+            "Danos causados por operação inadequada, instalação em desacordo com as especificações técnicas ou utilização fora da capacidade nominal do equipamento",
+            "Intervenções técnicas realizadas por terceiros não autorizados pela Injectra",
+            "Utilização de peças ou consumíveis que não sejam originais ou homologados pela Injectra",
+            "Danos decorrentes de instalação elétrica, hidráulica ou de infraestrutura inadequada do cliente",
+            "Casos de força maior, como quedas de energia, catástrofes naturais ou acidentes"
+          ]
+        },
+        "comoSolicitar": {
+          "title": "4. Como Solicitar Assistência em Garantia",
+          "p1": "Para solicitar assistência em garantia, o cliente deve contactar a Injectra ou o representante autorizado responsável pela sua região, indicando o número de série do equipamento, a fatura de compra e a descrição da ocorrência. A nossa equipa técnica avaliará o caso e definirá o procedimento adequado, que pode incluir apoio remoto, visita técnica ou envio de peças."
+        },
+        "pecas": {
+          "title": "5. Peças de Substituição e Assistência Técnica",
+          "p1Before": "A Injectra e a sua rede de representantes disponibilizam peças de substituição originais e assistência técnica especializada para toda a linha de máquinas e robótica, mesmo após o termo do período de garantia. Consulte os nossos ",
+          "p1LinkLabel": "catálogos técnicos",
+          "p1After": " para especificações de peças e manuais."
+        },
+        "canais": {
+          "title": "6. Canais de Apoio Técnico",
+          "p1Before": "Além desta política, mantemos uma central de apoio dedicada com assistência técnica, pedido de peças, manutenção preventiva e corretiva e FAQ. Aceda à página de ",
+          "p1LinkLabel": "Suporte",
+          "p1After": " para abrir um pedido de assistência ou falar com a nossa equipa técnica."
+        },
+        "contratos": {
+          "title": "7. Contratos de Manutenção e Garantia Estendida",
+          "p1": "A Injectra oferece contratos de manutenção preventiva e programas de garantia estendida para clientes que pretendam ampliar a cobertura padrão ou formalizar rotinas periódicas de manutenção. As condições comerciais destes contratos são negociadas individualmente com a nossa equipa ou representante autorizado."
+        },
+        "alteracoes": {
+          "title": "8. Alterações desta Política",
+          "p1": "A Injectra pode atualizar esta política de garantia e assistência periodicamente. As alterações entram em vigor a partir da publicação nesta página, sem prejuízo das condições de garantia já formalizadas em contratos e faturas em vigor."
+        },
+        "contato": {
+          "title": "9. Contacto",
+          "p1": "Para dúvidas sobre garantia, peças ou assistência técnica, contacte-nos:"
+        }
+      }
+    },
+    "cookies": {
+      "banner": {
+        "eyebrow": "INFORMAÇÕES LEGAIS",
+        "titleMain": "Política de",
+        "titleHighlight": "Cookies",
+        "subtitle": "Saiba o que são cookies, que tipos utilizamos no site da Injectra e como pode gerir as suas preferências."
+      },
+      "nav": [
+        "1. O que são Cookies",
+        "2. Como Utilizamos",
+        "3. Tipos de Cookies",
+        "4. Cookies de Terceiros",
+        "5. Como Gerir",
+        "6. Atualizações",
+        "7. Contacto"
+      ],
+      "introBefore": "Esta Política de Cookies explica como a ",
+      "introMiddle": " utiliza cookies e tecnologias semelhantes no site injectracorp.com, complementando a nossa ",
+      "introLinkLabel": "Política de Privacidade",
+      "introAfter": ".",
+      "sections": {
+        "oQueSao": {
+          "title": "1. O que são Cookies",
+          "p1": "Os cookies são pequenos ficheiros de texto armazenados no seu navegador ou dispositivo quando visita um site. Permitem que o site reconheça o seu dispositivo, memorize preferências e recolha informações sobre a forma como o site é utilizado."
+        },
+        "comoUsamos": {
+          "title": "2. Como Utilizamos Cookies",
+          "p1": "Utilizamos cookies para:",
+          "list": [
+            "Garantir o funcionamento correto do site e do formulário de pedido de orçamento",
+            "Memorizar preferências de navegação, como idioma e região",
+            "Perceber como os visitantes utilizam o nosso site, e quais os catálogos e linhas de máquinas que geram mais interesse",
+            "Medir a eficácia de campanhas de marketing e comunicação"
+          ]
+        },
+        "tipos": {
+          "title": "3. Tipos de Cookies que Utilizamos",
+          "subsections": {
+            "essenciais": {
+              "title": "3.1 Cookies essenciais",
+              "p": "Necessários para o funcionamento básico do site, como a navegação entre páginas e o envio de formulários. Não podem ser desativados nos nossos sistemas."
+            },
+            "desempenho": {
+              "title": "3.2 Cookies de desempenho e analytics",
+              "p": "Recolhem informações sobre como os visitantes utilizam o site — páginas mais acedidas, tempo de navegação e origem do tráfego — para nos ajudar a melhorar o conteúdo e a usabilidade."
+            },
+            "funcionalidade": {
+              "title": "3.3 Cookies de funcionalidade",
+              "p": "Permitem memorizar escolhas feitas pelo utilizador, como idioma, região ou preenchimento prévio de formulários, para uma experiência mais personalizada."
+            },
+            "marketing": {
+              "title": "3.4 Cookies de marketing",
+              "p": "Utilizados para apresentar comunicações e anúncios mais relevantes com base no seu interesse nas nossas linhas de máquinas, robótica e plataforma Injectra AI, dentro e fora do nosso site."
+            }
+          }
+        },
+        "terceiros": {
+          "title": "4. Cookies de Terceiros",
+          "p1": "Alguns cookies são definidos por serviços de terceiros presentes nas nossas páginas, como ferramentas de análise de tráfego, mapas e vídeos incorporados. A Injectra não controla esses cookies, que estão sujeitos às políticas de privacidade dos respetivos fornecedores."
+        },
+        "gerenciar": {
+          "title": "5. Como Gerir as Suas Preferências de Cookies",
+          "p1": "Pode gerir ou desativar cookies diretamente nas definições do seu navegador, bloqueando novos cookies ou removendo os já armazenados. Note que desativar cookies essenciais pode afetar o funcionamento correto do site, incluindo o envio de formulários de orçamento e contacto."
+        },
+        "alteracoes": {
+          "title": "6. Atualizações desta Política",
+          "p1": "Esta Política de Cookies pode ser atualizada periodicamente para refletir alterações nas nossas práticas ou nas tecnologias utilizadas. A data da última atualização consta no topo desta página."
+        },
+        "contato": {
+          "title": "7. Contacto",
+          "p1": "Em caso de dúvidas sobre a utilização de cookies no nosso site, contacte-nos:"
+        }
+      }
+    },
+    "compliance": {
+      "banner": {
+        "eyebrow": "ÉTICA & INTEGRIDADE",
+        "titleMain": "Compliance",
+        "titleHighlight": "Injectra",
+        "subtitle": "Conheça o compromisso da Injectra Corporation com a ética, integridade, anticorrupção e conformidade em toda a nossa cadeia de valor."
+      },
+      "nav": [
+        "1. O Nosso Compromisso",
+        "2. Código de Conduta",
+        "3. Anticorrupção",
+        "4. Proteção de Dados",
+        "5. Fornecedores e Parceiros",
+        "6. Concorrência Leal",
+        "7. Canal de Denúncias",
+        "8. Atualizações",
+        "9. Contacto"
+      ],
+      "introBefore": "A ",
+      "introAfter": ", integrante do Interfy Corporation, pauta a sua atuação pela ética, transparência e conformidade legal e regulatória em todos os países onde opera. Este documento resume os princípios de compliance que orientam as nossas relações com clientes, representantes, fornecedores e colaboradores.",
+      "sections": {
+        "compromisso": {
+          "title": "1. O Nosso Compromisso com a Ética e a Integridade",
+          "p1": "A Injectra compromete-se a conduzir os seus negócios com honestidade, respeito pelas leis aplicáveis e responsabilidade perante clientes, colaboradores, representantes, fornecedores e comunidades onde atua, apoiando o crescimento sustentável da indústria nas Américas."
+        },
+        "codigoConduta": {
+          "title": "2. Código de Conduta",
+          "p1": "Os colaboradores, diretores e representantes da Injectra devem observar princípios de integridade, respeito mútuo, não discriminação e segurança no trabalho, além de evitar conflitos de interesse e agir sempre em conformidade com a legislação em vigor e as políticas internas da empresa."
+        },
+        "anticorrupcao": {
+          "title": "3. Anticorrupção e Combate à Fraude",
+          "p1": "A Injectra não tolera qualquer forma de corrupção, suborno ou pagamento indevido nas suas relações comerciais, sejam elas com agentes públicos ou privados. Como empresa americana, observamos os princípios do Foreign Corrupt Practices Act (FCPA) e demais legislações anticorrupção aplicáveis nos países onde atuamos, incluindo o Brasil.",
+          "p2": "Os representantes e parceiros comerciais autorizados estão também sujeitos a estas diretrizes nas suas relações em nome da Injectra."
+        },
+        "protecaoDados": {
+          "title": "4. Conformidade com as Leis de Proteção de Dados",
+          "p1Before": "A Injectra trata dados pessoais em conformidade com as leis de proteção de dados aplicáveis, incluindo a Lei Geral de Proteção de Dados (LGPD) no Brasil, conforme detalhado na nossa ",
+          "p1LinkLabel": "Política de Privacidade",
+          "p1After": "."
+        },
+        "fornecedores": {
+          "title": "5. Relações com Fornecedores e Parceiros",
+          "p1": "Esperamos que os fornecedores, representantes e parceiros comerciais da Injectra adotem padrões de ética, legalidade e respeito pelos direitos humanos e laborais equivalentes aos nossos, incluindo a rejeição do trabalho infantil, trabalho forçado e práticas anticoncorrenciais."
+        },
+        "concorrencia": {
+          "title": "6. Concorrência Leal",
+          "p1": "A Injectra compete no mercado com base na qualidade dos seus produtos e serviços, respeitando as leis de defesa da concorrência aplicáveis e evitando acordos ou práticas que restrinjam indevidamente a livre concorrência."
+        },
+        "canalDenuncias": {
+          "title": "7. Canal de Denúncias",
+          "p1": "Colaboradores, clientes, representantes e fornecedores podem relatar, de forma confidencial, suspeitas de violação a este compromisso de compliance, incluindo condutas antiéticas, atos de corrupção ou incumprimento de leis aplicáveis, através do canal indicado na secção de contacto abaixo."
+        },
+        "alteracoes": {
+          "title": "8. Atualizações",
+          "p1": "Este documento pode ser atualizado periodicamente para refletir a evolução das nossas práticas de compliance ou da legislação aplicável. A data da última atualização consta no topo desta página."
+        },
+        "contato": {
+          "title": "9. Contacto",
+          "p1": "Para relatar uma preocupação ou obter mais informações sobre o nosso programa de compliance, contacte-nos:"
+        }
+      }
+    }
+  },
+  "contato": {
+    "banner": {
+      "eyebrow": "CONTACTO",
+      "titlePrefix": "Fale com a ",
+      "titleHighlight": "Injectra",
+      "description": "A nossa equipa está pronta para apoiar a sua empresa em toda a América com máquinas, robótica, plataforma AI, serviços e consultoria industrial.",
+      "quoteButton": "Solicitar Orçamento",
+      "specialistButton": "Falar com Especialista",
+      "atendimento": {
+        "title": "Apoio Injectra",
+        "description": "A nossa equipa está disponível para ajudar a sua empresa.",
+        "items": [
+          "Consultoria Especializada",
+          "Soluções Completas",
+          "Tecnologia de Ponta",
+          "Apoio Contínuo"
+        ]
+      },
+      "performance": {
+        "title": "Desempenho da Indústria",
+        "stats": [
+          {
+            "label": "Produção",
+            "description": "vs mês anterior"
+          },
+          {
+            "label": "Eficiência",
+            "description": "meta atingida"
+          },
+          {
+            "label": "Disponibilidade",
+            "description": "em operação"
+          }
+        ],
+        "roboticaTitle": "Robótica Neo"
+      },
+      "infoCards": [
+        {
+          "title": "Escritório nos EUA",
+          "description": "Orlando, Flórida, USA"
+        },
+        {
+          "title": "Telefone Comercial",
+          "description": "+1 (321) 888-7963"
+        },
+        {
+          "title": "E-mail",
+          "description": "info@injectracorp.com"
+        },
+        {
+          "title": "Apoio Regional",
+          "description": "Atuação em toda a América"
+        },
+        {
+          "title": "Assistência Técnica",
+          "description": "Equipa especializada para máquinas, robótica e plataforma AI"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para transformar a sua operação industrial?",
+      "description": "Fale com a nossa equipa e encontre a melhor solução em máquinas, robótica, software e automação.",
+      "quoteButton": "SOLICITAR ORÇAMENTO",
+      "specialistButton": "FALAR COM ESPECIALISTA"
+    },
+    "presenca": {
+      "regionCard": {
+        "title": "Presença nas Américas",
+        "description": "Com sede nos Estados Unidos, a Injectra apoia clientes, parceiros e projetos industriais em toda a América do Norte, Central e do Sul.",
+        "linkLabel": "Ver regiões de atuação"
+      },
+      "highlightsCard": {
+        "title": "Presença nas Américas",
+        "items": [
+          {
+            "title": "Resposta consultiva",
+            "description": "Percebemos o seu desafio e sugerimos a melhor solução."
+          },
+          {
+            "title": "Soluções completas",
+            "description": "Máquinas, robótica, software e serviço integrados."
+          },
+          {
+            "title": "Especialistas industriais",
+            "description": "Equipa experiente com conhecimento de aplicação real."
+          },
+          {
+            "title": "Integração com Injectra AI",
+            "description": "Tecnologia e dados para elevar a produtividade."
+          }
+        ]
+      }
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  },
+  "experienceCenter": {
+    "banner": {
+      "eyebrow": "EXPERIENCE CENTER",
+      "title": "Viva a tecnologia.\nTransforme resultados.",
+      "subtitle": "O Experience Center Injectra foi criado para que veja, teste e comprove na prática como as nossas soluções podem elevar a produtividade, a qualidade e a competitividade da sua indústria.",
+      "ctaVisita": "Marcar uma Visita",
+      "ctaEspecialista": "Falar com um Especialista",
+      "trustItems": [
+        {
+          "label": "Tecnologia de Ponta"
+        },
+        {
+          "label": "Resultados Comprovados"
+        },
+        {
+          "label": "Especialistas Dedicados"
+        },
+        {
+          "label": "Segurança e Fiabilidade"
+        }
+      ]
+    },
+    "confianca": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "description": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "description": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "description": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "description": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "description": "Eficiência energética e ESG"
+        }
+      ]
+    },
+    "diferenciais": {
+      "title": "Porque visitar o nosso Experience Center?",
+      "stats": [
+        {
+          "label": "Visitas realizadas"
+        },
+        {
+          "label": "Testes de aplicação"
+        },
+        {
+          "label": "Clientes satisfeitos"
+        },
+        {
+          "label": "Especialistas dedicados"
+        }
+      ]
+    },
+    "esperar": {
+      "title": "O que pode esperar",
+      "items": [
+        {
+          "label": "Apoio personalizado"
+        },
+        {
+          "label": "Soluções adaptadas à sua necessidade"
+        },
+        {
+          "label": "Tecnologia de última geração"
+        },
+        {
+          "label": "Ambiente moderno e interativo"
+        },
+        {
+          "label": "Resultados reais comprovados"
+        }
+      ]
+    },
+    "experiencias": {
+      "title": "As Nossas Experiências",
+      "saibaMais": "Saiba mais",
+      "items": [
+        {
+          "title": "Demonstrações",
+          "description": "Veja as nossas máquinas e soluções em funcionamento e descubra como a tecnologia Injectra pode transformar a sua produção."
+        },
+        {
+          "title": "Testes de Aplicação",
+          "description": "Traga o seu molde, material ou peça e realize testes reais com o apoio dos nossos especialistas."
+        },
+        {
+          "title": "Showroom",
+          "description": "Conheça de perto a nossa linha completa de máquinas, robótica e soluções inteligentes num ambiente inovador."
+        },
+        {
+          "title": "Formações",
+          "description": "Capacite a sua equipa com formações técnicas e operacionais para extrair o máximo desempenho."
+        },
+        {
+          "title": "Validação de Projetos",
+          "description": "Validamos consigo a melhor solução para o seu projeto, garantindo desempenho e retorno sobre o investimento."
+        }
+      ]
+    },
+    "agendamento": {
+      "title": "Marque agora a sua experiência",
+      "description": "Viva a tecnologia Injectra na prática e descubra como podemos levar a sua produção para o próximo nível.",
+      "ctaVisita": "Marcar uma Visita",
+      "ctaEspecialista": "Falar com um Especialista"
+    }
+  },
+  "faleComEspecialista": {
+    "hero": {
+      "eyebrow": "ESPECIALISTAS",
+      "titlePrefix": "Fale com um especialista",
+      "titleHighlight": "da Injectra.",
+      "subtitle": "Consultoria comercial, técnica e de engenharia para ajudar a sua operação a escolher a solução ideal.",
+      "body": "A nossa equipa de especialistas apoia-o na seleção de máquinas, automação, robótica, integração com a Injectra AI e validação de aplicações — sempre com foco no desempenho, eficiência e resultados reais para a sua indústria.",
+      "ctaSchedule": "Marcar Reunião",
+      "ctaWhatsapp": "Falar no WhatsApp",
+      "cards": [
+        {
+          "title": "Consultoria Comercial",
+          "description": "Percebemos a sua necessidade e apresentamos as melhores opções de máquinas, robótica e soluções Injectra."
+        },
+        {
+          "title": "Consultoria Técnica",
+          "description": "Análise técnica especializada para validar requisitos, processos e viabilidade da sua aplicação."
+        },
+        {
+          "title": "Engenharia de Aplicação",
+          "description": "Desenvolvemos soluções personalizadas com foco no desempenho, produtividade e integração."
+        },
+        {
+          "title": "Marcação de Reunião",
+          "description": "Ligamos o cliente aos especialistas certos para reuniões técnicas ou apresentações."
+        }
+      ]
+    },
+    "comoAjudamos": {
+      "title": "Como podemos ajudar",
+      "subtitle": "Soluções completas para os setores mais exigentes da indústria.",
+      "items": [
+        {
+          "title": "Seleção de linha ideal",
+          "description": "Ajudamo-lo a escolher a máquina perfeita para a sua produção."
+        },
+        {
+          "title": "Análise de aplicação",
+          "description": "Estudamos o seu processo e recomendamos a melhor configuração."
+        },
+        {
+          "title": "Automação e robótica",
+          "description": "Soluções que aumentam a eficiência, qualidade e segurança da produção."
+        },
+        {
+          "title": "Integração Digital",
+          "description": "Ligue as suas máquinas à Injectra AI e transforme dados em resultados."
+        },
+        {
+          "title": "Redução de Custos",
+          "description": "Mais produtividade, menos desperdício e maior eficiência."
+        },
+        {
+          "title": "Expansão de Produção",
+          "description": "Escalabilidade e soluções para acompanhar o crescimento do seu negócio."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Como funciona",
+      "subtitle": "Um processo simples e consultivo para chegar à melhor solução.",
+      "steps": [
+        {
+          "title": "Envie a sua necessidade",
+          "description": "Preencha o formulário com as suas informações e objetivo."
+        },
+        {
+          "title": "A nossa equipa analisa",
+          "description": "Os especialistas avaliam a sua necessidade e os seus requisitos."
+        },
+        {
+          "title": "Recomendamos a melhor solução",
+          "description": "Apresentamos as opções ideais para a sua aplicação."
+        },
+        {
+          "title": "Marcamos reunião técnica/comercial",
+          "description": "Reunião personalizada para detalhes e próximos passos."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Apoio consultivo para acelerar a sua decisão industrial.",
+      "subtitle": "Fale com um especialista e descubra como a Injectra pode transformar a sua produção com tecnologia e inteligência.",
+      "quoteButton": "Solicitar Orçamento",
+      "meetingButton": "Marcar Reunião"
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  },
+  "industria": {
+    "banner": {
+      "kicker": "INDÚSTRIA",
+      "title": "Soluções inteligentes para impulsionar todos os segmentos da indústria.",
+      "subtitle": "A Injectra oferece máquinas, robótica e plataformas inteligentes para aumentar a produtividade, qualidade e competitividade em diferentes setores industriais.",
+      "ctaCatalogos": "Ver todos os catálogos",
+      "ctaEspecialista": "Falar com Especialista",
+      "highlights": [
+        "Soluções Personalizadas",
+        "Maior Produtividade",
+        "Qualidade e Fiabilidade",
+        "Presença nas Américas"
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Porque escolher a Injectra para a sua indústria?",
+      "items": [
+        {
+          "title": "Tecnologia Avançada",
+          "description": "Máquinas elétricas e hidráulicas de última geração."
+        },
+        {
+          "title": "Automação Inteligente",
+          "description": "Robótica e sistemas integrados para máxima eficiência."
+        },
+        {
+          "title": "Apoio Especializado",
+          "description": "Equipa técnica com experiência no seu segmento."
+        },
+        {
+          "title": "Desempenho Comprovado",
+          "description": "Mais produtividade, qualidade e redução de custos."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "CATÁLOGOS POR INDÚSTRIA",
+        "description": "Descarregue catálogos e casos de sucesso específicos para o seu segmento.",
+        "cta": "Ver catálogos"
+      },
+      "ajuda": {
+        "kicker": "PRECISA DE AJUDA?",
+        "description": "A nossa equipa conhece o seu segmento e ajuda a encontrar a melhor solução.",
+        "cta": "Entre em Contacto"
+      },
+      "tecnologia": {
+        "kicker": "Tecnologia que se adapta ao seu segmento",
+        "description": "Equipamentos, automação e inteligência para gerar resultados reais.",
+        "cta": "Falar com especialista"
+      }
+    },
+    "segmentos": {
+      "title": "Os Nossos Segmentos e Atuação",
+      "ctaLabel": "Ver soluções",
+      "items": [
+        {
+          "title": "Automóvel",
+          "description": "Soluções completas para injeção plástica, componentes, acabamentos, automação e processos."
+        },
+        {
+          "title": "Embalagens",
+          "description": "Máquinas de alta velocidade e precisão para embalagens plásticas e sistemas de automação."
+        },
+        {
+          "title": "Médico",
+          "description": "Equipamentos para produção de peças médicas com máxima precisão e rastreabilidade."
+        },
+        {
+          "title": "Consumo",
+          "description": "Soluções para produtos de uso diário com elevada eficiência, qualidade e competitividade."
+        },
+        {
+          "title": "Eletrónicos",
+          "description": "Injeção de precisão para componentes eletrónicos e automação de montagem."
+        },
+        {
+          "title": "Construção",
+          "description": "Soluções robustas para peças técnicas, tubos, ligações e materiais de construção."
+        },
+        {
+          "title": "Logística",
+          "description": "Sistemas e soluções para otimizar processos, armazenamento e movimentação."
+        },
+        {
+          "title": "Outros Segmentos",
+          "description": "Servimos diversos segmentos industriais com soluções à medida e alta tecnologia."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  },
+  "maquinas": {
+    "banner": {
+      "kicker": "MÁQUINAS",
+      "title": "Tecnologia em injeção para todos os segmentos da indústria.",
+      "subtitle": "Nove linhas completas de máquinas hidráulicas e elétricas, desenvolvidas para o máximo desempenho, precisão e eficiência em qualquer aplicação.",
+      "ctaCatalogos": "Ver todos os catálogos",
+      "ctaEspecialista": "Falar com Especialista",
+      "stats": [
+        "101 Modelos de máquinas",
+        "70+ Acessórios e Periféricos",
+        "Tecnologia 100% Integrada"
+      ]
+    },
+    "comoFunciona": {
+      "title": "Como funciona a navegação dos modelos",
+      "description": "Escolha uma linha e navegue facilmente por todos os modelos disponíveis. Cada página apresenta as especificações técnicas, catálogo e opções de orçamento.",
+      "sidebarItemLabel": "Prime IP - X",
+      "detailTitle": "Prime IP - X",
+      "detailDescription": "Precisão, versatilidade e desempenho para aplicações gerais.",
+      "ctaCatalogos": "Ver todos os catálogos",
+      "ctaEspecialista": "Falar com Especialista",
+      "specs": [
+        {
+          "title": "X T de Força",
+          "subtitle": "de fecho"
+        },
+        {
+          "title": "Tie Bar",
+          "subtitle": "X x X mm"
+        },
+        {
+          "title": "Alta Precisão"
+        },
+        {
+          "title": "Assistência técnica",
+          "subtitle": "especializada"
+        }
+      ]
+    },
+    "comparativo": {
+      "title": "Comparativo entre as linhas",
+      "subtitle": "Encontre rapidamente a linha ideal para a sua necessidade.",
+      "rows": [
+        "Aplicação",
+        "Acionamento",
+        "Faixa de Tonelagem",
+        "Destaque"
+      ],
+      "columns": [
+        {
+          "name": "Prime",
+          "aplicacao": "Geral",
+          "acionamento": "Hidráulica",
+          "tonelagem": "60 - 1.000 t",
+          "destaque": "Precisão e Versatilidade"
+        },
+        {
+          "name": "Speed",
+          "aplicacao": "Alta Velocidade",
+          "acionamento": "Hidráulica",
+          "tonelagem": "70 - 800 t",
+          "destaque": "Ciclos rápidos e eficiência"
+        },
+        {
+          "name": "Velocity",
+          "aplicacao": "Alta Produtividade",
+          "acionamento": "Hidráulica",
+          "tonelagem": "80 - 500 t",
+          "destaque": "Velocidade Extrema"
+        },
+        {
+          "name": "Form",
+          "aplicacao": "Peças Técnicas Precisas",
+          "acionamento": "Hidráulica",
+          "tonelagem": "100 - 800 t",
+          "destaque": "Alta Precisão"
+        },
+        {
+          "name": "Neo",
+          "aplicacao": "Energia e Alta Precisão",
+          "acionamento": "100% Elétrica",
+          "tonelagem": "60 - 350 t",
+          "destaque": "Eficiência energética e precisão"
+        },
+        {
+          "name": "Altas",
+          "aplicacao": "Grandes peças e embalagens",
+          "acionamento": "Hidráulica",
+          "tonelagem": "400 - 4.000 t",
+          "destaque": "Robustez para grandes peças"
+        },
+        {
+          "name": "Hydro",
+          "aplicacao": "Aplicações Pesadas",
+          "acionamento": "Hidráulica",
+          "tonelagem": "180 - 3.000 t",
+          "destaque": "Força para aplicações exigentes"
+        },
+        {
+          "name": "Titan",
+          "aplicacao": "Moldes Robustos",
+          "acionamento": "Hidráulica",
+          "tonelagem": "650 - 4.000 t",
+          "destaque": "Grandes tonelagens"
+        },
+        {
+          "name": "Max",
+          "aplicacao": "Grandes Peças e Alta Exigência",
+          "acionamento": "Hidráulica",
+          "tonelagem": "800 - 5.000 t",
+          "destaque": "Máxima Capacidade"
+        },
+        {
+          "name": "Equora",
+          "aplicacao": "Aplicações Exigentes e Versáteis",
+          "acionamento": "Híbrida",
+          "tonelagem": "100 - 2.000 t",
+          "destaque": "Equilíbrio entre força e eficiência"
+        }
+      ]
+    },
+    "linhasDeMaquinas": {
+      "title": "As Nossas Linhas de Máquinas",
+      "subtitle": "Encontre rapidamente a linha ideal para a sua necessidade.",
+      "ctaVerModelos": "Ver Modelos",
+      "machines": [
+        {
+          "name": "PRIME",
+          "description": "Alta precisão e versatilidade para aplicações gerais."
+        },
+        {
+          "name": "SPEED",
+          "description": "Ciclos rápidos e máxima eficiência."
+        },
+        {
+          "name": "VELOCITY",
+          "description": "Ultra alta velocidade e produtividade extrema."
+        },
+        {
+          "name": "FORM",
+          "description": "Soluções para peças técnicas com alta precisão."
+        },
+        {
+          "name": "NEO",
+          "description": "Linha 100% elétrica com alta repetibilidade e eficiência energética."
+        },
+        {
+          "name": "ATLAS",
+          "description": "Especializada em caixas plásticas, paletes e peças de grande porte."
+        },
+        {
+          "name": "HYDRO",
+          "description": "Potência hidráulica para aplicações exigentes."
+        },
+        {
+          "name": "TITAN",
+          "description": "Grandes tonelagens para moldes robustos e alta exigência."
+        },
+        {
+          "name": "MAX",
+          "description": "Máxima capacidade e robustez para os maiores desafios."
+        },
+        {
+          "name": "EQUORA",
+          "description": "Equilíbrio entre força, eficiência e economia com tecnologia híbrida."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "CATÁLOGOS",
+        "description": "Descarregue os catálogos completos de todas as linhas e máquinas",
+        "cta": "Ver todos os catálogos"
+      },
+      "ajuda": {
+        "kicker": "PRECISA DE AJUDA?",
+        "description": "Fale com o nosso especialista e encontre a melhor solução para a sua aplicação.",
+        "cta": "Falar com especialista"
+      },
+      "video": {
+        "title": "Tecnologia que move a indústria.",
+        "description": "Veja o vídeo e conheça os diferenciais Injectra.",
+        "ariaPlay": "Ver vídeo"
+      }
+    },
+    "tecnologias": {
+      "title": "Tecnologias Injectra",
+      "subtitle": "Inovação que transforma desempenho em resultados.",
+      "items": [
+        {
+          "title": "Servo Drive Inteligente",
+          "description": "Controlo preciso de movimentos para máxima repetibilidade."
+        },
+        {
+          "title": "Hidráulica Avançada",
+          "description": "Sistemas hidráulicos de alto desempenho e eficiência."
+        },
+        {
+          "title": "Injeção de Alta Precisão",
+          "description": "Controlo avançado de injeção para peças com qualidade superior."
+        },
+        {
+          "title": "Eficiência Energética",
+          "description": "Tecnologias que reduzem o consumo e aumentam a sustentabilidade."
+        },
+        {
+          "title": "Conectividade Total",
+          "description": "Máquinas ligadas à Injectra AI para uma gestão inteligente."
+        },
+        {
+          "title": "Segurança Integrada",
+          "description": "Sistemas completos de segurança para o operador e o processo."
+        }
+      ]
+    },
+    "tecnologiasDasLinhas": {
+      "tags": [
+        "Hidráulica",
+        "100% Elétrica",
+        "Híbrida",
+        "Robótica",
+        "Injectra AI",
+        "IoT Industrial",
+        "OEE & Analytics",
+        "App Mobile",
+        "Assistência Técnica"
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    },
+    "modelo": {
+      "breadcrumb": {
+        "home": "Home",
+        "maquinas": "Máquinas"
+      },
+      "hero": {
+        "ctaCotacao": "Solicitar Orçamento",
+        "ctaCatalogo": "Descarregar Catálogo",
+        "ctaEspecialista": "Falar com Especialista"
+      },
+      "quickSpecs": {
+        "forca": {
+          "title": "T de Força",
+          "subtitle": "de fecho"
+        },
+        "tieBar": {
+          "title": "Tie Bar"
+        },
+        "precisao": {
+          "title": "Alta Precisão"
+        },
+        "suporte": {
+          "title": "Assistência técnica",
+          "subtitle": "especializada"
+        }
+      },
+      "comparativo": {
+        "title": "Comparativo entre as linhas",
+        "subtitle": "Encontre rapidamente a linha ideal para a sua necessidade.",
+        "rows": {
+          "serie": "Série",
+          "modelo": "Modelo",
+          "forcaFechamento": "Força de fecho",
+          "tieBar": "Distância entre colunas (Tie Bar)",
+          "tecnologia": "Tecnologia",
+          "aplicacoesIndicadas": "Aplicações indicadas",
+          "configuracaoComercial": "Configuração comercial",
+          "suporte": "Assistência"
+        }
+      },
+      "aplicacoesBeneficios": {
+        "title": "Aplicações e Benefícios",
+        "items": {
+          "pecasTecnicas": {
+            "title": "Peças Técnicas",
+            "description": "Ideal para componentes que exigem precisão e repetibilidade."
+          },
+          "consumo": {
+            "title": "Consumo",
+            "description": "Soluções eficientes para produtos do dia a dia com alta qualidade."
+          },
+          "automacaoIntegrada": {
+            "title": "Automação integrada",
+            "description": "Compatível com periféricos e sistemas de automação modernos."
+          },
+          "baixoCusto": {
+            "title": "Baixo custo operacional",
+            "description": "Projeto eficiente que reduz o consumo de energia e os custos de manutenção."
+          }
+        }
+      },
+      "ctaConfigurar": {
+        "titleTemplate": "Pronto para configurar a sua {model}?",
+        "description": "Faça parte de uma rede de parceiros que está a transformar a indústria nas Américas com tecnologia e inovação.",
+        "ctaCotacao": "Solicitar Orçamento",
+        "ctaEspecialista": "Falar com Especialista",
+        "trustItems": [
+          {
+            "title": "Tecnologia Americana",
+            "description": "Desenvolvida nos EUA"
+          },
+          {
+            "title": "Presença nas Américas",
+            "description": "Apoio local"
+          },
+          {
+            "title": "Mais de 30 anos de experiência",
+            "description": "em soluções industriais"
+          },
+          {
+            "title": "Suporte 24/7",
+            "description": "Assistência técnica especializada"
+          },
+          {
+            "title": "Sustentabilidade",
+            "description": "Eficiência energética e ESG"
+          }
+        ]
+      },
+      "especificacoes": {
+        "prime-ip": {
+          "forcaTonelagem": "60 Toneladas",
+          "tieBar": "290 x 270 mm",
+          "aplicacoesIndicadas": "Utilidades, peças técnicas, consumo e componentes industriais",
+          "configuracaoComercial": "Disponível para orçamento personalizado",
+          "suporte": "Assistência técnica e consultoria especializada"
+        }
+      },
+      "linhas": {
+        "prime-ip": {
+          "description": "Precisão, versatilidade e desempenho para aplicações gerais."
+        }
+      }
+    }
+  },
+  "plataformaAi": {
+    "banner": {
+      "eyebrow": "PLATAFORMA AI",
+      "title": "Dados, conectividade e inteligência para transformar a sua produção.",
+      "subtitle": "A Plataforma Injectra AI liga máquinas, pessoas e processos num ecossistema inteligente para aumentar a produtividade, reduzir paragens e gerar decisões em tempo real.",
+      "ctaPrimary": "Solicitar Demonstração",
+      "ctaSecondary": "Falar com um Especialista",
+      "trustItems": [
+        {
+          "label": "Cloud 100% Segura"
+        },
+        {
+          "label": "Inteligência Artificial"
+        },
+        {
+          "label": "Decisões em Tempo Real"
+        },
+        {
+          "label": "Máxima Segurança e Fiabilidade"
+        }
+      ]
+    },
+    "fluxo": {
+      "title": "Marque agora a sua experiência",
+      "description": "Viva a tecnologia Injectra na prática e descubra como podemos levar a sua produção para o próximo nível.",
+      "etapas": [
+        {
+          "title": "Máquinas Injectra",
+          "description": "Dados em tempo real"
+        },
+        {
+          "title": "Sensores e Dispositivos",
+          "description": "Recolha de dados"
+        },
+        {
+          "title": "Plataforma AI Cloud",
+          "description": "Processamento e IA"
+        },
+        {
+          "title": "Dashboards e Relatórios",
+          "description": "Visualização e análise"
+        },
+        {
+          "title": "Ações e Decisões",
+          "description": "Resultados e eficiência"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Soluções que impulsionam a sua indústria",
+      "items": [
+        {
+          "title": "Dashboard Cloud",
+          "description": "Acompanhe todos os indicadores da sua produção em tempo real, em qualquer lugar e em qualquer dispositivo."
+        },
+        {
+          "title": "App Mobile",
+          "description": "Tenha o controlo da sua produção na palma da mão. Monitorize, receba alertas e aja em qualquer lugar."
+        },
+        {
+          "title": "IoT Industrial",
+          "description": "Ligue máquinas, sensores e dispositivos para recolha de dados em tempo real com máxima segurança."
+        },
+        {
+          "title": "OEE",
+          "description": "Monitorize a Disponibilidade, o Desempenho e a Qualidade em tempo real, aumentando a eficiência da sua operação."
+        },
+        {
+          "title": "Analíticas",
+          "description": "Transforme dados em informações valiosas com análises avançadas e relatórios personalizados."
+        },
+        {
+          "title": "Manutenção Preditiva",
+          "description": "Antecipe falhas e reduza paragens não programadas com algoritmos de IA e Machine Learning."
+        },
+        {
+          "title": "Alertas Inteligentes",
+          "description": "Receba alertas críticos e recomendações inteligentes para agir antes que os problemas afetem a sua produção."
+        },
+        {
+          "title": "Atualizações OTA",
+          "description": "As atualizações remotas de software e firmware garantem que a sua plataforma está sempre atualizada e segura."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Inteligência Artificial aplicada à indústria para otimizar processos, qualidade e produtividade de forma contínua."
+        }
+      ]
+    }
+  },
+  "representantes": {
+    "banner": {
+      "badge": "PROGRAMA DE REPRESENTANTES",
+      "title": "Seja um representante Injectra e leve tecnologia de ponta para a sua região.",
+      "subtitle": "Parceria, apoio e tecnologia para crescer com uma marca global líder em soluções industriais.",
+      "ctaPrimary": "Quero ser Representante",
+      "ctaSecondary": "Falar com um Especialista",
+      "highlights": [
+        "Tecnologia Líder Global",
+        "Produtos de Alto Desempenho",
+        "Apoio Completo",
+        "Parceria para Crescer Juntos"
+      ]
+    },
+    "beneficios": {
+      "title": "Benefícios de ser um representante Injectra",
+      "items": [
+        {
+          "title": "Comissões Atrativas",
+          "description": "Ganhe comissões competitivas e crescimento contínuo."
+        },
+        {
+          "title": "Produtos de Alta Qualidade",
+          "description": "Soluções inovadoras e fiáveis para diversos segmentos industriais."
+        },
+        {
+          "title": "Apoio e Formação",
+          "description": "Formações técnicas e comerciais contínuas para o seu sucesso."
+        },
+        {
+          "title": "Marketing e Materiais",
+          "description": "Apoio em marketing, materiais exclusivos e geração de procura."
+        },
+        {
+          "title": "Marca Global e de Confiança",
+          "description": "Represente uma marca reconhecida em toda a América."
+        },
+        {
+          "title": "Oportunidades de Crescimento",
+          "description": "Aumente o seu portefólio e expanda os seus negócios."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Benefícios de ser um representante Injectra",
+      "items": [
+        {
+          "title": "Registo",
+          "description": "Preencha o formulário completo e envie os seus dados."
+        },
+        {
+          "title": "Avaliação",
+          "description": "A nossa equipa avaliará o seu perfil e potencial para a sua região."
+        },
+        {
+          "title": "Aprovação",
+          "description": "Será aprovado e formalmente integrado no programa."
+        },
+        {
+          "title": "Formação",
+          "description": "Receba formações técnicas e comerciais completas."
+        },
+        {
+          "title": "Atuação",
+          "description": "Comece a representar e a levar tecnologia Injectra para a sua região."
+        }
+      ]
+    },
+    "nossasExperiencias": {
+      "title": "As Nossas Experiências",
+      "mapAlt": "Mapa das Américas",
+      "ctaLabel": "Ver oportunidades",
+      "regioes": [
+        {
+          "title": "América do Norte",
+          "description": "Estados Unidos, Canadá e México"
+        },
+        {
+          "title": "América Central",
+          "description": "Guatemala, Panamá, Costa Rica e outros."
+        },
+        {
+          "title": "Caraíbas",
+          "description": "Ilhas das Caraíbas e nações caribenhas."
+        },
+        {
+          "title": "América do Sul",
+          "description": "Brasil, Argentina, Chile, Colômbia e outros."
+        },
+        {
+          "title": "Região Andina",
+          "description": "Equador, Peru, Bolívia e Venezuela."
+        },
+        {
+          "title": "Outros Mercados",
+          "description": "Oportunidades em novos mercados."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vamos crescer juntos!",
+      "description": "Faça parte de uma rede de parceiros que está a transformar a indústria nas Américas com tecnologia e inovação.",
+      "stats": [
+        {
+          "label": "Representantes ativos"
+        },
+        {
+          "label": "Países abrangidos"
+        },
+        {
+          "label": "Máquinas instaladas"
+        },
+        {
+          "label": "De experiência global"
+        }
+      ],
+      "trustItems": [
+        {
+          "title": "Tecnologia Americana",
+          "description": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "description": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "description": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "description": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "description": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  },
+  "robotica": {
+    "banner": {
+      "badge": "ROBÓTICA",
+      "title": "Automação inteligente que impulsiona resultados.",
+      "subtitle": "Soluções completas em robótica e automação para movimentação, manuseamento, paletização e integração com máquinas Injectra.",
+      "highlights": [
+        {
+          "label": "Alta Produtividade"
+        },
+        {
+          "label": "Precisão e Repetibilidade"
+        },
+        {
+          "label": "Flexibilidade Total"
+        },
+        {
+          "label": "Integração com Injectra AI"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    },
+    "aplicacoes": {
+      "title": "Aplicações em Diferentes Setores",
+      "items": [
+        {
+          "title": "Injeção Plástica",
+          "description": "Remoção de peças e alimentação."
+        },
+        {
+          "title": "Manuseamento",
+          "description": "Pick & Place de alta velocidade"
+        },
+        {
+          "title": "Montagem",
+          "description": "Montagem e inserção de componentes"
+        },
+        {
+          "title": "Inspeção",
+          "description": "Visão inteligente e controlo de qualidade."
+        },
+        {
+          "title": "Paletização",
+          "description": "Formação de camadas e paletização."
+        },
+        {
+          "title": "Embalagem",
+          "description": "Encartuchamento e embalagens."
+        },
+        {
+          "title": "Logística Interna",
+          "description": "Movimentação e transporte autónomo."
+        }
+      ]
+    },
+    "capacidade": {
+      "title": "Robô Humanoide Neo",
+      "subtitle": "Desenvolvido para interagir com pessoas e ambientes industriais de forma segura, flexível e inteligente.",
+      "checklist": [
+        "Perceção 3D e visão computacional",
+        "Mobilidade avançada e equilíbrio dinâmico",
+        "Interação segura com humanos",
+        "Aprendizagem e adaptação contínua",
+        "Integração nativa com Injectra AI"
+      ],
+      "ctaLabel": "Conheça o Neo",
+      "robotImageAlt": "Robô Humanoide Neo",
+      "specs": [
+        "Grau de liberdade",
+        "Visão e perceção",
+        "Velocidade máxima",
+        "Carga útil",
+        "Proteção industrial"
+      ],
+      "videoThumbAlt": "Robô Neo em operação",
+      "videoTitle": "Automação que vai além.",
+      "videoDescription": "Veja o Neo em ação na indústria",
+      "watchLabel": "Ver demonstração"
+    },
+    "solucoes": {
+      "title": "As Nossas Soluções em Robótica",
+      "detailsLabel": "Ver detalhes",
+      "items": [
+        {
+          "title": "Robô Humanoide Neo",
+          "description": "O futuro da automação inteligente. Mobilidade, perceção e interação para tarefas complexas."
+        },
+        {
+          "title": "Robôs Cartesianos",
+          "description": "Alta velocidade e precisão para manuseamento, pick & place e remoção de peças."
+        },
+        {
+          "title": "Células Robotizadas",
+          "description": "Soluções completas e personalizadas para diferentes aplicações e níveis de automação."
+        },
+        {
+          "title": "Paletização",
+          "description": "Sistemas de paletização eficientes para aumento de produtividade e padronização de processos."
+        },
+        {
+          "title": "Automação Inteligente",
+          "description": "Integração de processos, sensores e controlos de fábricas mais inteligentes e ligadas."
+        },
+        {
+          "title": "Integração com Injectra AI",
+          "description": "Integração total com a plataforma Injectra AI para monitorização e decisões inteligentes."
+        }
+      ]
+    },
+    "integracao": {
+      "title": "Integração Completa com a Indústria",
+      "subtitle": "Soluções que se ligam perfeitamente ao seu processo produtivo.",
+      "etapas": [
+        {
+          "title": "Máquinas Injectra",
+          "description": "Injetoras hidráulicas e elétricas."
+        },
+        {
+          "title": "Robôs e Automação",
+          "description": "Cartesianos, Neo e células robotizadas."
+        },
+        {
+          "title": "Transporte e Tapetes Rolantes",
+          "description": "Movimentação Inteligente"
+        },
+        {
+          "title": "Paletização",
+          "description": "Organização e empilhamento."
+        },
+        {
+          "title": "Plataforma Injectra AI",
+          "description": "Monitorização e controlo em tempo real."
+        }
+      ],
+      "cardTitle": "Tudo ligado.",
+      "cardDescription": "Monitorização, dados e decisões em tempo real para máxima eficiência.",
+      "ctaLabel": "Conheça a Plataforma AI"
+    },
+    "comparativo": {
+      "title": "Comparativo: Qual solução é ideal para a sua necessidade?",
+      "columns": {
+        "solucao": "Solução",
+        "velocidade": "Velocidade",
+        "precisao": "Precisão",
+        "flexibilidade": "Flexibilidade",
+        "cargaUtil": "Carga Útil",
+        "aplicacoes": "Aplicações",
+        "integracaoAi": "Integração AI"
+      },
+      "rows": [
+        {
+          "solucao": "Robô Humanoide Neo",
+          "cargaUtil": "10+ kg",
+          "aplicacoes": "Interação, inspeção, assistência",
+          "integracaoAi": "Nativa"
+        },
+        {
+          "solucao": "Robôs Cartesianos",
+          "cargaUtil": "Até 50 kg",
+          "aplicacoes": "Pick & place, manuseamento",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Células Robotizadas",
+          "cargaUtil": "Até 200 kg",
+          "aplicacoes": "Processos automatizados",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Paletização",
+          "cargaUtil": "Até 500 kg",
+          "aplicacoes": "Paletização, despaletização",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Automação Inteligente",
+          "cargaUtil": "Variável",
+          "aplicacoes": "Integração de processos",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Integração com IA",
+          "cargaUtil": "Ilimitada",
+          "aplicacoes": "Monitorização e decisões",
+          "integracaoAi": "Nativa"
+        }
+      ],
+      "helpTitle": "Precisa de ajuda para escolher?",
+      "helpDescription": "A nossa equipa de especialistas indicará a melhor solução para a sua operação.",
+      "helpCta": "Falar com Especialista"
+    },
+    "cta": {
+      "title": "Pronto para levar a sua produção para o próximo nível?",
+      "description": "Fale com os nossos especialistas e descubra como a robótica Injectra pode transformar a sua indústria com mais produtividade e segurança.",
+      "quoteButton": "Solicitar Orçamento",
+      "specialistButton": "Falar com Especialista"
+    }
+  },
+  "sobreNos": {
+    "banner": {
+      "eyebrow": "SOBRE NÓS",
+      "title": "Sobre a Injectra",
+      "subtitle": "Tecnologia industrial para transformar a manufatura nas Américas.",
+      "description": "A Injectra Corporation é uma empresa americana focada em máquinas injetoras, robótica, software industrial, IoT, cloud e inteligência artificial. O nosso objetivo é entregar produtividade, automação e eficiência às indústrias que procuram crescer com tecnologia.",
+      "highlights": [
+        {
+          "label": "Empresa Americana"
+        },
+        {
+          "label": "Presença nas Américas"
+        },
+        {
+          "label": "Foco na Indústria e na Inovação"
+        }
+      ]
+    },
+    "quemSomos": {
+      "title": "Quem Somos",
+      "paragraph1": "A Injectra nasceu para unir engenharia industrial, automação e inteligência digital numa única plataforma.",
+      "paragraph2": "Mais do que vender máquinas, construímos um ecossistema completo com equipamentos, robótica, serviços e software.",
+      "pilares": [
+        {
+          "title": "Máquinas Injetoras",
+          "description": "Tecnologia de ponta para o máximo desempenho e fiabilidade."
+        },
+        {
+          "title": "Robótica Industrial",
+          "description": "Automação inteligente para aumentar a produtividade e a qualidade."
+        },
+        {
+          "title": "Plataforma Injectra AI",
+          "description": "Software industrial com IA, dados e analytics para melhores decisões."
+        },
+        {
+          "title": "Serviços e Apoio",
+          "description": "Assistência técnica, formações e serviços para garantir os seus resultados."
+        }
+      ]
+    },
+    "missaoVisaoValores": {
+      "title": "A Nossa Missão, Visão e Valores",
+      "items": [
+        {
+          "title": "Missão",
+          "description": "Impulsionar a indústria com soluções inteligentes, acessíveis e escaláveis."
+        },
+        {
+          "title": "Visão",
+          "description": "Construir uma das principais plataformas industriais inteligentes das Américas."
+        },
+        {
+          "title": "Valores",
+          "description": "Inovação, confiança, eficiência, proximidade com o cliente e crescimento sustentável."
+        }
+      ]
+    },
+    "ecossistema": {
+      "title": "O Nosso Ecossistema",
+      "items": [
+        {
+          "title": "Máquinas",
+          "description": "Injetoras de alta precisão e desempenho superior."
+        },
+        {
+          "title": "Robô Neo",
+          "description": "Robótica colaborativa e soluções de automação."
+        },
+        {
+          "title": "IoT Industrial",
+          "description": "Conectividade e monitorização em tempo real."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Inteligência Artificial aplicada à indústria."
+        },
+        {
+          "title": "App Mobile",
+          "description": "Controlo e acompanhamento onde quer que esteja."
+        },
+        {
+          "title": "Cloud & Analytics",
+          "description": "Dados seguros e análises para decisões estratégicas."
+        },
+        {
+          "title": "Experience Center",
+          "description": "Ambiente imersivo para testes, formações e inovação."
+        },
+        {
+          "title": "Assistência Técnica",
+          "description": "Especialistas prontos para apoiar a sua operação."
+        }
+      ]
+    },
+    "grupoInterfy": {
+      "logoAlt": "Interfy Corporation",
+      "paragraph1": "A Injectra faz parte do Grupo Interfy Corporation, e possuímos mais de 26 anos de experiência em tecnologia, software, transformação digital e expansão de negócios.",
+      "paragraph2": "Esta base fortalece a Injectra com visão global, estrutura corporativa, experiência em inovação e capacidade de crescimento internacional.",
+      "destaques": [
+        {
+          "title": "Mais de 26 anos de experiência"
+        },
+        {
+          "title": "Visão Global"
+        },
+        {
+          "title": "Estrutura Corporativa"
+        },
+        {
+          "title": "Inovação e Tecnologia"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para conhecer a Injectra?",
+      "description": "Fale com os nossos especialistas e descubra como as nossas soluções podem transformar a sua indústria.",
+      "quoteButton": "Solicitar Orçamento",
+      "specialistButton": "Falar com Especialista",
+      "trustItems": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  },
+  "solicitarCotacao": {
+    "banner": {
+      "eyebrow": "SOLICITAR ORÇAMENTO",
+      "title": "Solicitar Orçamento",
+      "subtitle": "Solicite uma proposta personalizada para máquinas, robótica e plataforma industrial Injectra.",
+      "description": "Conte com a nossa experiência para desenvolver a melhor solução para o seu projeto, com tecnologia, inovação e desempenho.",
+      "highlights": [
+        {
+          "lines": [
+            "Tecnologia",
+            "de Ponta"
+          ]
+        },
+        {
+          "lines": [
+            "Soluções",
+            "Integradas"
+          ]
+        },
+        {
+          "lines": [
+            "Desempenho Comprovado"
+          ]
+        }
+      ]
+    },
+    "configurador": {
+      "selecaoLinha": {
+        "title": "Seleção da Linha",
+        "subtitle": "Escolha a linha de máquinas do seu interesse",
+        "linhas": [
+          {
+            "name": "Prime",
+            "description": "Fiabilidade e versatilidade."
+          },
+          {
+            "name": "Speed",
+            "description": "Alto desempenho e produtividade."
+          },
+          {
+            "name": "Velocity",
+            "description": "Precisão e força para grandes desafios."
+          },
+          {
+            "name": "Form",
+            "description": "Precisão para peças técnicas e finas."
+          },
+          {
+            "name": "Neo",
+            "description": "Eficiência elétrica e baixo consumo."
+          },
+          {
+            "name": "Atlas",
+            "description": "Força e estabilidade para grandes peças."
+          },
+          {
+            "name": "Hydro",
+            "description": "Hidráulica avançada e robustez."
+          },
+          {
+            "name": "Titan",
+            "description": "Força máxima para aplicações extremas."
+          },
+          {
+            "name": "Max",
+            "description": "Soluções de capacidade elevadíssima."
+          },
+          {
+            "name": "Equora",
+            "description": "Equilíbrio entre força, eficiência e economia com tecnologia híbrida."
+          }
+        ],
+        "alertText": "Poderá configurar todos os detalhes da máquina na próxima etapa.",
+        "nextButton": "Próximo: Configuração da Máquina"
+      },
+      "configuracaoMaquina": {
+        "title": "Configuração da Máquina",
+        "subtitle": "Personalize a sua máquina de acordo com as necessidades do seu projeto.",
+        "fields": {
+          "forca": {
+            "label": "Força de Fecho",
+            "placeholder": "Selecione a força (ton)"
+          },
+          "aplicacao": {
+            "label": "Tipo de Aplicação",
+            "placeholder": "Selecione a aplicação"
+          },
+          "automacao": {
+            "label": "Automação",
+            "placeholder": "Selecione o nível"
+          },
+          "robotica": {
+            "label": "Robótica",
+            "placeholder": "Selecione a opção"
+          },
+          "opcionais": {
+            "label": "Opcionais",
+            "placeholder": "Selecione os opcionais"
+          },
+          "voltagem": {
+            "label": "Voltagem",
+            "placeholder": "Selecione a voltagem"
+          },
+          "produtividade": {
+            "label": "Produtividade Estimada",
+            "placeholder": "Selecione a produtividade"
+          },
+          "acessorios": {
+            "label": "Acessórios",
+            "placeholder": "Selecione os acessórios"
+          },
+          "integracaoAI": {
+            "label": "Integração com Injectra AI",
+            "placeholder": "Selecione a integração"
+          }
+        },
+        "options": {
+          "forcaUnidade": "Toneladas",
+          "aplicacao": [
+            "Embalagens",
+            "Automóvel",
+            "Eletrónicos",
+            "Médico",
+            "Consumo",
+            "Construção",
+            "Outros"
+          ],
+          "automacao": [
+            "Manual",
+            "Semiautomática",
+            "Automação Integrada",
+            "Automação Total com Robótica"
+          ],
+          "robotica": [
+            "Sem robótica",
+            "Robô Cartesiano",
+            "Robô Antropomórfico (6 eixos)",
+            "Robô Colaborativo"
+          ],
+          "opcionais": [
+            "Nenhum",
+            "Sistema de Refrigeração Avançado",
+            "Alimentador Automático",
+            "Central de Secagem",
+            "Outros"
+          ],
+          "voltagem": [
+            "220V",
+            "380V",
+            "440V",
+            "Outra"
+          ],
+          "produtividade": [
+            "Baixo volume",
+            "Médio volume",
+            "Alto volume",
+            "Volume altíssimo (24/7)"
+          ],
+          "acessorios": [
+            "Nenhum",
+            "Moldes à medida",
+            "Sistema de Automação",
+            "Central de Secagem",
+            "Outros"
+          ],
+          "integracaoAI": [
+            "Sem integração",
+            "Monitorização Básica",
+            "Plataforma Injectra AI Completa"
+          ]
+        },
+        "alertText": "A nossa equipa técnica utilizará estas informações para criar a solução ideal para o seu projeto."
+      },
+      "resumo": {
+        "title": "Configuração Selecionada",
+        "linhaSelecionadaLabel": "Linha Selecionada",
+        "emptyValue": "-",
+        "saveButton": "Guardar Configuração"
+      }
+    },
+    "cta": {
+      "title": "Pronto para receber a sua proposta personalizada?",
+      "description": "Preencha as informações, configure a sua máquina e envie o seu pedido. A nossa equipa entrará em contacto brevemente com a melhor solução para o seu projeto.",
+      "primaryButton": "SOLICITAR ORÇAMENTO",
+      "secondaryButton": "FALAR COM ESPECIALISTA"
+    },
+    "envioDaProposta": {
+      "title": "Envio da Proposta",
+      "etapas": [
+        {
+          "title": "Análise Técnica",
+          "description": "A nossa equipa técnica analisa as informações do seu projeto e identifica a melhor solução."
+        },
+        {
+          "title": "Validação Comercial",
+          "description": "Validação de viabilidade e condições comerciais personalizadas."
+        },
+        {
+          "title": "Proposta Personalizada",
+          "description": "Enviamos uma proposta completa com especificações, prazos e condições para o seu projeto."
+        },
+        {
+          "title": "Apoio do Especialista",
+          "description": "O nosso especialista acompanha-o em todas as etapas até à implementação."
+        }
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Porque escolher a Injectra?",
+      "razoes": [
+        {
+          "title": "Apoio Consultivo",
+          "description": "Percebemos o seu projeto para entregar a melhor solução."
+        },
+        {
+          "title": "Projeto à Medida",
+          "description": "Cada detalhe é desenvolvido para as suas necessidades."
+        },
+        {
+          "title": "Resposta Rápida",
+          "description": "Agilidade na resposta e propostas personalizadas."
+        },
+        {
+          "title": "Assistência Técnica",
+          "description": "Acompanhamento especializado antes, durante e no pós-venda."
+        },
+        {
+          "title": "Soluções Integradas",
+          "description": "Máquinas, robótica e plataforma AI ligadas para máxima eficiência."
+        },
+        {
+          "title": "Presença nas Américas",
+          "description": "Apoio local e assistência em toda a América."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Apoio local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  },
+  "suporte": {
+    "banner": {
+      "eyebrow": "SUPORTE",
+      "title": "Estamos aqui para manter a sua produção sempre em movimento",
+      "description": "Apoio completo e especializado para garantir o melhor desempenho das soluções Injectra em todas as etapas da sua operação.",
+      "openTicketLabel": "Abrir Pedido de Assistência",
+      "talkToSpecialistLabel": "Falar com um Especialista",
+      "highlights": [
+        {
+          "label": "Especialistas Dedicados"
+        },
+        {
+          "label": "Apoio Rápido e Eficiente"
+        },
+        {
+          "label": "Apoio em Toda a América"
+        },
+        {
+          "label": "Tecnologia que Não Para"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "As Nossas Soluções de Apoio",
+      "accessLabel": "Aceder",
+      "items": [
+        {
+          "title": "Assistência Técnica",
+          "description": "Atendimento especializado para diagnóstico remoto ou presencial, resolução de problemas e orientações técnicas completas."
+        },
+        {
+          "title": "Garantia",
+          "description": "Consulte a cobertura de garantia dos equipamentos Injectra e registe a sua garantia de forma rápida e fácil."
+        },
+        {
+          "title": "Manuais",
+          "description": "Aceda a manuais de instalação, operação e manutenção dos equipamentos Injectra."
+        },
+        {
+          "title": "Downloads",
+          "description": "Descarregue software, firmware, documentação técnica e outros recursos importantes."
+        },
+        {
+          "title": "FAQ",
+          "description": "Encontre respostas rápidas para as principais dúvidas sobre os nossos produtos e serviços."
+        },
+        {
+          "title": "Pedido de Peças",
+          "description": "Solicite peças de substituição originais com segurança e rapidez."
+        }
+      ]
+    },
+    "atendimento": {
+      "title": "Apoio em Toda a América",
+      "description": "Apoio local e distribuidores autorizados prontos para o atender onde estiver.",
+      "ctaLabel": "Ver pontos de apoio",
+      "stats": [
+        {
+          "value": "+30",
+          "label": "Países abrangidos"
+        },
+        {
+          "value": "+100",
+          "label": "Técnicos certificados"
+        },
+        {
+          "value": "+5.000",
+          "label": "Clientes satisfeitos"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Como funciona",
+      "description": "Um processo simples e consultivo para chegar à melhor solução.",
+      "etapas": [
+        {
+          "title": "1. Entre em Contacto",
+          "description": "Abra um pedido pelo site, telefone ou e-mail."
+        },
+        {
+          "title": "2. Diagnóstico",
+          "description": "A nossa equipa analisa o seu pedido e identifica a melhor solução."
+        },
+        {
+          "title": "3. Solução",
+          "description": "Fornecemos a solução ideal: assistência remota, orientação e visita técnica."
+        },
+        {
+          "title": "4. Acompanhamento",
+          "description": "Acompanhamos o caso até à resolução completa do problema."
+        },
+        {
+          "title": "5. A Sua Produção Não Para",
+          "description": "O apoio Injectra garante desempenho e produtividade sempre."
+        }
+      ]
+    },
+    "pecas": {
+      "title": "Peças originais Injectra",
+      "description": "Máxima qualidade e durabilidade para o seu equipamento. Solicite já as suas peças de substituição originais.",
+      "imageAlt": "Peças originais Injectra",
+      "requestPartsLabel": "Solicitar peças",
+      "items": [
+        {
+          "title": "Qualidade Garantida"
+        },
+        {
+          "title": "Entrega Rápida"
+        },
+        {
+          "title": "Compatibilidade Total"
+        }
+      ]
+    }
+  },
+  "forms": {
+    "shared": {
+      "title": "Envie uma mensagem",
+      "subtitle": "Soluções completas para os setores mais exigentes da indústria.",
+      "fields": {
+        "nome": {
+          "placeholder": "Nome completo"
+        },
+        "empresa": {
+          "placeholder": "Empresa"
+        },
+        "email": {
+          "placeholder": "E-mail profissional"
+        },
+        "telefone": {
+          "placeholder": "Telefone / WhatsApp"
+        },
+        "pais": {
+          "placeholder": "País / Região"
+        },
+        "segmento": {
+          "placeholder": "Segmento Industrial"
+        },
+        "solucao": {
+          "placeholder": "Solução de Interesse"
+        },
+        "mensagem": {
+          "placeholder": "Mensagem (opcional)"
+        }
+      },
+      "submitButton": "Enviar Pedido",
+      "consent": {
+        "prefix": "Li e concordo com as ",
+        "linkLabel": "Políticas de Privacidade."
+      },
+      "validation": {
+        "emailInvalid": "Indique um e-mail profissional válido.",
+        "phoneInvalid": "Número de telefone inválido para o país selecionado.",
+        "requiredField": "Campo obrigatório."
+      },
+      "options": {
+        "segmentos": [
+          "Automóvel",
+          "Embalagens",
+          "Médico",
+          "Bens de Consumo",
+          "Eletrónica",
+          "Construção",
+          "Logística",
+          "Outros Segmentos"
+        ],
+        "solucoes": [
+          "Máquinas",
+          "Robótica",
+          "Plataforma AI",
+          "Indústrias",
+          "Outro"
+        ],
+        "tiposProjeto": [
+          "Novo Projeto",
+          "Expansão de Produção",
+          "Substituição de Equipamento",
+          "Consultoria e Avaliação Técnica",
+          "Outro"
+        ],
+        "prazosProjeto": [
+          "Imediato",
+          "1 a 3 meses",
+          "3 a 6 meses",
+          "6 a 12 meses",
+          "A definir"
+        ]
+      }
+    },
+    "contato": {
+      "canaisAtendimentoTitle": "Canais de Atendimento",
+      "canaisAtendimento": [
+        {
+          "title": "Consultoria Comercial",
+          "description": "Soluções e propostas personalizadas"
+        },
+        {
+          "title": "Consultoria Técnica",
+          "description": "Apoio técnico e especificações"
+        },
+        {
+          "title": "Engenharia de Aplicação",
+          "description": "Análise e desenvolvimento de soluções"
+        },
+        {
+          "title": "Agendamento de Reunião",
+          "description": "Reuniões presenciais ou online"
+        },
+        {
+          "title": "Apoio Pós-Venda",
+          "description": "Acompanhamento e apoio contínuo"
+        }
+      ],
+      "equipeTitle": "Fale com a nossa equipa",
+      "equipeLinks": [
+        {
+          "title": "Solicitar Cotação"
+        },
+        {
+          "title": "Falar com Especialista"
+        },
+        {
+          "title": "Suporte Técnico"
+        },
+        {
+          "title": "Catálogos e Downloads"
+        },
+        {
+          "title": "Experience Center"
+        },
+        {
+          "title": "Representantes"
+        }
+      ],
+      "horario": {
+        "title": "Horário de Atendimento",
+        "dias": "Segunda a Sexta",
+        "horas": "8:00 às 18:00",
+        "tipo": "Atendimento comercial e técnico"
+      }
+    },
+    "faleComEspecialista": {
+      "equipeTitle": "Fale com a nossa equipa",
+      "equipeSubtitle": "Especialistas prontos para o ajudar.",
+      "contatos": [
+        {
+          "title": "Especialista Comercial",
+          "description": "Soluções e propostas comerciais"
+        },
+        {
+          "title": "Especialista Técnico",
+          "description": "Especificações e requisitos técnicos"
+        },
+        {
+          "title": "Engenharia de Aplicação",
+          "description": "Soluções personalizadas e processos"
+        },
+        {
+          "title": "Apoio Regional",
+          "description": "Atendimento próximo e especializado"
+        }
+      ],
+      "destaques": [
+        {
+          "label": "Atendimento em toda a América"
+        },
+        {
+          "label": "Resposta rápida e personalizada"
+        },
+        {
+          "label": "Apoio em PT · EN · ES"
+        }
+      ]
+    },
+    "solicitarCotacao": {
+      "title": "Formulário Inteligente",
+      "fields": {
+        "nome": {
+          "label": "Nome",
+          "placeholder": "Introduza o seu nome"
+        },
+        "empresa": {
+          "label": "Empresa",
+          "placeholder": "Introduza o nome da empresa"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "seuemail@empresa.com"
+        },
+        "telefone": {
+          "label": "Telefone"
+        },
+        "pais": {
+          "label": "País",
+          "placeholder": "Selecione o país"
+        },
+        "segmento": {
+          "label": "Segmento",
+          "placeholder": "Selecione o segmento"
+        },
+        "tipoProjeto": {
+          "label": "Tipo de projeto",
+          "placeholder": "Selecione o tipo de projeto"
+        },
+        "capacidade": {
+          "label": "Capacidade desejada",
+          "placeholder": "Selecione a capacidade"
+        },
+        "prazoProjeto": {
+          "label": "Prazo do projeto",
+          "placeholder": "Selecione o prazo"
+        },
+        "mensagem": {
+          "label": "Mensagem",
+          "placeholder": "Conte-nos mais sobre o seu projeto, objetivos e necessidades específicas."
+        }
+      },
+      "consent": {
+        "prefix": "Li e concordo com as ",
+        "linkLabel": "Políticas de Privacidade."
+      },
+      "submitButton": "Próximo: Selecionar Linha",
+      "validation": {
+        "emailInvalid": "Indique um e-mail válido.",
+        "phoneInvalid": "Número de telefone inválido para o país selecionado.",
+        "requiredField": "Campo obrigatório."
+      }
+    }
+  }
+}

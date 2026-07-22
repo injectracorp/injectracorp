@@ -1,0 +1,58 @@
+{
+  "forms": {
+    "shared": {
+      "title": "Envie uma mensagem",
+      "subtitle": "Soluções completas para os setores mais exigentes da indústria.",
+      "fields": {
+        "nome": { "placeholder": "Nome completo" },
+        "empresa": { "placeholder": "Empresa" },
+        "email": { "placeholder": "E-mail corporativo" },
+        "telefone": { "placeholder": "Telefone / Whatsapp" },
+        "pais": { "placeholder": "País / Estado" },
+        "segmento": { "placeholder": "Segmento Industrial" },
+        "solucao": { "placeholder": "Solução de Interesse" },
+        "mensagem": { "placeholder": "Mensagem (opcional)" }
+      },
+      "submitButton": "Enviar Solicitação",
+      "consent": {
+        "prefix": "Li e concordo com as ",
+        "linkLabel": "Políticas de Privacidade."
+      },
+      "validation": {
+        "emailInvalid": "Informe um e-mail corporativo válido.",
+        "phoneInvalid": "Número de telefone inválido para o país selecionado.",
+        "requiredField": "Campo obrigatório."
+      }
+    },
+    "contato": {},
+    "faleComEspecialista": {},
+    "solicitarCotacao": {
+      "title": "Formulário Inteligente",
+      "fields": {
+        "nome": { "label": "Nome", "placeholder": "Digite seu nome" },
+        "empresa": { "label": "Empresa", "placeholder": "Digite o nome da empresa" },
+        "email": { "label": "E-mail", "placeholder": "seuemail@empresa.com" },
+        "telefone": { "label": "Telefone" },
+        "pais": { "label": "País", "placeholder": "Selecione o país" },
+        "segmento": { "label": "Segmento", "placeholder": "Selecione o segmento" },
+        "tipoProjeto": { "label": "Tipo de projeto", "placeholder": "Selecione o tipo de projeto" },
+        "capacidade": { "label": "Capacidade desejada", "placeholder": "Selecione a capacidade" },
+        "prazoProjeto": { "label": "Prazo do projeto", "placeholder": "Selecione o prazo" },
+        "mensagem": {
+          "label": "Mensagem",
+          "placeholder": "Conte-nos mais sobre o seu projeto, objetivos e necessidades específicas."
+        }
+      },
+      "consent": {
+        "prefix": "Li e concordo com as ",
+        "linkLabel": "Políticas de Privacidade."
+      },
+      "submitButton": "Próximo: Selecionar Linha",
+      "validation": {
+        "emailInvalid": "Informe um e-mail válido.",
+        "phoneInvalid": "Número de telefone inválido para o país selecionado.",
+        "requiredField": "Campo obrigatório."
+      }
+    }
+  }
+}

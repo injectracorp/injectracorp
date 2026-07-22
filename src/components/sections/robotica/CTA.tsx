@@ -1,9 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7256:6457).
-export default function CTA() {
+export default function CTA({ dict }: { dict: Dictionary }) {
+  const t = dict.robotica.cta;
+
   return (
     <Section className="bg-bg-cinza">
       <div className="flex w-full flex-wrap items-center gap-5 overflow-hidden rounded-2xl bg-wt pl-5 pt-5">
@@ -13,12 +16,11 @@ export default function CTA() {
         <div className="flex min-w-[210px] max-w-[637px] flex-1 flex-col items-start gap-5 pb-5">
           {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
           <h2 className="w-full text-2xl font-bold leading-7 tracking-normal text-dark-blue">
-            Pronto para levar sua produção para o próximo nível?
+            {t.title}
           </h2>
           {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
           <p className="w-full text-lg font-normal leading-[22px] tracking-normal text-texto">
-            Fale com nossos especialistas e descubra como a robótica Injectra
-            pode transformar sua indústria com mais produtividade e segurança.
+            {t.description}
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-5 pb-5">
@@ -26,14 +28,14 @@ export default function CTA() {
             href="/solicitar-cotacao"
             className="flex min-h-12 items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
           >
-            Solicitar Cotação
+            {t.quoteButton}
             <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
           </Link>
           <Link
             href="/fale-com-especialista"
             className="flex min-h-12 items-center justify-center gap-2.5 rounded-md border border-azul-claro-plus bg-wt px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:bg-bg-light-clean"
           >
-            Falar com Especialista
+            {t.specialistButton}
             <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
           </Link>
         </div>

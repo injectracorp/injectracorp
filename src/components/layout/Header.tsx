@@ -2,17 +2,13 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Logo from "@/components/Logo";
 import LanguageSelector from "@/components/LanguageSelector";
+import DirToggle from "@/components/DirToggle";
 import { MenuIcon, CloseIcon } from "@/components/icons";
-import { NAV_COLUMNS, type NavItem } from "@/data/navColumns";
-
-const PRODUTOS_ITEMS = NAV_COLUMNS[0].items;
-const DROPDOWN_COLUMNS = NAV_COLUMNS.slice(1).map((column) => ({
-  label: column.title.charAt(0) + column.title.slice(1).toLowerCase(),
-  items: column.items,
-}));
+import { getNavColumns, type NavItem } from "@/data/navColumns";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 function NavDropdown({ label, items }: { label: string; items: NavItem[] }) {
   const [open, setOpen] = useState(false);
@@ -26,7 +22,7 @@ function NavDropdown({ label, items }: { label: string; items: NavItem[] }) {
       <button
         type="button"
         aria-expanded={open}
-        className="flex max-w-[160px] shrink-0 items-center justify-center gap-1 whitespace-nowrap rounded px-2.5 py-2 text-sm font-bold leading-[17px] tracking-normal text-texto transition-colors hover:text-azul-claro 2xl:px-[15px]"
+        className="flex max-w-[160px] shrink-0 items-center justify-center gap-1 whitespace-nowrap rounded px-2.5 py-2 text-[clamp(12px,calc(8px+0.39vw),14px)] font-bold leading-[17px] tracking-normal text-texto transition-colors hover:text-azul-claro 2xl:px-[15px]"
       >
         {label}
         <Image
@@ -115,22 +111,30 @@ function MobileNavSection({
   );
 }
 
-export default function Header() {
+export default function Header({ dict }: { dict?: Dictionary }) {
   const [open, setOpen] = useState(false);
+
+  const navColumns = getNavColumns(dict ?? {});
+  const PRODUTOS_ITEMS = navColumns[0].items;
+  const DROPDOWN_COLUMNS = navColumns.slice(1).map((column) => ({
+    label: column.title.charAt(0) + column.title.slice(1).toLowerCase(),
+    items: column.items,
+  }));
+  const header = dict?.shared?.header ?? {};
 
   return (
     <header className="sticky top-0 z-50 box-border flex w-full flex-col items-center bg-wt px-5">
-      <div className="flex h-20 w-full max-w-[1400px] items-center justify-between gap-2 xl:justify-center xl:gap-5">
-        <Link href="/" className="flex shrink-0 items-center pr-5" aria-label="Injectra — início">
+      <div className="flex h-20 w-full max-w-[1400px] items-center justify-between gap-2 lg:justify-center lg:gap-5">
+        <Link href="/" className="flex shrink-0 items-center pr-5" aria-label={header.logoAriaLabel}>
           <Logo />
         </Link>
 
-        <nav className="hidden flex-1 flex-nowrap items-center justify-center gap-0.5 px-2 xl:flex 2xl:px-[70px]">
+        <nav className="hidden flex-1 flex-nowrap items-center justify-center gap-0.5 px-2 lg:flex 2xl:px-[70px]">
           {PRODUTOS_ITEMS.map((item) => (
             <Link
               key={item.title}
               href={item.href}
-              className="flex max-w-[160px] shrink-0 items-center justify-center whitespace-nowrap rounded px-2.5 py-2 text-sm font-bold leading-[17px] tracking-normal text-texto transition-colors hover:text-azul-claro 2xl:px-[15px]"
+              className="flex max-w-[160px] shrink-0 items-center justify-center whitespace-nowrap rounded px-2.5 py-2 text-[clamp(12px,calc(8px+0.39vw),14px)] font-bold leading-[17px] tracking-normal text-texto transition-colors hover:text-azul-claro 2xl:px-[15px]"
             >
               {item.title}
             </Link>
@@ -140,14 +144,15 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="hidden shrink-0 items-center justify-end gap-3 pl-2 xl:flex xl:gap-5 xl:pl-5">
+        <div className="hidden shrink-0 items-center justify-end gap-3 pl-2 lg:flex lg:gap-5 lg:pl-5">
           <LanguageSelector />
+          <DirToggle />
           <Link
             href="/solicitar-cotacao"
             className="flex h-10 shrink-0 items-center justify-center gap-2.5 whitespace-nowrap rounded-full px-[15px] text-sm font-bold text-wt transition-opacity hover:opacity-90"
             style={{ backgroundImage: "var(--gradient-cta-header)" }}
           >
-            Solicitar Cotação
+            {header.cta}
             <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
           </Link>
         </div>
@@ -155,22 +160,22 @@ export default function Header() {
         <button
           type="button"
           onClick={() => setOpen(true)}
-          className="flex h-10 w-10 shrink-0 items-center justify-center text-dark-blue xl:hidden"
-          aria-label="Abrir menu"
+          className="flex h-10 w-10 shrink-0 items-center justify-center text-dark-blue lg:hidden"
+          aria-label={header.openMenuAriaLabel}
         >
           <MenuIcon className="h-6 w-6" />
         </button>
       </div>
 
       {open && (
-        <div className="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-wt p-5 xl:hidden">
+        <div className="fixed inset-0 z-50 flex flex-col overflow-y-auto bg-wt p-5 lg:hidden">
           <div className="flex items-center justify-between">
             <Logo />
             <button
               type="button"
               onClick={() => setOpen(false)}
               className="flex h-10 w-10 items-center justify-center text-dark-blue"
-              aria-label="Fechar menu"
+              aria-label={header.closeMenuAriaLabel}
             >
               <CloseIcon className="h-6 w-6" />
             </button>
@@ -201,7 +206,7 @@ export default function Header() {
             className="mt-8 flex h-11 items-center justify-center gap-2.5 rounded-full px-4 text-sm font-bold text-wt"
             style={{ backgroundImage: "var(--gradient-cta-header)" }}
           >
-            Solicitar Cotação
+            {header.cta}
             <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
           </Link>
         </div>

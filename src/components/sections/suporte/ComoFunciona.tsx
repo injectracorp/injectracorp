@@ -1,51 +1,40 @@
 import Image from "next/image";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7273:8832).
-const ETAPAS = [
-  {
-    icon: "/assets/suporte/icon-entre-em-contato-chat.svg",
-    title: "1. Entre em contato",
-    description: "Abra um chamado pelo site, telefone ou e-mail.",
-  },
-  {
-    icon: "/assets/suporte/icon-diagnostico-screen-search.svg",
-    title: "2. Diagnóstico",
-    description: "Nossa equipe analisa sua solicitação e identifica a melhor solução.",
-  },
-  {
-    icon: "/assets/capacidade/checkin.svg",
-    title: "3. Solução",
-    description: "Fornecemos a solução ideal: remova, orientação e visita técnica.",
-  },
-  {
-    icon: "/assets/representantes/icon-pessoas.svg",
-    title: "4. Acompanhamento",
-    description: "Acompanhamos o caso até a resolução completa do problema.",
-  },
-  {
-    icon: "/assets/footer/icon-scale-graphic.svg",
-    title: "5. Sua produção não para",
-    description: "Suporte Injectra garantindo performance e produtividade sempre.",
-  },
+// Ícones permanecem no componente; title/description vêm de dict.suporte.comoFunciona.etapas.
+const ETAPA_ICONS = [
+  "/assets/suporte/icon-entre-em-contato-chat.svg",
+  "/assets/suporte/icon-diagnostico-screen-search.svg",
+  "/assets/capacidade/checkin.svg",
+  "/assets/representantes/icon-pessoas.svg",
+  "/assets/footer/icon-scale-graphic.svg",
 ];
 
-export default function ComoFunciona() {
+export default function ComoFunciona({ dict }: { dict: Dictionary }) {
+  const t = dict.suporte.comoFunciona;
+  const etapas = t.etapas.map((etapa: { title: string; description: string }, index: number) => ({
+    icon: ETAPA_ICONS[index],
+    title: etapa.title,
+    description: etapa.description,
+  }));
+
   return (
     <Section className="bg-bg-cinza" innerClassName="gap-10">
       <div className="flex w-full flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="w-full text-[26px] font-bold leading-[28px] tracking-normal text-dark-blue">
-          Como funciona
+          {t.title}
         </h2>
         {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
         <p className="w-full text-lg font-normal leading-[22px] tracking-normal text-texto">
-          Um processo simples e consultivo para você chegar na melhor solução.
+          {t.description}
         </p>
       </div>
 
       <div className="flex w-full flex-wrap items-start justify-center gap-5">
-        {ETAPAS.map((etapa, index) => (
+        {etapas.map((etapa: { icon: string; title: string; description: string }, index: number) => (
           <div key={etapa.title} className="flex flex-1 items-start">
             {index > 0 && (
               <Image

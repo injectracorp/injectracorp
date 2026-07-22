@@ -1,0 +1,131 @@
+{
+  "sobreNos": {
+    "banner": {
+      "eyebrow": "SOBRE NÓS",
+      "title": "Sobre a Injectra",
+      "subtitle": "Tecnologia industrial para transformar a manufatura nas Américas.",
+      "description": "A Injectra Corporation é uma empresa americana focada em máquinas injetoras, robótica, software industrial, IoT, cloud e inteligência artificial. Nosso objetivo é entregar produtividade, automação e eficiência para indústrias que buscam crescer com tecnologia.",
+      "highlights": [
+        { "label": "Empresa Americana" },
+        { "label": "Presença nas Américas" },
+        { "label": "Foco em Indústria e Inovação" }
+      ]
+    },
+    "quemSomos": {
+      "title": "Quem Somos",
+      "paragraph1": "A Injectra nasceu para unir engenharia industrial, automação e inteligência digital em uma única plataforma.",
+      "paragraph2": "Mais do que vender máquinas, construímos um ecossistema completo com equipamentos, robótica, serviços e software.",
+      "pilares": [
+        {
+          "title": "Máquinas Injetoras",
+          "description": "Tecnologia de ponta para máxima performance e confiabilidade."
+        },
+        {
+          "title": "Robótica Industrial",
+          "description": "Automação inteligente para aumentar produtividade e qualidade."
+        },
+        {
+          "title": "Plataforma Injectra AI",
+          "description": "Software industrial com IA, dados e analytics para decisões melhores."
+        },
+        {
+          "title": "Serviços & Suporte",
+          "description": "Suporte técnico, treinamentos e serviços para garantir seus resultados."
+        }
+      ]
+    },
+    "missaoVisaoValores": {
+      "title": "Nossa Missão, Visão e Valores",
+      "items": [
+        {
+          "title": "Missão",
+          "description": "Impulsionar a indústria com soluções inteligentes, acessíveis e escaláveis."
+        },
+        {
+          "title": "Visão",
+          "description": "Construir uma das principais plataformas industriais inteligentes das Américas."
+        },
+        {
+          "title": "Valores",
+          "description": "Inovação, confiança, eficiência, proximidade com o cliente e crescimento sustentável."
+        }
+      ]
+    },
+    "ecossistema": {
+      "title": "Nosso Ecossistema",
+      "items": [
+        {
+          "title": "Máquinas",
+          "description": "Injetoras de alta precisão e desempenho superior."
+        },
+        {
+          "title": "Robô Neo",
+          "description": "Robótica colaborativa e soluções de automação."
+        },
+        {
+          "title": "IoT Industrial",
+          "description": "Conectividade e monitoramento em tempo real."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Inteligência Artificial aplicada à industria."
+        },
+        {
+          "title": "App Mobile",
+          "description": "Controle e acompanhamento de onde você estiver."
+        },
+        {
+          "title": "Cloud & Analytics",
+          "description": "Dados seguros e análises para decisões estratégicas."
+        },
+        {
+          "title": "Experience Center",
+          "description": "Ambiente imersivo para testes, treinamentos e inovação."
+        },
+        {
+          "title": "Suporte Técnico",
+          "description": "Especialistas prontos para apoiar sua operação."
+        }
+      ]
+    },
+    "grupoInterfy": {
+      "logoAlt": "Interfy Corporation",
+      "paragraph1": "A Injectra faz parte do Grupo Interfy Corporation, possuímos mais de 26 anos de experiência em tecnologia, software, transformação digital e expansão de negócios.",
+      "paragraph2": "Essa base fortalece a Injectra com visão global, estrutura corporativa, experiência em inovação e capacidade de crescimento internacional.",
+      "destaques": [
+        { "title": "Mais de 26 anos de experiência" },
+        { "title": "Visão Global" },
+        { "title": "Estrutura Corporativa" },
+        { "title": "Inovação & Tecnologia" }
+      ]
+    },
+    "cta": {
+      "title": "Pronto para conhecer a Injectra?",
+      "description": "Fale com nossos especialistas e descubra como nossas soluções podemos transformar sua indústria.",
+      "quoteButton": "Solicitar Cotação",
+      "specialistButton": "Falar com Especialista",
+      "trustItems": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Atendimento local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  }
+}

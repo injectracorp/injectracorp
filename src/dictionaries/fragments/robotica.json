@@ -1,0 +1,163 @@
+{
+  "robotica": {
+    "banner": {
+      "badge": "ROBÓTICA",
+      "title": "Automação inteligente que impulsiona resultados.",
+      "subtitle": "Soluções completas em robótica e automação para movimentação, manuseio, paletização e integração com máquinas Injectra.",
+      "highlights": [
+        { "label": "Alta Produtividade" },
+        { "label": "Precisão e Repetibilidade" },
+        { "label": "Flexibilidade Total" },
+        { "label": "Integração com Injectra AI" }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        { "title": "Tecnologia Americana", "subtitle": "Desenvolvida nos EUA" },
+        { "title": "Presença nas Américas", "subtitle": "Atendimento local" },
+        { "title": "Mais de 30 anos de experiência", "subtitle": "em soluções industriais" },
+        { "title": "Suporte 24/7", "subtitle": "Assistência técnica especializada" },
+        { "title": "Sustentabilidade", "subtitle": "Eficiência energética e ESG" }
+      ]
+    },
+    "aplicacoes": {
+      "title": "Aplicações em Diferentes Setores",
+      "items": [
+        { "title": "Injeção Plástica", "description": "Remoção de peças e alimentação." },
+        { "title": "Manuseio", "description": "Pick & Place de alta velocidade" },
+        { "title": "Montagem", "description": "Montagem e inserção de componentes" },
+        { "title": "Inspeção", "description": "Visão inteligente e controle de qualidade." },
+        { "title": "Paletização", "description": "Formação de camadas e paletização." },
+        { "title": "Embalagem", "description": "Encartuchamento e embalagens." },
+        { "title": "Logística Interna", "description": "Movimentação e transporte autônomo." }
+      ]
+    },
+    "capacidade": {
+      "title": "Robô Humanoide Neo",
+      "subtitle": "Desenvolvido para interagir com pessoas e ambientes industriais de forma segura, flexível e inteligente.",
+      "checklist": [
+        "Percepção 3D e visão computacional",
+        "Mobilidade avançada e equilíbrio dinâmico",
+        "Interação segura com humanos",
+        "Aprendizado e adaptação contínua",
+        "Integração nativa com Injectra AI"
+      ],
+      "ctaLabel": "Conheça o Neo",
+      "robotImageAlt": "Robô Humanoide Neo",
+      "specs": [
+        "Grau de liberdade",
+        "Visão e percepção",
+        "Velocidade máxima",
+        "Carga útil",
+        "Proteção industrial"
+      ],
+      "videoThumbAlt": "Robô Neo em operação",
+      "videoTitle": "Automação que vai além.",
+      "videoDescription": "Veja o Neo em ação na indústria",
+      "watchLabel": "Assistir demonstração"
+    },
+    "solucoes": {
+      "title": "Nossas Soluções em Robótica",
+      "detailsLabel": "Ver detalhes",
+      "items": [
+        {
+          "title": "Robô Humanoide Neo",
+          "description": "O futuro da automação inteligente. Mobilidade, percepção e interação para tarefas complexas."
+        },
+        {
+          "title": "Robôs Cartesianos",
+          "description": "Alta velocidade e precisão para manuseio, pick & place, e remoção de peças."
+        },
+        {
+          "title": "Células Robotizadas",
+          "description": "Soluções completas e personalizadas para diferentes aplicações e níveis de automação."
+        },
+        {
+          "title": "Paletização",
+          "description": "Sistemas de paletização eficientes para aumento de produtividade e padronização de processos."
+        },
+        {
+          "title": "Automação Inteligente",
+          "description": "Integração de processos sensores e controles de fábricas mais inteligentes e conectados."
+        },
+        {
+          "title": "Integração com Injectra AI",
+          "description": "Integração total com a plataforma Injectra AI para monitoramento e decisões inteligentes."
+        }
+      ]
+    },
+    "integracao": {
+      "title": "Integração Completa com a Indústria",
+      "subtitle": "Soluções que se conectam perfeitamente ao seu processo produtivo.",
+      "etapas": [
+        { "title": "Máquinas Injectra", "description": "Injetoras hidráulicas e elétricas." },
+        { "title": "Robôs e Automação", "description": "Cartesianos Neo e células robotizadas." },
+        { "title": "Transporte e Esteiras", "description": "Movimentação Inteligente" },
+        { "title": "Paletização", "description": "Organização e empilhamento." },
+        { "title": "Plataforma Injectra AI", "description": "Monitoramento e controle em tempo real." }
+      ],
+      "cardTitle": "Tudo conectado.",
+      "cardDescription": "Monitoramento, dados e decisões em tempo real para máxima eficiência.",
+      "ctaLabel": "Conheça a Plataforma AI"
+    },
+    "comparativo": {
+      "title": "Comparativo: Qual solução é ideal para sua necessidade?",
+      "columns": {
+        "solucao": "Solução",
+        "velocidade": "Velocidade",
+        "precisao": "Precisão",
+        "flexibilidade": "Flexibilidade",
+        "cargaUtil": "Carga Útil",
+        "aplicacoes": "Aplicações",
+        "integracaoAi": "Integração AI"
+      },
+      "rows": [
+        {
+          "solucao": "Robô Humanoide Neo",
+          "cargaUtil": "10+ kg",
+          "aplicacoes": "Interação, inspeção, assistência",
+          "integracaoAi": "Nativa"
+        },
+        {
+          "solucao": "Robôs Cartesianos",
+          "cargaUtil": "Até 50kg",
+          "aplicacoes": "Pick & place, manuseio",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Células Robotizadas",
+          "cargaUtil": "Até 200kg",
+          "aplicacoes": "Processos automatizados",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Paletização",
+          "cargaUtil": "Até 500kg",
+          "aplicacoes": "Paletização, despalatização",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Automação Inteligente",
+          "cargaUtil": "Variável",
+          "aplicacoes": "Integração de processos",
+          "integracaoAi": "Total"
+        },
+        {
+          "solucao": "Integração com IA",
+          "cargaUtil": "Ilimitada",
+          "aplicacoes": "Monitoramento e decisões",
+          "integracaoAi": "Nativa"
+        }
+      ],
+      "helpTitle": "Precisa de ajuda para escolher?",
+      "helpDescription": "Nossa equipe de especialistas vai indicar a melhor solução para sua operação.",
+      "helpCta": "Falar com Especialista"
+    },
+    "cta": {
+      "title": "Pronto para levar sua produção para o próximo nível?",
+      "description": "Fale com nossos especialistas e descubra como a robótica Injectra pode transformar sua indústria com mais produtividade e segurança.",
+      "quoteButton": "Solicitar Cotação",
+      "specialistButton": "Falar com Especialista"
+    }
+  }
+}

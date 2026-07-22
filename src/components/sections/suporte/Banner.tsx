@@ -1,16 +1,24 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7272:8655).
-const HIGHLIGHTS = [
-  { icon: "/assets/suporte/icon-especialista-dedicado.svg", label: "Especialistas Dedicados" },
-  { icon: "/assets/representantes/icon-speed-velocimetro.svg", label: "Suporte Rápido e Eficiente" },
-  { icon: "/assets/suporte/icon-atendimento-americas.svg", label: "Atendimento em Toda América" },
-  { icon: "/assets/footer/icon-scale-graphic.svg", label: "Tecnologia que Não Para" },
+// Ícones permanecem no componente; labels vêm de dict.suporte.banner.highlights.
+const HIGHLIGHT_ICONS = [
+  "/assets/suporte/icon-especialista-dedicado.svg",
+  "/assets/representantes/icon-speed-velocimetro.svg",
+  "/assets/suporte/icon-atendimento-americas.svg",
+  "/assets/footer/icon-scale-graphic.svg",
 ];
 
-export default function Banner() {
+export default function Banner({ dict }: { dict: Dictionary }) {
+  const t = dict.suporte.banner;
+  const highlights = t.highlights.map((h: { label: string }, index: number) => ({
+    icon: HIGHLIGHT_ICONS[index],
+    label: h.label,
+  }));
+
   return (
     <div
       className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-center"
@@ -22,7 +30,7 @@ export default function Banner() {
             <div className="flex flex-col items-start gap-5">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">
-                SUPORTE
+                {t.eyebrow}
               </span>
               <span
                 className="h-[3px] w-10 rounded-full"
@@ -31,39 +39,37 @@ export default function Banner() {
             </div>
             {/* TÍTULO 48 — 48px/55px, 95 Black (800) */}
             <h1 className="text-4xl font-extrabold leading-[42px] tracking-normal text-dark-blue sm:text-[48px] sm:leading-[55px]">
-              Estamos aqui para manter sua produção sem em movimento
+              {t.title}
             </h1>
             {/* Subtítulo 20 — 20px/26px, 55 Roman (400) */}
             <p className="text-xl font-normal leading-[26px] tracking-normal text-texto">
-              Suporte completo e especializado para garantir o melhor
-              desempenho das soluções Injectra em todas as etapas da sua
-              operação.
+              {t.description}
             </p>
             <div className="flex w-full flex-wrap items-center gap-5">
               <a
                 href="#contato"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
               >
-                Abrir Chamado
+                {t.openTicketLabel}
                 <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
               </a>
               <Link
                 href="/fale-com-especialista"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
-                Falar com um Especialista
+                {t.talkToSpecialistLabel}
                 <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </Link>
             </div>
             <div className="flex w-full items-center gap-5">
-              {HIGHLIGHTS.map((item) => (
+              {highlights.map((item: { icon: string; label: string }) => (
                 <div
                   key={item.label}
                   className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
                 >
                   <Image className="object-contain" src={item.icon} alt="" width={40} height={40} />
                   {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-                  <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+                  <p className="w-full text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
                     {item.label}
                   </p>
                 </div>

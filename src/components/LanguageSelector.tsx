@@ -2,7 +2,8 @@
 
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import { useLang, type Lang } from "@/context/LanguageContext";
+import { usePathname, useRouter } from "next/navigation";
+import { useLang, ALL_LANGS, type Lang } from "@/context/LanguageContext";
 
 // Conteúdo replicado do seletor de idiomas do projeto ACQUAFY (mesma lista de
 // idiomas, bandeiras e comportamento), adaptado aos tokens visuais da Injectra.
@@ -79,7 +80,15 @@ function useClickOutside(onClose: () => void) {
   return ref;
 }
 
-function DropdownMenu({ lang, setLang, onClose }: { lang: Lang; setLang: (l: Lang) => void; onClose: () => void }) {
+function DropdownMenu({
+  lang,
+  onSelect,
+  onClose,
+}: {
+  lang: Lang;
+  onSelect: (l: Lang) => void;
+  onClose: () => void;
+}) {
   return (
     <div className="absolute right-0 top-[calc(100%+8px)] z-50 flex w-[290px] flex-col gap-3 rounded-md border border-border-line-bd bg-wt p-5">
       {LANGUAGES.map((item) => {
@@ -89,7 +98,7 @@ function DropdownMenu({ lang, setLang, onClose }: { lang: Lang; setLang: (l: Lan
             key={item.langCode}
             type="button"
             onClick={() => {
-              setLang(item.langCode);
+              onSelect(item.langCode);
               onClose();
             }}
             className="flex w-full shrink-0 items-center gap-2.5 overflow-hidden transition-opacity hover:opacity-70"
@@ -109,11 +118,32 @@ function DropdownMenu({ lang, setLang, onClose }: { lang: Lang; setLang: (l: Lan
   );
 }
 
+// Remove o segmento de locale atual do começo do pathname, se houver.
+function stripLocaleSegment(pathname: string): string {
+  const segments = pathname.split("/");
+  // segments[0] é sempre "" (pathname começa com "/")
+  const first = segments[1];
+  if (first && (ALL_LANGS as string[]).includes(first)) {
+    const rest = segments.slice(2).join("/");
+    return `/${rest}`;
+  }
+  return pathname;
+}
+
 export default function LanguageSelector() {
   const [open, setOpen] = useState(false);
   const { lang, setLang } = useLang();
+  const router = useRouter();
+  const pathname = usePathname();
   const ref = useClickOutside(() => setOpen(false));
   const current = FLAG_BY_LANG[lang];
+
+  function handleSelect(newLang: Lang) {
+    setLang(newLang);
+    const pathWithoutLocale = stripLocaleSegment(pathname);
+    const newPath = `/${newLang}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`;
+    router.push(newPath);
+  }
 
   return (
     <div ref={ref} className="relative">
@@ -134,7 +164,7 @@ export default function LanguageSelector() {
           className={`object-contain transition-transform ${open ? "rotate-180" : ""}`}
         />
       </button>
-      {open && <DropdownMenu lang={lang} setLang={setLang} onClose={() => setOpen(false)} />}
+      {open && <DropdownMenu lang={lang} onSelect={handleSelect} onClose={() => setOpen(false)} />}
     </div>
   );
 }

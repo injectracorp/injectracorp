@@ -1,0 +1,2927 @@
+{
+  "shared": {
+    "meta": {
+      "title": "Injectra | Amerikkalaista teollisuusteknologiaa",
+      "description": "Koneet, robotiikka, IoT ja tekoäly yhdistettynä yhdelle ainoalle teolliselle alustalle."
+    },
+    "header": {
+      "logoAriaLabel": "Injectra — etusivu",
+      "openMenuAriaLabel": "Avaa valikko",
+      "closeMenuAriaLabel": "Sulje valikko",
+      "cta": "Pyydä tarjous"
+    },
+    "footer": {
+      "taglinePrefix": "Advance. ",
+      "taglineHighlight": "Inject.",
+      "taglineSuffix": " Mold the future.",
+      "description": "Huipputeknologiaa muoviruiskuvaluun – teollisuuskoneet, tekoäly ja alueellinen tuki nostamassa teollisuuden tuottavuutta kautta Amerikan mantereen.",
+      "logoAriaLabel": "Injectra — etusivu",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "x": "X (Twitter)",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "facebook": "Facebook"
+      },
+      "infoBar": [
+        {
+          "title": "Injectra Corporation",
+          "subtitle": "Orlando, Florida, Yhdysvallat"
+        },
+        {
+          "title": "+1 (321) 888-7963"
+        },
+        {
+          "title": "info@injectracorp.com"
+        },
+        {
+          "title": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Palvelemme koko Amerikan mannerta"
+        }
+      ],
+      "ctaBanner": {
+        "title": "Valmiina uudistamaan teollisuutenne?",
+        "description": "Katso, miten Injectra voi kasvattaa tuottavuutta, alentaa kustannuksia ja yhdistää koko toimintanne yhdelle älykkäälle teolliselle alustalle.",
+        "quoteButton": "Pyydä tarjous",
+        "specialistButton": "Keskustele asiantuntijan kanssa",
+        "machineImageAlt": "Injectra-kone"
+      },
+      "bottomBar": {
+        "countryBadge": "AMERIKKALAINEN YRITYS",
+        "location": "Orlando, Florida • USA",
+        "groupLabel": "Osa konsernia",
+        "groupLogoAlt": "Interfy Group",
+        "copyright": "Injectra Corporation © 2026. Kaikki oikeudet pidätetään."
+      },
+      "legalLinks": [
+        {
+          "label": "Tietosuojakäytäntö",
+          "href": "/politicas-privacidade"
+        },
+        {
+          "label": "Käyttöehdot",
+          "href": "/termos-de-uso"
+        },
+        {
+          "label": "Evästeet",
+          "href": "/cookies"
+        },
+        {
+          "label": "Takuu ja tuki",
+          "href": "/garantia-e-suporte"
+        },
+        {
+          "label": "Compliance",
+          "href": "/compliance"
+        }
+      ]
+    },
+    "nav": {
+      "columns": [
+        {
+          "title": "TUOTTEET",
+          "items": [
+            {
+              "title": "Koneet",
+              "description": "Hydrauliset ja sähköiset konelinjat kaikkiin toimialoihin."
+            },
+            {
+              "title": "Robotiikka",
+              "description": "Neo-humanoidirobotti, karteesiset robotit ja automaatio."
+            },
+            {
+              "title": "Plataforma AI",
+              "description": "Injectra AI, Cloud, IoT, Analytics, OEE ja mobiilisovellus."
+            },
+            {
+              "title": "Toimialat",
+              "description": "Ratkaisuja eri teollisuudenaloille kautta Amerikan mantereen."
+            }
+          ]
+        },
+        {
+          "title": "PALVELUT",
+          "items": [
+            {
+              "title": "Experience Center",
+              "description": "Esittelyt, sovellustestaukset, koulutukset ja showroom."
+            },
+            {
+              "title": "Edustajat",
+              "description": "Edustajaohjelma, kaupallinen laajentuminen ja tuki."
+            },
+            {
+              "title": "Tuki",
+              "description": "Tekninen tuki, varaosat, huolto, takuu ja UKK."
+            },
+            {
+              "title": "Tuoteluettelot",
+              "description": "Digitaaliset tuoteluettelot, tekniset käyttöoppaat, tietolomakkeet ja lataukset."
+            }
+          ]
+        },
+        {
+          "title": "YRITYS",
+          "items": [
+            {
+              "title": "Meistä",
+              "description": "Injectrasta, Interfy-konsernista, kestävästä kehityksestä ja urasta."
+            },
+            {
+              "title": "Yhteystiedot",
+              "description": "Puhelinnumerot, sähköpostit, osoite ja asiakaspalvelukanavat."
+            },
+            {
+              "title": "Pyydä tarjous",
+              "description": "Saat henkilökohtaisen tarjouksen teollisuustoiminnallenne."
+            },
+            {
+              "title": "Keskustele asiantuntijan kanssa",
+              "description": "Keskustele erikoistuneen tekniikka- ja myyntitiimimme kanssa."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AMERIKKALAISTA TEOLLISUUSTEKNOLOGIAA",
+      "titlePrefix": "Teollisuuden tulevaisuus alkaa",
+      "titleHighlight": "tästä.",
+      "subtitleLine1": "Koneet. Robotiikka. Tekoäly. Teollisuusohjelmistot.",
+      "subtitleLine2": "Kaikki yhdistettynä yhdelle älykkäälle alustalle.",
+      "ctaPrimary": "Tutustu alustaan",
+      "ctaSecondary": "Keskustele asiantuntijan kanssa",
+      "trustItems": [
+        {
+          "title": "Tekniset tiedot",
+          "subtitle": "Amerikkalaiset"
+        },
+        {
+          "title": "Suorituskyky",
+          "subtitle": "Suuri nopeus"
+        },
+        {
+          "title": "Ratkaisut",
+          "subtitle": "PET"
+        },
+        {
+          "title": "Palvelu",
+          "subtitle": "Kokonaisratkaisu"
+        },
+        {
+          "title": "AI",
+          "subtitle": "Injectra"
+        }
+      ]
+    },
+    "aboutEcosystem": {
+      "titleLine1": "Ekosysteemi",
+      "titleLine2": "Injectra",
+      "description": "Kaikki yhdistettynä tuottavamman, älykkäämmän ja kilpailukykyisemmän teollisen toiminnan luomiseksi.",
+      "exploreLabel": "Tutustu ekosysteemiin"
+    },
+    "capacidade": {
+      "roboticaNeo": {
+        "title": "Neo-robotiikka",
+        "description": "Älykäs automaatio, joka tehostaa tuloksia.",
+        "items": [
+          "Neo-humanoidirobotti",
+          "Karteesiset robotit",
+          "Robotisoidut solut",
+          "Räätälöidyt ratkaisut"
+        ],
+        "cta": "Tutustu Neoon",
+        "photoAlt": "Neo-humanoidirobotti"
+      },
+      "plataformaAi": {
+        "title": "Injectra AI -alusta",
+        "description": "Data, älykkyys ja täysi hallinta kämmenelläsi.",
+        "items": [
+          "Reaaliaikainen kojelauta",
+          "OEE ja suorituskyky",
+          "Ennakoiva kunnossapito",
+          "Tuotanto ja laatu",
+          "Hälytykset ja ilmoitukset",
+          "Tekoälyavustaja"
+        ],
+        "cta": "Tutustu alustaan",
+        "photoAlt": "Injectra AI -alusta"
+      },
+      "experienceCenter": {
+        "title": "Experience Center",
+        "description": "Innovaatioita nähtäväksi, testattavaksi ja hyödynnettäväksi.",
+        "cta": "Varaa vierailu",
+        "photoAlt": "Injectra Experience Center"
+      },
+      "experienceItems": [
+        {
+          "label": "Teknologia-showroom"
+        },
+        {
+          "label": "Live-esittelyt"
+        },
+        {
+          "label": "Sovellustestaukset"
+        },
+        {
+          "label": "Erikoistuneet koulutukset"
+        },
+        {
+          "label": "Tapahtumat ja työpajat"
+        }
+      ]
+    },
+    "machineLines": {
+      "title": "Konelinjamme",
+      "subtitle": "Kokonaisratkaisut teollisuuden vaativimmille sektoreille.",
+      "viewAllLabel": "Katso kaikki koneet",
+      "items": [
+        {
+          "description": "Suuri tarkkuus ja monikäyttöisyys yleisiin sovelluksiin."
+        },
+        {
+          "description": "Nopeat syklit ja huippuluokan tehokkuus korkeaan tuottavuuteen."
+        },
+        {
+          "description": "Erittäin suuri nopeus ja äärimmäisen nopeat syklit maksimaaliseen tuottavuuteen."
+        },
+        {
+          "description": "Optimoidut ratkaisut teknisille kappaleille, joissa vaaditaan suurta tarkkuutta ja viimeistelyä."
+        },
+        {
+          "description": "Sähköinen konelinja, jossa yhdistyvät suuri tarkkuus, toistotarkkuus ja energiatehokkuus."
+        },
+        {
+          "description": "Erikoistunut muovilaatikoihin, kuormalavoihin ja suurikokoisiin kappaleisiin. Vankka rakenne ja korkea suorituskyky."
+        },
+        {
+          "description": "Suuritehoinen hydraulijärjestelmä vaativiin sovelluksiin ja suurikokoisiin kappaleisiin."
+        },
+        {
+          "description": "Äärimmäinen teho suurille muoteille ja vaativimpiin teollisiin sovelluksiin."
+        },
+        {
+          "description": "Maksimaalinen kapasiteetti ja kestävyys teollisuuden suurimpiin haasteisiin."
+        },
+        {
+          "description": "Hybridi, joka tarjoaa suuren energiatehokkuuden ja kestävyyden."
+        }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "EMME RAKENNA VAIN KONEITA",
+      "titlePrefix": "Rakennamme",
+      "titleHighlight": " älykkäitä teollisuusalustoja.",
+      "items": [
+        {
+          "label": "Koneet",
+          "description": "Suorituskykyiset ruiskuvalukoneet moniin eri sovelluksiin."
+        },
+        {
+          "label": "Robotiikka",
+          "description": "Ratkaisut, jotka lisäävät tuottavuutta ja lyhentävät sykliaikoja."
+        },
+        {
+          "label": "AI",
+          "description": "Tekoäly, joka muuttaa datan älykkäiksi päätöksiksi."
+        },
+        {
+          "label": "IoT",
+          "description": "Yhdistetyt laitteet ja anturit täydelliseen näkyvyyteen."
+        },
+        {
+          "label": "Ohjelmisto",
+          "description": "Tehokas teollisuusohjelmisto koko toiminnan hallintaan."
+        },
+        {
+          "label": "Palvelut",
+          "description": "Kattava tuki asennuksesta jatkuvaan kehitykseen."
+        }
+      ]
+    },
+    "setoresIndustriais": {
+      "title": "Ratkaisuja tärkeimmille toimialoille",
+      "items": [
+        {
+          "label": "Autoteollisuus"
+        },
+        {
+          "label": "Pakkaukset"
+        },
+        {
+          "label": "Lääketiede"
+        },
+        {
+          "label": "Rakentaminen"
+        },
+        {
+          "label": "Elektroniikka"
+        },
+        {
+          "label": "Kodinkoneet"
+        },
+        {
+          "label": "Logistiikka"
+        }
+      ],
+      "moreLabel": "Ja paljon muuta..."
+    }
+  },
+  "catalogos": {
+    "banner": {
+      "eyebrow": "TUOTELUETTELOT",
+      "title": "Injectra-tuoteluettelot",
+      "subtitle": "Tutustu Injectran konelinjojen, robotiikan ja digitaalisen alustan teknisiin ja kaupallisiin materiaaleihin.",
+      "ctaPrimary": "Tilaa tuoteluettelo",
+      "ctaSecondary": "Keskustele asiantuntijan kanssa",
+      "highlightsTitle": "Mitä löydät tuoteluetteloistamme",
+      "highlightsSubtitle": "Koe Injectra-teknologia käytännössä ja huomaa, miten voimme viedä tuotantonne seuraavalle tasolle.",
+      "highlights": [
+        "Tekniset tiedot",
+        "Suositellut käyttökohteet",
+        "Erot ja edut",
+        "Lisävarusteet ja tarvikkeet",
+        "Automaatio ja robotiikka",
+        "Injectra AI ja IoT",
+        "Tuki ja myyntiyhteystiedot"
+      ]
+    },
+    "cta": {
+      "title": "Lataa projektiisi sopiva tuoteluettelo",
+      "subtitle": "Keskustele asiantuntijoidemme kanssa ja löydä teollisuudellenne täydellinen Injectra-ratkaisu.",
+      "ctaPrimary": "Tilaa tuoteluettelo",
+      "ctaSecondary": "Keskustele asiantuntijan kanssa",
+      "ctaTertiary": "Pyydä tarjous",
+      "stats": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "description": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "description": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "description": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "description": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "description": "Energiatehokkuus ja ESG"
+        }
+      ]
+    },
+    "catalogosGerais": {
+      "title": "Yleisesitteet",
+      "items": [
+        {
+          "name": "Yleisesite",
+          "description": "Suuri tarkkuus ja monikäyttöisyys yleisiin sovelluksiin."
+        }
+      ]
+    },
+    "linhasMaquinas": {
+      "title": "Konelinjat",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Suuri tarkkuus ja monikäyttöisyys yleisiin sovelluksiin."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Nopeat syklit ja huippuluokan tehokkuus korkeaan tuottavuuteen."
+        },
+        {
+          "name": "VELOCITY - IV",
+          "description": "Erittäin suuri nopeus ja äärimmäisen nopeat syklit maksimaaliseen tuottavuuteen."
+        },
+        {
+          "name": "FORM - IF",
+          "description": "Optimoidut ratkaisut teknisille kappaleille, joissa vaaditaan suurta tarkkuutta ja viimeistelyä."
+        },
+        {
+          "name": "NEO EX - IE",
+          "description": "Sähköinen konelinja, jossa yhdistyvät suuri tarkkuus, toistotarkkuus ja energiatehokkuus."
+        },
+        {
+          "name": "ATLAS - IA",
+          "description": "Erikoistunut muovilaatikoihin, kuormalavoihin ja suurikokoisiin kappaleisiin. Vankka rakenne ja korkea suorituskyky."
+        },
+        {
+          "name": "HYDRO - IH",
+          "description": "Suuritehoinen hydraulijärjestelmä vaativiin sovelluksiin ja suurikokoisiin kappaleisiin."
+        },
+        {
+          "name": "TITAN - IT",
+          "description": "Äärimmäinen teho suurille muoteille ja vaativimpiin teollisiin sovelluksiin."
+        },
+        {
+          "name": "MAX - IM",
+          "description": "Maksimaalinen kapasiteetti ja kestävyys teollisuuden suurimpiin haasteisiin."
+        },
+        {
+          "name": "EQUORA - IQ",
+          "description": "Hybridi, joka tarjoaa suuren energiatehokkuuden ja kestävyyden."
+        }
+      ]
+    },
+    "solucoesDigitais": {
+      "title": "Digitaaliset ratkaisut ja automaatio",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Suuri tarkkuus ja monikäyttöisyys yleisiin sovelluksiin."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Nopeat syklit ja huippuluokan tehokkuus korkeaan tuottavuuteen."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "shared": {
+      "tocHeading": "Tällä sivulla",
+      "contactCardTitle": "Injectra Corporation",
+      "lastUpdated": "Viimeksi päivitetty: 21. heinäkuuta 2026",
+      "contactLabels": {
+        "email": "Sähköposti",
+        "phone": "Puhelin",
+        "address": "Osoite"
+      },
+      "contact": {
+        "email": "info@injectracorp.com",
+        "phone": "+1 (321) 888-7963",
+        "address": "Orlando, Florida, Yhdysvallat"
+      }
+    },
+    "termsOfUse": {
+      "banner": {
+        "eyebrow": "OIKEUDELLISTA TIETOA",
+        "titleMain": "Käyttö-",
+        "titleHighlight": "ehdot",
+        "subtitle": "Lue huolellisesti ehdot, jotka koskevat verkkosivustomme, tuoteluetteloiden, tarjousten ja muiden tuotteidemme ja palveluidemme käyttöä."
+      },
+      "nav": [
+        "1. Ehtojen hyväksyminen",
+        "2. Tietoa Injectrasta",
+        "3. Sivuston sallittu käyttö",
+        "4. Käyttäjätilit",
+        "5. Tuotteet, tarjoukset ja palvelut",
+        "6. Immateriaalioikeudet",
+        "7. Vastuunrajoitus",
+        "8. Kolmansien osapuolten linkit",
+        "9. Tietosuoja",
+        "10. Vahingonkorvausvelvollisuus",
+        "11. Muutokset",
+        "12. Sopimuksen päättyminen",
+        "13. Sovellettava laki",
+        "14. Yhteystiedot"
+      ],
+      "introP1Before": "Tervetuloa ",
+      "introP1After": " (\"Injectra\", \"me\" tai \"meidän\") verkkosivustolle. Käyttämällä verkkosivustoamme, tuoteluetteloitamme, tarjouslomakkeitamme, sovellustamme tai palveluitamme hyväksyt nämä käyttöehdot. Jos et hyväksy jotakin näiden ehtojen osaa, emme suosittele palveluidemme käyttöä.",
+      "introP2": "Nämä ehdot muodostavat oikeudellisesti sitovan sopimuksen sinun (käyttäjän) ja Yhdysvalloissa perustetun Injectra Corporationin, Interfy Corporationiin kuuluvan yhtiön, välillä.",
+      "sections": {
+        "aceitacao": {
+          "title": "1. Ehtojen hyväksyminen",
+          "p1Before": "Käyttämällä verkkosivustoa injectracorp.com (ja sen alidomaineja) tai mitä tahansa Injectran tarjoamaa tuoteluetteloa, tarjouslomaketta, sovellusta tai palvelua vahvistat lukeneesi, ymmärtäneesi ja hyväksyneesi nämä käyttöehdot sekä ",
+          "p1LinkLabel": "tietosuojakäytäntömme",
+          "p1After": ".",
+          "p2": "Jos käytät palveluitamme yrityksen tai organisaation puolesta, vahvistat, että sinulla on valtuudet sitoa kyseinen taho näihin ehtoihin."
+        },
+        "sobre": {
+          "title": "2. Tietoa Injectrasta",
+          "p1": "Injectra Corporation on amerikkalainen yritys, jonka kotipaikka on Orlando, Florida, Yhdysvallat. Yritys on erikoistunut ruiskuvalukoneisiin (hydrauliset ja sähköiset konelinjat), teolliseen robotiikkaan sekä Injectra AI -alustaan, joka yhdistää teollisuusohjelmiston, IoT:n, pilvipalvelut ja tekoälyn tuotannollisen toiminnan hallintaan.",
+          "p2": "Injectra on osa Interfy Corporationia, globaalia teknologiakonsernia, jolla on yli 26 vuoden kokemus innovaatiosta ja digitaalisesta muutoksesta."
+        },
+        "usoPermitido": {
+          "title": "3. Sivuston sallittu käyttö",
+          "p1": "Voit käyttää verkkosivustoamme laillisiin tarkoituksiin näiden ehtojen mukaisesti. Seuraava on nimenomaisesti kielletty:",
+          "list": [
+            "Sivuston käyttäminen tavalla, joka rikkoo sovellettavia lakeja tai määräyksiä",
+            "Ei-toivotun mainonnan tai myynninedistämismateriaalin lähettäminen",
+            "Yritys saada luvaton pääsy mihin tahansa sivuston, portaalin tai Injectra AI -alustan osaan",
+            "Sivuston eheyden tai suorituskyvyn häiritseminen tai keskeyttäminen",
+            "Muiden käyttäjien tietojen kerääminen ilman suostumusta",
+            "Robottien, scrapereiden tai muiden automatisoitujen keinojen käyttäminen sivuston käyttämiseen",
+            "Alustan minkä tahansa ohjelmiston käänteismallintaminen, purkaminen tai dekompilointi"
+          ]
+        },
+        "contas": {
+          "title": "4. Käyttäjätilit",
+          "subsections": {
+            "criacao": {
+              "title": "4.1 Tilin luominen",
+              "p": "Jotkin ominaisuudet, kuten asiakasportaali ja Injectra AI -alusta, voivat edellyttää tilin rekisteröintiä. Tiliä luodessasi sitoudut antamaan totuudenmukaiset, tarkat ja täydelliset tiedot."
+            },
+            "responsabilidadeConta": {
+              "title": "4.2 Vastuu tilistä",
+              "p": "Olet vastuussa käyttötunnustesi luottamuksellisuuden säilyttämisestä sekä kaikesta tililläsi tapahtuvasta toiminnasta. Ilmoita Injectralle välittömästi kaikesta luvattomasta käytöstä."
+            },
+            "cancelamento": {
+              "title": "4.3 Peruuttaminen",
+              "p": "Injectra pidättää oikeuden peruuttaa tai keskeyttää tilejä, jotka rikkovat näitä ehtoja, ilman ennakkoilmoitusta."
+            }
+          }
+        },
+        "produtos": {
+          "title": "5. Tuotteet, tarjoukset ja palvelut",
+          "subsections": {
+            "catalogos": {
+              "title": "5.1 Tuoteluettelot ja tekniset tiedot",
+              "p": "Pyrimme pitämään tuoteluettelot, tietolomakkeet ja kone- ja robotiikkaeritelmät tarkkoina ja ajan tasalla. Emme kuitenkaan takaa, että nämä tiedot ovat täydellisiä, virheettömiä tai vastaavat kunkin projektin lopullista kokoonpanoa, joka voi vaihdella sovelluksen mukaan."
+            },
+            "cotacao": {
+              "title": "5.2 Tarjouspyyntö",
+              "p": "Tarjouslomakkeen lähettäminen tai yhteydenotto asiantuntijaan ei muodosta sitovaa ostotilausta. Hinnat ja kaupalliset ehdot vahvistetaan erillisessä tarjouksessa, jonka myyntitiimimme toimittaa."
+            },
+            "plataforma": {
+              "title": "5.3 Injectra AI- ja IoT-alusta",
+              "p": "Injectra AI -alustan, mobiilisovelluksen ja yhdistettyjen IoT-laitteiden käyttöä koskevat erityiset ehdot esitetään käyttöönoton yhteydessä. Nämä ehdot täydentävät näitä yleisiä käyttöehtoja."
+            },
+            "representantes": {
+              "title": "5.4 Edustajat ja kumppanit",
+              "p": "Valtuutetut edustajat ja kaupalliset kumppanit toimivat oman, Injectran kanssa tehdyn sopimuksensa perusteella, eivätkä ole automaattisesti sidottuja näihin ehtoihin suhteissaan kolmansiin osapuoliin."
+            }
+          }
+        },
+        "propriedade": {
+          "title": "6. Immateriaalioikeudet",
+          "p1": "Kaikki Injectran verkkosivustolla oleva sisältö — mukaan lukien tekstit, kuvat, logot, kuvakkeet, videot, tuoteluettelot, ohjelmistot ja design — on yksinomaan Injectra Corporationin tai sen lisenssinantajien omaisuutta ja sitä suojaavat sovellettavat tekijänoikeus-, tavaramerkki- ja muut immateriaalioikeuslait.",
+          "p2": "Sivuston sisällön kopiointi, jakelu, muokkaaminen, julkinen esittäminen tai johdannaisteosten luominen ilman Injectran etukäteistä kirjallista lupaa on kielletty.",
+          "p3": "Nimi Injectra, logo ja muut Injectra Corporationin tavaramerkit ovat rekisteröityjä tai rekisteröitäviksi haettuja tavaramerkkejä. Niiden luvaton käyttö on kielletty."
+        },
+        "responsabilidade": {
+          "title": "7. Vastuunrajoitus",
+          "p1": "Sovellettavan lain sallimassa laajimmassa mahdollisessa laajuudessa Injectra ei vastaa välillisistä, satunnaisista, erityisistä, seuraamuksellisista tai rangaistusluonteisista vahingoista, jotka aiheutuvat sivuston, tuotteiden tai palveluiden käytöstä tai käyttökyvyttömyydestä.",
+          "p2": "Injectra ei vastaa keskeytyksistä, jotka johtuvat sen vaikutusmahdollisuuksien ulkopuolella olevista tekijöistä, mukaan lukien kolmansien osapuolten infrastruktuurin häiriöt, luonnonkatastrofit tai kyberhyökkäykset.",
+          "p3": "Käyttäjä hyväksyy, että sivuston ja palveluiden käyttö tapahtuu omalla vastuulla, lain asettamissa rajoissa."
+        },
+        "links": {
+          "title": "8. Kolmansien osapuolten linkit",
+          "p1": "Sivustomme saattaa sisältää linkkejä kolmansien osapuolten verkkosivustoille, mukaan lukien edustajat, kumppanit ja sosiaalisen median kanavat. Nämä linkit tarjotaan vain käyttömukavuuden ja tiedon vuoksi. Injectralla ei ole määräysvaltaa näiden sivustojen sisältöön, eikä se vastaa niiden sisällöstä, tietosuojakäytännöistä tai saatavuudesta.",
+          "p2": "Kolmansien osapuolten sivustojen käyttö tapahtuu täysin käyttäjän omalla vastuulla, ja käyttäjän tulee tutustua näiden sivustojen ehtoihin ja käytäntöihin ennen niiden käyttöä."
+        },
+        "privacidade": {
+          "title": "9. Tietosuoja",
+          "p1Before": "Injectran keräämien henkilötietojen käsittelyä säätelee ",
+          "p1LinkLabel": "tietosuojakäytäntömme",
+          "p1After": ", joka on olennainen osa näitä käyttöehtoja. Käyttämällä palveluitamme hyväksyt kyseisessä käytännössä kuvatut tiedonkeruu- ja käyttökäytännöt.",
+          "p2": "Injectra on sitoutunut noudattamaan sovellettavia tietosuojalakeja, mukaan lukien Brasilian yleinen tietosuojalaki (LGPD) sekä muut voimassa olevat tietosuojalait maissa, joissa toimimme."
+        },
+        "indenizacao": {
+          "title": "10. Vahingonkorvausvelvollisuus",
+          "p1": "Sitoudut puolustamaan, korvaamaan vahingot ja vapauttamaan Injectra Corporationin, sen johtajat, työntekijät, kumppanit ja edustajat kaikista vaatimuksista, vastuista, vahingoista, menetyksistä ja kuluista (mukaan lukien kohtuulliset asianajopalkkiot), jotka johtuvat sivuston käytöstäsi tai näiden ehtojen rikkomisesta."
+        },
+        "modificacoes": {
+          "title": "11. Ehtojen muutokset",
+          "p1": "Injectra pidättää oikeuden muuttaa näitä käyttöehtoja milloin tahansa. Muutokset tulevat voimaan välittömästi niiden julkaisemisen jälkeen sivustolla, ja tämän sivun yläreunassa oleva päivämäärä päivitetään vastaavasti.",
+          "p2": "Sivuston jatkuva käyttö muutosten julkaisemisen jälkeen katsotaan uusien ehtojen hyväksymiseksi. Suosittelemme tarkistamaan tämän sivun säännöllisesti."
+        },
+        "rescisao": {
+          "title": "12. Sopimuksen päättyminen",
+          "p1": "Injectra voi milloin tahansa, ennakkoilmoituksella tai ilman, mistä tahansa syystä — mukaan lukien näiden ehtojen rikkominen — päättää tai keskeyttää pääsysi sivustolle, asiakasportaaliin tai Injectra AI -alustalle.",
+          "p2": "Sopimuksen päättymisen jälkeen ne näiden ehtojen määräykset, joiden luonteen mukaisesti tulee jäädä voimaan, pysyvät voimassa, mukaan lukien immateriaalioikeuksia, vastuunrajoitusta ja vahingonkorvausvelvollisuutta koskevat kohdat."
+        },
+        "legislacao": {
+          "title": "13. Sovellettava laki ja oikeuspaikka",
+          "p1": "Näihin käyttöehtoihin sovelletaan Floridan osavaltion, Yhdysvaltojen, lakeja, sanotun kuitenkaan rajoittamatta käyttäjän asuinmaassa sovellettavaa kuluttajansuojalainsäädäntöä.",
+          "p2": "Brasiliassa brasilialaisiin käyttäjiin ja asiakkaisiin sovelletaan lisäksi kuluttajansuojalakia (Laki nro 8.078/1990) sekä muuta sovellettavaa brasilialaista lainsäädäntöä.",
+          "p3": "Näistä ehdoista johtuvat riidat pyritään ensisijaisesti ratkaisemaan sovittelun kautta. Jos tämä ei ole mahdollista, toimivaltaisena oikeuspaikkana on käyttäjän asuinpaikan tuomiopiiri sovellettavan lainsäädännön mukaisesti."
+        },
+        "contato": {
+          "title": "14. Yhteystiedot",
+          "p1": "Jos sinulla on kysyttävää, ehdotuksia tai valituksia näihin käyttöehtoihin liittyen, ota yhteyttä Injectraan:"
+        }
+      }
+    },
+    "privacyPolicy": {
+      "banner": {
+        "eyebrow": "YKSITYISYYS JA LÄPINÄKYVYYS",
+        "titleMain": "Tietosuoja-",
+        "titleHighlight": "käytäntö",
+        "subtitle": "Lue, miten Injectra kerää, käyttää, jakaa ja suojaa henkilötietoja, joita käsitellään verkkosivustomme, tuoteluetteloidemme, tarjousten ja Injectra AI -alustan kautta."
+      },
+      "nav": [
+        "1. Rekisterinpitäjä",
+        "2. Kerätyt tiedot",
+        "3. Käsittelyn tarkoitukset",
+        "4. Oikeusperusteet",
+        "5. Tietojen jakaminen",
+        "6. Evästeet",
+        "7. Säilytysaika",
+        "8. Tietoturva",
+        "9. Sinun oikeutesi",
+        "10. Kansainväliset siirrot",
+        "11. Alaikäiset",
+        "12. Muutokset",
+        "13. Tietosuojavastaava"
+      ],
+      "introP1Before": "Tämä tietosuojakäytäntö kuvaa, miten ",
+      "introP1After": " (\"Injectra\", \"me\" tai \"meidän\") kerää, käyttää, tallentaa ja suojaa verkkosivuston kävijöiden, tarjouspyynnön tekijöiden, asiakkaiden, edustajien ja Injectra AI -alustan käyttäjien henkilötietoja.",
+      "introP2Before": "Käyttämällä kanaviamme hyväksyt tässä käytännössä kuvatut käytännöt, jotka täydentävät ",
+      "introP2LinkLabel": "käyttöehtojamme",
+      "introP2After": ".",
+      "sections": {
+        "controlador": {
+          "title": "1. Rekisterinpitäjä",
+          "p1": "Tällä sivustolla käsiteltävien henkilötietojen rekisterinpitäjä on Injectra Corporation, Yhdysvalloissa perustettu yhtiö, jonka kotipaikka on Orlando, Florida, ja joka kuuluu Interfy Corporationiin."
+        },
+        "coleta": {
+          "title": "2. Kerätyt tiedot",
+          "p1": "Voimme kerätä seuraavia tietoluokkia:",
+          "list": [
+            "Tunnistus- ja yhteystiedot: nimi, sähköposti, puhelinnumero, yritys ja tehtävänimike, jotka annetaan tarjous-, yhteydenotto- tai tuoteluettelon latauslomakkeilla",
+            "Kaupalliset tiedot: toimiala, kiinnostuksen kohteena olevat tuotteet, tuotantomäärä ja muut tiedot, jotka annetaan tarjousten laatimista varten",
+            "Selaustiedot: IP-osoite, laitetyyppi, vierailut sivut ja liikenteen alkuperä, jotka kerätään evästeiden ja vastaavien teknologioiden avulla",
+            "Toiminta- ja telemetriatiedot: soveltuvin osin Injectra AI/IoT-alustaan yhdistettyjen koneiden suorituskyky- ja käyttötiedot, asiakaskohtaisen sopimuksen mukaisesti"
+          ]
+        },
+        "finalidades": {
+          "title": "3. Käsittelyn tarkoitukset",
+          "list": [
+            "Vastata tarjous-, yhteydenotto- ja teknisen tuen pyyntöihin",
+            "Laatia kaupallisia tarjouksia ja mahdollistaa koneiden, robotiikan ja palveluiden myynti",
+            "Tarjota ja kehittää Injectra AI -alustaa, mobiilisovellusta sekä IoT- ja analytiikkapalveluita",
+            "Lähettää kaupallista viestintää, tuoteluetteloita ja uutisia käyttäjän suostumuksella",
+            "Täyttää lakisääteiset, viranomais- ja sopimusvelvoitteet",
+            "Ehkäistä petoksia ja varmistaa sivuston ja alustan turvallisuus"
+          ]
+        },
+        "basesLegais": {
+          "title": "4. Oikeusperusteet",
+          "p1": "Injectran suorittama henkilötietojen käsittely perustuu tapauksesta riippuen sopimuksen täytäntöönpanoon tai sitä edeltäviin toimiin (kuten tarjousten laatimiseen), lakisääteisen velvoitteen täyttämiseen, Injectran oikeutettuun etuun sekä rekisteröidyn suostumukseen, erityisesti markkinointiviestinnän lähettämisen ja ei-välttämättömien evästeiden käytön osalta."
+        },
+        "compartilhamento": {
+          "title": "5. Tietojen jakaminen",
+          "p1": "Tietojasi voidaan jakaa seuraavien tahojen kanssa:",
+          "list": [
+            "Interfy Corporationiin kuuluvat yhtiöt hallinnollisia tarkoituksia ja konsernin tukitoimintoja varten",
+            "Valtuutetut edustajat ja kaupalliset kumppanit yksinomaan tarjousten ja paikallisen asiakaspalvelun mahdollistamiseksi",
+            "Palveluntarjoajat (hosting, sähköpostimarkkinointi, data-analyysi), joita sitovat sopimusperusteiset luottamuksellisuus- ja tietoturvavelvoitteet",
+            "Viranomaiset, kun laki, tuomioistuimen määräys tai viranomaisen vaatimus sitä edellyttää"
+          ],
+          "p2": "Injectra ei myy henkilötietoja kolmansille osapuolille."
+        },
+        "cookies": {
+          "title": "6. Evästeet",
+          "p1Before": "Käytämme evästeitä ja vastaavia teknologioita sivuston toiminnan mahdollistamiseksi ja parantamiseksi. Lisätietoja käytetyistä evästetyypeistä ja niiden hallinnasta löydät ",
+          "p1LinkLabel": "evästekäytännöstämme",
+          "p1After": "."
+        },
+        "retencao": {
+          "title": "7. Tietojen säilytysaika",
+          "p1": "Säilytämme henkilötietoja niin kauan kuin on tarpeen tässä käytännössä kuvattujen tarkoitusten täyttämiseksi, sovellettavien lakisääteisten, sopimusperusteisten ja viranomaisvelvoitteiden mukaisesti. Asiakassuhteeseen ja tarjouksiin liittyviä tietoja säilytetään asiakassuhteen keston ajan sekä sen jälkeen lisäajan, jota edellytetään verotus-, kirjanpito- ja oikeudellisiin tarkoituksiin."
+        },
+        "seguranca": {
+          "title": "8. Tietoturva",
+          "p1": "Sovellamme asianmukaisia teknisiä ja organisatorisia toimenpiteitä suojataksemme henkilötietoja luvattomalta käytöltä, katoamiselta, muuttamiselta tai asiattomalta luovuttamiselta, mukaan lukien pääsynhallinta, tiedonsiirron salaus sekä järjestelmiemme ja Injectra AI -alustan valvonta."
+        },
+        "direitos": {
+          "title": "9. Sinun oikeutesi",
+          "p1": "Sovellettavan tietosuojalainsäädännön mukaisesti voit pyytää:",
+          "list": [
+            "Vahvistuksen käsittelyn olemassaolosta ja pääsyn omiin tietoihisi",
+            "Puutteellisten, virheellisten tai vanhentuneiden tietojen korjaamista",
+            "Tarpeettomien tai lainvastaisesti käsiteltyjen tietojen anonymisointia, käsittelyn rajoittamista tai poistamista",
+            "Tietojen siirtämistä toiselle palvelun- tai tuotteentarjoajalle",
+            "Suostumuksen peruuttamista ja vastustamista oikeutettuun etuun perustuvaa käsittelyä kohtaan"
+          ],
+          "p2": "Voit käyttää näitä oikeuksia ottamalla yhteyttä kohdassa 13 mainittujen kanavien kautta."
+        },
+        "transferencias": {
+          "title": "10. Kansainväliset siirrot",
+          "p1": "Amerikkalaisena yrityksenä, joka toimii kautta Amerikan mantereen, Injectra voi siirtää henkilötietoja maasta toiseen, mukaan lukien Yhdysvaltoihin, tässä käytännössä kuvattuja tarkoituksia varten. Näissä siirroissa sovellamme sovellettavan lainsäädännön mukaisia sopimusperusteisia ja teknisiä suojatoimia, mukaan lukien LGPD, kun rekisteröity sijaitsee Brasiliassa."
+        },
+        "menores": {
+          "title": "11. Alaikäiset",
+          "p1": "Tuotteemme ja palvelumme on suunnattu yrityksille ja ammattilaisille, eikä niitä ole tarkoitettu alaikäisille. Emme kerää tarkoituksellisesti lasten tai nuorten henkilötietoja."
+        },
+        "alteracoes": {
+          "title": "12. Tämän käytännön muutokset",
+          "p1": "Injectra voi päivittää tätä tietosuojakäytäntöä ajoittain heijastaakseen muutoksia käytännöissämme tai sovellettavassa lainsäädännössä. Viimeisimmän päivityksen päivämäärä on merkitty tämän sivun yläreunaan. Suosittelemme tarkistamaan tämän asiakirjan säännöllisesti."
+        },
+        "contato": {
+          "title": "13. Tietosuojavastaava",
+          "p1": "Jos sinulla on kysyttävää tästä käytännöstä tai haluat käyttää rekisteröidyn oikeuksiasi, ota yhteyttä tietosuojavastaavaamme (DPO):"
+        }
+      }
+    },
+    "warrantySupport": {
+      "banner": {
+        "eyebrow": "OIKEUDELLISTA TIETOA",
+        "titleMain": "Takuu ja",
+        "titleHighlight": "tuki",
+        "subtitle": "Tutustu Injectra-koneiden ja -robotiikan takuuehtoihin sekä siihen, miten saat teknistä tukea, varaosia ja erikoistunutta apua."
+      },
+      "nav": [
+        "1. Takuun kattavuus",
+        "2. Takuuaika",
+        "3. Takuun rajoitukset",
+        "4. Näin pyydät huoltoa",
+        "5. Varaosat",
+        "6. Tukikanavat",
+        "7. Huoltosopimukset ja laajennettu takuu",
+        "8. Muutokset",
+        "9. Yhteystiedot"
+      ],
+      "introBefore": "Tämä käytäntö kuvaa ",
+      "introAfter": "-ruiskuvalukoneisiin ja robotiikkaratkaisuihin sovellettavia yleisiä takuuehtoja sekä teknisen tuen ja huollon käytettävissä olevia kanavia. Kunkin laitteen erityisehdot ovat ensisijaisia tähän yleiseen käytäntöön nähden, kun ne on määritelty sopimuksessa tai laskussa.",
+      "sections": {
+        "cobertura": {
+          "title": "1. Takuun kattavuus",
+          "p1": "Injectra-takuu kattaa valmistusvirheet ruiskuvalukoneiden (hydrauliset ja sähköiset konelinjat) sekä teollisen robotiikan ratkaisujen materiaaleissa ja komponenteissa, kun laitetta käytetään, asennetaan ja huolletaan Injectran toimittamien teknisten tietojen ja käyttöoppaiden mukaisesti."
+        },
+        "prazo": {
+          "title": "2. Takuuaika",
+          "p1": "Vakiotakuuaika ilmoitetaan kaupallisessa tarjouksessa, myyntisopimuksessa ja kunkin laitteen mukana toimitetuissa teknisissä asiakirjoissa, ja se voi vaihdella konelinjan (PRIME, SPEED, VELOCITY, FORM, NEO, ATLAS, HYDRO, TITAN, MAX, EQUORA) ja komponentin mukaan (esimerkiksi elektroniikka-, hydrauliikka- ja oheisjärjestelmät).",
+          "p2": "Takuuajan laskenta alkaa laitteen toimitus- tai käyttöönottopäivästä sopimuksessa määritellyn mukaisesti."
+        },
+        "exclusoes": {
+          "title": "3. Takuun rajoitukset",
+          "p1": "Takuu ei kata seuraavia:",
+          "list": [
+            "Kuluvien osien, kuten tiivisteiden, suodattimien ja kitkakomponenttien, normaalia kulumista",
+            "Vahinkoja, jotka johtuvat virheellisestä käytöstä, teknisten tietojen vastaisesta asennuksesta tai laitteen nimelliskapasiteetin ylittävästä käytöstä",
+            "Sellaisten kolmansien osapuolten suorittamia teknisiä toimenpiteitä, joita Injectra ei ole valtuuttanut",
+            "Sellaisten osien tai tarvikkeiden käyttöä, jotka eivät ole Injectran alkuperäisiä tai hyväksymiä",
+            "Vahinkoja, jotka johtuvat asiakkaan puutteellisesta sähkö-, hydrauliikka- tai muusta infrastruktuurista",
+            "Ylivoimaisen esteen tapahtumia, kuten sähkökatkoksia, luonnonkatastrofeja tai onnettomuuksia"
+          ]
+        },
+        "comoSolicitar": {
+          "title": "4. Näin pyydät takuuhuoltoa",
+          "p1": "Takuuhuollon pyytämiseksi asiakkaan tulee ottaa yhteyttä Injectraan tai alueensa valtuutettuun edustajaan ja ilmoittaa laitteen sarjanumero, ostolasku sekä tapahtuman kuvaus. Teknisen tiimimme arvioi tapauksen ja määrittää sopivan menettelyn, joka voi sisältää etätuen, teknisen käynnin tai osien toimituksen."
+        },
+        "pecas": {
+          "title": "5. Varaosat ja tekninen tuki",
+          "p1Before": "Injectra ja sen edustajaverkosto tarjoavat alkuperäisiä varaosia ja erikoistunutta teknistä tukea koko kone- ja robotiikkamallistolle myös takuuajan päättymisen jälkeen. Tutustu ",
+          "p1LinkLabel": "teknisiin tuoteluetteloihimme",
+          "p1After": " saadaksesi tietoa osien ja käyttöoppaiden eritelmistä."
+        },
+        "canais": {
+          "title": "6. Tekniset tukikanavat",
+          "p1Before": "Tämän käytännön lisäksi ylläpidämme erillistä tukikeskusta, joka tarjoaa teknistä tukea, varaosapyyntöjä, ennaltaehkäisevää ja korjaavaa huoltoa sekä UKK-osion. Käy ",
+          "p1LinkLabel": "Tuki",
+          "p1After": " -sivulla avataksesi tukipyynnön tai keskustellaksesi tekniikkatiimimme kanssa."
+        },
+        "contratos": {
+          "title": "7. Huoltosopimukset ja laajennettu takuu",
+          "p1": "Injectra tarjoaa ennaltaehkäiseviä huoltosopimuksia sekä laajennetun takuun ohjelmia asiakkaille, jotka haluavat laajentaa vakiokattavuutta tai sopia säännöllisistä huoltokäynneistä. Näiden sopimusten kaupallisista ehdoista neuvotellaan erikseen tiimimme tai valtuutetun edustajan kanssa."
+        },
+        "alteracoes": {
+          "title": "8. Tämän käytännön muutokset",
+          "p1": "Injectra voi päivittää tätä takuu- ja tukikäytäntöä ajoittain. Muutokset tulevat voimaan tällä sivulla julkaisemisen jälkeen, sanotun kuitenkaan rajoittamatta jo voimassa oleviin sopimuksiin ja laskuihin kirjattuja takuuehtoja."
+        },
+        "contato": {
+          "title": "9. Yhteystiedot",
+          "p1": "Jos sinulla on kysyttävää takuusta, varaosista tai teknisestä tuesta, ota yhteyttä:"
+        }
+      }
+    },
+    "cookies": {
+      "banner": {
+        "eyebrow": "OIKEUDELLISTA TIETOA",
+        "titleMain": "Eväste-",
+        "titleHighlight": "käytäntö",
+        "subtitle": "Tutustu siihen, mitä evästeet ovat, millaisia evästeitä käytämme Injectran verkkosivustolla ja miten voit hallita omia asetuksiasi."
+      },
+      "nav": [
+        "1. Mitä evästeet ovat",
+        "2. Miten käytämme evästeitä",
+        "3. Evästetyypit",
+        "4. Kolmansien osapuolten evästeet",
+        "5. Asetusten hallinta",
+        "6. Päivitykset",
+        "7. Yhteystiedot"
+      ],
+      "introBefore": "Tämä evästekäytäntö selittää, miten ",
+      "introMiddle": " käyttää evästeitä ja vastaavia teknologioita verkkosivustolla injectracorp.com, täydentäen ",
+      "introLinkLabel": "tietosuojakäytäntöämme",
+      "introAfter": ".",
+      "sections": {
+        "oQueSao": {
+          "title": "1. Mitä evästeet ovat",
+          "p1": "Evästeet ovat pieniä tekstitiedostoja, jotka tallennetaan selaimeesi tai laitteeseesi vieraillessasi verkkosivustolla. Niiden avulla sivusto voi tunnistaa laitteesi, muistaa asetuksesi ja kerätä tietoa siitä, miten sivustoa käytetään."
+        },
+        "comoUsamos": {
+          "title": "2. Miten käytämme evästeitä",
+          "p1": "Käytämme evästeitä seuraaviin tarkoituksiin:",
+          "list": [
+            "Varmistaaksemme sivuston ja tarjouspyyntölomakkeen moitteettoman toiminnan",
+            "Muistaaksemme selausasetukset, kuten kielen ja alueen",
+            "Ymmärtääksemme, miten kävijät käyttävät sivustoamme ja mitkä tuoteluettelot ja konelinjat herättävät eniten kiinnostusta",
+            "Mitataksemme markkinointi- ja viestintäkampanjoiden tehokkuutta"
+          ]
+        },
+        "tipos": {
+          "title": "3. Käyttämämme evästetyypit",
+          "subsections": {
+            "essenciais": {
+              "title": "3.1 Välttämättömät evästeet",
+              "p": "Tarpeellisia sivuston perustoiminnoille, kuten sivujen välillä navigointiin ja lomakkeiden lähettämiseen. Näitä ei voi poistaa käytöstä järjestelmissämme."
+            },
+            "desempenho": {
+              "title": "3.2 Suorituskyky- ja analytiikkaevästeet",
+              "p": "Keräävät tietoa siitä, miten kävijät käyttävät sivustoa — suosituimmat sivut, selausaika ja liikenteen alkuperä — auttaen meitä parantamaan sisältöä ja käytettävyyttä."
+            },
+            "funcionalidade": {
+              "title": "3.3 Toiminnallisuusevästeet",
+              "p": "Mahdollistavat käyttäjän valintojen muistamisen, kuten kielen, alueen tai lomakkeiden esitäytön, henkilökohtaisemman kokemuksen tarjoamiseksi."
+            },
+            "marketing": {
+              "title": "3.4 Markkinointievästeet",
+              "p": "Käytetään näyttämään osuvampaa viestintää ja mainontaa kiinnostuksesi perusteella konelinjoihimme, robotiikkaan ja Injectra AI -alustaan, sekä sivustollamme että sen ulkopuolella."
+            }
+          }
+        },
+        "terceiros": {
+          "title": "4. Kolmansien osapuolten evästeet",
+          "p1": "Jotkin evästeet asettavat kolmannen osapuolen palvelut, jotka näkyvät sivuillamme, kuten liikenneanalyysityökalut, kartat ja upotetut videot. Injectra ei hallitse näitä evästeitä, joihin sovelletaan kyseisten palveluntarjoajien omia tietosuojakäytäntöjä."
+        },
+        "gerenciar": {
+          "title": "5. Evästeasetusten hallinta",
+          "p1": "Voit hallita tai poistaa evästeitä käytöstä suoraan selaimesi asetuksista estämällä uudet evästeet tai poistamalla jo tallennetut. Huomaa, että välttämättömien evästeiden poistaminen käytöstä voi vaikuttaa sivuston moitteettomaan toimintaan, mukaan lukien tarjous- ja yhteydenottolomakkeiden lähettämiseen."
+        },
+        "alteracoes": {
+          "title": "6. Tämän käytännön päivitykset",
+          "p1": "Tätä evästekäytäntöä voidaan päivittää ajoittain heijastamaan muutoksia käytännöissämme tai käytetyissä teknologioissa. Viimeisimmän päivityksen päivämäärä on merkitty tämän sivun yläreunaan."
+        },
+        "contato": {
+          "title": "7. Yhteystiedot",
+          "p1": "Jos sinulla on kysyttävää evästeiden käytöstä sivustollamme, ota yhteyttä:"
+        }
+      }
+    },
+    "compliance": {
+      "banner": {
+        "eyebrow": "ETIIKKA JA REHELLISYYS",
+        "titleMain": "Compliance",
+        "titleHighlight": "Injectra",
+        "subtitle": "Tutustu Injectra Corporationin sitoumukseen etiikan, rehellisyyden, korruption vastaisen toiminnan ja vaatimustenmukaisuuden osalta koko arvoketjussamme."
+      },
+      "nav": [
+        "1. Sitoumuksemme",
+        "2. Toimintaohjeet",
+        "3. Korruption vastainen toiminta",
+        "4. Tietosuoja",
+        "5. Toimittajat ja kumppanit",
+        "6. Reilu kilpailu",
+        "7. Ilmoituskanava",
+        "8. Päivitykset",
+        "9. Yhteystiedot"
+      ],
+      "introBefore": "",
+      "introAfter": ", joka on osa Interfy Corporationia, perustaa toimintansa etiikkaan, läpinäkyvyyteen sekä lakien ja määräysten noudattamiseen kaikissa toimintamaissaan. Tämä asiakirja tiivistää compliance-periaatteet, jotka ohjaavat suhteitamme asiakkaisiin, edustajiin, toimittajiin ja työntekijöihin.",
+      "sections": {
+        "compromisso": {
+          "title": "1. Sitoumuksemme etiikkaan ja rehellisyyteen",
+          "p1": "Injectra sitoutuu harjoittamaan liiketoimintaansa rehellisesti, kunnioittaen sovellettavia lakeja ja kantaen vastuuta asiakkaista, työntekijöistä, edustajista, toimittajista ja yhteisöistä, joissa toimimme, tukien Amerikan mantereen teollisuuden kestävää kasvua."
+        },
+        "codigoConduta": {
+          "title": "2. Toimintaohjeet",
+          "p1": "Injectran työntekijöiden, johtajien ja edustajien tulee noudattaa rehellisyyden, keskinäisen kunnioituksen, syrjimättömyyden ja työturvallisuuden periaatteita, välttää eturistiriitoja ja toimia aina voimassa olevan lainsäädännön ja yrityksen sisäisten käytäntöjen mukaisesti."
+        },
+        "anticorrupcao": {
+          "title": "3. Korruption ja petosten vastainen toiminta",
+          "p1": "Injectra ei hyväksy minkäänlaista korruptiota, lahjontaa tai epäasianmukaisia maksuja liiketoimintasuhteissaan, olivat ne sitten julkisten tai yksityisten tahojen kanssa. Amerikkalaisena yrityksenä noudatamme Foreign Corrupt Practices Act (FCPA) -lain periaatteita sekä muuta sovellettavaa korruption vastaista lainsäädäntöä toimintamaissamme, mukaan lukien Brasiliassa.",
+          "p2": "Myös valtuutetut edustajat ja kaupalliset kumppanit ovat sidottuja näihin periaatteisiin toimiessaan Injectran nimissä."
+        },
+        "protecaoDados": {
+          "title": "4. Tietosuojalakien noudattaminen",
+          "p1Before": "Injectra käsittelee henkilötietoja sovellettavien tietosuojalakien mukaisesti, mukaan lukien Brasilian yleinen tietosuojalaki (LGPD), kuten tarkemmin kuvataan ",
+          "p1LinkLabel": "tietosuojakäytännössämme",
+          "p1After": "."
+        },
+        "fornecedores": {
+          "title": "5. Suhteet toimittajiin ja kumppaneihin",
+          "p1": "Odotamme, että Injectran toimittajat, edustajat ja kaupalliset kumppanit noudattavat eettisiä, laillisia ja ihmisoikeuksia sekä työntekijöiden oikeuksia kunnioittavia periaatteita, jotka vastaavat omiamme, mukaan lukien lapsityövoiman, pakkotyön ja kilpailua rajoittavien käytäntöjen torjuminen."
+        },
+        "concorrencia": {
+          "title": "6. Reilu kilpailu",
+          "p1": "Injectra kilpailee markkinoilla tuotteidensa ja palveluidensa laadulla, noudattaen sovellettavaa kilpailulainsäädäntöä ja välttäen sopimuksia tai käytäntöjä, jotka rajoittaisivat vapaata kilpailua asiattomasti."
+        },
+        "canalDenuncias": {
+          "title": "7. Ilmoituskanava",
+          "p1": "Työntekijät, asiakkaat, edustajat ja toimittajat voivat luottamuksellisesti ilmoittaa epäilyistä, jotka koskevat tämän compliance-sitoumuksen rikkomista, mukaan lukien epäeettinen toiminta, korruptio tai sovellettavien lakien noudattamatta jättäminen, alla olevassa yhteystieto-osiossa mainitun kanavan kautta."
+        },
+        "alteracoes": {
+          "title": "8. Päivitykset",
+          "p1": "Tätä asiakirjaa voidaan päivittää ajoittain heijastamaan muutoksia compliance-käytännöissämme tai sovellettavassa lainsäädännössä. Viimeisimmän päivityksen päivämäärä on merkitty tämän sivun yläreunaan."
+        },
+        "contato": {
+          "title": "9. Yhteystiedot",
+          "p1": "Jos haluat ilmoittaa huolenaiheesta tai saada lisätietoja compliance-ohjelmastamme, ota yhteyttä:"
+        }
+      }
+    }
+  },
+  "contato": {
+    "banner": {
+      "eyebrow": "YHTEYSTIEDOT",
+      "titlePrefix": "Ota yhteyttä ",
+      "titleHighlight": "Injectraan",
+      "description": "Tiimimme on valmis tukemaan yritystänne kautta Amerikan mantereen koneilla, robotiikalla, tekoälyalustalla, palveluilla ja teollisuuskonsultoinnilla.",
+      "quoteButton": "Pyydä tarjous",
+      "specialistButton": "Keskustele asiantuntijan kanssa",
+      "atendimento": {
+        "title": "Injectra-asiakaspalvelu",
+        "description": "Tiimimme on valmiina auttamaan yritystänne.",
+        "items": [
+          "Erikoistunut konsultointi",
+          "Kokonaisratkaisut",
+          "Huippuluokan teknologia",
+          "Jatkuva tuki"
+        ]
+      },
+      "performance": {
+        "title": "Teollisuuden suorituskyky",
+        "stats": [
+          {
+            "label": "Tuotanto",
+            "description": "vs. edellinen kuukausi"
+          },
+          {
+            "label": "Tehokkuus",
+            "description": "tavoite saavutettu"
+          },
+          {
+            "label": "Käytettävyys",
+            "description": "toiminnassa"
+          }
+        ],
+        "roboticaTitle": "Neo-robotiikka"
+      },
+      "infoCards": [
+        {
+          "title": "Yhdysvaltain toimisto",
+          "description": "Orlando, Florida, Yhdysvallat"
+        },
+        {
+          "title": "Myynnin puhelinnumero",
+          "description": "+1 (321) 888-7963"
+        },
+        {
+          "title": "Sähköposti",
+          "description": "info@injectracorp.com"
+        },
+        {
+          "title": "Alueellinen palvelu",
+          "description": "Toimimme kautta Amerikan mantereen"
+        },
+        {
+          "title": "Tekninen tuki",
+          "description": "Erikoistunut tiimi koneille, robotiikalle ja tekoälyalustalle"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Valmiina uudistamaan teollisen toimintanne?",
+      "description": "Keskustele tiimimme kanssa ja löydä paras ratkaisu koneiden, robotiikan, ohjelmiston ja automaation osalta.",
+      "quoteButton": "PYYDÄ TARJOUS",
+      "specialistButton": "KESKUSTELE ASIANTUNTIJAN KANSSA"
+    },
+    "presenca": {
+      "regionCard": {
+        "title": "Läsnäolo Amerikan mantereella",
+        "description": "Yhdysvalloissa toimipaikkaansa pitävä Injectra tukee asiakkaita, kumppaneita ja teollisuusprojekteja kautta Pohjois-, Keski- ja Etelä-Amerikan.",
+        "linkLabel": "Katso toiminta-alueet"
+      },
+      "highlightsCard": {
+        "title": "Läsnäolo Amerikan mantereella",
+        "items": [
+          {
+            "title": "Konsultoiva vastaus",
+            "description": "Ymmärrämme haasteenne ja ehdotamme parasta ratkaisua."
+          },
+          {
+            "title": "Kokonaisratkaisut",
+            "description": "Koneet, robotiikka, ohjelmisto ja palvelu yhtenä kokonaisuutena."
+          },
+          {
+            "title": "Teollisuuden asiantuntijat",
+            "description": "Kokenut tiimi, jolla on käytännön sovellusosaamista."
+          },
+          {
+            "title": "Integraatio Injectra AI:hin",
+            "description": "Teknologia ja data tuottavuuden nostamiseksi."
+          }
+        ]
+      }
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    }
+  },
+  "experienceCenter": {
+    "banner": {
+      "eyebrow": "EXPERIENCE CENTER",
+      "title": "Koe teknologia.\nMuuta tulokset.",
+      "subtitle": "Injectra Experience Center on luotu, jotta voit nähdä, testata ja todeta käytännössä, miten ratkaisumme voivat nostaa teollisuutenne tuottavuutta, laatua ja kilpailukykyä.",
+      "ctaVisita": "Varaa vierailu",
+      "ctaEspecialista": "Keskustele asiantuntijan kanssa",
+      "trustItems": [
+        {
+          "label": "Huippuluokan teknologia"
+        },
+        {
+          "label": "Todistetut tulokset"
+        },
+        {
+          "label": "Omistautuneet asiantuntijat"
+        },
+        {
+          "label": "Turvallisuus ja luotettavuus"
+        }
+      ]
+    },
+    "confianca": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "description": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "description": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "description": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "description": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "description": "Energiatehokkuus ja ESG"
+        }
+      ]
+    },
+    "diferenciais": {
+      "title": "Miksi vierailla Experience Centerissämme?",
+      "stats": [
+        {
+          "label": "Toteutetut vierailut"
+        },
+        {
+          "label": "Sovellustestaukset"
+        },
+        {
+          "label": "Tyytyväiset asiakkaat"
+        },
+        {
+          "label": "Omistautuneet asiantuntijat"
+        }
+      ]
+    },
+    "esperar": {
+      "title": "Mitä voit odottaa",
+      "items": [
+        {
+          "label": "Henkilökohtainen palvelu"
+        },
+        {
+          "label": "Tarpeisiisi räätälöidyt ratkaisut"
+        },
+        {
+          "label": "Uusimman sukupolven teknologia"
+        },
+        {
+          "label": "Moderni ja interaktiivinen ympäristö"
+        },
+        {
+          "label": "Todistetut, todelliset tulokset"
+        }
+      ]
+    },
+    "experiencias": {
+      "title": "Kokemuksemme",
+      "saibaMais": "Lue lisää",
+      "items": [
+        {
+          "title": "Esittelyt",
+          "description": "Katso koneemme ja ratkaisumme toiminnassa ja huomaa, miten Injectra-teknologia voi muuttaa tuotantoanne."
+        },
+        {
+          "title": "Sovellustestaukset",
+          "description": "Tuo oma muottisi, materiaalisi tai kappaleesi ja tee todellisia testejä asiantuntijoidemme tuella."
+        },
+        {
+          "title": "Showroom",
+          "description": "Tutustu läheltä kattavaan kone-, robotiikka- ja älykkäiden ratkaisujen mallistoomme innovatiivisessa ympäristössä."
+        },
+        {
+          "title": "Koulutukset",
+          "description": "Kouluta tiimisi teknisillä ja operatiivisilla koulutuksilla saadaksesi maksimaalisen suorituskyvyn."
+        },
+        {
+          "title": "Projektien validointi",
+          "description": "Validoimme yhdessä kanssanne parhaan ratkaisun projektillenne, varmistaen suorituskyvyn ja sijoitetun pääoman tuoton."
+        }
+      ]
+    },
+    "agendamento": {
+      "title": "Varaa kokemuksesi nyt",
+      "description": "Koe Injectra-teknologia käytännössä ja huomaa, miten voimme viedä tuotantonne seuraavalle tasolle.",
+      "ctaVisita": "Varaa vierailu",
+      "ctaEspecialista": "Keskustele asiantuntijan kanssa"
+    }
+  },
+  "faleComEspecialista": {
+    "hero": {
+      "eyebrow": "ASIANTUNTIJAT",
+      "titlePrefix": "Keskustele ",
+      "titleHighlight": "Injectran asiantuntijan kanssa.",
+      "subtitle": "Kaupallista, teknistä ja insinööriosaamista auttamaan toimintaanne valitsemaan sopivimman ratkaisun.",
+      "body": "Asiantuntijatiimimme tukee sinua koneiden, automaation ja robotiikan valinnassa, Injectra AI -integraatiossa sekä sovellusten validoinnissa — aina keskittyen suorituskykyyn, tehokkuuteen ja todellisiin tuloksiin teollisuudellenne.",
+      "ctaSchedule": "Varaa tapaaminen",
+      "ctaWhatsapp": "Keskustele WhatsAppissa",
+      "cards": [
+        {
+          "title": "Kaupallinen konsultointi",
+          "description": "Ymmärrämme tarpeenne ja esittelemme parhaat vaihtoehdot koneiden, robotiikan ja Injectra-ratkaisujen osalta."
+        },
+        {
+          "title": "Tekninen konsultointi",
+          "description": "Erikoistunut tekninen analyysi vaatimusten, prosessien ja sovelluksenne toteutettavuuden vahvistamiseksi."
+        },
+        {
+          "title": "Sovellusinsinöörityö",
+          "description": "Kehitämme räätälöityjä ratkaisuja keskittyen suorituskykyyn, tuottavuuteen ja integraatioon."
+        },
+        {
+          "title": "Tapaamisen varaus",
+          "description": "Yhdistämme sinut oikeisiin asiantuntijoihin teknisiä tapaamisia tai esittelyjä varten."
+        }
+      ]
+    },
+    "comoAjudamos": {
+      "title": "Miten voimme auttaa",
+      "subtitle": "Kokonaisratkaisut teollisuuden vaativimmille sektoreille.",
+      "items": [
+        {
+          "title": "Sopivan konelinjan valinta",
+          "description": "Autamme sinua valitsemaan täydellisen koneen tuotantoosi."
+        },
+        {
+          "title": "Sovellusanalyysi",
+          "description": "Tutkimme prosessianne ja suosittelemme parasta kokoonpanoa."
+        },
+        {
+          "title": "Automaatio ja robotiikka",
+          "description": "Ratkaisut, jotka lisäävät tuotannon tehokkuutta, laatua ja turvallisuutta."
+        },
+        {
+          "title": "Digitaalinen integraatio",
+          "description": "Yhdistä koneenne Injectra AI:hin ja muuta data tuloksiksi."
+        },
+        {
+          "title": "Kustannusten alentaminen",
+          "description": "Enemmän tuottavuutta, vähemmän hukkaa ja parempi tehokkuus."
+        },
+        {
+          "title": "Tuotannon laajentaminen",
+          "description": "Skaalautuvuus ja ratkaisut yrityksenne kasvun tueksi."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Näin se toimii",
+      "subtitle": "Yksinkertainen ja konsultoiva prosessi parhaan ratkaisun löytämiseksi.",
+      "steps": [
+        {
+          "title": "Kerro tarpeestasi",
+          "description": "Täytä lomake tietoineen ja tavoitteineen."
+        },
+        {
+          "title": "Tiimimme analysoi",
+          "description": "Asiantuntijat arvioivat tarpeenne ja vaatimuksenne."
+        },
+        {
+          "title": "Suosittelemme parasta ratkaisua",
+          "description": "Esittelemme sovelluksellenne sopivimmat vaihtoehdot."
+        },
+        {
+          "title": "Sovimme teknisen/kaupallisen tapaamisen",
+          "description": "Henkilökohtainen tapaaminen yksityiskohtia ja seuraavia askelia varten."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Konsultoiva palvelu teollisuuspäätöstenne nopeuttamiseksi.",
+      "subtitle": "Keskustele asiantuntijan kanssa ja huomaa, miten Injectra voi muuttaa tuotantonne teknologialla ja älykkyydellä.",
+      "quoteButton": "Pyydä tarjous",
+      "meetingButton": "Varaa tapaaminen"
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    }
+  },
+  "industria": {
+    "banner": {
+      "kicker": "TEOLLISUUS",
+      "title": "Älykkäitä ratkaisuja kaikkien teollisuudenalojen kehittämiseen.",
+      "subtitle": "Injectra tarjoaa koneita, robotiikkaa ja älykkäitä alustoja tuottavuuden, laadun ja kilpailukyvyn lisäämiseksi eri teollisuudenaloilla.",
+      "ctaCatalogos": "Katso kaikki tuoteluettelot",
+      "ctaEspecialista": "Keskustele asiantuntijan kanssa",
+      "highlights": [
+        "Räätälöidyt ratkaisut",
+        "Suurempi tuottavuus",
+        "Laatu ja luotettavuus",
+        "Läsnäolo Amerikan mantereella"
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Miksi valita Injectra teollisuudellenne?",
+      "items": [
+        {
+          "title": "Kehittynyt teknologia",
+          "description": "Uusimman sukupolven sähköiset ja hydrauliset koneet."
+        },
+        {
+          "title": "Älykäs automaatio",
+          "description": "Robotiikka ja integroidut järjestelmät maksimaalista tehokkuutta varten."
+        },
+        {
+          "title": "Erikoistunut tuki",
+          "description": "Tekninen tiimi, jolla on kokemusta toimialaltanne."
+        },
+        {
+          "title": "Todistettu suorituskyky",
+          "description": "Enemmän tuottavuutta, laatua ja alhaisemmat kustannukset."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "TUOTELUETTELOT TOIMIALOITTAIN",
+        "description": "Lataa toimialallenne räätälöityjä tuoteluetteloita ja referenssejä.",
+        "cta": "Katso tuoteluettelot"
+      },
+      "ajuda": {
+        "kicker": "TARVITSETTEKO APUA?",
+        "description": "Tiimimme ymmärtää toimialanne ja auttaa löytämään parhaan ratkaisun.",
+        "cta": "Ota yhteyttä"
+      },
+      "tecnologia": {
+        "kicker": "Teknologia, joka mukautuu toimialaanne",
+        "description": "Laitteet, automaatio ja älykkyys todellisten tulosten saavuttamiseksi.",
+        "cta": "Keskustele asiantuntijan kanssa"
+      }
+    },
+    "segmentos": {
+      "title": "Toimialamme ja toimintamme",
+      "ctaLabel": "Katso ratkaisut",
+      "items": [
+        {
+          "title": "Autoteollisuus",
+          "description": "Kokonaisratkaisut muoviruiskuvaluun, komponentteihin, viimeistelyyn sekä automaatioon ja prosesseihin."
+        },
+        {
+          "title": "Pakkaukset",
+          "description": "Suurta nopeutta ja tarkkuutta tarjoavat koneet muovipakkauksille sekä automaatiojärjestelmä."
+        },
+        {
+          "title": "Lääketiede",
+          "description": "Laitteet lääkinnällisten osien valmistukseen suurimmalla tarkkuudella ja jäljitettävyydellä."
+        },
+        {
+          "title": "Kulutustavarat",
+          "description": "Ratkaisut päivittäistuotteille suurella tehokkuudella, laadulla ja kilpailukyvyllä."
+        },
+        {
+          "title": "Elektroniikka",
+          "description": "Tarkkuusruiskuvalu elektroniikkakomponenteille ja kokoonpanon automaatio."
+        },
+        {
+          "title": "Rakentaminen",
+          "description": "Vankat ratkaisut teknisille kappaleille, putkille, liittimille ja rakennusmateriaaleille."
+        },
+        {
+          "title": "Logistiikka",
+          "description": "Järjestelmät ja ratkaisut prosessien, varastoinnin ja siirtojen optimointiin."
+        },
+        {
+          "title": "Muut toimialat",
+          "description": "Palvelemme lukuisia teollisuudenaloja räätälöidyillä ja huipputeknologisilla ratkaisuilla."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    }
+  },
+  "maquinas": {
+    "banner": {
+      "kicker": "KONEET",
+      "title": "Ruiskuvaluteknologiaa kaikille teollisuudenaloille.",
+      "subtitle": "Yhdeksän kattavaa hydraulista ja sähköistä konelinjaa, kehitetty tarjoamaan maksimaalinen suorituskyky, tarkkuus ja tehokkuus jokaiseen sovellukseen.",
+      "ctaCatalogos": "Katso kaikki tuoteluettelot",
+      "ctaEspecialista": "Keskustele asiantuntijan kanssa",
+      "stats": [
+        "101 konemallia",
+        "Yli 70 lisävarustetta ja oheislaitetta",
+        "100 % integroitu teknologia"
+      ]
+    },
+    "comoFunciona": {
+      "title": "Näin mallien selaus toimii",
+      "description": "Valitse konelinja ja selaa helposti kaikkia saatavilla olevia malleja. Jokainen sivu esittää tekniset tiedot, tuoteluettelon ja tarjousvaihtoehdot.",
+      "sidebarItemLabel": "Prime IP - X",
+      "detailTitle": "Prime IP - X",
+      "detailDescription": "Tarkkuutta, monikäyttöisyyttä ja suorituskykyä yleisiin sovelluksiin.",
+      "ctaCatalogos": "Katso kaikki tuoteluettelot",
+      "ctaEspecialista": "Keskustele asiantuntijan kanssa",
+      "specs": [
+        {
+          "title": "X t voimaa",
+          "subtitle": "sulkuvoimaa"
+        },
+        {
+          "title": "Tie Bar",
+          "subtitle": "X x X mm"
+        },
+        {
+          "title": "Suuri tarkkuus"
+        },
+        {
+          "title": "Tekninen tuki",
+          "subtitle": "erikoistunut"
+        }
+      ]
+    },
+    "comparativo": {
+      "title": "Konelinjojen vertailu",
+      "subtitle": "Löydä nopeasti tarpeisiinne sopiva konelinja.",
+      "rows": [
+        "Sovellus",
+        "Käyttötapa",
+        "Sulkuvoima-alue",
+        "Erityispiirre"
+      ],
+      "columns": [
+        {
+          "name": "Prime",
+          "aplicacao": "Yleinen",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "60–1 000 t",
+          "destaque": "Tarkkuus ja monikäyttöisyys"
+        },
+        {
+          "name": "Speed",
+          "aplicacao": "Suuri nopeus",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "70–800 t",
+          "destaque": "Nopeat syklit ja tehokkuus"
+        },
+        {
+          "name": "Velocity",
+          "aplicacao": "Suuri tuottavuus",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "80–500 t",
+          "destaque": "Äärimmäinen nopeus"
+        },
+        {
+          "name": "Form",
+          "aplicacao": "Tarkat tekniset kappaleet",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "100–800 t",
+          "destaque": "Suuri tarkkuus"
+        },
+        {
+          "name": "Neo",
+          "aplicacao": "Energiatehokkuus ja suuri tarkkuus",
+          "acionamento": "100 % sähköinen",
+          "tonelagem": "60–350 t",
+          "destaque": "Energiatehokkuus ja tarkkuus"
+        },
+        {
+          "name": "Altas",
+          "aplicacao": "Suuret kappaleet ja pakkaukset",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "400–4 000 t",
+          "destaque": "Kestävyys suurille kappaleille"
+        },
+        {
+          "name": "Hydro",
+          "aplicacao": "Vaativat sovellukset",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "180–3 000 t",
+          "destaque": "Voimaa vaativiin sovelluksiin"
+        },
+        {
+          "name": "Titan",
+          "aplicacao": "Vankat muotit",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "650–4 000 t",
+          "destaque": "Suuret tonnimäärät"
+        },
+        {
+          "name": "Max",
+          "aplicacao": "Suuret kappaleet ja vaativat kohteet",
+          "acionamento": "Hydraulinen",
+          "tonelagem": "800–5 000 t",
+          "destaque": "Maksimaalinen kapasiteetti"
+        },
+        {
+          "name": "Equora",
+          "aplicacao": "Vaativat ja monipuoliset sovellukset",
+          "acionamento": "Hybridi",
+          "tonelagem": "100–2 000 t",
+          "destaque": "Voiman ja tehokkuuden tasapaino"
+        }
+      ]
+    },
+    "linhasDeMaquinas": {
+      "title": "Konelinjamme",
+      "subtitle": "Löydä nopeasti tarpeisiinne sopiva konelinja.",
+      "ctaVerModelos": "Katso mallit",
+      "machines": [
+        {
+          "name": "PRIME",
+          "description": "Suuri tarkkuus ja monikäyttöisyys yleisiin sovelluksiin."
+        },
+        {
+          "name": "SPEED",
+          "description": "Nopeat syklit ja huippuluokan tehokkuus."
+        },
+        {
+          "name": "VELOCITY",
+          "description": "Erittäin suuri nopeus ja äärimmäinen tuottavuus."
+        },
+        {
+          "name": "FORM",
+          "description": "Ratkaisut teknisille kappaleille suurella tarkkuudella."
+        },
+        {
+          "name": "NEO",
+          "description": "100 % sähköinen konelinja, jossa suuri toistotarkkuus ja energiatehokkuus."
+        },
+        {
+          "name": "ATLAS",
+          "description": "Erikoistunut muovilaatikoihin, kuormalavoihin ja suurikokoisiin kappaleisiin."
+        },
+        {
+          "name": "HYDRO",
+          "description": "Hydraulista tehoa vaativiin sovelluksiin."
+        },
+        {
+          "name": "TITAN",
+          "description": "Suuret tonnimäärät vankoille muoteille ja vaativimpiin kohteisiin."
+        },
+        {
+          "name": "MAX",
+          "description": "Maksimaalinen kapasiteetti ja kestävyys suurimpiin haasteisiin."
+        },
+        {
+          "name": "EQUORA",
+          "description": "Voiman, tehokkuuden ja säästöjen tasapaino hybriditeknologialla."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "TUOTELUETTELOT",
+        "description": "Lataa kaikkien konelinjojen ja koneiden täydelliset tuoteluettelot",
+        "cta": "Katso kaikki tuoteluettelot"
+      },
+      "ajuda": {
+        "kicker": "TARVITSETTEKO APUA?",
+        "description": "Keskustele asiantuntijamme kanssa ja löydä paras ratkaisu sovellukseenne.",
+        "cta": "Keskustele asiantuntijan kanssa"
+      },
+      "video": {
+        "title": "Teknologiaa, joka liikuttaa teollisuutta.",
+        "description": "Katso video ja tutustu Injectran vahvuuksiin.",
+        "ariaPlay": "Katso video"
+      }
+    },
+    "tecnologias": {
+      "title": "Injectra-teknologiat",
+      "subtitle": "Innovaatio, joka muuttaa suorituskyvyn tuloksiksi.",
+      "items": [
+        {
+          "title": "Älykäs servokäyttö",
+          "description": "Tarkka liikkeenhallinta parhaan toistotarkkuuden saavuttamiseksi."
+        },
+        {
+          "title": "Kehittynyt hydrauliikka",
+          "description": "Suorituskykyiset ja tehokkaat hydraulijärjestelmät."
+        },
+        {
+          "title": "Suuren tarkkuuden ruiskutus",
+          "description": "Kehittynyt ruiskutuksen hallinta korkealaatuisille kappaleille."
+        },
+        {
+          "title": "Energiatehokkuus",
+          "description": "Teknologiat, jotka vähentävät kulutusta ja lisäävät kestävyyttä."
+        },
+        {
+          "title": "Täysi yhdistettävyys",
+          "description": "Injectra AI:hin yhdistetyt koneet älykästä hallintaa varten."
+        },
+        {
+          "title": "Sisäänrakennettu turvallisuus",
+          "description": "Kattavat turvajärjestelmät operaattorille ja prosessille."
+        }
+      ]
+    },
+    "tecnologiasDasLinhas": {
+      "tags": [
+        "Hydraulinen",
+        "100 % sähköinen",
+        "Hybridi",
+        "Robotiikka",
+        "Injectra AI",
+        "Teollinen IoT",
+        "OEE ja analytiikka",
+        "Mobiilisovellus",
+        "Tekninen tuki"
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    },
+    "modelo": {
+      "breadcrumb": {
+        "home": "Etusivu",
+        "maquinas": "Koneet"
+      },
+      "hero": {
+        "ctaCotacao": "Pyydä tarjous",
+        "ctaCatalogo": "Lataa tuoteluettelo",
+        "ctaEspecialista": "Keskustele asiantuntijan kanssa"
+      },
+      "quickSpecs": {
+        "forca": {
+          "title": "T voimaa",
+          "subtitle": "sulkuvoimaa"
+        },
+        "tieBar": {
+          "title": "Tie Bar"
+        },
+        "precisao": {
+          "title": "Suuri tarkkuus"
+        },
+        "suporte": {
+          "title": "Tekninen tuki",
+          "subtitle": "erikoistunut"
+        }
+      },
+      "comparativo": {
+        "title": "Konelinjojen vertailu",
+        "subtitle": "Löydä nopeasti tarpeisiinne sopiva konelinja.",
+        "rows": {
+          "serie": "Sarja",
+          "modelo": "Malli",
+          "forcaFechamento": "Sulkuvoima",
+          "tieBar": "Pylväsväli (Tie Bar)",
+          "tecnologia": "Teknologia",
+          "aplicacoesIndicadas": "Suositellut käyttökohteet",
+          "configuracaoComercial": "Kaupallinen kokoonpano",
+          "suporte": "Tuki"
+        }
+      },
+      "aplicacoesBeneficios": {
+        "title": "Käyttökohteet ja edut",
+        "items": {
+          "pecasTecnicas": {
+            "title": "Tekniset kappaleet",
+            "description": "Ihanteellinen tarkkuutta ja toistettavuutta vaativille komponenteille."
+          },
+          "consumo": {
+            "title": "Kulutustavarat",
+            "description": "Tehokkaat ratkaisut päivittäistuotteille korkealla laadulla."
+          },
+          "automacaoIntegrada": {
+            "title": "Integroitu automaatio",
+            "description": "Yhteensopiva nykyaikaisten oheislaitteiden ja automaatiojärjestelmien kanssa."
+          },
+          "baixoCusto": {
+            "title": "Alhaiset käyttökustannukset",
+            "description": "Tehokas suunnittelu, joka vähentää energiankulutusta ja huoltokustannuksia."
+          }
+        }
+      },
+      "ctaConfigurar": {
+        "titleTemplate": "Valmiina konfiguroimaan {model}-koneenne?",
+        "description": "Liity kumppaniverkostoon, joka muuttaa Amerikan mantereen teollisuutta teknologialla ja innovaatiolla.",
+        "ctaCotacao": "Pyydä tarjous",
+        "ctaEspecialista": "Keskustele asiantuntijan kanssa",
+        "trustItems": [
+          {
+            "title": "Amerikkalainen teknologia",
+            "description": "Kehitetty Yhdysvalloissa"
+          },
+          {
+            "title": "Läsnäolo Amerikan mantereella",
+            "description": "Paikallinen palvelu"
+          },
+          {
+            "title": "Yli 30 vuoden kokemus",
+            "description": "teollisuusratkaisuista"
+          },
+          {
+            "title": "Tuki 24/7",
+            "description": "Erikoistunut tekninen tuki"
+          },
+          {
+            "title": "Kestävä kehitys",
+            "description": "Energiatehokkuus ja ESG"
+          }
+        ]
+      },
+      "especificacoes": {
+        "prime-ip": {
+          "forcaTonelagem": "60 tonnia",
+          "tieBar": "290 x 270 mm",
+          "aplicacoesIndicadas": "Kodintarvikkeet, tekniset kappaleet, kulutustavarat ja teollisuuden komponentit",
+          "configuracaoComercial": "Saatavilla räätälöityä tarjousta varten",
+          "suporte": "Tekninen tuki ja erikoistunut konsultointi"
+        }
+      },
+      "linhas": {
+        "prime-ip": {
+          "description": "Tarkkuutta, monikäyttöisyyttä ja suorituskykyä yleisiin sovelluksiin."
+        }
+      }
+    }
+  },
+  "plataformaAi": {
+    "banner": {
+      "eyebrow": "PLATAFORMA AI",
+      "title": "Data, yhdistettävyys ja älykkyys tuotantonne muuttamiseksi.",
+      "subtitle": "Injectra AI -alusta yhdistää koneet, ihmiset ja prosessit älykkääksi ekosysteemiksi tuottavuuden lisäämiseksi, seisokkien vähentämiseksi ja reaaliaikaisten päätösten mahdollistamiseksi.",
+      "ctaPrimary": "Pyydä esittely",
+      "ctaSecondary": "Keskustele asiantuntijan kanssa",
+      "trustItems": [
+        {
+          "label": "100 % turvallinen pilvipalvelu"
+        },
+        {
+          "label": "Tekoäly"
+        },
+        {
+          "label": "Reaaliaikaiset päätökset"
+        },
+        {
+          "label": "Maksimaalinen turvallisuus ja luotettavuus"
+        }
+      ]
+    },
+    "fluxo": {
+      "title": "Varaa kokemuksesi nyt",
+      "description": "Koe Injectra-teknologia käytännössä ja huomaa, miten voimme viedä tuotantonne seuraavalle tasolle.",
+      "etapas": [
+        {
+          "title": "Injectra-koneet",
+          "description": "Reaaliaikainen data"
+        },
+        {
+          "title": "Anturit ja laitteet",
+          "description": "Tiedonkeruu"
+        },
+        {
+          "title": "AI-alusta pilvessä",
+          "description": "Käsittely ja tekoäly"
+        },
+        {
+          "title": "Kojelaudat ja raportit",
+          "description": "Visualisointi ja analyysi"
+        },
+        {
+          "title": "Toimenpiteet ja päätökset",
+          "description": "Tulokset ja tehokkuus"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Ratkaisut, jotka vievät teollisuuttanne eteenpäin",
+      "items": [
+        {
+          "title": "Pilvikojelauta",
+          "description": "Seuraa kaikkia tuotannon tunnuslukuja reaaliajassa, mistä tahansa ja millä tahansa laitteella."
+        },
+        {
+          "title": "Mobiilisovellus",
+          "description": "Hallitse tuotantoanne kämmenellänne. Seuraa, vastaanota hälytyksiä ja toimi missä tahansa."
+        },
+        {
+          "title": "Teollinen IoT",
+          "description": "Yhdistä koneet, anturit ja laitteet reaaliaikaiseen tiedonkeruuseen maksimaalisella turvallisuudella."
+        },
+        {
+          "title": "OEE",
+          "description": "Seuraa käytettävyyttä, suorituskykyä ja laatua reaaliajassa, tehostaen toimintaanne."
+        },
+        {
+          "title": "Analytiikka",
+          "description": "Muuta data arvokkaiksi oivalluksiksi kehittyneen analyysin ja räätälöityjen raporttien avulla."
+        },
+        {
+          "title": "Ennakoiva kunnossapito",
+          "description": "Ennakoi vikoja ja vähennä suunnittelemattomia seisokkeja tekoäly- ja koneoppimisalgoritmeilla."
+        },
+        {
+          "title": "Älykkäät hälytykset",
+          "description": "Vastaanota kriittisiä hälytyksiä ja älykkäitä suosituksia toimiaksesi ennen kuin ongelmat vaikuttavat tuotantoonne."
+        },
+        {
+          "title": "OTA-päivitykset",
+          "description": "Etäpäivitykset ohjelmistolle ja laiteohjelmistolle pitävät alustanne aina ajan tasalla ja turvallisena."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Teollisuuteen sovellettu tekoäly prosessien, laadun ja tuottavuuden jatkuvaan optimointiin."
+        }
+      ]
+    }
+  },
+  "representantes": {
+    "banner": {
+      "badge": "EDUSTAJAOHJELMA",
+      "title": "Ryhdy Injectra-edustajaksi ja tuo huippuluokan teknologia alueellenne.",
+      "subtitle": "Kumppanuus, tuki ja teknologia kasvuun johtavan globaalin teollisuusratkaisumerkin kanssa.",
+      "ctaPrimary": "Haluan edustajaksi",
+      "ctaSecondary": "Keskustele asiantuntijan kanssa",
+      "highlights": [
+        "Johtava globaali teknologia",
+        "Huippuluokan tuotteet",
+        "Kattava tuki",
+        "Kumppanuus yhteiseen kasvuun"
+      ]
+    },
+    "beneficios": {
+      "title": "Injectra-edustajan edut",
+      "items": [
+        {
+          "title": "Houkuttelevat provisiot",
+          "description": "Ansaitse kilpailukykyisiä provisioita ja jatkuvaa kasvua."
+        },
+        {
+          "title": "Korkealaatuiset tuotteet",
+          "description": "Innovatiivisia ja luotettavia ratkaisuja eri teollisuudenaloille."
+        },
+        {
+          "title": "Tuki ja koulutus",
+          "description": "Jatkuvaa teknistä ja kaupallista koulutusta menestyksenne tueksi."
+        },
+        {
+          "title": "Markkinointi ja materiaalit",
+          "description": "Tukea markkinointiin, yksinoikeudella saatavaa materiaalia ja kysynnän luontia."
+        },
+        {
+          "title": "Globaali ja luotettava brändi",
+          "description": "Edusta tunnettua brändiä kautta Amerikan mantereen."
+        },
+        {
+          "title": "Kasvumahdollisuudet",
+          "description": "Laajenna tuotevalikoimaanne ja kasvattakaa liiketoimintaanne."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Injectra-edustajan edut",
+      "items": [
+        {
+          "title": "Rekisteröityminen",
+          "description": "Täytä koko lomake ja lähetä tietosi."
+        },
+        {
+          "title": "Arviointi",
+          "description": "Tiimimme arvioi profiilinne ja potentiaalinne alueellanne."
+        },
+        {
+          "title": "Hyväksyntä",
+          "description": "Teidät hyväksytään ja liitetään virallisesti ohjelmaan."
+        },
+        {
+          "title": "Koulutus",
+          "description": "Saatte kattavan teknisen ja kaupallisen koulutuksen."
+        },
+        {
+          "title": "Toiminta",
+          "description": "Aloita edustaminen ja tuo Injectra-teknologia alueellenne."
+        }
+      ]
+    },
+    "nossasExperiencias": {
+      "title": "Kokemuksemme",
+      "mapAlt": "Amerikan mantereen kartta",
+      "ctaLabel": "Katso mahdollisuudet",
+      "regioes": [
+        {
+          "title": "Pohjois-Amerikka",
+          "description": "Yhdysvallat, Kanada ja Meksiko"
+        },
+        {
+          "title": "Keski-Amerikka",
+          "description": "Guatemala, Panama, Costa Rica ja muut."
+        },
+        {
+          "title": "Karibia",
+          "description": "Karibian saaret ja Karibian valtiot."
+        },
+        {
+          "title": "Etelä-Amerikka",
+          "description": "Brasilia, Argentiina, Chile, Kolumbia ja muut."
+        },
+        {
+          "title": "Andien alue",
+          "description": "Ecuador, Peru, Bolivia ja Venezuela."
+        },
+        {
+          "title": "Muut markkinat",
+          "description": "Mahdollisuuksia uusilla markkinoilla."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Kasvetaan yhdessä!",
+      "description": "Liity kumppaniverkostoon, joka muuttaa Amerikan mantereen teollisuutta teknologialla ja innovaatiolla.",
+      "stats": [
+        {
+          "label": "Aktiiviset edustajat"
+        },
+        {
+          "label": "Palvellut maat"
+        },
+        {
+          "label": "Asennetut koneet"
+        },
+        {
+          "label": "Vuoden globaalia kokemusta"
+        }
+      ],
+      "trustItems": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "description": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "description": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "description": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "description": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "description": "Energiatehokkuus ja ESG"
+        }
+      ]
+    }
+  },
+  "robotica": {
+    "banner": {
+      "badge": "ROBOTIIKKA",
+      "title": "Älykäs automaatio, joka tehostaa tuloksia.",
+      "subtitle": "Kattavat robotiikka- ja automaatioratkaisut siirtoon, käsittelyyn, lavaukseen ja integraatioon Injectra-koneiden kanssa.",
+      "highlights": [
+        {
+          "label": "Suuri tuottavuus"
+        },
+        {
+          "label": "Tarkkuus ja toistettavuus"
+        },
+        {
+          "label": "Täysi joustavuus"
+        },
+        {
+          "label": "Integraatio Injectra AI:hin"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    },
+    "aplicacoes": {
+      "title": "Sovellukset eri toimialoilla",
+      "items": [
+        {
+          "title": "Muoviruiskuvalu",
+          "description": "Kappaleiden poisto ja syöttö."
+        },
+        {
+          "title": "Käsittely",
+          "description": "Suuren nopeuden pick & place -toiminnot"
+        },
+        {
+          "title": "Kokoonpano",
+          "description": "Komponenttien kokoonpano ja asennus"
+        },
+        {
+          "title": "Tarkastus",
+          "description": "Älykäs konenäkö ja laadunvalvonta."
+        },
+        {
+          "title": "Lavaus",
+          "description": "Kerrosten muodostus ja lavaus."
+        },
+        {
+          "title": "Pakkaaminen",
+          "description": "Koteloiminen ja pakkaaminen."
+        },
+        {
+          "title": "Sisäinen logistiikka",
+          "description": "Autonominen siirto ja kuljetus."
+        }
+      ]
+    },
+    "capacidade": {
+      "title": "Neo-humanoidirobotti",
+      "subtitle": "Kehitetty toimimaan turvallisesti, joustavasti ja älykkäästi ihmisten ja teollisten ympäristöjen kanssa.",
+      "checklist": [
+        "3D-hahmotus ja konenäkö",
+        "Kehittynyt liikkuvuus ja dynaaminen tasapaino",
+        "Turvallinen vuorovaikutus ihmisten kanssa",
+        "Jatkuva oppiminen ja mukautuminen",
+        "Natiivi integraatio Injectra AI:hin"
+      ],
+      "ctaLabel": "Tutustu Neoon",
+      "robotImageAlt": "Neo-humanoidirobotti",
+      "specs": [
+        "Vapausasteet",
+        "Näkö ja hahmotus",
+        "Huippunopeus",
+        "Hyötykuorma",
+        "Teollinen suojausluokka"
+      ],
+      "videoThumbAlt": "Neo-robotti toiminnassa",
+      "videoTitle": "Automaatiota pidemmälle.",
+      "videoDescription": "Katso Neo toiminnassa teollisuudessa",
+      "watchLabel": "Katso esittely"
+    },
+    "solucoes": {
+      "title": "Robotiikkaratkaisumme",
+      "detailsLabel": "Katso lisätiedot",
+      "items": [
+        {
+          "title": "Neo-humanoidirobotti",
+          "description": "Älykkään automaation tulevaisuus. Liikkuvuus, hahmotus ja vuorovaikutus monimutkaisiin tehtäviin."
+        },
+        {
+          "title": "Karteesiset robotit",
+          "description": "Suuri nopeus ja tarkkuus käsittelyyn, pick & place -toimintoihin ja kappaleiden poistoon."
+        },
+        {
+          "title": "Robotisoidut solut",
+          "description": "Kattavat ja räätälöidyt ratkaisut eri sovelluksiin ja automaatiotasoihin."
+        },
+        {
+          "title": "Lavaus",
+          "description": "Tehokkaat lavausjärjestelmät tuottavuuden lisäämiseksi ja prosessien standardoimiseksi."
+        },
+        {
+          "title": "Älykäs automaatio",
+          "description": "Anturien ja ohjausjärjestelmien integrointi älykkäämpiin ja yhdistetympiin tehtaisiin."
+        },
+        {
+          "title": "Integraatio Injectra AI:hin",
+          "description": "Täysi integraatio Injectra AI -alustaan valvontaa ja älykkäitä päätöksiä varten."
+        }
+      ]
+    },
+    "integracao": {
+      "title": "Täysi integraatio teollisuuteen",
+      "subtitle": "Ratkaisut, jotka yhdistyvät saumattomasti tuotantoprosessiinne.",
+      "etapas": [
+        {
+          "title": "Injectra-koneet",
+          "description": "Hydrauliset ja sähköiset ruiskuvalukoneet."
+        },
+        {
+          "title": "Robotit ja automaatio",
+          "description": "Neo, karteesiset robotit ja robotisoidut solut."
+        },
+        {
+          "title": "Kuljetus ja hihnat",
+          "description": "Älykäs siirto"
+        },
+        {
+          "title": "Lavaus",
+          "description": "Järjestäminen ja pinoaminen."
+        },
+        {
+          "title": "Injectra AI -alusta",
+          "description": "Reaaliaikainen valvonta ja ohjaus."
+        }
+      ],
+      "cardTitle": "Kaikki yhdistettynä.",
+      "cardDescription": "Valvonta, data ja reaaliaikaiset päätökset maksimaalista tehokkuutta varten.",
+      "ctaLabel": "Tutustu AI-alustaan"
+    },
+    "comparativo": {
+      "title": "Vertailu: Mikä ratkaisu sopii tarpeisiinne?",
+      "columns": {
+        "solucao": "Ratkaisu",
+        "velocidade": "Nopeus",
+        "precisao": "Tarkkuus",
+        "flexibilidade": "Joustavuus",
+        "cargaUtil": "Hyötykuorma",
+        "aplicacoes": "Sovellukset",
+        "integracaoAi": "AI-integraatio"
+      },
+      "rows": [
+        {
+          "solucao": "Neo-humanoidirobotti",
+          "cargaUtil": "10+ kg",
+          "aplicacoes": "Vuorovaikutus, tarkastus, avustaminen",
+          "integracaoAi": "Natiivi"
+        },
+        {
+          "solucao": "Karteesiset robotit",
+          "cargaUtil": "Jopa 50 kg",
+          "aplicacoes": "Pick & place, käsittely",
+          "integracaoAi": "Täysi"
+        },
+        {
+          "solucao": "Robotisoidut solut",
+          "cargaUtil": "Jopa 200 kg",
+          "aplicacoes": "Automatisoidut prosessit",
+          "integracaoAi": "Täysi"
+        },
+        {
+          "solucao": "Lavaus",
+          "cargaUtil": "Jopa 500 kg",
+          "aplicacoes": "Lavaus, purkulavaus",
+          "integracaoAi": "Täysi"
+        },
+        {
+          "solucao": "Älykäs automaatio",
+          "cargaUtil": "Vaihteleva",
+          "aplicacoes": "Prosessien integrointi",
+          "integracaoAi": "Täysi"
+        },
+        {
+          "solucao": "Integraatio tekoälyyn",
+          "cargaUtil": "Rajaton",
+          "aplicacoes": "Valvonta ja päätöksenteko",
+          "integracaoAi": "Natiivi"
+        }
+      ],
+      "helpTitle": "Tarvitsetteko apua valinnassa?",
+      "helpDescription": "Asiantuntijatiimimme suosittelee parasta ratkaisua toiminnallenne.",
+      "helpCta": "Keskustele asiantuntijan kanssa"
+    },
+    "cta": {
+      "title": "Valmiina viemään tuotantonne seuraavalle tasolle?",
+      "description": "Keskustele asiantuntijoidemme kanssa ja huomaa, miten Injectra-robotiikka voi muuttaa teollisuutenne suuremmalla tuottavuudella ja turvallisuudella.",
+      "quoteButton": "Pyydä tarjous",
+      "specialistButton": "Keskustele asiantuntijan kanssa"
+    }
+  },
+  "sobreNos": {
+    "banner": {
+      "eyebrow": "MEISTÄ",
+      "title": "Injectrasta",
+      "subtitle": "Teollisuusteknologiaa, joka muuttaa valmistusta kautta Amerikan mantereen.",
+      "description": "Injectra Corporation on amerikkalainen yritys, joka keskittyy ruiskuvalukoneisiin, robotiikkaan, teollisuusohjelmistoihin, IoT:hen, pilvipalveluihin ja tekoälyyn. Tavoitteemme on tarjota tuottavuutta, automaatiota ja tehokkuutta teollisuudelle, joka haluaa kasvaa teknologian avulla.",
+      "highlights": [
+        {
+          "label": "Amerikkalainen yritys"
+        },
+        {
+          "label": "Läsnäolo Amerikan mantereella"
+        },
+        {
+          "label": "Keskittyminen teollisuuteen ja innovaatioon"
+        }
+      ]
+    },
+    "quemSomos": {
+      "title": "Keitä olemme",
+      "paragraph1": "Injectra syntyi yhdistämään teollisuustekniikan, automaation ja digitaalisen älykkyyden yhdelle ainoalle alustalle.",
+      "paragraph2": "Emme vain myy koneita – rakennamme kokonaisen ekosysteemin, johon kuuluu laitteita, robotiikkaa, palveluita ja ohjelmistoja.",
+      "pilares": [
+        {
+          "title": "Ruiskuvalukoneet",
+          "description": "Huippuluokan teknologiaa maksimaalisen suorituskyvyn ja luotettavuuden takaamiseksi."
+        },
+        {
+          "title": "Teollinen robotiikka",
+          "description": "Älykäs automaatio tuottavuuden ja laadun lisäämiseksi."
+        },
+        {
+          "title": "Injectra AI -alusta",
+          "description": "Teollisuusohjelmisto tekoälyllä, datalla ja analytiikalla parempien päätösten tueksi."
+        },
+        {
+          "title": "Palvelut ja tuki",
+          "description": "Tekninen tuki, koulutukset ja palvelut tulostenne varmistamiseksi."
+        }
+      ]
+    },
+    "missaoVisaoValores": {
+      "title": "Missiomme, visiomme ja arvomme",
+      "items": [
+        {
+          "title": "Missio",
+          "description": "Edistää teollisuutta älykkäillä, saavutettavilla ja skaalautuvilla ratkaisuilla."
+        },
+        {
+          "title": "Visio",
+          "description": "Rakentaa yksi Amerikan mantereen johtavista älykkäistä teollisuusalustoista."
+        },
+        {
+          "title": "Arvot",
+          "description": "Innovaatio, luottamus, tehokkuus, asiakaslähtöisyys ja kestävä kasvu."
+        }
+      ]
+    },
+    "ecossistema": {
+      "title": "Ekosysteemimme",
+      "items": [
+        {
+          "title": "Koneet",
+          "description": "Suuren tarkkuuden ja huipputason suorituskyvyn ruiskuvalukoneet."
+        },
+        {
+          "title": "Neo-robotti",
+          "description": "Yhteistyörobotiikka ja automaatioratkaisut."
+        },
+        {
+          "title": "Teollinen IoT",
+          "description": "Yhdistettävyys ja reaaliaikainen valvonta."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Teollisuuteen sovellettu tekoäly."
+        },
+        {
+          "title": "Mobiilisovellus",
+          "description": "Hallinta ja seuranta missä tahansa oletkin."
+        },
+        {
+          "title": "Cloud ja analytiikka",
+          "description": "Turvallinen data ja analyysit strategisiin päätöksiin."
+        },
+        {
+          "title": "Experience Center",
+          "description": "Immersiivinen ympäristö testauksia, koulutuksia ja innovaatiota varten."
+        },
+        {
+          "title": "Tekninen tuki",
+          "description": "Asiantuntijat valmiina tukemaan toimintaanne."
+        }
+      ]
+    },
+    "grupoInterfy": {
+      "logoAlt": "Interfy Corporation",
+      "paragraph1": "Injectra on osa Interfy Corporation -konsernia, jolla on yli 26 vuoden kokemus teknologiasta, ohjelmistoista, digitaalisesta muutoksesta ja liiketoiminnan laajentamisesta.",
+      "paragraph2": "Tämä perusta vahvistaa Injectraa globaalilla näkemyksellä, yritysrakenteella, innovaatiokokemuksella ja kansainvälisellä kasvukyvyllä.",
+      "destaques": [
+        {
+          "title": "Yli 26 vuoden kokemus"
+        },
+        {
+          "title": "Globaali näkemys"
+        },
+        {
+          "title": "Yritysrakenne"
+        },
+        {
+          "title": "Innovaatio ja teknologia"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Valmiina tutustumaan Injectraan?",
+      "description": "Keskustele asiantuntijoidemme kanssa ja huomaa, miten ratkaisumme voivat muuttaa teollisuutenne.",
+      "quoteButton": "Pyydä tarjous",
+      "specialistButton": "Keskustele asiantuntijan kanssa",
+      "trustItems": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    }
+  },
+  "solicitarCotacao": {
+    "banner": {
+      "eyebrow": "PYYDÄ TARJOUS",
+      "title": "Pyydä tarjous",
+      "subtitle": "Pyydä henkilökohtainen tarjous Injectran koneille, robotiikalle ja teolliselle alustalle.",
+      "description": "Luota osaamiseemme parhaan ratkaisun kehittämisessä projektillenne – teknologialla, innovaatiolla ja suorituskyvyllä.",
+      "highlights": [
+        {
+          "lines": [
+            "Huippuluokan",
+            "teknologia"
+          ]
+        },
+        {
+          "lines": [
+            "Integroidut",
+            "ratkaisut"
+          ]
+        },
+        {
+          "lines": [
+            "Todistettu suorituskyky"
+          ]
+        }
+      ]
+    },
+    "configurador": {
+      "selecaoLinha": {
+        "title": "Konelinjan valinta",
+        "subtitle": "Valitse haluamanne konelinja",
+        "linhas": [
+          {
+            "name": "Prime",
+            "description": "Luotettavuutta ja monikäyttöisyyttä."
+          },
+          {
+            "name": "Speed",
+            "description": "Suurta suorituskykyä ja tuottavuutta."
+          },
+          {
+            "name": "Velocity",
+            "description": "Tarkkuutta ja voimaa suuriin haasteisiin."
+          },
+          {
+            "name": "Form",
+            "description": "Tarkkuutta teknisille ja ohuille kappaleille."
+          },
+          {
+            "name": "Neo",
+            "description": "Sähköistä tehokkuutta ja pientä kulutusta."
+          },
+          {
+            "name": "Atlas",
+            "description": "Voimaa ja vakautta suurille kappaleille."
+          },
+          {
+            "name": "Hydro",
+            "description": "Kehittynyttä hydrauliikkaa ja kestävyyttä."
+          },
+          {
+            "name": "Titan",
+            "description": "Maksimaalista voimaa äärimmäisiin sovelluksiin."
+          },
+          {
+            "name": "Max",
+            "description": "Erittäin suuren kapasiteetin ratkaisuja."
+          },
+          {
+            "name": "Equora",
+            "description": "Voiman, tehokkuuden ja säästöjen tasapaino hybriditeknologialla."
+          }
+        ],
+        "alertText": "Voitte konfiguroida kaikki koneen yksityiskohdat seuraavassa vaiheessa.",
+        "nextButton": "Seuraava: Koneen konfigurointi"
+      },
+      "configuracaoMaquina": {
+        "title": "Koneen konfigurointi",
+        "subtitle": "Räätälöikää koneenne projektinne tarpeiden mukaisesti.",
+        "fields": {
+          "forca": {
+            "label": "Sulkuvoima",
+            "placeholder": "Valitse voima (t)"
+          },
+          "aplicacao": {
+            "label": "Sovellustyyppi",
+            "placeholder": "Valitse sovellus"
+          },
+          "automacao": {
+            "label": "Automaatio",
+            "placeholder": "Valitse taso"
+          },
+          "robotica": {
+            "label": "Robotiikka",
+            "placeholder": "Valitse vaihtoehto"
+          },
+          "opcionais": {
+            "label": "Lisävarusteet",
+            "placeholder": "Valitse lisävarusteet"
+          },
+          "voltagem": {
+            "label": "Jännite",
+            "placeholder": "Valitse jännite"
+          },
+          "produtividade": {
+            "label": "Arvioitu tuottavuus",
+            "placeholder": "Valitse tuottavuus"
+          },
+          "acessorios": {
+            "label": "Tarvikkeet",
+            "placeholder": "Valitse tarvikkeet"
+          },
+          "integracaoAI": {
+            "label": "Integraatio Injectra AI:hin",
+            "placeholder": "Valitse integraatio"
+          }
+        },
+        "options": {
+          "forcaUnidade": "Tonnia",
+          "aplicacao": [
+            "Pakkaukset",
+            "Autoteollisuus",
+            "Elektroniikka",
+            "Lääketiede",
+            "Kulutustavarat",
+            "Rakentaminen",
+            "Muut"
+          ],
+          "automacao": [
+            "Manuaalinen",
+            "Puoliautomaattinen",
+            "Integroitu automaatio",
+            "Täysautomaatio robotiikalla"
+          ],
+          "robotica": [
+            "Ei robotiikkaa",
+            "Karteesinen robotti",
+            "Antropomorfinen robotti (6-akselinen)",
+            "Yhteistyörobotti"
+          ],
+          "opcionais": [
+            "Ei mitään",
+            "Kehittynyt jäähdytysjärjestelmä",
+            "Automaattinen syöttölaite",
+            "Kuivauskeskus",
+            "Muut"
+          ],
+          "voltagem": [
+            "220 V",
+            "380 V",
+            "440 V",
+            "Muu"
+          ],
+          "produtividade": [
+            "Pieni volyymi",
+            "Keskisuuri volyymi",
+            "Suuri volyymi",
+            "Erittäin suuri volyymi (24/7)"
+          ],
+          "acessorios": [
+            "Ei mitään",
+            "Räätälöidyt muotit",
+            "Automaatiojärjestelmä",
+            "Kuivauskeskus",
+            "Muut"
+          ],
+          "integracaoAI": [
+            "Ei integraatiota",
+            "Peruskäytön valvonta",
+            "Täysi Injectra AI -alusta"
+          ]
+        },
+        "alertText": "Tekninen tiimimme käyttää näitä tietoja luodakseen projektillenne ihanteellisen ratkaisun."
+      },
+      "resumo": {
+        "title": "Valittu kokoonpano",
+        "linhaSelecionadaLabel": "Valittu konelinja",
+        "emptyValue": "-",
+        "saveButton": "Tallenna kokoonpano"
+      }
+    },
+    "cta": {
+      "title": "Valmiina saamaan henkilökohtaisen tarjouksenne?",
+      "description": "Täyttäkää tiedot, konfiguroikaa koneenne ja lähettäkää pyyntönne. Tiimimme vastaa pian parhaalla ratkaisulla projektillenne.",
+      "primaryButton": "PYYDÄ TARJOUS",
+      "secondaryButton": "KESKUSTELE ASIANTUNTIJAN KANSSA"
+    },
+    "envioDaProposta": {
+      "title": "Tarjouksen lähetys",
+      "etapas": [
+        {
+          "title": "Tekninen analyysi",
+          "description": "Tekninen tiimimme analysoi projektinne tiedot ja tunnistaa parhaan ratkaisun."
+        },
+        {
+          "title": "Kaupallinen validointi",
+          "description": "Toteutettavuuden validointi ja räätälöidyt kaupalliset ehdot."
+        },
+        {
+          "title": "Henkilökohtainen tarjous",
+          "description": "Lähetämme kattavan tarjouksen, jossa on tekniset tiedot, aikataulut ja ehdot projektillenne."
+        },
+        {
+          "title": "Asiantuntijan tuki",
+          "description": "Asiantuntijamme tukee teitä kaikissa vaiheissa aina toteutukseen asti."
+        }
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Miksi valita Injectra?",
+      "razoes": [
+        {
+          "title": "Konsultoiva palvelu",
+          "description": "Ymmärrämme projektinne tarjotaksemme parhaan ratkaisun."
+        },
+        {
+          "title": "Räätälöity projekti",
+          "description": "Jokainen yksityiskohta kehitetään tarpeidenne mukaan."
+        },
+        {
+          "title": "Nopea vastaus",
+          "description": "Nopeaa palautetta ja henkilökohtaisia tarjouksia."
+        },
+        {
+          "title": "Tekninen tuki",
+          "description": "Erikoistunut tuki ennen myyntiä, sen aikana ja jälkeen."
+        },
+        {
+          "title": "Integroidut ratkaisut",
+          "description": "Koneet, robotiikka ja AI-alusta yhdistettynä maksimaalista tehokkuutta varten."
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "description": "Paikallinen palvelu ja tuki kautta Amerikan mantereen."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikkalainen teknologia",
+          "subtitle": "Kehitetty Yhdysvalloissa"
+        },
+        {
+          "title": "Läsnäolo Amerikan mantereella",
+          "subtitle": "Paikallinen palvelu"
+        },
+        {
+          "title": "Yli 30 vuoden kokemus",
+          "subtitle": "teollisuusratkaisuista"
+        },
+        {
+          "title": "Tuki 24/7",
+          "subtitle": "Erikoistunut tekninen tuki"
+        },
+        {
+          "title": "Kestävä kehitys",
+          "subtitle": "Energiatehokkuus ja ESG"
+        }
+      ]
+    }
+  },
+  "suporte": {
+    "banner": {
+      "eyebrow": "TUKI",
+      "title": "Olemme täällä pitämässä tuotantonne käynnissä",
+      "description": "Kattava ja erikoistunut tuki varmistamaan Injectra-ratkaisujen parhaan suorituskyvyn toimintanne kaikissa vaiheissa.",
+      "openTicketLabel": "Avaa tukipyyntö",
+      "talkToSpecialistLabel": "Keskustele asiantuntijan kanssa",
+      "highlights": [
+        {
+          "label": "Omistautuneet asiantuntijat"
+        },
+        {
+          "label": "Nopea ja tehokas tuki"
+        },
+        {
+          "label": "Palvelua kautta Amerikan mantereen"
+        },
+        {
+          "label": "Teknologia, joka ei pysähdy"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Tukiratkaisumme",
+      "accessLabel": "Siirry",
+      "items": [
+        {
+          "title": "Tekninen tuki",
+          "description": "Erikoistunut palvelu etä- tai paikan päällä tehtävään diagnoosiin, ongelmanratkaisuun ja kattavaan tekniseen ohjaukseen."
+        },
+        {
+          "title": "Takuu",
+          "description": "Tarkista Injectra-laitteiden takuun kattavuus ja rekisteröi takuunne nopeasti ja helposti."
+        },
+        {
+          "title": "Käyttöoppaat",
+          "description": "Tutustu Injectra-laitteiden asennus-, käyttö- ja huoltokäsikirjoihin."
+        },
+        {
+          "title": "Lataukset",
+          "description": "Lataa ohjelmistoja, laiteohjelmistoja, teknisiä asiakirjoja ja muita tärkeitä resursseja."
+        },
+        {
+          "title": "UKK",
+          "description": "Löydä nopeat vastaukset tuotteitamme ja palveluitamme koskeviin yleisimpiin kysymyksiin."
+        },
+        {
+          "title": "Varaosapyyntö",
+          "description": "Tilaa alkuperäisiä varaosia turvallisesti ja nopeasti."
+        }
+      ]
+    },
+    "atendimento": {
+      "title": "Palvelua kautta Amerikan mantereen",
+      "description": "Paikallinen tuki ja valtuutetut jälleenmyyjät valmiina palvelemaan teitä missä tahansa olettekin.",
+      "ctaLabel": "Katso palvelupisteet",
+      "stats": [
+        {
+          "value": "+30",
+          "label": "Palveltua maata"
+        },
+        {
+          "value": "+100",
+          "label": "Sertifioitua teknikkoa"
+        },
+        {
+          "value": "+5.000",
+          "label": "Tyytyväistä asiakasta"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Näin se toimii",
+      "description": "Yksinkertainen ja konsultoiva prosessi parhaan ratkaisun löytämiseksi.",
+      "etapas": [
+        {
+          "title": "1. Ota yhteyttä",
+          "description": "Avaa tukipyyntö verkkosivuston, puhelimen tai sähköpostin kautta."
+        },
+        {
+          "title": "2. Diagnoosi",
+          "description": "Tiimimme analysoi pyyntönne ja tunnistaa parhaan ratkaisun."
+        },
+        {
+          "title": "3. Ratkaisu",
+          "description": "Tarjoamme sopivan ratkaisun: etätuki, ohjeistus tai tekninen käynti."
+        },
+        {
+          "title": "4. Seuranta",
+          "description": "Seuraamme tapausta sen täydelliseen ratkaisuun asti."
+        },
+        {
+          "title": "5. Tuotantonne jatkuu keskeytyksettä",
+          "description": "Injectra-tuki takaa jatkuvan suorituskyvyn ja tuottavuuden."
+        }
+      ]
+    },
+    "pecas": {
+      "title": "Alkuperäiset Injectra-varaosat",
+      "description": "Maksimaalinen laatu ja kestävyys laitteellenne. Tilaa nyt alkuperäiset varaosanne.",
+      "imageAlt": "Alkuperäiset Injectra-varaosat",
+      "requestPartsLabel": "Tilaa varaosat",
+      "items": [
+        {
+          "title": "Taattu laatu"
+        },
+        {
+          "title": "Nopea toimitus"
+        },
+        {
+          "title": "Täysi yhteensopivuus"
+        }
+      ]
+    }
+  },
+  "forms": {
+    "shared": {
+      "title": "Lähetä viesti",
+      "subtitle": "Kokonaisratkaisut teollisuuden vaativimmille sektoreille.",
+      "fields": {
+        "nome": {
+          "placeholder": "Koko nimi"
+        },
+        "empresa": {
+          "placeholder": "Yritys"
+        },
+        "email": {
+          "placeholder": "Yrityssähköposti"
+        },
+        "telefone": {
+          "placeholder": "Puhelin / WhatsApp"
+        },
+        "pais": {
+          "placeholder": "Maa / Alue"
+        },
+        "segmento": {
+          "placeholder": "Toimiala"
+        },
+        "solucao": {
+          "placeholder": "Kiinnostuksen kohteena oleva ratkaisu"
+        },
+        "mensagem": {
+          "placeholder": "Viesti (valinnainen)"
+        }
+      },
+      "submitButton": "Lähetä pyyntö",
+      "consent": {
+        "prefix": "Olen lukenut ja hyväksyn ",
+        "linkLabel": "tietosuojakäytännön."
+      },
+      "validation": {
+        "emailInvalid": "Anna kelvollinen yrityssähköposti.",
+        "phoneInvalid": "Virheellinen puhelinnumero valitulle maalle.",
+        "requiredField": "Pakollinen kenttä."
+      },
+      "options": {
+        "segmentos": [
+          "Autoteollisuus",
+          "Pakkaus",
+          "Lääketiede",
+          "Kulutustavarat",
+          "Elektroniikka",
+          "Rakentaminen",
+          "Logistiikka",
+          "Muut Toimialat"
+        ],
+        "solucoes": [
+          "Koneet",
+          "Robotiikka",
+          "AI-alusta",
+          "Toimialat",
+          "Muu"
+        ],
+        "tiposProjeto": [
+          "Uusi Projekti",
+          "Tuotannon Laajennus",
+          "Laitteiston Vaihto",
+          "Konsultointi ja Tekninen Arviointi",
+          "Muu"
+        ],
+        "prazosProjeto": [
+          "Välittömästi",
+          "1–3 kuukautta",
+          "3–6 kuukautta",
+          "6–12 kuukautta",
+          "Ei määritelty"
+        ]
+      }
+    },
+    "contato": {
+      "canaisAtendimentoTitle": "Palvelukanavat",
+      "canaisAtendimento": [
+        {
+          "title": "Kaupallinen Konsultointi",
+          "description": "Räätälöidyt ratkaisut ja tarjoukset"
+        },
+        {
+          "title": "Tekninen Konsultointi",
+          "description": "Tekninen tuki ja tekniset tiedot"
+        },
+        {
+          "title": "Sovellussuunnittelu",
+          "description": "Ratkaisujen analysointi ja kehitys"
+        },
+        {
+          "title": "Tapaamisen Varaus",
+          "description": "Tapaamiset paikan päällä tai verkossa"
+        },
+        {
+          "title": "Myynnin Jälkeinen Tuki",
+          "description": "Jatkuva seuranta ja tuki"
+        }
+      ],
+      "equipeTitle": "Keskustele tiimimme kanssa",
+      "equipeLinks": [
+        {
+          "title": "Pyydä tarjous"
+        },
+        {
+          "title": "Keskustele asiantuntijan kanssa"
+        },
+        {
+          "title": "Tekninen tuki"
+        },
+        {
+          "title": "Tuoteluettelot ja lataukset"
+        },
+        {
+          "title": "Experience Center"
+        },
+        {
+          "title": "Edustajat"
+        }
+      ],
+      "horario": {
+        "title": "Palveluajat",
+        "dias": "Maanantaista perjantaihin",
+        "horas": "8.00–18.00",
+        "tipo": "Myynnin ja teknisen tuen palvelu"
+      }
+    },
+    "faleComEspecialista": {
+      "equipeTitle": "Keskustele tiimimme kanssa",
+      "equipeSubtitle": "Asiantuntijat valmiina auttamaan sinua.",
+      "contatos": [
+        {
+          "title": "Myyntiasiantuntija",
+          "description": "Kaupalliset ratkaisut ja tarjoukset"
+        },
+        {
+          "title": "Tekninen asiantuntija",
+          "description": "Tekniset tiedot ja vaatimukset"
+        },
+        {
+          "title": "Sovellussuunnittelu",
+          "description": "Räätälöidyt ratkaisut ja prosessit"
+        },
+        {
+          "title": "Alueellinen tuki",
+          "description": "Paikallinen, erikoistunut palvelu"
+        }
+      ],
+      "destaques": [
+        {
+          "label": "Palvelua kautta Amerikan"
+        },
+        {
+          "label": "Nopea, henkilökohtainen vastaus"
+        },
+        {
+          "label": "Tuki kielillä PT · EN · ES"
+        }
+      ]
+    },
+    "solicitarCotacao": {
+      "title": "Älykäs lomake",
+      "fields": {
+        "nome": {
+          "label": "Nimi",
+          "placeholder": "Kirjoita nimesi"
+        },
+        "empresa": {
+          "label": "Yritys",
+          "placeholder": "Kirjoita yrityksen nimi"
+        },
+        "email": {
+          "label": "Sähköposti",
+          "placeholder": "oma.email@yritys.com"
+        },
+        "telefone": {
+          "label": "Puhelin"
+        },
+        "pais": {
+          "label": "Maa",
+          "placeholder": "Valitse maa"
+        },
+        "segmento": {
+          "label": "Toimiala",
+          "placeholder": "Valitse toimiala"
+        },
+        "tipoProjeto": {
+          "label": "Projektityyppi",
+          "placeholder": "Valitse projektityyppi"
+        },
+        "capacidade": {
+          "label": "Haluttu kapasiteetti",
+          "placeholder": "Valitse kapasiteetti"
+        },
+        "prazoProjeto": {
+          "label": "Projektin aikataulu",
+          "placeholder": "Valitse aikataulu"
+        },
+        "mensagem": {
+          "label": "Viesti",
+          "placeholder": "Kerro meille lisää projektistanne, tavoitteistanne ja erityistarpeistanne."
+        }
+      },
+      "consent": {
+        "prefix": "Olen lukenut ja hyväksyn ",
+        "linkLabel": "tietosuojakäytännön."
+      },
+      "submitButton": "Seuraava: Valitse konelinja",
+      "validation": {
+        "emailInvalid": "Anna kelvollinen sähköpostiosoite.",
+        "phoneInvalid": "Virheellinen puhelinnumero valitulle maalle.",
+        "requiredField": "Pakollinen kenttä."
+      }
+    }
+  }
+}

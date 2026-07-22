@@ -1,0 +1,2927 @@
+{
+  "shared": {
+    "meta": {
+      "title": "Injectra | Amerikansk industriteknik",
+      "description": "Maskiner, robotik, IoT och artificiell intelligens sammankopplade i en enda industriplattform."
+    },
+    "header": {
+      "logoAriaLabel": "Injectra — startsida",
+      "openMenuAriaLabel": "Öppna menyn",
+      "closeMenuAriaLabel": "Stäng menyn",
+      "cta": "Begär offert"
+    },
+    "footer": {
+      "taglinePrefix": "Advance. ",
+      "taglineHighlight": "Inject.",
+      "taglineSuffix": " Mold the future.",
+      "description": "Förstklassig teknik för plastinjektion med industriella maskiner, artificiell intelligens och regionalt stöd för att stärka industrins produktivitet i Amerika.",
+      "logoAriaLabel": "Injectra — startsida",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "x": "X (Twitter)",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "facebook": "Facebook"
+      },
+      "infoBar": [
+        {
+          "title": "Injectra Corporation",
+          "subtitle": "Orlando, Florida, USA"
+        },
+        {
+          "title": "+1 (321) 888-7963"
+        },
+        {
+          "title": "info@injectracorp.com"
+        },
+        {
+          "title": "Specialiserad teknisk support"
+        },
+        {
+          "title": "Kundservice i hela Amerika"
+        }
+      ],
+      "ctaBanner": {
+        "title": "Redo att transformera din industri?",
+        "description": "Upptäck hur Injectra kan öka produktiviteten, sänka kostnaderna och koppla samman hela din verksamhet i en enda intelligent industriplattform.",
+        "quoteButton": "Begär offert",
+        "specialistButton": "Prata med en specialist",
+        "machineImageAlt": "Injectra-maskin"
+      },
+      "bottomBar": {
+        "countryBadge": "AMERIKANSKT FÖRETAG",
+        "location": "Orlando, Florida • USA",
+        "groupLabel": "Del av koncernen",
+        "groupLogoAlt": "Interfy Group",
+        "copyright": "Injectra Corporation © 2026. Alla rättigheter förbehållna."
+      },
+      "legalLinks": [
+        {
+          "label": "Integritetspolicy",
+          "href": "/politicas-privacidade"
+        },
+        {
+          "label": "Användarvillkor",
+          "href": "/termos-de-uso"
+        },
+        {
+          "label": "Cookies",
+          "href": "/cookies"
+        },
+        {
+          "label": "Garanti och support",
+          "href": "/garantia-e-suporte"
+        },
+        {
+          "label": "Compliance",
+          "href": "/compliance"
+        }
+      ]
+    },
+    "nav": {
+      "columns": [
+        {
+          "title": "PRODUKTER",
+          "items": [
+            {
+              "title": "Maskiner",
+              "description": "Hydrauliska och elektriska serier för alla segment."
+            },
+            {
+              "title": "Robotik",
+              "description": "Humanoidroboten Neo, kartesiska robotar och automation."
+            },
+            {
+              "title": "AI-plattform",
+              "description": "Injectra AI, Cloud, IoT, Analytics, OEE och mobilapp."
+            },
+            {
+              "title": "Industrier",
+              "description": "Lösningar för olika industrisegment i hela Amerika."
+            }
+          ]
+        },
+        {
+          "title": "TJÄNSTER",
+          "items": [
+            {
+              "title": "Experience Center",
+              "description": "Demonstrationer, applikationstester, utbildningar och showroom."
+            },
+            {
+              "title": "Representanter",
+              "description": "Program för representanter, kommersiell expansion och support."
+            },
+            {
+              "title": "Support",
+              "description": "Teknisk assistans, reservdelar, underhåll, garanti och FAQ."
+            },
+            {
+              "title": "Kataloger",
+              "description": "Digitala kataloger, tekniska manualer, datablad och nedladdningar."
+            }
+          ]
+        },
+        {
+          "title": "FÖRETAG",
+          "items": [
+            {
+              "title": "Om oss",
+              "description": "Om Injectra, Interfy-koncernen, hållbarhet och karriär."
+            },
+            {
+              "title": "Kontakt",
+              "description": "Telefonnummer, e-post, adress och kundtjänstkanaler."
+            },
+            {
+              "title": "Begär offert",
+              "description": "Få ett skräddarsytt erbjudande för din industriella verksamhet."
+            },
+            {
+              "title": "Prata med en specialist",
+              "description": "Prata med vårt specialiserade tekniska och kommersiella team."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "AMERIKANSK INDUSTRITEKNIK",
+      "titlePrefix": "Industrins framtid börjar",
+      "titleHighlight": "Här.",
+      "subtitleLine1": "Maskiner. Robotik. Artificiell intelligens. Industriell programvara.",
+      "subtitleLine2": "Allt sammankopplat i en enda intelligent plattform.",
+      "ctaPrimary": "Utforska plattformen",
+      "ctaSecondary": "Prata med en specialist",
+      "trustItems": [
+        {
+          "title": "Specifikationer",
+          "subtitle": "Amerikanska"
+        },
+        {
+          "title": "Prestanda",
+          "subtitle": "Hög hastighet"
+        },
+        {
+          "title": "Lösningar",
+          "subtitle": "PET"
+        },
+        {
+          "title": "Service",
+          "subtitle": "Helhetslösning"
+        },
+        {
+          "title": "AI",
+          "subtitle": "Injectra"
+        }
+      ]
+    },
+    "aboutEcosystem": {
+      "titleLine1": "Ekosystemet",
+      "titleLine2": "Injectra",
+      "description": "Allt sammankopplat för att skapa mer produktiva, intelligenta och konkurrenskraftiga industriella verksamheter.",
+      "exploreLabel": "Utforska ekosystemet"
+    },
+    "capacidade": {
+      "roboticaNeo": {
+        "title": "Neo-robotik",
+        "description": "Intelligent automation som driver resultat.",
+        "items": [
+          "Humanoidroboten Neo",
+          "Kartesiska robotar",
+          "Robotceller",
+          "Skräddarsydda lösningar"
+        ],
+        "cta": "Upptäck Neo",
+        "photoAlt": "Humanoidroboten Neo"
+      },
+      "plataformaAi": {
+        "title": "Injectra AI-plattform",
+        "description": "Data, intelligens och full kontroll i handflatan.",
+        "items": [
+          "Realtidsdashboard",
+          "OEE och prestanda",
+          "Prediktivt underhåll",
+          "Produktion och kvalitet",
+          "Larm och notiser",
+          "AI-assistent"
+        ],
+        "cta": "Utforska plattformen",
+        "photoAlt": "Injectra AI-plattform"
+      },
+      "experienceCenter": {
+        "title": "Experience Center",
+        "description": "Innovation att se, testa och omvandla.",
+        "cta": "Boka besök",
+        "photoAlt": "Injectra Experience Center"
+      },
+      "experienceItems": [
+        {
+          "label": "Teknikshowroom"
+        },
+        {
+          "label": "Livedemonstrationer"
+        },
+        {
+          "label": "Applikationstester"
+        },
+        {
+          "label": "Specialiserade utbildningar"
+        },
+        {
+          "label": "Evenemang och workshops"
+        }
+      ]
+    },
+    "machineLines": {
+      "title": "Våra maskinserier",
+      "subtitle": "Kompletta lösningar för industrins mest krävande sektorer.",
+      "viewAllLabel": "Se alla maskiner",
+      "items": [
+        {
+          "description": "Hög precision och mångsidighet för generella applikationer."
+        },
+        {
+          "description": "Snabba cykler och maximal effektivitet för hög produktivitet."
+        },
+        {
+          "description": "Extremt hög hastighet och mycket snabba cykler för maximal produktivitet."
+        },
+        {
+          "description": "Optimerade lösningar för tekniska detaljer med hög precision och finish."
+        },
+        {
+          "description": "Elektrisk serie med hög precision, repeterbarhet och energieffektivitet."
+        },
+        {
+          "description": "Specialiserad på plastlådor, pallar och storskaliga detaljer. Robust konstruktion och hög prestanda."
+        },
+        {
+          "description": "Kraftfullt hydrauliskt system för krävande applikationer och storskaliga detaljer."
+        },
+        {
+          "description": "Extrem kraft för stora verktyg och krävande industriella applikationer."
+        },
+        {
+          "description": "Maximal kapacitet och robusthet för industrins största utmaningar."
+        },
+        {
+          "description": "Hybrid som ger hög energieffektivitet och robusthet."
+        }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "VI BYGGER INTE BARA MASKINER",
+      "titlePrefix": "Vi bygger",
+      "titleHighlight": " intelligenta industriplattformar.",
+      "items": [
+        {
+          "label": "Maskiner",
+          "description": "Injektionsmaskiner med hög prestanda för olika applikationer."
+        },
+        {
+          "label": "Robotik",
+          "description": "Lösningar som ökar produktiviteten och minskar cykeltider."
+        },
+        {
+          "label": "AI",
+          "description": "Artificiell intelligens som omvandlar data till smarta beslut."
+        },
+        {
+          "label": "IoT",
+          "description": "Uppkopplade enheter och sensorer för full insyn."
+        },
+        {
+          "label": "Programvara",
+          "description": "Kraftfull industriell programvara för att hantera hela verksamheten."
+        },
+        {
+          "label": "Tjänster",
+          "description": "Fullständigt stöd från installation till kontinuerlig utveckling."
+        }
+      ]
+    },
+    "setoresIndustriais": {
+      "title": "Lösningar för de viktigaste sektorerna",
+      "items": [
+        {
+          "label": "Fordonsindustri"
+        },
+        {
+          "label": "Förpackningar"
+        },
+        {
+          "label": "Medicinteknik"
+        },
+        {
+          "label": "Bygg"
+        },
+        {
+          "label": "Elektronik"
+        },
+        {
+          "label": "Hushållsartiklar"
+        },
+        {
+          "label": "Logistik"
+        }
+      ],
+      "moreLabel": "Och mycket mer..."
+    }
+  },
+  "catalogos": {
+    "banner": {
+      "eyebrow": "KATALOGER",
+      "title": "Injectra-kataloger",
+      "subtitle": "Få tillgång till tekniskt och kommersiellt material för Injectras maskinserier, robotik och digitala plattform.",
+      "ctaPrimary": "Begär katalog",
+      "ctaSecondary": "Prata med en specialist",
+      "highlightsTitle": "Det här hittar du i våra kataloger",
+      "highlightsSubtitle": "Upplev Injectras teknik i praktiken och upptäck hur vi kan ta din produktion till nästa nivå.",
+      "highlights": [
+        "Tekniska specifikationer",
+        "Rekommenderade applikationer",
+        "Fördelar och mervärde",
+        "Tillval och tillbehör",
+        "Automation och robotik",
+        "Injectra AI och IoT",
+        "Support och kommersiell kontakt"
+      ]
+    },
+    "cta": {
+      "title": "Ladda ner rätt katalog för ditt projekt",
+      "subtitle": "Prata med våra specialister och hitta den perfekta Injectra-lösningen för din industri.",
+      "ctaPrimary": "Begär katalog",
+      "ctaSecondary": "Prata med en specialist",
+      "ctaTertiary": "Begär offert",
+      "stats": [
+        {
+          "title": "Amerikansk teknik",
+          "description": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "description": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "description": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "description": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "description": "Energieffektivitet och ESG"
+        }
+      ]
+    },
+    "catalogosGerais": {
+      "title": "Allmänna kataloger",
+      "items": [
+        {
+          "name": "Allmän katalog",
+          "description": "Hög precision och mångsidighet för generella applikationer."
+        }
+      ]
+    },
+    "linhasMaquinas": {
+      "title": "Maskinserier",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Hög precision och mångsidighet för generella applikationer."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Snabba cykler och maximal effektivitet för hög produktivitet."
+        },
+        {
+          "name": "VELOCITY - IV",
+          "description": "Extremt hög hastighet och mycket snabba cykler för maximal produktivitet."
+        },
+        {
+          "name": "FORM - IF",
+          "description": "Optimerade lösningar för tekniska detaljer med hög precision och finish."
+        },
+        {
+          "name": "NEO EX - IE",
+          "description": "Elektrisk serie med hög precision, repeterbarhet och energieffektivitet."
+        },
+        {
+          "name": "ATLAS - IA",
+          "description": "Specialiserad på plastlådor, pallar och storskaliga detaljer. Robust konstruktion och hög prestanda."
+        },
+        {
+          "name": "HYDRO - IH",
+          "description": "Kraftfullt hydrauliskt system för krävande applikationer och storskaliga detaljer."
+        },
+        {
+          "name": "TITAN - IT",
+          "description": "Extrem kraft för stora verktyg och krävande industriella applikationer."
+        },
+        {
+          "name": "MAX - IM",
+          "description": "Maximal kapacitet och robusthet för industrins största utmaningar."
+        },
+        {
+          "name": "EQUORA - IQ",
+          "description": "Hybrid som ger hög energieffektivitet och robusthet."
+        }
+      ]
+    },
+    "solucoesDigitais": {
+      "title": "Digitala lösningar och automation",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Hög precision och mångsidighet för generella applikationer."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Snabba cykler och maximal effektivitet för hög produktivitet."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "shared": {
+      "tocHeading": "På denna sida",
+      "contactCardTitle": "Injectra Corporation",
+      "lastUpdated": "Senast uppdaterad: 21 juli 2026",
+      "contactLabels": {
+        "email": "E-post",
+        "phone": "Telefon",
+        "address": "Adress"
+      },
+      "contact": {
+        "email": "info@injectracorp.com",
+        "phone": "+1 (321) 888-7963",
+        "address": "Orlando, Florida, USA"
+      }
+    },
+    "termsOfUse": {
+      "banner": {
+        "eyebrow": "JURIDISK INFORMATION",
+        "titleMain": "Användar",
+        "titleHighlight": "villkor",
+        "subtitle": "Läs noggrant igenom villkoren och bestämmelserna som reglerar användningen av vår webbplats, kataloger, offerter och övriga produkter och tjänster."
+      },
+      "nav": [
+        "1. Godkännande av villkoren",
+        "2. Om Injectra",
+        "3. Tillåten användning av webbplatsen",
+        "4. Användarkonton",
+        "5. Produkter, offerter och tjänster",
+        "6. Immateriella rättigheter",
+        "7. Ansvarsbegränsning",
+        "8. Länkar till tredje part",
+        "9. Integritet",
+        "10. Skadeersättning",
+        "11. Ändringar",
+        "12. Uppsägning",
+        "13. Tillämplig lag",
+        "14. Kontakt"
+      ],
+      "introP1Before": "Välkommen till webbplatsen för ",
+      "introP1After": " (\"Injectra\", \"vi\" eller \"oss\"). Genom att använda vår webbplats, våra kataloger, offertformulär, applikation eller tjänster godkänner du dessa användarvillkor. Om du inte godkänner någon del av dessa villkor ber vi dig att inte använda våra tjänster.",
+      "introP2": "Dessa villkor utgör ett juridiskt bindande avtal mellan dig (användaren) och Injectra Corporation, ett bolag bildat i USA och del av Interfy Corporation.",
+      "sections": {
+        "aceitacao": {
+          "title": "1. Godkännande av villkoren",
+          "p1Before": "Genom att gå in på och använda webbplatsen injectracorp.com (och dess underdomäner) eller någon katalog, något offertformulär, någon applikation eller tjänst som erbjuds av Injectra, bekräftar du att du har läst, förstått och godkänt dessa användarvillkor samt vår ",
+          "p1LinkLabel": "Integritetspolicy",
+          "p1After": ".",
+          "p2": "Om du använder tjänsterna på uppdrag av ett företag eller en organisation bekräftar du att du har behörighet att binda den enheten till dessa villkor."
+        },
+        "sobre": {
+          "title": "2. Om Injectra",
+          "p1": "Injectra Corporation är ett amerikanskt företag med säte i Orlando, Florida, USA, specialiserat på injektionsmaskiner (hydrauliska och elektriska serier), industriell robotik och plattformen Injectra AI, som integrerar industriell programvara, IoT, molntjänster och artificiell intelligens för hantering av produktionsverksamhet.",
+          "p2": "Injectra ingår i Interfy Corporation, en global teknikkoncern med mer än 26 års erfarenhet av innovation och digital transformation."
+        },
+        "usoPermitido": {
+          "title": "3. Tillåten användning av webbplatsen",
+          "p1": "Du får använda vår webbplats för lagliga ändamål och i enlighet med dessa villkor. Det är uttryckligen förbjudet att:",
+          "list": [
+            "Använda webbplatsen på ett sätt som strider mot tillämpliga lagar eller föreskrifter",
+            "Skicka oönskat reklam- eller marknadsföringsmaterial",
+            "Försöka få obehörig åtkomst till någon del av webbplatsen, portalen eller plattformen Injectra AI",
+            "Störa eller avbryta webbplatsens integritet eller prestanda",
+            "Samla in eller hämta uppgifter om andra användare utan samtycke",
+            "Använda robotar, skrapningsverktyg eller andra automatiserade metoder för att komma åt webbplatsen",
+            "Utföra reverse engineering, dekompilering eller demontering av programvara i plattformen"
+          ]
+        },
+        "contas": {
+          "title": "4. Användarkonton",
+          "subsections": {
+            "criacao": {
+              "title": "4.1 Skapande av konto",
+              "p": "Vissa funktioner, till exempel kundportalen och plattformen Injectra AI, kan kräva registrering av ett konto. Genom att skapa ett konto åtar du dig att lämna sanningsenlig, korrekt och fullständig information."
+            },
+            "responsabilidadeConta": {
+              "title": "4.2 Ansvar för kontot",
+              "p": "Du ansvarar för att hålla dina inloggningsuppgifter konfidentiella samt för all aktivitet som sker via ditt konto. Meddela Injectra omedelbart vid obehörig användning."
+            },
+            "cancelamento": {
+              "title": "4.3 Uppsägning av konto",
+              "p": "Injectra förbehåller sig rätten att stänga av eller säga upp konton som bryter mot dessa villkor, utan föregående meddelande."
+            }
+          }
+        },
+        "produtos": {
+          "title": "5. Produkter, offerter och tjänster",
+          "subsections": {
+            "catalogos": {
+              "title": "5.1 Kataloger och specifikationer",
+              "p": "Vi gör vårt yttersta för att hålla kataloger, datablad och specifikationer för maskiner och robotik korrekta och uppdaterade. Vi garanterar dock inte att denna information är fullständig, felfri eller återspeglar den slutliga konfigurationen för varje enskilt projekt, som kan variera beroende på tillämpning."
+            },
+            "cotacao": {
+              "title": "5.2 Begäran om offert",
+              "p": "Att skicka in ett offertformulär eller kontakta en specialist utgör inte en bindande beställning. Priser och kommersiella villkor fastställs i ett separat erbjudande som skickas av vårt säljteam."
+            },
+            "plataforma": {
+              "title": "5.3 Plattformen Injectra AI och IoT",
+              "p": "Användningen av plattformen Injectra AI, mobilapplikationen och uppkopplade IoT-enheter omfattas av särskilda villkor som presenteras vid aktivering. Dessa villkor kompletterar dessa allmänna användarvillkor."
+            },
+            "representantes": {
+              "title": "5.4 Representanter och partner",
+              "p": "Auktoriserade representanter och kommersiella partner agerar under eget avtal med Injectra och är inte automatiskt bundna av dessa villkor i sina relationer med tredje part."
+            }
+          }
+        },
+        "propriedade": {
+          "title": "6. Immateriella rättigheter",
+          "p1": "Allt innehåll på Injectras webbplats — inklusive texter, bilder, logotyper, ikoner, videor, kataloger, programvara och design — tillhör uteslutande Injectra Corporation eller dess licensgivare och skyddas av upphovsrättslagar, varumärkeslagar och andra tillämpliga lagar om immateriella rättigheter.",
+          "p2": "Det är förbjudet att reproducera, distribuera, ändra, offentligt visa eller skapa bearbetningar av något innehåll på webbplatsen utan Injectras föregående skriftliga tillstånd.",
+          "p3": "Namnet Injectra, logotypen och andra varumärken som tillhör Injectra Corporation är registrerade varumärken eller varumärken under registrering. Obehörig användning är förbjuden."
+        },
+        "responsabilidade": {
+          "title": "7. Ansvarsbegränsning",
+          "p1": "I den utsträckning som tillämplig lag tillåter ska Injectra inte hållas ansvarigt för indirekta, tillfälliga, särskilda, följdskador eller straffskadestånd som uppstår till följd av användning eller oförmåga att använda webbplatsen, produkterna eller tjänsterna.",
+          "p2": "Injectra ansvarar inte för avbrott orsakade av faktorer utanför vår kontroll, inklusive fel i tredje parts infrastruktur, naturkatastrofer eller cyberattacker.",
+          "p3": "Användaren erkänner att användningen av webbplatsen och tjänsterna sker på egen risk, inom de gränser som föreskrivs i lag."
+        },
+        "links": {
+          "title": "8. Länkar till tredje part",
+          "p1": "Vår webbplats kan innehålla länkar till tredje parts webbplatser, inklusive representanter, partner och sociala medier. Dessa länkar tillhandahålls enbart för bekvämlighet och information. Injectra har ingen kontroll över innehållet på dessa webbplatser och ansvarar inte för deras innehåll, integritetspraxis eller tillgänglighet.",
+          "p2": "Åtkomst till tredje parts webbplatser sker helt på användarens eget ansvar, som bör granska villkoren och policyerna för dessa webbplatser innan de används."
+        },
+        "privacidade": {
+          "title": "9. Integritet",
+          "p1Before": "Behandlingen av personuppgifter som samlas in av Injectra regleras av vår ",
+          "p1LinkLabel": "Integritetspolicy",
+          "p1After": ", som utgör en del av dessa användarvillkor. Genom att använda våra tjänster samtycker du till de metoder för insamling och användning av uppgifter som beskrivs i den policyn.",
+          "p2": "Injectra är fast beslutet att följa tillämplig dataskyddslagstiftning, inklusive den brasilianska dataskyddslagen (Lei Geral de Proteção de Dados, LGPD) och övrig gällande dataskyddslagstiftning i de länder där vi verkar."
+        },
+        "indenizacao": {
+          "title": "10. Skadeersättning",
+          "p1": "Du samtycker till att försvara, hålla skadeslös och friskriva Injectra Corporation, dess styrelseledamöter, anställda, partner och företrädare från alla anspråk, skulder, skador, förluster och kostnader (inklusive rimliga juridiska avgifter) som uppstår till följd av din användning av webbplatsen eller brott mot dessa villkor."
+        },
+        "modificacoes": {
+          "title": "11. Ändringar av villkoren",
+          "p1": "Injectra förbehåller sig rätten att när som helst ändra dessa användarvillkor. Ändringarna träder i kraft omedelbart vid publicering på webbplatsen, med uppdaterat datum högst upp på denna sida.",
+          "p2": "Fortsatt användning av webbplatsen efter publicering av ändringar innebär godkännande av de nya villkoren. Vi rekommenderar att du regelbundet granskar denna sida."
+        },
+        "rescisao": {
+          "title": "12. Uppsägning",
+          "p1": "Injectra kan när som helst stänga av eller säga upp din åtkomst till webbplatsen, kundportalen eller plattformen Injectra AI, med eller utan föregående meddelande, av vilken anledning som helst, inklusive brott mot dessa villkor.",
+          "p2": "Efter uppsägning fortsätter de bestämmelser i dessa villkor som till sin natur ska bestå att gälla, inklusive avsnitten om immateriella rättigheter, ansvarsbegränsning och skadeersättning."
+        },
+        "legislacao": {
+          "title": "13. Tillämplig lag och forum",
+          "p1": "Dessa användarvillkor regleras av lagarna i delstaten Florida, USA, utan att det påverkar tillämplig konsumentskyddslagstiftning i användarens hemland.",
+          "p2": "I Brasilien omfattas relationer med brasilianska användare och kunder även av den brasilianska konsumentskyddslagen (Lei nº 8.078/1990) och tillämplig brasiliansk lagstiftning.",
+          "p3": "Eventuella tvister som uppstår till följd av dessa villkor ska i första hand lösas genom medling. Om detta inte är möjligt ska tvisten avgöras vid domstolen på användarens hemort, i enlighet med tillämplig lagstiftning."
+        },
+        "contato": {
+          "title": "14. Kontakt",
+          "p1": "Vid frågor, förslag eller klagomål relaterade till dessa användarvillkor, kontakta Injectra:"
+        }
+      }
+    },
+    "privacyPolicy": {
+      "banner": {
+        "eyebrow": "INTEGRITET & TRANSPARENS",
+        "titleMain": "Integritets",
+        "titleHighlight": "policy",
+        "subtitle": "Läs om hur Injectra samlar in, använder, delar och skyddar personuppgifter som behandlas via vår webbplats, kataloger, offerter och plattformen Injectra AI."
+      },
+      "nav": [
+        "1. Personuppgiftsansvarig",
+        "2. Insamlade uppgifter",
+        "3. Ändamål med behandlingen",
+        "4. Rättslig grund",
+        "5. Delning av uppgifter",
+        "6. Cookies",
+        "7. Lagring",
+        "8. Säkerhet",
+        "9. Dina rättigheter",
+        "10. Internationella överföringar",
+        "11. Minderåriga",
+        "12. Ändringar",
+        "13. Dataskyddsombud"
+      ],
+      "introP1Before": "Denna integritetspolicy beskriver hur ",
+      "introP1After": " (\"Injectra\", \"vi\" eller \"oss\") samlar in, använder, lagrar och skyddar personuppgifter från webbplatsbesökare, personer som begär offerter, kunder, representanter och användare av plattformen Injectra AI.",
+      "introP2Before": "Genom att använda våra kanaler godkänner du de metoder som beskrivs i denna policy, vilken kompletterar våra ",
+      "introP2LinkLabel": "Användarvillkor",
+      "introP2After": ".",
+      "sections": {
+        "controlador": {
+          "title": "1. Personuppgiftsansvarig",
+          "p1": "Personuppgiftsansvarig för de personuppgifter som behandlas på denna webbplats är Injectra Corporation, ett bolag bildat i USA med säte i Orlando, Florida, och del av Interfy Corporation."
+        },
+        "coleta": {
+          "title": "2. Insamlade uppgifter",
+          "p1": "Vi kan samla in följande kategorier av uppgifter:",
+          "list": [
+            "Identifierings- och kontaktuppgifter: namn, e-post, telefon, företag och befattning, som lämnas i formulär för offert, kontakt eller nedladdning av kataloger",
+            "Kommersiella uppgifter: industrisegment, produkter av intresse, produktionsvolym och övrig information som lämnas för att ta fram förslag",
+            "Navigeringsuppgifter: IP-adress, enhetstyp, besökta sidor och åtkomstkälla, insamlade via cookies och liknande teknik",
+            "Drift- och telemetriuppgifter: i förekommande fall data om prestanda och användning av maskiner som är uppkopplade till plattformen Injectra AI/IoT, i enlighet med särskilt avtal med kunden"
+          ]
+        },
+        "finalidades": {
+          "title": "3. Ändamål med behandlingen",
+          "list": [
+            "Besvara förfrågningar om offert, kontakt och teknisk support",
+            "Ta fram kommersiella förslag och möjliggöra försäljning av maskiner, robotik och tjänster",
+            "Tillhandahålla och förbättra plattformen Injectra AI, mobilapplikationen och IoT-/analystjänster",
+            "Skicka kommersiell kommunikation, kataloger och nyheter, när användaren har gett sitt godkännande",
+            "Uppfylla rättsliga, regulatoriska och avtalsmässiga skyldigheter",
+            "Förebygga bedrägeri och säkerställa säkerheten för webbplatsen och plattformen"
+          ]
+        },
+        "basesLegais": {
+          "title": "4. Rättslig grund",
+          "p1": "Injectras behandling av personuppgifter grundar sig, beroende på situationen, på fullgörande av avtal eller åtgärder som föregår ett avtal (till exempel framtagning av offerter), på fullgörande av rättslig förpliktelse, på Injectras berättigade intresse samt på den registrerades samtycke, särskilt vid utskick av marknadsföringskommunikation och användning av icke-nödvändiga cookies."
+        },
+        "compartilhamento": {
+          "title": "5. Delning av uppgifter",
+          "p1": "Dina uppgifter kan delas med:",
+          "list": [
+            "Bolag inom Interfy Corporation, för administrativa ändamål och koncerngemensamt stöd",
+            "Auktoriserade representanter och kommersiella partner, uteslutande för att möjliggöra offerter och lokal service",
+            "Tjänsteleverantörer (hosting, e-postmarknadsföring, dataanalys), under avtalsmässiga skyldigheter avseende konfidentialitet och säkerhet",
+            "Myndigheter, när det krävs enligt lag, domstolsbeslut eller regulatoriskt föreläggande"
+          ],
+          "p2": "Injectra säljer inte personuppgifter till tredje part."
+        },
+        "cookies": {
+          "title": "6. Cookies",
+          "p1Before": "Vi använder cookies och liknande teknik för att möjliggöra och förbättra navigeringen på webbplatsen. Detaljer om vilka typer av cookies vi använder och hur du hanterar dina preferenser finns i vår ",
+          "p1LinkLabel": "Cookiepolicy",
+          "p1After": "."
+        },
+        "retencao": {
+          "title": "7. Lagring av uppgifter",
+          "p1": "Vi bevarar personuppgifter så länge det är nödvändigt för att uppfylla de ändamål som beskrivs i denna policy, med hänsyn till tillämpliga lagstadgade, avtalsmässiga och regulatoriska tidsfrister. Uppgifter om affärsrelationer och förslag bevaras under avtalets löptid samt under den ytterligare period som krävs för skatte-, bokförings- och försvarsändamål i rättsliga eller administrativa förfaranden."
+        },
+        "seguranca": {
+          "title": "8. Informationssäkerhet",
+          "p1": "Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda personuppgifter mot obehörig åtkomst, förlust, ändring eller otillbörligt röjande, inklusive åtkomstkontroller, kryptering under överföring och övervakning av våra system och plattformen Injectra AI."
+        },
+        "direitos": {
+          "title": "9. Dina rättigheter",
+          "p1": "I enlighet med tillämplig dataskyddslagstiftning kan du begära:",
+          "list": [
+            "Bekräftelse på att behandling sker samt tillgång till dina uppgifter",
+            "Rättelse av ofullständiga, felaktiga eller inaktuella uppgifter",
+            "Anonymisering, blockering eller radering av uppgifter som är onödiga eller behandlade i strid med lagen",
+            "Portabilitet av uppgifter till en annan tjänste- eller produktleverantör",
+            "Återkallande av samtycke samt invändning mot behandling som grundas på berättigat intresse"
+          ],
+          "p2": "För att utöva dessa rättigheter, kontakta oss via kanalerna som anges i avsnitt 13."
+        },
+        "transferencias": {
+          "title": "10. Internationella överföringar",
+          "p1": "Som ett amerikanskt företag med verksamhet i hela Amerika kan Injectra överföra personuppgifter mellan länder, inklusive till USA, för de ändamål som beskrivs i denna policy. Vid dessa överföringar tillämpar vi avtalsmässiga och tekniska skyddsåtgärder som är förenliga med tillämplig lagstiftning, inklusive LGPD när den registrerade befinner sig i Brasilien."
+        },
+        "menores": {
+          "title": "11. Minderåriga",
+          "p1": "Våra produkter och tjänster riktar sig till företag och yrkesverksamma och är inte avsedda för minderåriga. Vi samlar inte medvetet in personuppgifter från barn eller ungdomar."
+        },
+        "alteracoes": {
+          "title": "12. Ändringar av denna policy",
+          "p1": "Injectra kan uppdatera denna integritetspolicy regelbundet för att återspegla förändringar i våra rutiner eller i tillämplig lagstiftning. Datumet för senaste uppdatering anges högst upp på denna sida. Vi rekommenderar att du regelbundet granskar detta dokument."
+        },
+        "contato": {
+          "title": "13. Dataskyddsombud",
+          "p1": "Vid frågor om denna policy eller för att utöva dina rättigheter som registrerad, kontakta vårt dataskyddsombud (DPO):"
+        }
+      }
+    },
+    "warrantySupport": {
+      "banner": {
+        "eyebrow": "JURIDISK INFORMATION",
+        "titleMain": "Garanti och",
+        "titleHighlight": "Support",
+        "subtitle": "Läs om garantivillkoren för Injectras maskiner och robotik, samt hur du får tillgång till teknisk assistans, reservdelar och specialiserad support."
+      },
+      "nav": [
+        "1. Garantins omfattning",
+        "2. Garantitid",
+        "3. Undantag från garantin",
+        "4. Så begär du service",
+        "5. Reservdelar",
+        "6. Supportkanaler",
+        "7. Avtal och utökad garanti",
+        "8. Ändringar",
+        "9. Kontakt"
+      ],
+      "introBefore": "Denna policy beskriver de allmänna garantivillkoren som gäller för injektionsmaskiner och robotiklösningar från ",
+      "introAfter": ", samt de kanaler som finns tillgängliga för teknisk assistans och support. Specifika villkor för varje enskild utrustning gäller före denna allmänna policy när sådana anges i avtal eller faktura.",
+      "sections": {
+        "cobertura": {
+          "title": "1. Garantins omfattning",
+          "p1": "Injectras garanti täcker tillverkningsfel i material och komponenter i injektionsmaskiner (hydrauliska och elektriska serier) samt industriella robotiklösningar, förutsatt att utrustningen drivs, installeras och underhålls enligt de tekniska specifikationer och manualer som tillhandahålls av Injectra."
+        },
+        "prazo": {
+          "title": "2. Garantitid",
+          "p1": "Standardgarantitiden anges i det kommersiella förslaget, försäljningsavtalet och den tekniska dokumentationen som medföljer varje utrustning, och kan variera beroende på maskinserie (PRIME, SPEED, VELOCITY, FORM, NEO, ATLAS, HYDRO, TITAN, MAX, EQUORA) och komponent (till exempel elektroniska system, hydrauliska system och kringutrustning).",
+          "p2": "Garantitiden räknas från leveransdatum eller datum för idrifttagning av utrustningen, enligt vad som anges i avtalet."
+        },
+        "exclusoes": {
+          "title": "3. Undantag från garantin",
+          "p1": "Garantin täcker inte:",
+          "list": [
+            "Naturligt slitage på förbrukningsdelar, såsom packningar, filter och slitagekomponenter",
+            "Skador orsakade av felaktig drift, installation som avviker från de tekniska specifikationerna eller användning utöver utrustningens nominella kapacitet",
+            "Tekniska ingrepp utförda av tredje part som inte auktoriserats av Injectra",
+            "Användning av reservdelar eller förbrukningsmaterial som inte är original eller godkända av Injectra",
+            "Skador till följd av bristfällig el-, hydraulik- eller infrastrukturinstallation hos kunden",
+            "Force majeure-händelser, såsom strömavbrott, naturkatastrofer eller olyckor"
+          ]
+        },
+        "comoSolicitar": {
+          "title": "4. Så begär du service under garantin",
+          "p1": "För att begära service under garantin ska kunden kontakta Injectra eller den auktoriserade representanten som ansvarar för dess region, och ange utrustningens serienummer, inköpsfaktura och en beskrivning av händelsen. Vårt tekniska team utvärderar ärendet och fastställer lämpligt tillvägagångssätt, vilket kan innefatta fjärrsupport, teknikerbesök eller leverans av reservdelar."
+        },
+        "pecas": {
+          "title": "5. Reservdelar och teknisk assistans",
+          "p1Before": "Injectra och dess nätverk av representanter tillhandahåller original reservdelar och specialiserad teknisk assistans för hela maskin- och robotiksortimentet, även efter garantiperiodens slut. Se våra ",
+          "p1LinkLabel": "tekniska kataloger",
+          "p1After": " för specifikationer om delar och manualer."
+        },
+        "canais": {
+          "title": "6. Tekniska supportkanaler",
+          "p1Before": "Utöver denna policy har vi en dedikerad supportenhet med teknisk assistans, beställning av reservdelar, förebyggande och avhjälpande underhåll samt vanliga frågor. Besök sidan ",
+          "p1LinkLabel": "Support",
+          "p1After": " för att öppna ett ärende eller prata med vårt tekniska team."
+        },
+        "contratos": {
+          "title": "7. Underhållsavtal och utökad garanti",
+          "p1": "Injectra erbjuder avtal om förebyggande underhåll samt program för utökad garanti till kunder som vill utöka standardtäckningen eller formalisera regelbundna underhållsrutiner. De kommersiella villkoren för dessa avtal förhandlas individuellt med vårt team eller en auktoriserad representant."
+        },
+        "alteracoes": {
+          "title": "8. Ändringar av denna policy",
+          "p1": "Injectra kan uppdatera denna garanti- och supportpolicy regelbundet. Ändringar träder i kraft från och med publicering på denna sida, utan att det påverkar garantivillkor som redan formaliserats i gällande avtal och fakturor."
+        },
+        "contato": {
+          "title": "9. Kontakt",
+          "p1": "Vid frågor om garanti, reservdelar eller teknisk assistans, kontakta oss:"
+        }
+      }
+    },
+    "cookies": {
+      "banner": {
+        "eyebrow": "JURIDISK INFORMATION",
+        "titleMain": "Cookie",
+        "titleHighlight": "policy",
+        "subtitle": "Läs om vad cookies är, vilka typer vi använder på Injectras webbplats och hur du kan hantera dina preferenser."
+      },
+      "nav": [
+        "1. Vad är cookies",
+        "2. Hur vi använder dem",
+        "3. Typer av cookies",
+        "4. Tredjepartscookies",
+        "5. Så hanterar du dem",
+        "6. Uppdateringar",
+        "7. Kontakt"
+      ],
+      "introBefore": "Denna cookiepolicy förklarar hur ",
+      "introMiddle": " använder cookies och liknande teknik på webbplatsen injectracorp.com, som ett komplement till vår ",
+      "introLinkLabel": "Integritetspolicy",
+      "introAfter": ".",
+      "sections": {
+        "oQueSao": {
+          "title": "1. Vad är cookies",
+          "p1": "Cookies är små textfiler som lagras i din webbläsare eller enhet när du besöker en webbplats. De gör det möjligt för webbplatsen att känna igen din enhet, komma ihåg dina preferenser och samla in information om hur webbplatsen används."
+        },
+        "comoUsamos": {
+          "title": "2. Hur vi använder cookies",
+          "p1": "Vi använder cookies för att:",
+          "list": [
+            "Säkerställa att webbplatsen och offertformuläret fungerar korrekt",
+            "Komma ihåg navigeringspreferenser, såsom språk och region",
+            "Förstå hur besökare använder vår webbplats och vilka kataloger och maskinserier som väcker mest intresse",
+            "Mäta effektiviteten av marknadsförings- och kommunikationskampanjer"
+          ]
+        },
+        "tipos": {
+          "title": "3. Typer av cookies vi använder",
+          "subsections": {
+            "essenciais": {
+              "title": "3.1 Nödvändiga cookies",
+              "p": "Nödvändiga för webbplatsens grundläggande funktion, såsom navigering mellan sidor och inskickande av formulär. De kan inte inaktiveras i våra system."
+            },
+            "desempenho": {
+              "title": "3.2 Prestanda- och analyscookies",
+              "p": "Samlar in information om hur besökare använder webbplatsen — mest besökta sidor, tid på webbplatsen och trafikkälla — för att hjälpa oss förbättra innehåll och användbarhet."
+            },
+            "funcionalidade": {
+              "title": "3.3 Funktionscookies",
+              "p": "Gör det möjligt att komma ihåg val som användaren gjort, såsom språk, region eller förifyllda formulär, för en mer personlig upplevelse."
+            },
+            "marketing": {
+              "title": "3.4 Marknadsföringscookies",
+              "p": "Används för att visa mer relevant kommunikation och annonser utifrån ditt intresse för våra maskinserier, robotik och plattformen Injectra AI, både på och utanför vår webbplats."
+            }
+          }
+        },
+        "terceiros": {
+          "title": "4. Tredjepartscookies",
+          "p1": "Vissa cookies sätts av tredjepartstjänster som visas på våra sidor, till exempel verktyg för trafikanalys, kartor och inbäddade videor. Injectra har ingen kontroll över dessa cookies, som omfattas av respektive leverantörs integritetspolicy."
+        },
+        "gerenciar": {
+          "title": "5. Så hanterar du dina cookiepreferenser",
+          "p1": "Du kan hantera eller inaktivera cookies direkt i din webbläsares inställningar, genom att blockera nya cookies eller ta bort redan lagrade sådana. Observera att inaktivering av nödvändiga cookies kan påverka webbplatsens korrekta funktion, inklusive inskickande av offert- och kontaktformulär."
+        },
+        "alteracoes": {
+          "title": "6. Uppdateringar av denna policy",
+          "p1": "Denna cookiepolicy kan uppdateras regelbundet för att återspegla förändringar i våra rutiner eller i den teknik vi använder. Datumet för senaste uppdatering anges högst upp på denna sida."
+        },
+        "contato": {
+          "title": "7. Kontakt",
+          "p1": "Vid frågor om vår användning av cookies på webbplatsen, kontakta oss:"
+        }
+      }
+    },
+    "compliance": {
+      "banner": {
+        "eyebrow": "ETIK & INTEGRITET",
+        "titleMain": "Compliance",
+        "titleHighlight": "Injectra",
+        "subtitle": "Läs om Injectra Corporations engagemang för etik, integritet, antikorruption och regelefterlevnad i hela vår värdekedja."
+      },
+      "nav": [
+        "1. Vårt åtagande",
+        "2. Uppförandekod",
+        "3. Antikorruption",
+        "4. Dataskydd",
+        "5. Leverantörer och partner",
+        "6. Sund konkurrens",
+        "7. Visselblåsarkanal",
+        "8. Uppdateringar",
+        "9. Kontakt"
+      ],
+      "introBefore": "",
+      "introAfter": ", som ingår i Interfy Corporation, styr sin verksamhet utifrån etik, transparens och rättslig och regulatorisk efterlevnad i alla länder där företaget verkar. Detta dokument sammanfattar de compliance-principer som styr våra relationer med kunder, representanter, leverantörer och medarbetare.",
+      "sections": {
+        "compromisso": {
+          "title": "1. Vårt åtagande för etik och integritet",
+          "p1": "Injectra åtar sig att bedriva sin verksamhet med ärlighet, respekt för tillämpliga lagar och ansvar gentemot kunder, medarbetare, representanter, leverantörer och de samhällen där företaget verkar, och stödjer på så sätt en hållbar utveckling av industrin i Amerika."
+        },
+        "codigoConduta": {
+          "title": "2. Uppförandekod",
+          "p1": "Medarbetare, styrelseledamöter och representanter för Injectra ska iaktta principer om integritet, ömsesidig respekt, icke-diskriminering och säkerhet på arbetsplatsen, samt undvika intressekonflikter och alltid agera i enlighet med gällande lagstiftning och företagets interna policyer."
+        },
+        "anticorrupcao": {
+          "title": "3. Antikorruption och bedrägeribekämpning",
+          "p1": "Injectra tolererar inte någon form av korruption, mutor eller otillbörlig betalning i sina affärsrelationer, vare sig med offentliga eller privata aktörer. Som amerikanskt företag följer vi principerna i Foreign Corrupt Practices Act (FCPA) och övrig tillämplig antikorruptionslagstiftning i de länder där vi verkar, inklusive Brasilien.",
+          "p2": "Auktoriserade representanter och kommersiella partner omfattas också av dessa riktlinjer i sina relationer på Injectras vägnar."
+        },
+        "protecaoDados": {
+          "title": "4. Efterlevnad av dataskyddslagstiftning",
+          "p1Before": "Injectra behandlar personuppgifter i enlighet med tillämplig dataskyddslagstiftning, inklusive den brasilianska dataskyddslagen (LGPD), enligt vad som beskrivs i vår ",
+          "p1LinkLabel": "Integritetspolicy",
+          "p1After": "."
+        },
+        "fornecedores": {
+          "title": "5. Relationer med leverantörer och partner",
+          "p1": "Vi förväntar oss att Injectras leverantörer, representanter och kommersiella partner tillämpar standarder för etik, laglighet och respekt för mänskliga och arbetsrättsliga rättigheter som motsvarar våra egna, inklusive avvisande av barnarbete, tvångsarbete och konkurrensbegränsande metoder."
+        },
+        "concorrencia": {
+          "title": "6. Sund konkurrens",
+          "p1": "Injectra konkurrerar på marknaden utifrån kvaliteten på sina produkter och tjänster, med respekt för tillämplig konkurrenslagstiftning och genom att undvika avtal eller metoder som otillbörligt begränsar den fria konkurrensen."
+        },
+        "canalDenuncias": {
+          "title": "7. Visselblåsarkanal",
+          "p1": "Medarbetare, kunder, representanter och leverantörer kan konfidentiellt rapportera misstänkta överträdelser av detta compliance-åtagande, inklusive oetiskt beteende, korruptionshandlingar eller bristande efterlevnad av tillämplig lagstiftning, via kanalen som anges i kontaktavsnittet nedan."
+        },
+        "alteracoes": {
+          "title": "8. Uppdateringar",
+          "p1": "Detta dokument kan uppdateras regelbundet för att återspegla utvecklingen av våra compliance-rutiner eller tillämplig lagstiftning. Datumet för senaste uppdatering anges högst upp på denna sida."
+        },
+        "contato": {
+          "title": "9. Kontakt",
+          "p1": "För att rapportera en oro eller få mer information om vårt compliance-program, kontakta oss:"
+        }
+      }
+    }
+  },
+  "contato": {
+    "banner": {
+      "eyebrow": "KONTAKT",
+      "titlePrefix": "Kontakta ",
+      "titleHighlight": "Injectra",
+      "description": "Vårt team är redo att stödja ditt företag i hela Amerika med maskiner, robotik, AI-plattform, tjänster och industriell rådgivning.",
+      "quoteButton": "Begär offert",
+      "specialistButton": "Prata med en specialist",
+      "atendimento": {
+        "title": "Injectra kundservice",
+        "description": "Vårt team finns tillgängligt för att hjälpa ditt företag.",
+        "items": [
+          "Specialiserad rådgivning",
+          "Helhetslösningar",
+          "Spetsteknik",
+          "Kontinuerlig support"
+        ]
+      },
+      "performance": {
+        "title": "Industrins prestanda",
+        "stats": [
+          {
+            "label": "Produktion",
+            "description": "jämfört med föregående månad"
+          },
+          {
+            "label": "Effektivitet",
+            "description": "uppnått mål"
+          },
+          {
+            "label": "Tillgänglighet",
+            "description": "i drift"
+          }
+        ],
+        "roboticaTitle": "Neo-robotik"
+      },
+      "infoCards": [
+        {
+          "title": "USA-kontor",
+          "description": "Orlando, Florida, USA"
+        },
+        {
+          "title": "Kommersiell telefon",
+          "description": "+1 (321) 888-7963"
+        },
+        {
+          "title": "E-post",
+          "description": "info@injectracorp.com"
+        },
+        {
+          "title": "Regional service",
+          "description": "Verksamhet i hela Amerika"
+        },
+        {
+          "title": "Teknisk support",
+          "description": "Specialiserat team för maskiner, robotik och AI-plattform"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Redo att transformera din industriella verksamhet?",
+      "description": "Prata med vårt team och hitta den bästa lösningen inom maskiner, robotik, programvara och automation.",
+      "quoteButton": "BEGÄR OFFERT",
+      "specialistButton": "PRATA MED EN SPECIALIST"
+    },
+    "presenca": {
+      "regionCard": {
+        "title": "Närvaro i hela Amerika",
+        "description": "Med huvudkontor i USA stödjer Injectra kunder, partner och industriella projekt i hela Nord-, Central- och Sydamerika.",
+        "linkLabel": "Se våra verksamhetsregioner"
+      },
+      "highlightsCard": {
+        "title": "Närvaro i hela Amerika",
+        "items": [
+          {
+            "title": "Rådgivande respons",
+            "description": "Vi förstår din utmaning och föreslår den bästa lösningen."
+          },
+          {
+            "title": "Helhetslösningar",
+            "description": "Maskiner, robotik, programvara och service i ett integrerat erbjudande."
+          },
+          {
+            "title": "Industriella specialister",
+            "description": "Erfaret team med kunskap om verklig tillämpning."
+          },
+          {
+            "title": "Integration med Injectra AI",
+            "description": "Teknik och data för att öka produktiviteten."
+          }
+        ]
+      }
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    }
+  },
+  "experienceCenter": {
+    "banner": {
+      "eyebrow": "EXPERIENCE CENTER",
+      "title": "Upplev tekniken.\nOmvandla resultat.",
+      "subtitle": "Injectra Experience Center skapades för att du ska kunna se, testa och i praktiken bevisa hur våra lösningar kan höja produktiviteten, kvaliteten och konkurrenskraften i din industri.",
+      "ctaVisita": "Boka ett besök",
+      "ctaEspecialista": "Prata med en specialist",
+      "trustItems": [
+        {
+          "label": "Spetsteknik"
+        },
+        {
+          "label": "Bevisade resultat"
+        },
+        {
+          "label": "Dedikerade specialister"
+        },
+        {
+          "label": "Säkerhet och tillförlitlighet"
+        }
+      ]
+    },
+    "confianca": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "description": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "description": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "description": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "description": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "description": "Energieffektivitet och ESG"
+        }
+      ]
+    },
+    "diferenciais": {
+      "title": "Varför besöka vårt Experience Center?",
+      "stats": [
+        {
+          "label": "Genomförda besök"
+        },
+        {
+          "label": "Applikationstester"
+        },
+        {
+          "label": "Nöjda kunder"
+        },
+        {
+          "label": "Dedikerade specialister"
+        }
+      ]
+    },
+    "esperar": {
+      "title": "Vad du kan förvänta dig",
+      "items": [
+        {
+          "label": "Personlig service"
+        },
+        {
+          "label": "Lösningar anpassade efter dina behov"
+        },
+        {
+          "label": "Toppmodern teknik"
+        },
+        {
+          "label": "Modern och interaktiv miljö"
+        },
+        {
+          "label": "Verkliga, bevisade resultat"
+        }
+      ]
+    },
+    "experiencias": {
+      "title": "Våra upplevelser",
+      "saibaMais": "Läs mer",
+      "items": [
+        {
+          "title": "Demonstrationer",
+          "description": "Se våra maskiner och lösningar i drift och upptäck hur Injectras teknik kan omvandla din produktion."
+        },
+        {
+          "title": "Applikationstester",
+          "description": "Ta med din form, material eller detalj och genomför verkliga tester med stöd av våra specialister."
+        },
+        {
+          "title": "Showroom",
+          "description": "Se på nära håll vårt kompletta sortiment av maskiner, robotik och smarta lösningar i en innovativ miljö."
+        },
+        {
+          "title": "Utbildningar",
+          "description": "Utbilda ditt team med teknisk och operativ utbildning för att få ut maximal prestanda."
+        },
+        {
+          "title": "Projektvalidering",
+          "description": "Vi validerar tillsammans med dig den bästa lösningen för ditt projekt, med garanterad prestanda och avkastning på investeringen."
+        }
+      ]
+    },
+    "agendamento": {
+      "title": "Boka din upplevelse nu",
+      "description": "Upplev Injectras teknik i praktiken och upptäck hur vi kan ta din produktion till nästa nivå.",
+      "ctaVisita": "Boka ett besök",
+      "ctaEspecialista": "Prata med en specialist"
+    }
+  },
+  "faleComEspecialista": {
+    "hero": {
+      "eyebrow": "SPECIALISTER",
+      "titlePrefix": "Prata med en specialist",
+      "titleHighlight": "på Injectra.",
+      "subtitle": "Kommersiell, teknisk och ingenjörsmässig rådgivning för att hjälpa din verksamhet välja rätt lösning.",
+      "body": "Vårt team av specialister stödjer dig i valet av maskiner, automation, robotik, integration med Injectra AI och validering av tillämpningar — alltid med fokus på prestanda, effektivitet och verkliga resultat för din industri.",
+      "ctaSchedule": "Boka möte",
+      "ctaWhatsapp": "Prata via WhatsApp",
+      "cards": [
+        {
+          "title": "Kommersiell rådgivning",
+          "description": "Vi förstår ditt behov och presenterar de bästa alternativen inom maskiner, robotik och Injectra-lösningar."
+        },
+        {
+          "title": "Teknisk rådgivning",
+          "description": "Specialiserad teknisk analys för att validera krav, processer och genomförbarhet för din tillämpning."
+        },
+        {
+          "title": "Applikationsteknik",
+          "description": "Vi utvecklar skräddarsydda lösningar med fokus på prestanda, produktivitet och integration."
+        },
+        {
+          "title": "Bokning av möte",
+          "description": "Vi kopplar samman dig med rätt specialister för tekniska möten eller presentationer."
+        }
+      ]
+    },
+    "comoAjudamos": {
+      "title": "Så kan vi hjälpa dig",
+      "subtitle": "Kompletta lösningar för industrins mest krävande sektorer.",
+      "items": [
+        {
+          "title": "Val av rätt serie",
+          "description": "Vi hjälper dig att välja den perfekta maskinen för din produktion."
+        },
+        {
+          "title": "Applikationsanalys",
+          "description": "Vi studerar din process och rekommenderar den bästa konfigurationen."
+        },
+        {
+          "title": "Automation och robotik",
+          "description": "Lösningar som ökar produktionens effektivitet, kvalitet och säkerhet."
+        },
+        {
+          "title": "Digital integration",
+          "description": "Koppla dina maskiner till Injectra AI och omvandla data till resultat."
+        },
+        {
+          "title": "Kostnadsreduktion",
+          "description": "Mer produktivitet, mindre spill och högre effektivitet."
+        },
+        {
+          "title": "Produktionsexpansion",
+          "description": "Skalbarhet och lösningar som följer din verksamhets tillväxt."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Så fungerar det",
+      "subtitle": "En enkel och rådgivande process för att du ska hitta den bästa lösningen.",
+      "steps": [
+        {
+          "title": "Skicka in ditt behov",
+          "description": "Fyll i formuläret med din information och ditt mål."
+        },
+        {
+          "title": "Vårt team analyserar",
+          "description": "Specialister utvärderar din förfrågan och dina krav."
+        },
+        {
+          "title": "Vi rekommenderar den bästa lösningen",
+          "description": "Vi presenterar de bästa alternativen för din tillämpning."
+        },
+        {
+          "title": "Vi bokar ett tekniskt/kommersiellt möte",
+          "description": "Ett personligt möte för detaljer och nästa steg."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Rådgivande service för att påskynda ditt industriella beslut.",
+      "subtitle": "Prata med en specialist och upptäck hur Injectra kan omvandla din produktion med teknik och intelligens.",
+      "quoteButton": "Begär offert",
+      "meetingButton": "Boka möte"
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    }
+  },
+  "industria": {
+    "banner": {
+      "kicker": "INDUSTRI",
+      "title": "Smarta lösningar för att driva alla industrisegment framåt.",
+      "subtitle": "Injectra erbjuder maskiner, robotik och smarta plattformar för att öka produktivitet, kvalitet och konkurrenskraft inom olika industrisektorer.",
+      "ctaCatalogos": "Se alla kataloger",
+      "ctaEspecialista": "Prata med en specialist",
+      "highlights": [
+        "Skräddarsydda lösningar",
+        "Högre produktivitet",
+        "Kvalitet och tillförlitlighet",
+        "Närvaro i hela Amerika"
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Varför välja Injectra för din industri?",
+      "items": [
+        {
+          "title": "Avancerad teknik",
+          "description": "Elektriska och hydrauliska maskiner av senaste generation."
+        },
+        {
+          "title": "Smart automation",
+          "description": "Robotik och integrerade system för maximal effektivitet."
+        },
+        {
+          "title": "Specialiserad support",
+          "description": "Tekniskt team med erfarenhet inom ditt segment."
+        },
+        {
+          "title": "Bevisad prestanda",
+          "description": "Högre produktivitet, kvalitet och lägre kostnader."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "KATALOGER PER INDUSTRI",
+        "description": "Ladda ner kataloger och fallstudier specifika för ditt segment.",
+        "cta": "Se kataloger"
+      },
+      "ajuda": {
+        "kicker": "BEHÖVER DU HJÄLP?",
+        "description": "Vårt team förstår ditt segment och hjälper dig att hitta den bästa lösningen.",
+        "cta": "Kontakta oss"
+      },
+      "tecnologia": {
+        "kicker": "Teknik som anpassar sig efter ditt segment",
+        "description": "Utrustning, automation och intelligens som skapar verkliga resultat.",
+        "cta": "Prata med en specialist"
+      }
+    },
+    "segmentos": {
+      "title": "Våra segment och verksamhetsområden",
+      "ctaLabel": "Se lösningar",
+      "items": [
+        {
+          "title": "Fordonsindustri",
+          "description": "Kompletta lösningar för plastinjektion, komponenter, ytbehandling samt automation och processer."
+        },
+        {
+          "title": "Förpackningar",
+          "description": "Maskiner med hög hastighet och precision för plastförpackningar samt automationssystem."
+        },
+        {
+          "title": "Medicinteknik",
+          "description": "Utrustning för produktion av medicintekniska detaljer med maximal precision och spårbarhet."
+        },
+        {
+          "title": "Konsumentprodukter",
+          "description": "Lösningar för vardagsprodukter med hög effektivitet, kvalitet och konkurrenskraft."
+        },
+        {
+          "title": "Elektronik",
+          "description": "Precisionsinjektion för elektronikkomponenter och monteringsautomation."
+        },
+        {
+          "title": "Bygg",
+          "description": "Robusta lösningar för tekniska detaljer, rör, kopplingar och byggmaterial."
+        },
+        {
+          "title": "Logistik",
+          "description": "System och lösningar för att optimera processer, lagring och materialhantering."
+        },
+        {
+          "title": "Övriga segment",
+          "description": "Vi betjänar en mängd olika industrisegment med skräddarsydda lösningar och avancerad teknik."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    }
+  },
+  "maquinas": {
+    "banner": {
+      "kicker": "MASKINER",
+      "title": "Injektionsteknik för alla industrisegment.",
+      "subtitle": "Nio kompletta hydrauliska och elektriska maskinserier, utvecklade för maximal prestanda, precision och effektivitet i alla tillämpningar.",
+      "ctaCatalogos": "Se alla kataloger",
+      "ctaEspecialista": "Prata med en specialist",
+      "stats": [
+        "101 maskinmodeller",
+        "70+ tillbehör och kringutrustning",
+        "100% integrerad teknik"
+      ]
+    },
+    "comoFunciona": {
+      "title": "Så fungerar navigeringen mellan modeller",
+      "description": "Välj en serie och bläddra enkelt bland alla tillgängliga modeller. Varje sida visar tekniska specifikationer, katalog och offertalternativ.",
+      "sidebarItemLabel": "Prime IP - X",
+      "detailTitle": "Prime IP - X",
+      "detailDescription": "Precision, mångsidighet och prestanda för generella applikationer.",
+      "ctaCatalogos": "Se alla kataloger",
+      "ctaEspecialista": "Prata med en specialist",
+      "specs": [
+        {
+          "title": "X T kraft",
+          "subtitle": "i stängningskraft"
+        },
+        {
+          "title": "Tie Bar",
+          "subtitle": "X x X mm"
+        },
+        {
+          "title": "Hög precision"
+        },
+        {
+          "title": "Teknisk support",
+          "subtitle": "specialiserad"
+        }
+      ]
+    },
+    "comparativo": {
+      "title": "Jämförelse mellan serierna",
+      "subtitle": "Hitta snabbt rätt serie för dina behov.",
+      "rows": [
+        "Tillämpning",
+        "Drivsystem",
+        "Tonnageintervall",
+        "Fördel"
+      ],
+      "columns": [
+        {
+          "name": "Prime",
+          "aplicacao": "Generell",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "60 - 1.000 t",
+          "destaque": "Precision och mångsidighet"
+        },
+        {
+          "name": "Speed",
+          "aplicacao": "Hög hastighet",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "70 - 800 t",
+          "destaque": "Snabba cykler och effektivitet"
+        },
+        {
+          "name": "Velocity",
+          "aplicacao": "Hög produktivitet",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "80 - 500 t",
+          "destaque": "Extrem hastighet"
+        },
+        {
+          "name": "Form",
+          "aplicacao": "Precisionsdetaljer",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "100 - 800 t",
+          "destaque": "Hög precision"
+        },
+        {
+          "name": "Neo",
+          "aplicacao": "Energi och hög precision",
+          "acionamento": "100% Elektrisk",
+          "tonelagem": "60 - 350 t",
+          "destaque": "Energieffektivitet och precision"
+        },
+        {
+          "name": "Altas",
+          "aplicacao": "Stora detaljer och förpackningar",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "400 - 4.000 t",
+          "destaque": "Robusthet för stora detaljer"
+        },
+        {
+          "name": "Hydro",
+          "aplicacao": "Krävande applikationer",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "180 - 3.000 t",
+          "destaque": "Kraft för krävande applikationer"
+        },
+        {
+          "name": "Titan",
+          "aplicacao": "Robusta verktyg",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "650 - 4.000 t",
+          "destaque": "Stora tonnage"
+        },
+        {
+          "name": "Max",
+          "aplicacao": "Stora detaljer och höga krav",
+          "acionamento": "Hydraulisk",
+          "tonelagem": "800 - 5.000 t",
+          "destaque": "Maximal kapacitet"
+        },
+        {
+          "name": "Equora",
+          "aplicacao": "Krävande och mångsidiga applikationer",
+          "acionamento": "Hybrid",
+          "tonelagem": "100 - 2.000 t",
+          "destaque": "Balans mellan kraft och effektivitet"
+        }
+      ]
+    },
+    "linhasDeMaquinas": {
+      "title": "Våra maskinserier",
+      "subtitle": "Hitta snabbt rätt serie för dina behov.",
+      "ctaVerModelos": "Se modeller",
+      "machines": [
+        {
+          "name": "PRIME",
+          "description": "Hög precision och mångsidighet för generella applikationer."
+        },
+        {
+          "name": "SPEED",
+          "description": "Snabba cykler och maximal effektivitet."
+        },
+        {
+          "name": "VELOCITY",
+          "description": "Extremt hög hastighet och extrem produktivitet."
+        },
+        {
+          "name": "FORM",
+          "description": "Lösningar för tekniska detaljer med hög precision."
+        },
+        {
+          "name": "NEO",
+          "description": "100% elektrisk serie med hög repeterbarhet och energieffektivitet."
+        },
+        {
+          "name": "ATLAS",
+          "description": "Specialiserad på plastlådor, pallar och storskaliga detaljer."
+        },
+        {
+          "name": "HYDRO",
+          "description": "Hydraulisk kraft för krävande applikationer."
+        },
+        {
+          "name": "TITAN",
+          "description": "Stora tonnage för robusta verktyg och höga krav."
+        },
+        {
+          "name": "MAX",
+          "description": "Maximal kapacitet och robusthet för de största utmaningarna."
+        },
+        {
+          "name": "EQUORA",
+          "description": "Balans mellan kraft, effektivitet och ekonomi med hybridteknik."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "KATALOGER",
+        "description": "Ladda ner de kompletta katalogerna för alla serier och maskiner",
+        "cta": "Se alla kataloger"
+      },
+      "ajuda": {
+        "kicker": "BEHÖVER DU HJÄLP?",
+        "description": "Prata med vår specialist och hitta den bästa lösningen för din tillämpning.",
+        "cta": "Prata med en specialist"
+      },
+      "video": {
+        "title": "Teknik som driver industrin framåt.",
+        "description": "Se videon och upptäck Injectras fördelar.",
+        "ariaPlay": "Se videon"
+      }
+    },
+    "tecnologias": {
+      "title": "Injectra-teknologier",
+      "subtitle": "Innovation som omvandlar prestanda till resultat.",
+      "items": [
+        {
+          "title": "Intelligent servodrift",
+          "description": "Precis rörelsestyrning för maximal repeterbarhet."
+        },
+        {
+          "title": "Avancerad hydraulik",
+          "description": "Hydrauliska system med hög prestanda och effektivitet."
+        },
+        {
+          "title": "Högprecisionsinjektion",
+          "description": "Avancerad injektionsstyrning för detaljer med överlägsen kvalitet."
+        },
+        {
+          "title": "Energieffektivitet",
+          "description": "Teknik som minskar förbrukningen och ökar hållbarheten."
+        },
+        {
+          "title": "Full uppkoppling",
+          "description": "Maskiner uppkopplade till Injectra AI för smart hantering."
+        },
+        {
+          "title": "Integrerad säkerhet",
+          "description": "Kompletta säkerhetssystem för operatör och process."
+        }
+      ]
+    },
+    "tecnologiasDasLinhas": {
+      "tags": [
+        "Hydraulisk",
+        "100% Elektrisk",
+        "Hybrid",
+        "Robotik",
+        "Injectra AI",
+        "Industriell IoT",
+        "OEE & Analytics",
+        "Mobilapp",
+        "Teknisk assistans"
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    },
+    "modelo": {
+      "breadcrumb": {
+        "home": "Hem",
+        "maquinas": "Maskiner"
+      },
+      "hero": {
+        "ctaCotacao": "Begär offert",
+        "ctaCatalogo": "Ladda ner katalog",
+        "ctaEspecialista": "Prata med en specialist"
+      },
+      "quickSpecs": {
+        "forca": {
+          "title": "T kraft",
+          "subtitle": "i stängningskraft"
+        },
+        "tieBar": {
+          "title": "Tie Bar"
+        },
+        "precisao": {
+          "title": "Hög precision"
+        },
+        "suporte": {
+          "title": "Teknisk support",
+          "subtitle": "specialiserad"
+        }
+      },
+      "comparativo": {
+        "title": "Jämförelse mellan serierna",
+        "subtitle": "Hitta snabbt rätt serie för dina behov.",
+        "rows": {
+          "serie": "Serie",
+          "modelo": "Modell",
+          "forcaFechamento": "Stängningskraft",
+          "tieBar": "Avstånd mellan kolonner (Tie Bar)",
+          "tecnologia": "Teknik",
+          "aplicacoesIndicadas": "Rekommenderade tillämpningar",
+          "configuracaoComercial": "Kommersiell konfiguration",
+          "suporte": "Support"
+        }
+      },
+      "aplicacoesBeneficios": {
+        "title": "Tillämpningar och fördelar",
+        "items": {
+          "pecasTecnicas": {
+            "title": "Tekniska detaljer",
+            "description": "Idealisk för komponenter som kräver precision och repeterbarhet."
+          },
+          "consumo": {
+            "title": "Konsumentprodukter",
+            "description": "Effektiva lösningar för vardagsprodukter med hög kvalitet."
+          },
+          "automacaoIntegrada": {
+            "title": "Integrerad automation",
+            "description": "Kompatibel med kringutrustning och moderna automationssystem."
+          },
+          "baixoCusto": {
+            "title": "Låg driftskostnad",
+            "description": "Effektiv konstruktion som minskar energiförbrukning och underhållskostnader."
+          }
+        }
+      },
+      "ctaConfigurar": {
+        "titleTemplate": "Redo att konfigurera din {model}?",
+        "description": "Bli en del av ett partnernätverk som omvandlar industrin i Amerika med teknik och innovation.",
+        "ctaCotacao": "Begär offert",
+        "ctaEspecialista": "Prata med en specialist",
+        "trustItems": [
+          {
+            "title": "Amerikansk teknik",
+            "description": "Utvecklad i USA"
+          },
+          {
+            "title": "Närvaro i hela Amerika",
+            "description": "Lokal service"
+          },
+          {
+            "title": "Mer än 30 års erfarenhet",
+            "description": "inom industriella lösningar"
+          },
+          {
+            "title": "Support 24/7",
+            "description": "Specialiserad teknisk assistans"
+          },
+          {
+            "title": "Hållbarhet",
+            "description": "Energieffektivitet och ESG"
+          }
+        ]
+      },
+      "especificacoes": {
+        "prime-ip": {
+          "forcaTonelagem": "60 ton",
+          "tieBar": "290 x 270 mm",
+          "aplicacoesIndicadas": "Hushållsartiklar, tekniska detaljer, konsumentprodukter och industriella komponenter",
+          "configuracaoComercial": "Tillgänglig för skräddarsydd offert",
+          "suporte": "Teknisk assistans och specialiserad rådgivning"
+        }
+      },
+      "linhas": {
+        "prime-ip": {
+          "description": "Precision, mångsidighet och prestanda för generella applikationer."
+        }
+      }
+    }
+  },
+  "plataformaAi": {
+    "banner": {
+      "eyebrow": "AI-PLATTFORM",
+      "title": "Data, uppkoppling och intelligens för att omvandla din produktion.",
+      "subtitle": "Injectra AI-plattformen kopplar samman maskiner, människor och processer i ett smart ekosystem för att öka produktiviteten, minska stopp och skapa beslutsunderlag i realtid.",
+      "ctaPrimary": "Begär demonstration",
+      "ctaSecondary": "Prata med en specialist",
+      "trustItems": [
+        {
+          "label": "100% säker molntjänst"
+        },
+        {
+          "label": "Artificiell intelligens"
+        },
+        {
+          "label": "Beslut i realtid"
+        },
+        {
+          "label": "Maximal säkerhet och tillförlitlighet"
+        }
+      ]
+    },
+    "fluxo": {
+      "title": "Boka din upplevelse nu",
+      "description": "Upplev Injectras teknik i praktiken och upptäck hur vi kan ta din produktion till nästa nivå.",
+      "etapas": [
+        {
+          "title": "Injectra-maskiner",
+          "description": "Data i realtid"
+        },
+        {
+          "title": "Sensorer och enheter",
+          "description": "Datainsamling"
+        },
+        {
+          "title": "AI-plattform i molnet",
+          "description": "Bearbetning och AI"
+        },
+        {
+          "title": "Dashboard och rapporter",
+          "description": "Visualisering och analys"
+        },
+        {
+          "title": "Åtgärder och beslut",
+          "description": "Resultat och effektivitet"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Lösningar som driver din industri framåt",
+      "items": [
+        {
+          "title": "Molnbaserad dashboard",
+          "description": "Följ alla nyckeltal för din produktion i realtid, var du än är och på vilken enhet som helst."
+        },
+        {
+          "title": "Mobilapp",
+          "description": "Ha full kontroll över din produktion i handen. Övervaka, få larm och agera var du än befinner dig."
+        },
+        {
+          "title": "Industriell IoT",
+          "description": "Koppla samman maskiner, sensorer och enheter för datainsamling i realtid med maximal säkerhet."
+        },
+        {
+          "title": "OEE",
+          "description": "Övervaka tillgänglighet, prestanda och kvalitet i realtid och öka effektiviteten i din verksamhet."
+        },
+        {
+          "title": "Analys",
+          "description": "Omvandla data till värdefulla insikter med avancerad analys och skräddarsydda rapporter."
+        },
+        {
+          "title": "Prediktivt underhåll",
+          "description": "Förutse fel och minska oplanerade stopp med AI- och maskininlärningsalgoritmer."
+        },
+        {
+          "title": "Smarta larm",
+          "description": "Få kritiska larm och smarta rekommendationer för att agera innan problem påverkar din produktion."
+        },
+        {
+          "title": "OTA-uppdateringar",
+          "description": "Fjärruppdateringar av mjukvara och firmware håller din plattform alltid aktuell och säker."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Artificiell intelligens tillämpad inom industrin för att kontinuerligt optimera processer, kvalitet och produktivitet."
+        }
+      ]
+    }
+  },
+  "representantes": {
+    "banner": {
+      "badge": "REPRESENTANTPROGRAM",
+      "title": "Bli Injectra-representant och för med dig spetsteknik till din region.",
+      "subtitle": "Partnerskap, support och teknik för att du ska kunna växa med ett globalt ledande varumärke inom industriella lösningar.",
+      "ctaPrimary": "Jag vill bli representant",
+      "ctaSecondary": "Prata med en specialist",
+      "highlights": [
+        "Globalt ledande teknik",
+        "Produkter med hög prestanda",
+        "Fullständig support",
+        "Partnerskap för att växa tillsammans"
+      ]
+    },
+    "beneficios": {
+      "title": "Fördelar med att vara Injectra-representant",
+      "items": [
+        {
+          "title": "Attraktiva provisioner",
+          "description": "Tjäna konkurrenskraftiga provisioner och få kontinuerlig tillväxt."
+        },
+        {
+          "title": "Produkter av hög kvalitet",
+          "description": "Innovativa och pålitliga lösningar för en mängd olika industrisegment."
+        },
+        {
+          "title": "Support och utbildning",
+          "description": "Kontinuerlig teknisk och kommersiell utbildning för din framgång."
+        },
+        {
+          "title": "Marknadsföring och material",
+          "description": "Stöd med marknadsföring, exklusivt material och efterfrågegenerering."
+        },
+        {
+          "title": "Globalt och pålitligt varumärke",
+          "description": "Representera ett varumärke som är erkänt i hela Amerika."
+        },
+        {
+          "title": "Tillväxtmöjligheter",
+          "description": "Utöka din portfölj och expandera din verksamhet."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Fördelar med att vara Injectra-representant",
+      "items": [
+        {
+          "title": "Registrering",
+          "description": "Fyll i det fullständiga formuläret och skicka in dina uppgifter."
+        },
+        {
+          "title": "Utvärdering",
+          "description": "Vårt team utvärderar din profil och potential för din region."
+        },
+        {
+          "title": "Godkännande",
+          "description": "Du blir godkänd och formellt en del av programmet."
+        },
+        {
+          "title": "Utbildning",
+          "description": "Få kompletta tekniska och kommersiella utbildningar."
+        },
+        {
+          "title": "Verksamhet",
+          "description": "Börja representera och föra Injectra-teknik till din region."
+        }
+      ]
+    },
+    "nossasExperiencias": {
+      "title": "Våra erfarenheter",
+      "mapAlt": "Karta över Amerika",
+      "ctaLabel": "Se möjligheter",
+      "regioes": [
+        {
+          "title": "Nordamerika",
+          "description": "USA, Kanada och Mexiko"
+        },
+        {
+          "title": "Centralamerika",
+          "description": "Guatemala, Panama, Costa Rica med flera."
+        },
+        {
+          "title": "Karibien",
+          "description": "Karibiska öar och karibiska nationer."
+        },
+        {
+          "title": "Sydamerika",
+          "description": "Brasilien, Argentina, Chile, Colombia med flera."
+        },
+        {
+          "title": "Andinska regionen",
+          "description": "Ecuador, Peru, Bolivia och Venezuela."
+        },
+        {
+          "title": "Övriga marknader",
+          "description": "Möjligheter på nya marknader."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Låt oss växa tillsammans!",
+      "description": "Bli en del av ett partnernätverk som omvandlar industrin i Amerika med teknik och innovation.",
+      "stats": [
+        {
+          "label": "Aktiva representanter"
+        },
+        {
+          "label": "Betjänade länder"
+        },
+        {
+          "label": "Installerade maskiner"
+        },
+        {
+          "label": "År av global erfarenhet"
+        }
+      ],
+      "trustItems": [
+        {
+          "title": "Amerikansk teknik",
+          "description": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "description": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "description": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "description": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "description": "Energieffektivitet och ESG"
+        }
+      ]
+    }
+  },
+  "robotica": {
+    "banner": {
+      "badge": "ROBOTIK",
+      "title": "Intelligent automation som driver resultat.",
+      "subtitle": "Kompletta lösningar inom robotik och automation för materialhantering, hantering, palletering och integration med Injectra-maskiner.",
+      "highlights": [
+        {
+          "label": "Hög produktivitet"
+        },
+        {
+          "label": "Precision och repeterbarhet"
+        },
+        {
+          "label": "Total flexibilitet"
+        },
+        {
+          "label": "Integration med Injectra AI"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    },
+    "aplicacoes": {
+      "title": "Tillämpningar inom olika sektorer",
+      "items": [
+        {
+          "title": "Plastinjektion",
+          "description": "Uttagning och matning av detaljer."
+        },
+        {
+          "title": "Hantering",
+          "description": "Pick & place med hög hastighet"
+        },
+        {
+          "title": "Montering",
+          "description": "Montering och infogning av komponenter"
+        },
+        {
+          "title": "Inspektion",
+          "description": "Smart vision och kvalitetskontroll."
+        },
+        {
+          "title": "Palletering",
+          "description": "Lagerbildning och palletering."
+        },
+        {
+          "title": "Förpackning",
+          "description": "Kartongering och förpackning."
+        },
+        {
+          "title": "Intern logistik",
+          "description": "Autonom förflyttning och transport."
+        }
+      ]
+    },
+    "capacidade": {
+      "title": "Humanoidroboten Neo",
+      "subtitle": "Utvecklad för att interagera med människor och industriella miljöer på ett säkert, flexibelt och intelligent sätt.",
+      "checklist": [
+        "3D-perception och datorseende",
+        "Avancerad rörlighet och dynamisk balans",
+        "Säker interaktion med människor",
+        "Kontinuerligt lärande och anpassning",
+        "Inbyggd integration med Injectra AI"
+      ],
+      "ctaLabel": "Upptäck Neo",
+      "robotImageAlt": "Humanoidroboten Neo",
+      "specs": [
+        "Frihetsgrader",
+        "Syn och perception",
+        "Maxhastighet",
+        "Nyttolast",
+        "Industriellt skydd"
+      ],
+      "videoThumbAlt": "Roboten Neo i drift",
+      "videoTitle": "Automation som går längre.",
+      "videoDescription": "Se Neo i aktion inom industrin",
+      "watchLabel": "Se demonstrationen"
+    },
+    "solucoes": {
+      "title": "Våra robotiklösningar",
+      "detailsLabel": "Se detaljer",
+      "items": [
+        {
+          "title": "Humanoidroboten Neo",
+          "description": "Framtidens intelligenta automation. Rörlighet, perception och interaktion för komplexa uppgifter."
+        },
+        {
+          "title": "Kartesiska robotar",
+          "description": "Hög hastighet och precision för hantering, pick & place och uttagning av detaljer."
+        },
+        {
+          "title": "Robotceller",
+          "description": "Kompletta och skräddarsydda lösningar för olika tillämpningar och automationsnivåer."
+        },
+        {
+          "title": "Palletering",
+          "description": "Effektiva palleteringssystem för ökad produktivitet och standardiserade processer."
+        },
+        {
+          "title": "Smart automation",
+          "description": "Integration av processer, sensorer och styrsystem för smartare och mer uppkopplade fabriker."
+        },
+        {
+          "title": "Integration med Injectra AI",
+          "description": "Fullständig integration med plattformen Injectra AI för övervakning och smarta beslut."
+        }
+      ]
+    },
+    "integracao": {
+      "title": "Fullständig integration med industrin",
+      "subtitle": "Lösningar som ansluter sömlöst till din produktionsprocess.",
+      "etapas": [
+        {
+          "title": "Injectra-maskiner",
+          "description": "Hydrauliska och elektriska injektionsmaskiner."
+        },
+        {
+          "title": "Robotar och automation",
+          "description": "Kartesiska robotar, Neo och robotceller."
+        },
+        {
+          "title": "Transport och transportörer",
+          "description": "Smart materialhantering"
+        },
+        {
+          "title": "Palletering",
+          "description": "Organisering och stapling."
+        },
+        {
+          "title": "Injectra AI-plattform",
+          "description": "Övervakning och styrning i realtid."
+        }
+      ],
+      "cardTitle": "Allt uppkopplat.",
+      "cardDescription": "Övervakning, data och beslut i realtid för maximal effektivitet.",
+      "ctaLabel": "Upptäck AI-plattformen"
+    },
+    "comparativo": {
+      "title": "Jämförelse: Vilken lösning passar bäst för dina behov?",
+      "columns": {
+        "solucao": "Lösning",
+        "velocidade": "Hastighet",
+        "precisao": "Precision",
+        "flexibilidade": "Flexibilitet",
+        "cargaUtil": "Nyttolast",
+        "aplicacoes": "Tillämpningar",
+        "integracaoAi": "AI-integration"
+      },
+      "rows": [
+        {
+          "solucao": "Humanoidroboten Neo",
+          "cargaUtil": "10+ kg",
+          "aplicacoes": "Interaktion, inspektion, assistans",
+          "integracaoAi": "Inbyggd"
+        },
+        {
+          "solucao": "Kartesiska robotar",
+          "cargaUtil": "Upp till 50kg",
+          "aplicacoes": "Pick & place, hantering",
+          "integracaoAi": "Fullständig"
+        },
+        {
+          "solucao": "Robotceller",
+          "cargaUtil": "Upp till 200kg",
+          "aplicacoes": "Automatiserade processer",
+          "integracaoAi": "Fullständig"
+        },
+        {
+          "solucao": "Palletering",
+          "cargaUtil": "Upp till 500kg",
+          "aplicacoes": "Palletering, depalletering",
+          "integracaoAi": "Fullständig"
+        },
+        {
+          "solucao": "Smart automation",
+          "cargaUtil": "Variabel",
+          "aplicacoes": "Processintegration",
+          "integracaoAi": "Fullständig"
+        },
+        {
+          "solucao": "Integration med AI",
+          "cargaUtil": "Obegränsad",
+          "aplicacoes": "Övervakning och beslut",
+          "integracaoAi": "Inbyggd"
+        }
+      ],
+      "helpTitle": "Behöver du hjälp att välja?",
+      "helpDescription": "Vårt team av specialister hjälper dig att hitta den bästa lösningen för din verksamhet.",
+      "helpCta": "Prata med en specialist"
+    },
+    "cta": {
+      "title": "Redo att ta din produktion till nästa nivå?",
+      "description": "Prata med våra specialister och upptäck hur Injectras robotik kan omvandla din industri med ökad produktivitet och säkerhet.",
+      "quoteButton": "Begär offert",
+      "specialistButton": "Prata med en specialist"
+    }
+  },
+  "sobreNos": {
+    "banner": {
+      "eyebrow": "OM OSS",
+      "title": "Om Injectra",
+      "subtitle": "Industriell teknik för att omvandla tillverkningsindustrin i Amerika.",
+      "description": "Injectra Corporation är ett amerikanskt företag med fokus på injektionsmaskiner, robotik, industriell programvara, IoT, molntjänster och artificiell intelligens. Vårt mål är att leverera produktivitet, automation och effektivitet till industrier som vill växa med hjälp av teknik.",
+      "highlights": [
+        {
+          "label": "Amerikanskt företag"
+        },
+        {
+          "label": "Närvaro i hela Amerika"
+        },
+        {
+          "label": "Fokus på industri och innovation"
+        }
+      ]
+    },
+    "quemSomos": {
+      "title": "Vilka vi är",
+      "paragraph1": "Injectra grundades för att förena industriell teknik, automation och digital intelligens i en enda plattform.",
+      "paragraph2": "Mer än att sälja maskiner bygger vi ett komplett ekosystem med utrustning, robotik, tjänster och programvara.",
+      "pilares": [
+        {
+          "title": "Injektionsmaskiner",
+          "description": "Spetsteknik för maximal prestanda och tillförlitlighet."
+        },
+        {
+          "title": "Industriell robotik",
+          "description": "Smart automation för ökad produktivitet och kvalitet."
+        },
+        {
+          "title": "Injectra AI-plattform",
+          "description": "Industriell programvara med AI, data och analys för bättre beslut."
+        },
+        {
+          "title": "Tjänster och support",
+          "description": "Teknisk support, utbildningar och tjänster som säkerställer dina resultat."
+        }
+      ]
+    },
+    "missaoVisaoValores": {
+      "title": "Vår mission, vision och våra värderingar",
+      "items": [
+        {
+          "title": "Mission",
+          "description": "Driva industrin framåt med smarta, tillgängliga och skalbara lösningar."
+        },
+        {
+          "title": "Vision",
+          "description": "Bygga en av de ledande smarta industriplattformarna i Amerika."
+        },
+        {
+          "title": "Värderingar",
+          "description": "Innovation, förtroende, effektivitet, kundnärhet och hållbar tillväxt."
+        }
+      ]
+    },
+    "ecossistema": {
+      "title": "Vårt ekosystem",
+      "items": [
+        {
+          "title": "Maskiner",
+          "description": "Injektionsmaskiner med hög precision och överlägsen prestanda."
+        },
+        {
+          "title": "Roboten Neo",
+          "description": "Samverkande robotik och automationslösningar."
+        },
+        {
+          "title": "Industriell IoT",
+          "description": "Uppkoppling och övervakning i realtid."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Artificiell intelligens tillämpad inom industrin."
+        },
+        {
+          "title": "Mobilapp",
+          "description": "Kontroll och uppföljning var du än befinner dig."
+        },
+        {
+          "title": "Moln och analys",
+          "description": "Säker data och analyser för strategiska beslut."
+        },
+        {
+          "title": "Experience Center",
+          "description": "En interaktiv miljö för tester, utbildningar och innovation."
+        },
+        {
+          "title": "Teknisk support",
+          "description": "Specialister redo att stödja din verksamhet."
+        }
+      ]
+    },
+    "grupoInterfy": {
+      "logoAlt": "Interfy Corporation",
+      "paragraph1": "Injectra är en del av Interfy Corporation-koncernen, med mer än 26 års erfarenhet inom teknik, programvara, digital transformation och affärsexpansion.",
+      "paragraph2": "Denna grund stärker Injectra med globalt perspektiv, företagsstruktur, innovationserfarenhet och förmåga till internationell tillväxt.",
+      "destaques": [
+        {
+          "title": "Mer än 26 års erfarenhet"
+        },
+        {
+          "title": "Globalt perspektiv"
+        },
+        {
+          "title": "Företagsstruktur"
+        },
+        {
+          "title": "Innovation och teknik"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Redo att lära känna Injectra?",
+      "description": "Prata med våra specialister och upptäck hur våra lösningar kan omvandla din industri.",
+      "quoteButton": "Begär offert",
+      "specialistButton": "Prata med en specialist",
+      "trustItems": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    }
+  },
+  "solicitarCotacao": {
+    "banner": {
+      "eyebrow": "BEGÄR OFFERT",
+      "title": "Begär offert",
+      "subtitle": "Begär ett skräddarsytt erbjudande för Injectras maskiner, robotik och industriella plattform.",
+      "description": "Lita på vår expertis för att utveckla den bästa lösningen för ditt projekt, med teknik, innovation och prestanda.",
+      "highlights": [
+        {
+          "lines": [
+            "Spets",
+            "teknik"
+          ]
+        },
+        {
+          "lines": [
+            "Integrerade",
+            "lösningar"
+          ]
+        },
+        {
+          "lines": [
+            "Bevisad prestanda"
+          ]
+        }
+      ]
+    },
+    "configurador": {
+      "selecaoLinha": {
+        "title": "Val av serie",
+        "subtitle": "Välj den maskinserie du är intresserad av",
+        "linhas": [
+          {
+            "name": "Prime",
+            "description": "Tillförlitlighet och mångsidighet."
+          },
+          {
+            "name": "Speed",
+            "description": "Hög prestanda och produktivitet."
+          },
+          {
+            "name": "Velocity",
+            "description": "Precision och kraft för stora utmaningar."
+          },
+          {
+            "name": "Form",
+            "description": "Precision för tekniska och tunna detaljer."
+          },
+          {
+            "name": "Neo",
+            "description": "Elektrisk effektivitet och låg förbrukning."
+          },
+          {
+            "name": "Atlas",
+            "description": "Kraft och stabilitet för stora detaljer."
+          },
+          {
+            "name": "Hydro",
+            "description": "Avancerad hydraulik och robusthet."
+          },
+          {
+            "name": "Titan",
+            "description": "Maximal kraft för extrema tillämpningar."
+          },
+          {
+            "name": "Max",
+            "description": "Lösningar med allra högsta kapacitet."
+          },
+          {
+            "name": "Equora",
+            "description": "Balans mellan kraft, effektivitet och ekonomi med hybridteknik."
+          }
+        ],
+        "alertText": "Du kommer att kunna konfigurera alla maskindetaljer i nästa steg.",
+        "nextButton": "Nästa: Maskinkonfiguration"
+      },
+      "configuracaoMaquina": {
+        "title": "Maskinkonfiguration",
+        "subtitle": "Anpassa din maskin efter ditt projekts behov.",
+        "fields": {
+          "forca": {
+            "label": "Stängningskraft",
+            "placeholder": "Välj kraft (ton)"
+          },
+          "aplicacao": {
+            "label": "Typ av tillämpning",
+            "placeholder": "Välj tillämpning"
+          },
+          "automacao": {
+            "label": "Automation",
+            "placeholder": "Välj nivå"
+          },
+          "robotica": {
+            "label": "Robotik",
+            "placeholder": "Välj alternativ"
+          },
+          "opcionais": {
+            "label": "Tillval",
+            "placeholder": "Välj tillval"
+          },
+          "voltagem": {
+            "label": "Spänning",
+            "placeholder": "Välj spänning"
+          },
+          "produtividade": {
+            "label": "Beräknad produktivitet",
+            "placeholder": "Välj produktivitet"
+          },
+          "acessorios": {
+            "label": "Tillbehör",
+            "placeholder": "Välj tillbehör"
+          },
+          "integracaoAI": {
+            "label": "Integration med Injectra AI",
+            "placeholder": "Välj integration"
+          }
+        },
+        "options": {
+          "forcaUnidade": "Ton",
+          "aplicacao": [
+            "Förpackningar",
+            "Fordonsindustri",
+            "Elektronik",
+            "Medicinteknik",
+            "Konsumentprodukter",
+            "Bygg",
+            "Övrigt"
+          ],
+          "automacao": [
+            "Manuell",
+            "Halvautomatisk",
+            "Integrerad automation",
+            "Fullständig automation med robotik"
+          ],
+          "robotica": [
+            "Utan robotik",
+            "Kartesisk robot",
+            "Antropomorf robot (6 axlar)",
+            "Kollaborativ robot"
+          ],
+          "opcionais": [
+            "Inget",
+            "Avancerat kylsystem",
+            "Automatisk matare",
+            "Torkstation",
+            "Övrigt"
+          ],
+          "voltagem": [
+            "220V",
+            "380V",
+            "440V",
+            "Annan"
+          ],
+          "produtividade": [
+            "Låg volym",
+            "Medelvolym",
+            "Hög volym",
+            "Mycket hög volym (24/7)"
+          ],
+          "acessorios": [
+            "Inget",
+            "Skräddarsydda formverktyg",
+            "Automationssystem",
+            "Torkstation",
+            "Övrigt"
+          ],
+          "integracaoAI": [
+            "Ingen integration",
+            "Grundläggande övervakning",
+            "Fullständig Injectra AI-plattform"
+          ]
+        },
+        "alertText": "Vårt tekniska team kommer att använda denna information för att skapa den bästa lösningen för ditt projekt."
+      },
+      "resumo": {
+        "title": "Vald konfiguration",
+        "linhaSelecionadaLabel": "Vald serie",
+        "emptyValue": "-",
+        "saveButton": "Spara konfiguration"
+      }
+    },
+    "cta": {
+      "title": "Redo att få ditt skräddarsydda erbjudande?",
+      "description": "Fyll i informationen, konfigurera din maskin och skicka in din förfrågan. Vårt team återkommer snart med den bästa lösningen för ditt projekt.",
+      "primaryButton": "BEGÄR OFFERT",
+      "secondaryButton": "PRATA MED EN SPECIALIST"
+    },
+    "envioDaProposta": {
+      "title": "Inskickande av offert",
+      "etapas": [
+        {
+          "title": "Teknisk analys",
+          "description": "Vårt tekniska team analyserar informationen om ditt projekt och identifierar den bästa lösningen."
+        },
+        {
+          "title": "Kommersiell validering",
+          "description": "Validering av genomförbarhet och skräddarsydda kommersiella villkor."
+        },
+        {
+          "title": "Skräddarsytt erbjudande",
+          "description": "Vi skickar ett fullständigt erbjudande med specifikationer, tidsplan och villkor för ditt projekt."
+        },
+        {
+          "title": "Support från specialist",
+          "description": "Vår specialist följer dig genom alla steg fram till implementering."
+        }
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Varför välja Injectra?",
+      "razoes": [
+        {
+          "title": "Rådgivande service",
+          "description": "Vi förstår ditt projekt för att leverera den bästa lösningen."
+        },
+        {
+          "title": "Skräddarsytt projekt",
+          "description": "Varje detalj utvecklas efter dina behov."
+        },
+        {
+          "title": "Snabb respons",
+          "description": "Snabb återkoppling och skräddarsydda erbjudanden."
+        },
+        {
+          "title": "Teknisk support",
+          "description": "Specialiserad uppföljning före, under och efter köp."
+        },
+        {
+          "title": "Integrerade lösningar",
+          "description": "Maskiner, robotik och AI-plattform sammankopplade för maximal effektivitet."
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "description": "Lokal service och support i hela Amerika."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Amerikansk teknik",
+          "subtitle": "Utvecklad i USA"
+        },
+        {
+          "title": "Närvaro i hela Amerika",
+          "subtitle": "Lokal service"
+        },
+        {
+          "title": "Mer än 30 års erfarenhet",
+          "subtitle": "inom industriella lösningar"
+        },
+        {
+          "title": "Support 24/7",
+          "subtitle": "Specialiserad teknisk assistans"
+        },
+        {
+          "title": "Hållbarhet",
+          "subtitle": "Energieffektivitet och ESG"
+        }
+      ]
+    }
+  },
+  "suporte": {
+    "banner": {
+      "eyebrow": "SUPPORT",
+      "title": "Vi finns här för att hålla din produktion alltid i rörelse",
+      "description": "Fullständig och specialiserad support för att säkerställa bästa prestanda för Injectras lösningar i alla delar av din verksamhet.",
+      "openTicketLabel": "Öppna ärende",
+      "talkToSpecialistLabel": "Prata med en specialist",
+      "highlights": [
+        {
+          "label": "Dedikerade specialister"
+        },
+        {
+          "label": "Snabb och effektiv support"
+        },
+        {
+          "label": "Service i hela Amerika"
+        },
+        {
+          "label": "Teknik som aldrig stannar"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Våra supportlösningar",
+      "accessLabel": "Öppna",
+      "items": [
+        {
+          "title": "Teknisk assistans",
+          "description": "Specialiserad service för fjärrdiagnostik eller besök på plats, felsökning och fullständig teknisk vägledning."
+        },
+        {
+          "title": "Garanti",
+          "description": "Kontrollera garantitäckningen för Injectras utrustning och registrera din garanti snabbt och enkelt."
+        },
+        {
+          "title": "Manualer",
+          "description": "Få tillgång till installations-, drift- och underhållsmanualer för Injectras utrustning."
+        },
+        {
+          "title": "Nedladdningar",
+          "description": "Ladda ner mjukvara, firmware, teknisk dokumentation och andra viktiga resurser."
+        },
+        {
+          "title": "Vanliga frågor",
+          "description": "Hitta snabba svar på de vanligaste frågorna om våra produkter och tjänster."
+        },
+        {
+          "title": "Beställning av reservdelar",
+          "description": "Beställ original reservdelar snabbt och säkert."
+        }
+      ]
+    },
+    "atendimento": {
+      "title": "Service i hela Amerika",
+      "description": "Lokal support och auktoriserade distributörer redo att hjälpa dig var du än befinner dig.",
+      "ctaLabel": "Se serviceställen",
+      "stats": [
+        {
+          "value": "+30",
+          "label": "Betjänade länder"
+        },
+        {
+          "value": "+100",
+          "label": "Certifierade tekniker"
+        },
+        {
+          "value": "+5.000",
+          "label": "Nöjda kunder"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Så fungerar det",
+      "description": "En enkel och rådgivande process för att du ska hitta den bästa lösningen.",
+      "etapas": [
+        {
+          "title": "1. Kontakta oss",
+          "description": "Öppna ett ärende via webbplatsen, telefon eller e-post."
+        },
+        {
+          "title": "2. Diagnos",
+          "description": "Vårt team analyserar din förfrågan och identifierar den bästa lösningen."
+        },
+        {
+          "title": "3. Lösning",
+          "description": "Vi tillhandahåller den bästa lösningen: reservdel, vägledning eller teknikerbesök."
+        },
+        {
+          "title": "4. Uppföljning",
+          "description": "Vi följer ärendet tills problemet är helt löst."
+        },
+        {
+          "title": "5. Din produktion stannar aldrig",
+          "description": "Injectra Support garanterar alltid prestanda och produktivitet."
+        }
+      ]
+    },
+    "pecas": {
+      "title": "Originalreservdelar från Injectra",
+      "description": "Maximal kvalitet och hållbarhet för din utrustning. Beställ dina originalreservdelar nu.",
+      "imageAlt": "Originalreservdelar från Injectra",
+      "requestPartsLabel": "Beställ reservdelar",
+      "items": [
+        {
+          "title": "Garanterad kvalitet"
+        },
+        {
+          "title": "Snabb leverans"
+        },
+        {
+          "title": "Fullständig kompatibilitet"
+        }
+      ]
+    }
+  },
+  "forms": {
+    "shared": {
+      "title": "Skicka ett meddelande",
+      "subtitle": "Kompletta lösningar för industrins mest krävande sektorer.",
+      "fields": {
+        "nome": {
+          "placeholder": "Fullständigt namn"
+        },
+        "empresa": {
+          "placeholder": "Företag"
+        },
+        "email": {
+          "placeholder": "Företags-e-post"
+        },
+        "telefone": {
+          "placeholder": "Telefon / WhatsApp"
+        },
+        "pais": {
+          "placeholder": "Land / delstat"
+        },
+        "segmento": {
+          "placeholder": "Industrisegment"
+        },
+        "solucao": {
+          "placeholder": "Lösning av intresse"
+        },
+        "mensagem": {
+          "placeholder": "Meddelande (valfritt)"
+        }
+      },
+      "submitButton": "Skicka förfrågan",
+      "consent": {
+        "prefix": "Jag har läst och godkänner ",
+        "linkLabel": "Integritetspolicyn."
+      },
+      "validation": {
+        "emailInvalid": "Ange en giltig företags-e-postadress.",
+        "phoneInvalid": "Ogiltigt telefonnummer för det valda landet.",
+        "requiredField": "Obligatoriskt fält."
+      },
+      "options": {
+        "segmentos": [
+          "Fordonsindustri",
+          "Förpackning",
+          "Medicinsk",
+          "Konsumentvaror",
+          "Elektronik",
+          "Bygg",
+          "Logistik",
+          "Övriga Segment"
+        ],
+        "solucoes": [
+          "Maskiner",
+          "Robotik",
+          "AI-plattform",
+          "Industrier",
+          "Övrigt"
+        ],
+        "tiposProjeto": [
+          "Nytt Projekt",
+          "Produktionsutökning",
+          "Utbyte av Utrustning",
+          "Rådgivning och Teknisk Bedömning",
+          "Övrigt"
+        ],
+        "prazosProjeto": [
+          "Omedelbart",
+          "1 till 3 månader",
+          "3 till 6 månader",
+          "6 till 12 månader",
+          "Ej fastställt"
+        ]
+      }
+    },
+    "contato": {
+      "canaisAtendimentoTitle": "Servicekanaler",
+      "canaisAtendimento": [
+        {
+          "title": "Kommersiell Rådgivning",
+          "description": "Skräddarsydda lösningar och förslag"
+        },
+        {
+          "title": "Teknisk Rådgivning",
+          "description": "Teknisk support och specifikationer"
+        },
+        {
+          "title": "Tillämpningsteknik",
+          "description": "Analys och lösningsutveckling"
+        },
+        {
+          "title": "Mötesbokning",
+          "description": "Möten på plats eller online"
+        },
+        {
+          "title": "Eftermarknadssupport",
+          "description": "Kontinuerlig uppföljning och support"
+        }
+      ],
+      "equipeTitle": "Prata med vårt team",
+      "equipeLinks": [
+        {
+          "title": "Begär offert"
+        },
+        {
+          "title": "Prata med en specialist"
+        },
+        {
+          "title": "Teknisk support"
+        },
+        {
+          "title": "Kataloger och nedladdningar"
+        },
+        {
+          "title": "Experience Center"
+        },
+        {
+          "title": "Representanter"
+        }
+      ],
+      "horario": {
+        "title": "Servicetider",
+        "dias": "Måndag till fredag",
+        "horas": "8:00 till 18:00",
+        "tipo": "Kommersiell och teknisk support"
+      }
+    },
+    "faleComEspecialista": {
+      "equipeTitle": "Prata med vårt team",
+      "equipeSubtitle": "Specialister redo att hjälpa dig.",
+      "contatos": [
+        {
+          "title": "Försäljningsspecialist",
+          "description": "Kommersiella lösningar och förslag"
+        },
+        {
+          "title": "Teknisk specialist",
+          "description": "Specifikationer och tekniska krav"
+        },
+        {
+          "title": "Tillämpningsteknik",
+          "description": "Skräddarsydda lösningar och processer"
+        },
+        {
+          "title": "Regional support",
+          "description": "Lokal, specialiserad service"
+        }
+      ],
+      "destaques": [
+        {
+          "label": "Service i hela Amerika"
+        },
+        {
+          "label": "Snabbt, personligt svar"
+        },
+        {
+          "label": "Support på PT · EN · ES"
+        }
+      ]
+    },
+    "solicitarCotacao": {
+      "title": "Smart formulär",
+      "fields": {
+        "nome": {
+          "label": "Namn",
+          "placeholder": "Ange ditt namn"
+        },
+        "empresa": {
+          "label": "Företag",
+          "placeholder": "Ange företagets namn"
+        },
+        "email": {
+          "label": "E-post",
+          "placeholder": "namn@företag.se"
+        },
+        "telefone": {
+          "label": "Telefon"
+        },
+        "pais": {
+          "label": "Land",
+          "placeholder": "Välj land"
+        },
+        "segmento": {
+          "label": "Segment",
+          "placeholder": "Välj segment"
+        },
+        "tipoProjeto": {
+          "label": "Projekttyp",
+          "placeholder": "Välj typ av projekt"
+        },
+        "capacidade": {
+          "label": "Önskad kapacitet",
+          "placeholder": "Välj kapacitet"
+        },
+        "prazoProjeto": {
+          "label": "Projektets tidsram",
+          "placeholder": "Välj tidsram"
+        },
+        "mensagem": {
+          "label": "Meddelande",
+          "placeholder": "Berätta mer om ditt projekt, dina mål och specifika behov."
+        }
+      },
+      "consent": {
+        "prefix": "Jag har läst och godkänner ",
+        "linkLabel": "Integritetspolicyn."
+      },
+      "submitButton": "Nästa: Välj serie",
+      "validation": {
+        "emailInvalid": "Ange en giltig e-postadress.",
+        "phoneInvalid": "Ogiltigt telefonnummer för det valda landet.",
+        "requiredField": "Obligatoriskt fält."
+      }
+    }
+  }
+}

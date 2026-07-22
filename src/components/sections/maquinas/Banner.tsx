@@ -1,15 +1,17 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7133:3394).
-const STATS = [
-  { icon: "/assets/maquinas/icon-machine-stat.svg", label: "101 Modelos de máquinas" },
-  { icon: "/assets/maquinas/icon-acessorios-stat.svg", label: "70+ Acessórios e Periféricos" },
-  { icon: "/assets/maquinas/icon-tecnologia-stat.svg", label: "Tecnologia 100% Integrada" },
+const STAT_ICONS = [
+  "/assets/maquinas/icon-machine-stat.svg",
+  "/assets/maquinas/icon-acessorios-stat.svg",
+  "/assets/maquinas/icon-tecnologia-stat.svg",
 ];
 
-export default function Banner() {
+export default function Banner({ dict }: { dict: Dictionary }) {
+  const t = dict.maquinas.banner;
   return (
     <div
       className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-right"
@@ -21,7 +23,7 @@ export default function Banner() {
             <div className="flex flex-col items-start gap-5">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">
-                MÁQUINAS
+                {t.kicker}
               </span>
               <span
                 className="h-[3px] w-10 rounded-full"
@@ -30,20 +32,18 @@ export default function Banner() {
             </div>
             {/* TÍTULO 48 — 48px/55px, 95 Black (800) */}
             <h1 className="text-4xl font-extrabold leading-[42px] tracking-normal text-dark-blue sm:text-[48px] sm:leading-[55px]">
-              Tecnologia em injeção para todos os segmentos da indústria.
+              {t.title}
             </h1>
             {/* Subtítulo 20 — 20px/26px, 55 Roman (400) */}
             <p className="text-xl font-normal leading-[26px] tracking-normal text-texto">
-              Nove linhas de máquinas hidráulicas e elétricas completas,
-              desenvolvidas para máxima performance, precisão e eficiência em
-              qualquer aplicação.
+              {t.subtitle}
             </p>
             <div className="flex w-full flex-wrap items-center gap-5">
               <Link
                 href="/catalogos"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
               >
-                Ver todos os catálogos
+                {t.ctaCatalogos}
                 <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
               </Link>
               <Link
@@ -51,20 +51,20 @@ export default function Banner() {
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
                 <Image src="/assets/shared/mail-icon.svg" alt="" width={18} height={18} />
-                Falar com Especialista
+                {t.ctaEspecialista}
                 <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </Link>
             </div>
             <div className="flex w-full items-center gap-5">
-              {STATS.map((stat) => (
+              {t.stats.map((label: string, i: number) => (
                 <div
-                  key={stat.label}
+                  key={label}
                   className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
                 >
-                  <Image src={stat.icon} alt="" width={40} height={40} />
+                  <Image src={STAT_ICONS[i]} alt="" width={40} height={40} />
                   {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-                  <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
-                    {stat.label}
+                  <p className="w-full text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+                    {label}
                   </p>
                 </div>
               ))}

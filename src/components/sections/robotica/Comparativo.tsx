@@ -1,6 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7259:7139).
 type Rating = { type: "stars"; value: number };
@@ -17,73 +18,24 @@ type Row = {
   integracaoAi: Cell;
 };
 
+type RowText = {
+  solucao: string;
+  cargaUtil: string;
+  aplicacoes: string;
+  integracaoAi: string;
+};
+
 const stars = (value: number): Rating => ({ type: "stars", value });
 const text = (value: string): Text => ({ type: "text", value });
 
-const ROWS: Row[] = [
-  {
-    solucao: "Robô Humanoide Neo",
-    velocidade: stars(5),
-    precisao: stars(5),
-    flexibilidade: stars(4),
-    cargaUtil: text("10+ kg"),
-    aplicacoes: text("Interação, inspeção, assistência"),
-    integracaoAi: text("Nativa"),
-  },
-  {
-    solucao: "Robôs Cartesianos",
-    velocidade: stars(5),
-    precisao: stars(5),
-    flexibilidade: stars(4),
-    cargaUtil: text("Até 50kg"),
-    aplicacoes: text("Pick & place, manuseio"),
-    integracaoAi: text("Total"),
-  },
-  {
-    solucao: "Células Robotizadas",
-    velocidade: stars(4),
-    precisao: stars(5),
-    flexibilidade: stars(4),
-    cargaUtil: text("Até 200kg"),
-    aplicacoes: text("Processos automatizados"),
-    integracaoAi: text("Total"),
-  },
-  {
-    solucao: "Paletização",
-    velocidade: stars(4),
-    precisao: stars(4),
-    flexibilidade: stars(3),
-    cargaUtil: text("Até 500kg"),
-    aplicacoes: text("Paletização, despalatização"),
-    integracaoAi: text("Total"),
-  },
-  {
-    solucao: "Automação Inteligente",
-    velocidade: stars(4),
-    precisao: stars(4),
-    flexibilidade: stars(5),
-    cargaUtil: text("Variável"),
-    aplicacoes: text("Integração de processos"),
-    integracaoAi: text("Total"),
-  },
-  {
-    solucao: "Integração com IA",
-    velocidade: stars(5),
-    precisao: stars(5),
-    flexibilidade: stars(5),
-    cargaUtil: text("Ilimitada"),
-    aplicacoes: text("Monitoramento e decisões"),
-    integracaoAi: text("Nativa"),
-  },
-];
-
-const COLUMNS: { label: string; key: keyof Omit<Row, "solucao">; width: string }[] = [
-  { label: "Velocidade", key: "velocidade", width: "w-[138px]" },
-  { label: "Precisão", key: "precisao", width: "w-[138px]" },
-  { label: "Flexibilidade", key: "flexibilidade", width: "w-[138px]" },
-  { label: "Carga Útil", key: "cargaUtil", width: "w-[138px]" },
-  { label: "Aplicações", key: "aplicacoes", width: "w-[220px]" },
-  { label: "Integração AI", key: "integracaoAi", width: "w-[138px]" },
+// Notas (estrelas) de cada linha, na mesma ordem do dict.robotica.comparativo.rows.
+const RATINGS: { velocidade: number; precisao: number; flexibilidade: number }[] = [
+  { velocidade: 5, precisao: 5, flexibilidade: 4 },
+  { velocidade: 5, precisao: 5, flexibilidade: 4 },
+  { velocidade: 4, precisao: 5, flexibilidade: 4 },
+  { velocidade: 4, precisao: 4, flexibilidade: 3 },
+  { velocidade: 4, precisao: 4, flexibilidade: 5 },
+  { velocidade: 5, precisao: 5, flexibilidade: 5 },
 ];
 
 function Cell({ cell }: { cell: Cell }) {
@@ -109,13 +61,35 @@ function Cell({ cell }: { cell: Cell }) {
   );
 }
 
-export default function Comparativo() {
+export default function Comparativo({ dict }: { dict: Dictionary }) {
+  const t = dict.robotica.comparativo;
+  const rowsText: RowText[] = t.rows;
+
+  const ROWS: Row[] = rowsText.map((row, i) => ({
+    solucao: row.solucao,
+    velocidade: stars(RATINGS[i].velocidade),
+    precisao: stars(RATINGS[i].precisao),
+    flexibilidade: stars(RATINGS[i].flexibilidade),
+    cargaUtil: text(row.cargaUtil),
+    aplicacoes: text(row.aplicacoes),
+    integracaoAi: text(row.integracaoAi),
+  }));
+
+  const COLUMNS: { label: string; key: keyof Omit<Row, "solucao">; width: string }[] = [
+    { label: t.columns.velocidade, key: "velocidade", width: "w-[138px]" },
+    { label: t.columns.precisao, key: "precisao", width: "w-[138px]" },
+    { label: t.columns.flexibilidade, key: "flexibilidade", width: "w-[138px]" },
+    { label: t.columns.cargaUtil, key: "cargaUtil", width: "w-[138px]" },
+    { label: t.columns.aplicacoes, key: "aplicacoes", width: "w-[220px]" },
+    { label: t.columns.integracaoAi, key: "integracaoAi", width: "w-[138px]" },
+  ];
+
   return (
     <Section innerClassName="gap-5">
       <div className="flex flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="text-2xl font-bold leading-7 tracking-normal text-dark-blue">
-          Comparativo: Qual solução é ideal para sua necessidade?
+          {t.title}
         </h2>
         <span
           className="h-0.5 w-[60px] rounded-full"
@@ -131,7 +105,7 @@ export default function Comparativo() {
               <div className="flex h-[50px] items-center border-b-[0.3px] border-border-line-bd px-5 py-2.5">
                 {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
                 <span className="text-base font-bold leading-5 tracking-normal text-dark-blue">
-                  Solução
+                  {t.columns.solucao}
                 </span>
               </div>
               {ROWS.map((row) => (
@@ -174,7 +148,7 @@ export default function Comparativo() {
           <div className="flex flex-col items-start gap-5">
             {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
             <h3 className="text-base font-bold leading-5 tracking-normal text-prime-ip">
-              Precisa de ajuda para escolher?
+              {t.helpTitle}
             </h3>
             <span
               className="h-0.5 w-[60px] rounded-full"
@@ -183,13 +157,13 @@ export default function Comparativo() {
           </div>
           {/* Desc 14 — 14px/16px, 55 Roman (400) */}
           <p className="text-sm font-normal leading-4 tracking-normal text-texto">
-            Nossa equipe de especialistas vai indicar a melhor solução para sua operação.
+            {t.helpDescription}
           </p>
           <Link
             href="/fale-com-especialista"
             className="flex w-full items-center justify-center gap-2.5 rounded-md border border-azul-claro-plus bg-wt px-5 py-2.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:bg-bg-light-clean"
           >
-            Falar com Especialista
+            {t.helpCta}
             <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
           </Link>
         </div>

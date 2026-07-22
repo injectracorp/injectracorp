@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getMachinePhoto } from "@/data/machinePhotos";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 export type CatalogItem = {
   name: string;
@@ -9,8 +10,15 @@ export type CatalogItem = {
 
 // Card reutilizado nas 3 seções de catálogos (Catálogos Gerais, Linhas de
 // Máquinas e Soluções Digitais e Automação) — mesma estrutura no Figma
-// (componente "Frame 240/Variante 6"), só muda o conteúdo.
-export default function CatalogCard({ name, color, description }: CatalogItem) {
+// (componente "Frame 240/Variante 6"), só muda o conteúdo. `name` e
+// `description` já chegam traduzidos via dict.catalogos.*.items nas seções
+// que renderizam este card; `dict` é recebido apenas para manter a assinatura
+// consistente com as demais seções de catálogos (nenhum texto é lido daqui).
+export default function CatalogCard({
+  name,
+  color,
+  description,
+}: CatalogItem & { dict: Dictionary }) {
   const photo = getMachinePhoto(name);
   return (
     <div className="flex min-w-[260px] max-w-[300px] flex-1 flex-col items-center justify-center gap-10 rounded-2xl bg-bg-cinza p-5">

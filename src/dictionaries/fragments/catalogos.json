@@ -1,0 +1,64 @@
+{
+  "catalogos": {
+    "banner": {
+      "eyebrow": "CATÁLOGOS",
+      "title": "Catálogos Injectra",
+      "subtitle": "Acesse os materiais técnicos e comerciais das linhas de máquinas, robótica e plataforma digital Injectra.",
+      "ctaPrimary": "Solicitar Catálogo",
+      "ctaSecondary": "Falar com um Especialista",
+      "highlightsTitle": "O que você encontra em nossos catálogos",
+      "highlightsSubtitle": "Viva a tecnologia Injectra na prática e descubra como podemos levar sua produção para o próximo nível.",
+      "highlights": [
+        "Especificações Técnicas",
+        "Aplicações recomendadas",
+        "Diferenciais e benefícios",
+        "Opcionais e acessórios",
+        "Automação e robótica",
+        "Injectra AI e IoT",
+        "Suporte e contato comercial"
+      ]
+    },
+    "cta": {
+      "title": "Baixe o catálogo ideal para o seu projeto",
+      "subtitle": "Fale com nossos especialistas e encontre a solução Injectra perfeita para sua indústria.",
+      "ctaPrimary": "Solicitar Catálogo",
+      "ctaSecondary": "Falar com um Especialista",
+      "ctaTertiary": "Solicitar Cotação",
+      "stats": [
+        { "title": "Tecnologia Americana", "description": "Desenvolvida nos EUA" },
+        { "title": "Presença nas Américas", "description": "Atendimento local" },
+        { "title": "Mais de 30 anos de experiência", "description": "em soluções industriais" },
+        { "title": "Suporte 24/7", "description": "Assistência técnica especializada" },
+        { "title": "Sustentabilidade", "description": "Eficiência energética e ESG" }
+      ]
+    },
+    "catalogosGerais": {
+      "title": "Catálogos Gerais",
+      "items": [
+        { "name": "Catálogo Geral", "description": "Alta precisão e versatilidade para aplicações gerais." }
+      ]
+    },
+    "linhasMaquinas": {
+      "title": "Linhas de Máquinas",
+      "items": [
+        { "name": "PRIME - IP", "description": "Alta precisão e versatilidade para aplicações gerais." },
+        { "name": "SPEED - IS", "description": "Ciclos rápidos e máxima eficiência para alta produtividade." },
+        { "name": "VELOCITY - IV", "description": "Ultra alta velocidade e ciclos extremamente rápidos para máxima produtividade." },
+        { "name": "FORM - IF", "description": "Soluções otimizadas para peças técnicas com alta precisão e acabamento." },
+        { "name": "NEO EX - IE", "description": "Linha elétrica de alta precisão, repetibilidade e eficiência energética." },
+        { "name": "ATLAS - IA", "description": "Especializada em caixas plásticas, palets e peças de grande porte. Estrutura robusta e alto desempenho." },
+        { "name": "HYDRO - IH", "description": "Sistema hidráulico de alta potência para aplicações exigentes e peças de grandes dimensões." },
+        { "name": "TITAN - IT", "description": "Potência extrema para moldes grandes e aplicações industriais de alta exigência." },
+        { "name": "MAX - IM", "description": "Máxima capacidade e robustez para os maiores desafios da indústria." },
+        { "name": "EQUORA - IQ", "description": "Híbrida, entregando alta eficiência energética e robustez." }
+      ]
+    },
+    "solucoesDigitais": {
+      "title": "Soluções Digitais e Automação",
+      "items": [
+        { "name": "PRIME - IP", "description": "Alta precisão e versatilidade para aplicações gerais." },
+        { "name": "SPEED - IS", "description": "Ciclos rápidos e máxima eficiência para alta produtividade." }
+      ]
+    }
+  }
+}

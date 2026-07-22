@@ -1,52 +1,40 @@
 import Image from "next/image";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7202:4602).
-const ETAPAS = [
-  {
-    image: "/assets/shared/machine-photo.png",
-    title: "Máquinas Injectra",
-    description: "Dados em tempo real",
-  },
-  {
-    icon: "/assets/plataforma-ai/icon-sensores-dispositivos.svg",
-    title: "Sensores & Dispositivos",
-    description: "Coleta de dados",
-  },
-  {
-    icon: "/assets/plataforma-ai/icon-plataforma-ai-cloud.svg",
-    title: "Plataforma AI Cloud",
-    description: "Processamento e IA",
-  },
-  {
-    icon: "/assets/plataforma-ai/icon-dashboards-relatorios.svg",
-    title: "Dashboards & Relatórios",
-    description: "Visualização e análise",
-  },
-  {
-    icon: "/assets/plataforma-ai/icon-acoes-decisoes.svg",
-    title: "Ações & Decisões",
-    description: "Resultados e eficiência",
-  },
+// Imagens/ícones fixos no código — title/description vêm de dict.plataformaAi.fluxo.etapas.
+const ETAPAS_MEDIA = [
+  { image: "/assets/shared/machine-photo.png" },
+  { icon: "/assets/plataforma-ai/icon-sensores-dispositivos.svg" },
+  { icon: "/assets/plataforma-ai/icon-plataforma-ai-cloud.svg" },
+  { icon: "/assets/plataforma-ai/icon-dashboards-relatorios.svg" },
+  { icon: "/assets/plataforma-ai/icon-acoes-decisoes.svg" },
 ];
 
-export default function Fluxo() {
+export default function Fluxo({ dict }: { dict: Dictionary }) {
+  const t = dict.plataformaAi.fluxo;
+  const etapas = ETAPAS_MEDIA.map((media, index) => ({
+    ...media,
+    title: t.etapas[index].title,
+    description: t.etapas[index].description,
+  }));
+
   return (
     <Section className="bg-bg-cinza" innerClassName="gap-5">
       <div className="flex w-full flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="text-[26px] font-bold leading-[28px] tracking-normal text-dark-blue">
-          Agende sua experiência agora
+          {t.title}
         </h2>
         {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
         <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
-          Viva a tecnologia Injectra na prática e descubra como podemos levar
-          sua produção para o próximo nível.
+          {t.description}
         </p>
       </div>
 
       <div className="flex w-full flex-wrap items-start justify-center gap-5">
-        {ETAPAS.map((etapa, index) => (
+        {etapas.map((etapa, index) => (
           <div key={etapa.title} className="flex flex-1 items-center gap-5">
             {index > 0 && (
               <Image

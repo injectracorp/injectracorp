@@ -1,50 +1,32 @@
 import Image from "next/image";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7223:5968).
 // O título é idêntico ao da seção de Benefícios (Beneficios.tsx) no arquivo
 // Figma de origem — mantido como está no design.
-const ETAPAS = [
-  {
-    number: 1,
-    icon: "/assets/representantes/icon-cadastro.svg",
-    title: "Cadastro",
-    description: "Preencha o formulário completo e envie seus dados.",
-  },
-  {
-    number: 2,
-    icon: "/assets/representantes/icon-avaliacao.svg",
-    title: "Avaliação",
-    description: "Nosso time avaliará seu perfil e potencial para sua região.",
-  },
-  {
-    number: 3,
-    icon: "/assets/capacidade/checkin.svg",
-    title: "Aprovação",
-    description: "Você será aprovado e formalmente integrado ao programa.",
-  },
-  {
-    number: 4,
-    icon: "/assets/representantes/icon-treinamento.svg",
-    title: "Treinamento",
-    description: "Receba treinamentos técnicos e comerciais completos.",
-  },
-  {
-    number: 5,
-    icon: "/assets/representantes/icon-atuacao.svg",
-    title: "Atuação",
-    description:
-      "Comece a representar e levar tecnologia Injectra para sua região.",
-  },
+const ETAPAS_META = [
+  { number: 1, icon: "/assets/representantes/icon-cadastro.svg" },
+  { number: 2, icon: "/assets/representantes/icon-avaliacao.svg" },
+  { number: 3, icon: "/assets/capacidade/checkin.svg" },
+  { number: 4, icon: "/assets/representantes/icon-treinamento.svg" },
+  { number: 5, icon: "/assets/representantes/icon-atuacao.svg" },
 ];
 
-export default function ComoFunciona() {
+export default function ComoFunciona({ dict }: { dict: Dictionary }) {
+  const t = dict.representantes.comoFunciona;
+  const etapas = ETAPAS_META.map((meta, index: number) => ({
+    ...meta,
+    title: t.items[index].title,
+    description: t.items[index].description,
+  }));
+
   return (
     <Section innerClassName="gap-5" className="bg-bg-cinza">
       <div className="flex w-full flex-col items-start gap-5">
         {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
         <h2 className="text-2xl font-extrabold leading-[30px] tracking-normal text-dark-blue sm:text-[32px] sm:leading-[39px]">
-          Benefícios de ser um representante Injectra
+          {t.title}
         </h2>
         <span
           className="h-[2px] w-[60px] rounded-full"
@@ -53,7 +35,7 @@ export default function ComoFunciona() {
       </div>
 
       <div className="flex w-full flex-wrap items-stretch justify-center gap-5">
-        {ETAPAS.map((etapa) => (
+        {etapas.map((etapa) => (
           <div
             key={etapa.number}
             className="relative flex min-h-[201px] min-w-[180px] flex-1 flex-col items-center justify-center gap-5 rounded-2xl bg-wt px-5 py-[30px]"

@@ -1,37 +1,28 @@
 import Image from "next/image";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7270:8228).
-const ETAPAS = [
-  {
-    icon: "/assets/footer/icon-doc.svg",
-    title: "Análise Técnica",
-    description: "Nossa equipe técnica analisa as informações do seu projeto e identifica a melhor solução.",
-  },
-  {
-    icon: "/assets/representantes/icon-pessoas.svg",
-    title: "Validação Comercial",
-    description: "Validação de viabilidade e condições comerciais personalizadas.",
-  },
-  {
-    icon: "/assets/solicitar-cotacao/icon-doc-check.svg",
-    title: "Proposta Personalizada",
-    description: "Enviamos uma proposta completa com especificações, prazos e condições para o seu projeto.",
-  },
-  {
-    icon: "/assets/contato/icon-especialista-certificado.svg",
-    title: "Suporte do Especialista",
-    description: "Nosso especialista acompanha você em todas as etapas até a implementação.",
-  },
+const ETAPA_ICONS = [
+  "/assets/footer/icon-doc.svg",
+  "/assets/representantes/icon-pessoas.svg",
+  "/assets/solicitar-cotacao/icon-doc-check.svg",
+  "/assets/contato/icon-especialista-certificado.svg",
 ];
 
-export default function EnvioDaProposta() {
+export default function EnvioDaProposta({ dict }: { dict: Dictionary }) {
+  const t = dict.solicitarCotacao.envioDaProposta;
+  const etapas = ETAPA_ICONS.map((icon: string, index: number) => ({
+    icon,
+    ...(t.etapas[index] as { title: string; description: string }),
+  }));
+
   return (
     <Section className="bg-bg-cinza" innerClassName="gap-5">
       <div className="flex w-full flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="w-full text-2xl font-bold leading-7 tracking-normal text-azul-claro-plus">
-          Envio da Proposta
+          {t.title}
         </h2>
         <span
           className="h-0.5 w-[60px] rounded-full"
@@ -39,7 +30,7 @@ export default function EnvioDaProposta() {
         />
       </div>
       <div className="flex w-full flex-wrap items-center justify-center gap-5">
-        {ETAPAS.map((etapa, index) => (
+        {etapas.map((etapa, index) => (
           <div
             key={etapa.title}
             className="relative flex min-h-[150px] min-w-[180px] flex-1 items-center gap-5 rounded-2xl bg-wt px-5 py-10"

@@ -11,6 +11,7 @@ export const MACHINE_PHOTOS: Record<string, MachinePhoto> = {
   VELOCITY: { src: "/assets/machines/VELOCITY.png", width: 5947, height: 2196 },
   FORM: { src: "/assets/machines/FORM.png", width: 5197, height: 1845 },
   ATLAS: { src: "/assets/machines/ATLAS.png", width: 8000, height: 2640 },
+  HYDRO: { src: "/assets/machines/HYDRO.png", width: 8000, height: 3312 },
   TITAN: { src: "/assets/machines/TITAN.png", width: 4707, height: 1124 },
   MAX: { src: "/assets/machines/MAX.png", width: 8000, height: 3002 },
 };

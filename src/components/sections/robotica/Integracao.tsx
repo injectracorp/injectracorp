@@ -1,37 +1,44 @@
 import Image from "next/image";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7259:6970).
-const ETAPAS = [
-  { photo: "/assets/robotica/photo-maquina-titan.png", title: "Máquinas Injectra", description: "Injetoras hidráulicas e elétricas." },
-  { photo: "/assets/robotica/photo-robo-automacao.png", title: "Robôs e Automação", description: "Cartesianos Neo e células robotizadas." },
-  { photo: "/assets/robotica/photo-esteira.png", title: "Transporte e Esteiras", description: "Movimentação Inteligente" },
-  { photo: "/assets/robotica/photo-pallet.png", title: "Paletização", description: "Organização e empilhamento." },
-  { photo: "/assets/robotica/photo-tablet-ai.png", title: "Plataforma Injectra AI", description: "Monitoramento e controle em tempo real." },
+const PHOTOS = [
+  "/assets/robotica/photo-maquina-titan.png",
+  "/assets/robotica/photo-robo-automacao.png",
+  "/assets/robotica/photo-esteira.png",
+  "/assets/robotica/photo-pallet.png",
+  "/assets/robotica/photo-tablet-ai.png",
 ];
 
-export default function Integracao() {
+type Etapa = { title: string; description: string };
+
+export default function Integracao({ dict }: { dict: Dictionary }) {
+  const t = dict.robotica.integracao;
+  const etapas: Etapa[] = t.etapas;
+
   return (
     <Section className="bg-bg-cinza" innerClassName="gap-10">
       <div className="flex w-full flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="text-2xl font-bold leading-7 tracking-normal text-dark-blue">
-          Integração Completa com a Indústria
+          {t.title}
         </h2>
         {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
         <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
-          Soluções que se conectam perfeitamente ao seu processo produtivo.
+          {t.subtitle}
         </p>
       </div>
 
       <div className="flex w-full flex-wrap items-start justify-center gap-10">
         <div className="flex flex-1 flex-wrap items-start justify-center gap-5">
-          {ETAPAS.map((etapa, i) => (
+          {etapas.map((etapa, i) => (
             <div key={etapa.title} className="flex items-start gap-5">
               <div className="flex min-w-[160px] flex-1 flex-col items-center gap-2.5">
                 <div className="flex h-[140px] w-full items-center justify-center rounded-2xl bg-wt p-2.5">
                   <Image
-                    src={etapa.photo}
+                    src={PHOTOS[i]}
                     alt={etapa.title}
                     width={168}
                     height={120}
@@ -49,7 +56,7 @@ export default function Integracao() {
                   </span>
                 </div>
               </div>
-              {i < ETAPAS.length - 1 && (
+              {i < etapas.length - 1 && (
                 <Image
                   src="/assets/robotica/arrow-connect.svg"
                   alt=""
@@ -73,21 +80,21 @@ export default function Integracao() {
           <div className="relative z-10 flex flex-col items-start gap-5">
             {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
             <h3 className="text-lg font-bold leading-[22px] tracking-normal text-wt">
-              Tudo conectado.
+              {t.cardTitle}
             </h3>
             <span className="h-0.5 w-[60px] rounded-full bg-wt" />
           </div>
           {/* Label 14 — 14px/17px, 85 Heavy (700) */}
           <p className="relative z-10 text-sm font-bold leading-[17px] tracking-normal text-wt">
-            Monitoramento, dados e decisões em tempo real para máxima eficiência.
+            {t.cardDescription}
           </p>
-          <a
+          <Link
             href="/plataforma-ai"
             className="relative z-10 flex min-h-10 items-center justify-center gap-2.5 rounded-md border-[0.5px] border-wt px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
           >
-            Conheça a Plataforma AI
+            {t.ctaLabel}
             <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-          </a>
+          </Link>
         </div>
       </div>
     </Section>

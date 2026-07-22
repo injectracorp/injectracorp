@@ -1,9 +1,11 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7267:8281).
-export default function Cta() {
+export default function Cta({ dict }: { dict: Dictionary }) {
+  const t = dict.contato.cta;
   return (
     <Section>
       <div
@@ -13,11 +15,10 @@ export default function Cta() {
         <div className="flex min-w-[210px] flex-1 flex-col items-start gap-10">
           <div className="flex flex-col items-start gap-2.5">
             <h2 className="w-full text-[26px] font-bold leading-7 tracking-normal text-dark-blue">
-              Pronto para transformar sua operação industrial?
+              {t.title}
             </h2>
             <p className="w-full text-lg font-normal leading-[22px] tracking-normal text-texto">
-              Converse com nossa equipe e encontre a melhor solução em
-              máquinas, robótica, software e automação.
+              {t.description}
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-5">
@@ -26,14 +27,14 @@ export default function Cta() {
               className="flex min-h-[30px] min-w-[200px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
             >
               <Image src="/assets/footer/icon-doc.svg" alt="" width={18} height={18} />
-              SOLICITAR COTAÇÃO
+              {t.quoteButton}
             </Link>
             <Link
               href="/fale-com-especialista"
               className="flex min-h-[30px] min-w-[200px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal text-azul-claro transition-colors hover:bg-bg-light-clean"
             >
               <Image src="/assets/footer/icon-headset.svg" alt="" width={18} height={18} />
-              FALAR COM ESPECIALISTA
+              {t.specialistButton}
             </Link>
           </div>
         </div>

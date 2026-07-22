@@ -1,0 +1,87 @@
+{
+  "shared": {
+    "meta": {
+      "title": "Injectra | Tecnologia Industrial Americana",
+      "description": "Máquinas, robótica, IoT e inteligência artificial conectadas em uma única plataforma industrial."
+    },
+    "header": {
+      "logoAriaLabel": "Injectra — início",
+      "openMenuAriaLabel": "Abrir menu",
+      "closeMenuAriaLabel": "Fechar menu",
+      "cta": "Solicitar Cotação"
+    },
+    "footer": {
+      "taglinePrefix": "Advance. ",
+      "taglineHighlight": "Inject.",
+      "taglineSuffix": " Mold the future.",
+      "description": "Tecnologia premium em injeção plástica com máquinas industriais, inteligência artificial e suporte regional para impulsionar a produtividade da indústria nas Américas.",
+      "logoAriaLabel": "Injectra — início",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "x": "X (Twitter)",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "facebook": "Facebook"
+      },
+      "infoBar": [
+        { "title": "Injectra Corporation", "subtitle": "Orlando, Flórida, EUA" },
+        { "title": "+1 (321) 888-7963" },
+        { "title": "info@injectracorp.com" },
+        { "title": "Suporte Técnico Especializado" },
+        { "title": "Atendimento para toda a América" }
+      ],
+      "ctaBanner": {
+        "title": "Pronto para transformar sua indústria?",
+        "description": "Descubra como a Injectra pode aumentar a produtividade, reduzir custos e conectar toda a sua operação em uma única plataforma industrial inteligente.",
+        "quoteButton": "Solicitar Cotação",
+        "specialistButton": "Falar com Especialista",
+        "machineImageAlt": "Máquina Injectra"
+      },
+      "bottomBar": {
+        "countryBadge": "EMPRESA AMERICANA",
+        "location": "Orlando, Florida • USA",
+        "groupLabel": "Parte do Grupo",
+        "groupLogoAlt": "Interfy Group",
+        "copyright": "Injectra Corporation © 2026. Todos os direitos reservados."
+      },
+      "legalLinks": [
+        { "label": "Políticas de Privacidade", "href": "/politicas-privacidade" },
+        { "label": "Termos de Uso", "href": "/termos-de-uso" },
+        { "label": "Cookies", "href": "/cookies" },
+        { "label": "Garantia e Suporte", "href": "/garantia-e-suporte" },
+        { "label": "Compliance", "href": "/compliance" }
+      ]
+    },
+    "nav": {
+      "columns": [
+        {
+          "title": "PRODUTOS",
+          "items": [
+            { "title": "Máquinas", "description": "Linhas hidráulicas e elétricas para todos os segmentos." },
+            { "title": "Robótica", "description": "Robô Humanoide Neo, robôs cartesianos e automação." },
+            { "title": "Plataforma AI", "description": "Injectra AI, Cloud, IoT, Analytics, OEE e App Mobile." },
+            { "title": "Indústrias", "description": "Soluções para diversos segmentos industriais em toda a América." }
+          ]
+        },
+        {
+          "title": "SERVIÇOS",
+          "items": [
+            { "title": "Experience Center", "description": "Demonstrações, testes de aplicação, treinamentos e showroom." },
+            { "title": "Representantes", "description": "Programa de representantes, expansão comercial e suporte." },
+            { "title": "Suporte", "description": "Assistência técnica, peças, manutenção, garantia e FAQ." },
+            { "title": "Catálogos", "description": "Catálogos digitais. manuais técnicos, fichas técnicas e downloads." }
+          ]
+        },
+        {
+          "title": "EMPRESA",
+          "items": [
+            { "title": "Sobre Nós", "description": "Sobre a Injectra, Grupo Interfy, sustentabilidade e carreira." },
+            { "title": "Contato", "description": "Telefones, e-mails, endereço e canais de atendimento." },
+            { "title": "Solicitar Cotação", "description": "Receba uma proposta personalizada para sua operação industrial." },
+            { "title": "Falar com Especialista", "description": "Converse com nossa equipe técnica e comercial especializada." }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,50 +1,40 @@
 import Image from "next/image";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7222:8332).
-const STEPS = [
-  {
-    number: 1,
-    icon: "/assets/fale-com-especialista/icon-envie-necessidade.svg",
-    title: "Envie sua necessidade",
-    description: "Preencha o formulário com suas informações e objetivo.",
-  },
-  {
-    number: 2,
-    icon: "/assets/fale-com-especialista/icon-equipe-analisa.svg",
-    title: "Nossa equipe analisa",
-    description: "Especialistas avaliam sua demanda e seu requisitos.",
-  },
-  {
-    number: 3,
-    icon: "/assets/fale-com-especialista/icon-melhor-solucao.svg",
-    title: "Recomendamos a melhor solução",
-    description: "Apresentamos as opções ideais para sua aplicação.",
-  },
-  {
-    number: 4,
-    icon: "/assets/fale-com-especialista/icon-agendamento-reuniao.svg",
-    title: "Agendamos reunião técnica/comercial",
-    description: "Reunião personalizada para detalhes e próximo passos.",
-  },
+const STEP_META = [
+  { number: 1, icon: "/assets/fale-com-especialista/icon-envie-necessidade.svg" },
+  { number: 2, icon: "/assets/fale-com-especialista/icon-equipe-analisa.svg" },
+  { number: 3, icon: "/assets/fale-com-especialista/icon-melhor-solucao.svg" },
+  { number: 4, icon: "/assets/fale-com-especialista/icon-agendamento-reuniao.svg" },
 ];
 
-export default function ComoFunciona() {
+type Props = {
+  dict: Dictionary;
+};
+
+export default function ComoFunciona({ dict }: Props) {
+  const t = dict.faleComEspecialista.comoFunciona;
+  const steps = (t.steps as { title: string; description: string }[]).map(
+    (step, index) => ({ ...step, ...STEP_META[index] })
+  );
+
   return (
     <Section innerClassName="gap-5" className="bg-bg-cinza">
       <div className="flex flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="text-[26px] font-bold leading-[28px] tracking-normal text-dark-blue">
-          Como funciona
+          {t.title}
         </h2>
         {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
         <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
-          Um processo simples e consultivo para você chegar na melhor solução.
+          {t.subtitle}
         </p>
       </div>
 
       <div className="flex w-full flex-wrap items-center justify-center gap-5">
-        {STEPS.map((step, index) => (
+        {steps.map((step, index) => (
           <div className="flex items-center gap-5" key={step.number}>
             <div className="flex min-w-[160px] flex-1 flex-col items-center gap-[30px]">
               <div className="flex flex-col items-center gap-2.5">
@@ -66,7 +56,7 @@ export default function ComoFunciona() {
                 </p>
               </div>
             </div>
-            {index < STEPS.length - 1 && (
+            {index < steps.length - 1 && (
               <Image
                 src="/assets/fale-com-especialista/connector-arrow-long.svg"
                 alt=""

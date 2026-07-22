@@ -1,0 +1,134 @@
+{
+  "representantes": {
+    "banner": {
+      "badge": "PROGRAMA DE REPRESENTANTES",
+      "title": "Seja um representante Injectra e leve tecnologia de ponta para sua região.",
+      "subtitle": "Parceria, suporte e tecnologia para você crescer com uma marca global líder em soluções industriais.",
+      "ctaPrimary": "Quero ser Representante",
+      "ctaSecondary": "Falar com um Especialista",
+      "highlights": [
+        "Tecnologia Líder Global",
+        "Produtos de Alta Performance",
+        "Suporte Completo",
+        "Parceria para Crescer Juntos"
+      ]
+    },
+    "beneficios": {
+      "title": "Benefícios de ser um representante Injectra",
+      "items": [
+        {
+          "title": "Comissões Atrativas",
+          "description": "Ganhe comissões competitivas e crescimento contínuo."
+        },
+        {
+          "title": "Produtos de Alta Qualidade",
+          "description": "Soluções inovadoras e confiáveis para diversos segmentos industriais."
+        },
+        {
+          "title": "Suporte e Treinamento",
+          "description": "Treinamentos técnicos e comerciais contínuos para seu sucesso."
+        },
+        {
+          "title": "Marketing e Materiais",
+          "description": "Apoio em marketing, materiais exclusivos e geração de demanda."
+        },
+        {
+          "title": "Marca Global e Confiável",
+          "description": "Represente uma marca reconhecida em toda a América."
+        },
+        {
+          "title": "Oportunidades de Crescimento",
+          "description": "Aumente seu portfólio e expanda seus negócios."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Benefícios de ser um representante Injectra",
+      "items": [
+        {
+          "title": "Cadastro",
+          "description": "Preencha o formulário completo e envie seus dados."
+        },
+        {
+          "title": "Avaliação",
+          "description": "Nosso time avaliará seu perfil e potencial para sua região."
+        },
+        {
+          "title": "Aprovação",
+          "description": "Você será aprovado e formalmente integrado ao programa."
+        },
+        {
+          "title": "Treinamento",
+          "description": "Receba treinamentos técnicos e comerciais completos."
+        },
+        {
+          "title": "Atuação",
+          "description": "Comece a representar e levar tecnologia Injectra para sua região."
+        }
+      ]
+    },
+    "nossasExperiencias": {
+      "title": "Nossas Experiências",
+      "mapAlt": "Mapa das Américas",
+      "ctaLabel": "Ver oportunidades",
+      "regioes": [
+        {
+          "title": "América do Norte",
+          "description": "Estados Unidos, Canadá e México"
+        },
+        {
+          "title": "América Central",
+          "description": "Guatemala, Panamá, Costa Rica e outros."
+        },
+        {
+          "title": "Caribe",
+          "description": "Ilhas do Caribe e nações caribenhas."
+        },
+        {
+          "title": "América do Sul",
+          "description": "Brasil, Argentina, Chile, Colômbia e outros."
+        },
+        {
+          "title": "Região Andina",
+          "description": "Equador, Peru, Bolívia e Venezuela."
+        },
+        {
+          "title": "Outros Mercados",
+          "description": "Oportunidades em novos mercados."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vamos crescer juntos!",
+      "description": "Faça parte de uma rede de parceiros que está transformando a indústria nas Américas com tecnologia e inovação.",
+      "stats": [
+        { "label": "Representantes ativos" },
+        { "label": "Países atendidos" },
+        { "label": "Máquinas instaladas" },
+        { "label": "De experiência global" }
+      ],
+      "trustItems": [
+        {
+          "title": "Tecnologia Americana",
+          "description": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "description": "Atendimento local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "description": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "description": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "description": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  }
+}

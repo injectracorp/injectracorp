@@ -1,0 +1,113 @@
+{
+  "faleComEspecialista": {
+    "hero": {
+      "eyebrow": "ESPECIALISTAS",
+      "titlePrefix": "Fale com um especialista",
+      "titleHighlight": "da Injectra.",
+      "subtitle": "Consultoria comercial, técnica e de engenharia para ajudar sua operação a escolher a solução ideal.",
+      "body": "Nossa equipe de especialistas apoia você na seleção de máquinas, automação, robótica, integração com a Injectra AI e validação de aplicações — sempre com foco em performance, eficiência e resultados reais para sua indústria.",
+      "ctaSchedule": "Agenda Reunião",
+      "ctaWhatsapp": "Falar no Whatsapp",
+      "cards": [
+        {
+          "title": "Consultoria Comercial",
+          "description": "Entendemos sua necessidade e apresentamos as melhores opções de máquinas, robótica e soluções Injectra."
+        },
+        {
+          "title": "Consultoria Técnica",
+          "description": "Análise técnica especializada para validar requisitos, processos e viabilidade da sua aplicação."
+        },
+        {
+          "title": "Engenharia de Aplicação",
+          "description": "Desenvolvemos soluções personalizadas com foco em performance, produtividade e integração."
+        },
+        {
+          "title": "Agendamento de Reunião",
+          "description": "Conectamos você aos especialistas certos para reuniões técnicas ou apresentações."
+        }
+      ]
+    },
+    "comoAjudamos": {
+      "title": "Como podemos ajudar",
+      "subtitle": "Soluções completas para os setores mais exigentes da indústria.",
+      "items": [
+        {
+          "title": "Seleção de linha ideal",
+          "description": "Ajudamos você a escolher a máquina perfeita para sua produção."
+        },
+        {
+          "title": "Análise de aplicação",
+          "description": "Estudamos seu processo e recomendamos a melhor configuração."
+        },
+        {
+          "title": "Automação e robótica",
+          "description": "Soluções que aumentam a eficiência, qualidade e segurança da produção."
+        },
+        {
+          "title": "Integração Digital",
+          "description": "Conecte suas máquinas à Injectra AI e transforme dados em resultados."
+        },
+        {
+          "title": "Redução de Custos",
+          "description": "Mais produtividade, menos desperdício e maior eficiência."
+        },
+        {
+          "title": "Expansão de Produção",
+          "description": "Escalabilidade e soluções para acompanhar o crescimento do seu negócio."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Como funciona",
+      "subtitle": "Um processo simples e consultivo para você chegar na melhor solução.",
+      "steps": [
+        {
+          "title": "Envie sua necessidade",
+          "description": "Preencha o formulário com suas informações e objetivo."
+        },
+        {
+          "title": "Nossa equipe analisa",
+          "description": "Especialistas avaliam sua demanda e seu requisitos."
+        },
+        {
+          "title": "Recomendamos a melhor solução",
+          "description": "Apresentamos as opções ideais para sua aplicação."
+        },
+        {
+          "title": "Agendamos reunião técnica/comercial",
+          "description": "Reunião personalizada para detalhes e próximo passos."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Atendimento consultivo para acelerar sua decisão industrial.",
+      "subtitle": "Fale com um especialista e descubra como a Injectra pode transformar sua produção com tecnologia e inteligência.",
+      "quoteButton": "Solicitar Cotação",
+      "meetingButton": "Marcar Reunião"
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Atendimento local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  }
+}

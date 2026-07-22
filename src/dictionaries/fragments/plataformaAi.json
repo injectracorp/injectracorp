@@ -1,0 +1,69 @@
+{
+  "plataformaAi": {
+    "banner": {
+      "eyebrow": "PLATAFORMA AI",
+      "title": "Dados, conectividade e inteligência para transformar sua produção.",
+      "subtitle": "A Plataforma Injectra AI conecta máquinas, pessoas e processos em um ecossistema inteligente para aumentar produtividade, reduzir paradas e gerar decisões em tempo real.",
+      "ctaPrimary": "Solicitar Demonstração",
+      "ctaSecondary": "Falar com um Especialista",
+      "trustItems": [
+        { "label": "Cloud 100% Segura" },
+        { "label": "Inteligência Artificial" },
+        { "label": "Decisões em Tempo Real" },
+        { "label": "Máxima Segurança e Confiabilidade" }
+      ]
+    },
+    "fluxo": {
+      "title": "Agende sua experiência agora",
+      "description": "Viva a tecnologia Injectra na prática e descubra como podemos levar sua produção para o próximo nível.",
+      "etapas": [
+        { "title": "Máquinas Injectra", "description": "Dados em tempo real" },
+        { "title": "Sensores & Dispositivos", "description": "Coleta de dados" },
+        { "title": "Plataforma AI Cloud", "description": "Processamento e IA" },
+        { "title": "Dashboards & Relatórios", "description": "Visualização e análise" },
+        { "title": "Ações & Decisões", "description": "Resultados e eficiência" }
+      ]
+    },
+    "solucoes": {
+      "title": "Soluções que impulsionam sua indústria",
+      "items": [
+        {
+          "title": "Dashboard Cloud",
+          "description": "Acompanhe todos os indicadores dea sua produção em tempo real, de qualquer lugar e dispositivo."
+        },
+        {
+          "title": "App Mobile",
+          "description": "Tenha o controle da sua produção na palma da mão. Monitore, receba alertas e tome ações em qualquer lugar."
+        },
+        {
+          "title": "IoT Industrial",
+          "description": "Conecte máquinas, sensores e dispositivos para coleta de dados em tempo real com máxima segurança."
+        },
+        {
+          "title": "OEE",
+          "description": "Monitore Disponibilidade, Performance e Qualidade em tempo real, aumentando a eficiência da sua operação."
+        },
+        {
+          "title": "Analíticas",
+          "description": "Transforme dados em insights valiosos com análises avançadas e relatórios personalizados."
+        },
+        {
+          "title": "Manutenção Preditiva",
+          "description": "Antecipe falhas e reduza paradas não programadas com algoritmos de IA e Machine Learning."
+        },
+        {
+          "title": "Alertas Inteligentes",
+          "description": "Receba alertas críticos e recomendações inteligentes para agir antes que problemas impactem sua produção."
+        },
+        {
+          "title": "Atualizações OTA",
+          "description": "Atualizações remotas de software e firmware garantem sua plataforma sempre atual e segura."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Inteligência Artificial aplicada à indústria afim de otimizar processos, qualidade e produtividade de forma contínua."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "industria": {
+    "banner": {
+      "kicker": "INDÚSTRIA",
+      "title": "Soluções inteligentes para impulsionar todos os segmentos da indústria.",
+      "subtitle": "A Injectra oferece máquinas, robótica e plataformas inteligentes para aumentar produtividade, qualidade e competitividade em diferentes setores industriais.",
+      "ctaCatalogos": "Ver todos os catálogos",
+      "ctaEspecialista": "Falar com Especialista",
+      "highlights": [
+        "Soluções Personalizadas",
+        "Maior Produtividade",
+        "Qualidade e Confiabilidade",
+        "Presença nas Américas"
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Porque escolher a Injectra para sua indústria?",
+      "items": [
+        {
+          "title": "Tecnologia Avançada",
+          "description": "Máquinas elétricas e hidráulicas de última geração."
+        },
+        {
+          "title": "Automação Inteligente",
+          "description": "Robótica e sistemas integrados para máxima eficiência."
+        },
+        {
+          "title": "Suporte Especializado",
+          "description": "Equipe técnica com experiência no seu segmento."
+        },
+        {
+          "title": "Desempenho Comprovado",
+          "description": "Mais produtividade, qualidade e redução de custos."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "CATÁLOGOS POR INDÚSTRIA",
+        "description": "Baixe catálogos e cases específicos para o seu segmento.",
+        "cta": "Ver catálogos"
+      },
+      "ajuda": {
+        "kicker": "PRECISA DE AJUDA?",
+        "description": "Nossa equipe entende seu segmento e ajuda a encontrar a melhor solução.",
+        "cta": "Entre em Contato"
+      },
+      "tecnologia": {
+        "kicker": "Tecnologia que se adapta ao seu segmento",
+        "description": "Equipamentos, automação e inteligência para gerar resultados reais.",
+        "cta": "Fala com especialista"
+      }
+    },
+    "segmentos": {
+      "title": "Nossos Segmentos e Atuação",
+      "ctaLabel": "Ver soluções",
+      "items": [
+        {
+          "title": "Automotiva",
+          "description": "Soluções completas para injeção plástica, componentes, acabamentos e automação e processos."
+        },
+        {
+          "title": "Embalagens",
+          "description": "Máquinas e alta velocidade e precisão para embalagens plásticas e sistema de automação."
+        },
+        {
+          "title": "Médico",
+          "description": "Equipamentos para produção de peças médicas com máximas precisão e rastreabilidade."
+        },
+        {
+          "title": "Consumo",
+          "description": "Soluções para produtos de uso diário com alta eficiência, qualidade e competitividade."
+        },
+        {
+          "title": "Eletrônicos",
+          "description": "Injeção de precisão para componentes eletrônicos e automação de montagem."
+        },
+        {
+          "title": "Consturção",
+          "description": "Soluções robustas para peças técnicas, tubos conexões e materiais de construção."
+        },
+        {
+          "title": "Logística",
+          "description": "Sistemas e soluções para otimizar processos, armazenagem e movimentação."
+        },
+        {
+          "title": "Outros Segmentos",
+          "description": "Atendemos diversos segmentos industriais com soluções sob medida e alta tecnologia."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Atendimento local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
+      ]
+    }
+  }
+}

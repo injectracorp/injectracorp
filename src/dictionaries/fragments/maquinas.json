@@ -1,0 +1,273 @@
+{
+  "maquinas": {
+    "banner": {
+      "kicker": "MÁQUINAS",
+      "title": "Tecnologia em injeção para todos os segmentos da indústria.",
+      "subtitle": "Nove linhas de máquinas hidráulicas e elétricas completas, desenvolvidas para máxima performance, precisão e eficiência em qualquer aplicação.",
+      "ctaCatalogos": "Ver todos os catálogos",
+      "ctaEspecialista": "Falar com Especialista",
+      "stats": [
+        "101 Modelos de máquinas",
+        "70+ Acessórios e Periféricos",
+        "Tecnologia 100% Integrada"
+      ]
+    },
+    "comoFunciona": {
+      "title": "Como funciona a navegação dos modelos",
+      "description": "Escolha uma linha e navegue facilmente por todos os modelos disponíveis. Cada página apresenta as especificações técnicas, catálogo e opções de cotação.",
+      "sidebarItemLabel": "Prime IP - X",
+      "detailTitle": "Prime IP - X",
+      "detailDescription": "Precisão, versatilidade e performance para aplicações gerais.",
+      "ctaCatalogos": "Ver todos os catálogos",
+      "ctaEspecialista": "Falar com Especialista",
+      "specs": [
+        { "title": "X T de Força", "subtitle": "de fechamento" },
+        { "title": "Tie Bar", "subtitle": "X x X mm" },
+        { "title": "Alta Precisão" },
+        { "title": "Suporte técnico", "subtitle": "especializado" }
+      ]
+    },
+    "comparativo": {
+      "title": "Comparativo entre as linhas",
+      "subtitle": "Encontre rapidamente a linha ideal para sua necessidade.",
+      "rows": ["Aplicação", "Acionamento", "Faixa de Tonelagem", "Destaque"],
+      "columns": [
+        {
+          "name": "Prime",
+          "aplicacao": "Geral",
+          "acionamento": "Hidráulica",
+          "tonelagem": "60 - 1.000 t",
+          "destaque": "Precisão e Versatilidade"
+        },
+        {
+          "name": "Speed",
+          "aplicacao": "Alta Velocidade",
+          "acionamento": "Hidráulica",
+          "tonelagem": "70 - 800 t",
+          "destaque": "Ciclos rápidos e eficiência"
+        },
+        {
+          "name": "Velocity",
+          "aplicacao": "Alta Produfividade",
+          "acionamento": "Hidráulica",
+          "tonelagem": "80 - 500 t",
+          "destaque": "Velocidade Extrema"
+        },
+        {
+          "name": "Form",
+          "aplicacao": "Peças Técnicas Precisas",
+          "acionamento": "Hidráulica",
+          "tonelagem": "100 - 800 t",
+          "destaque": "Alta Precisão"
+        },
+        {
+          "name": "Neo",
+          "aplicacao": "Energia e Alta Precisão",
+          "acionamento": "100% Elétrica",
+          "tonelagem": "60 - 350 t",
+          "destaque": "Eficiência energética e precisão"
+        },
+        {
+          "name": "Altas",
+          "aplicacao": "Grandes peças e embalagens",
+          "acionamento": "Hidráulica",
+          "tonelagem": "400 - 4.000 t",
+          "destaque": "Robustez para grandes peças"
+        },
+        {
+          "name": "Hydro",
+          "aplicacao": "Aplicações Pesadas",
+          "acionamento": "Hidráulica",
+          "tonelagem": "180 - 3.000 t",
+          "destaque": "Força para aplicações exigentes"
+        },
+        {
+          "name": "Titan",
+          "aplicacao": "Moldes Robustos",
+          "acionamento": "Hidráulica",
+          "tonelagem": "650 - 4.000 t",
+          "destaque": "Grandes tonelagens"
+        },
+        {
+          "name": "Max",
+          "aplicacao": "Grandes Peças e Alta Exigência",
+          "acionamento": "Hidráulica",
+          "tonelagem": "800 - 5.000 t",
+          "destaque": "Máxima Capacidade"
+        },
+        {
+          "name": "Equora",
+          "aplicacao": "Aplicações Exigentes e Versáteis",
+          "acionamento": "Híbrida",
+          "tonelagem": "100 - 2.000 t",
+          "destaque": "Equilíbrio em força e eficiência"
+        }
+      ]
+    },
+    "linhasDeMaquinas": {
+      "title": "Nossas Linhas de Máquinas",
+      "subtitle": "Encontre rapidamente a linha ideal para sua necessidade.",
+      "ctaVerModelos": "Ver Modelos",
+      "machines": [
+        { "name": "PRIME", "description": "Alta precisão e versatilidade para aplicações gerais." },
+        { "name": "SPEED", "description": "Ciclos rápidos e máxima eficiência." },
+        { "name": "VELOCITY", "description": "Ultra alta velocidade e produtividade extrema." },
+        { "name": "FORM", "description": "Soluções para peças técnicas com alta precisão." },
+        { "name": "NEO", "description": "Linha 100% elétrica com alta repetibilidade e eficiência energética." },
+        { "name": "ATLAS", "description": "Especializada em caixas plásticas, pallets e peças de grande porte." },
+        { "name": "HYDRO", "description": "Potência hidráulica para aplicações exigentes." },
+        { "name": "TITAN", "description": "Grandes toneladas para moldes robustos e alta exigência." },
+        { "name": "MAX", "description": "Máxima capacidade e robustez para os maiores desafios." },
+        { "name": "EQUORA", "description": "Equilíbrio entre força, eficiência e economia com tecnologia híbrida." }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "CATÁLOGOS",
+        "description": "Baixe os cátalogos completos de todas as linhas e máquinas",
+        "cta": "Ver todos os catálogos"
+      },
+      "ajuda": {
+        "kicker": "PRECISA DE AJUDA?",
+        "description": "Fale com nosso especialista e controle a melhor solução para sua aplicação.",
+        "cta": "Fala com especialista"
+      },
+      "video": {
+        "title": "Tecnologia que move a indústria.",
+        "description": "Assista ao vídeo e conheça os diferenciais Injectra.",
+        "ariaPlay": "Assistir ao vídeo"
+      }
+    },
+    "tecnologias": {
+      "title": "Tecnologias Injectra",
+      "subtitle": "Inovação que transforma performance em resultados.",
+      "items": [
+        {
+          "title": "Servo Drive Inteligente",
+          "description": "Controle preciso de movimentos para máxima repetibilidade."
+        },
+        {
+          "title": "Hidráulica Avançada",
+          "description": "Sistemas hidráulicos de alto desempenho e eficiência."
+        },
+        {
+          "title": "Injeção de Alta Precisão",
+          "description": "Controle avançado de injeção para peças com qualidade superior."
+        },
+        {
+          "title": "Eficiência Energética",
+          "description": "Tecnologias que reduzem o consumo e aumentam a sustentabilidade."
+        },
+        {
+          "title": "Conectividade Total",
+          "description": "Máquinas conectadas à Injectra AI para gestão inteligente."
+        },
+        {
+          "title": "Segurança Integrada",
+          "description": "Sistemas completos de segurança para operador e processo."
+        }
+      ]
+    },
+    "tecnologiasDasLinhas": {
+      "tags": [
+        "Hidráulica",
+        "100% Elétrica",
+        "Híbrida",
+        "Robótica",
+        "Injectra AI",
+        "IoT Industrial",
+        "OEE & Analyticsv",
+        "App Mobile",
+        "Assistência Técnica"
+      ]
+    },
+    "trustBar": {
+      "items": [
+        { "title": "Tecnologia Americana", "subtitle": "Desenvolvida nos EUA" },
+        { "title": "Presença nas Américas", "subtitle": "Atendimento local" },
+        { "title": "Mais de 30 anos de experiência", "subtitle": "em soluções industriais" },
+        { "title": "Suporte 24/7", "subtitle": "Assistência técnica especializada" },
+        { "title": "Sustentabilidade", "subtitle": "Eficiência energética e ESG" }
+      ]
+    },
+    "modelo": {
+      "breadcrumb": {
+        "home": "Home",
+        "maquinas": "Máquinas"
+      },
+      "hero": {
+        "ctaCotacao": "Solicitar Cotação",
+        "ctaCatalogo": "Baixar Catálogo",
+        "ctaEspecialista": "Falar com Especialista"
+      },
+      "quickSpecs": {
+        "forca": { "title": "T de Força", "subtitle": "de fechamento" },
+        "tieBar": { "title": "Tie Bar" },
+        "precisao": { "title": "Alta Precisão" },
+        "suporte": { "title": "Suporte técnico", "subtitle": "especializado" }
+      },
+      "comparativo": {
+        "title": "Comparativo entre as linhas",
+        "subtitle": "Encontre rapidamente a linha ideal para sua necessidade.",
+        "rows": {
+          "serie": "Série",
+          "modelo": "Modelo",
+          "forcaFechamento": "Força de fechamento",
+          "tieBar": "Distância entre colunas (Tie Bar)",
+          "tecnologia": "Tecnologia",
+          "aplicacoesIndicadas": "Aplicações indicadas",
+          "configuracaoComercial": "Configuração comercial",
+          "suporte": "Suporte"
+        }
+      },
+      "aplicacoesBeneficios": {
+        "title": "Aplicações e Benefícios",
+        "items": {
+          "pecasTecnicas": {
+            "title": "Peças Técnicas",
+            "description": "Ideal para componentes que exigem precisão e repetibilidade."
+          },
+          "consumo": {
+            "title": "Consumo",
+            "description": "Soluções eficientes para produtos do dia a dia com alta qualidade."
+          },
+          "automacaoIntegrada": {
+            "title": "Automação integrada",
+            "description": "Compatível com periféricos e sistemas de automação modernos."
+          },
+          "baixoCusto": {
+            "title": "Baixo custo operacional",
+            "description": "Projeto eficiente que reduz consumo de energia e custos de manutenção."
+          }
+        }
+      },
+      "ctaConfigurar": {
+        "titleTemplate": "Pronto para configurar sua {model}?",
+        "description": "Faça parte de uma rede de parceiros que está transformando a indústria nas Américas com tecnologia e inovação.",
+        "ctaCotacao": "Solicitar Cotação",
+        "ctaEspecialista": "Falar com Especialista",
+        "trustItems": [
+          { "title": "Tecnologia Americana", "description": "Desenvolvida nos EUA" },
+          { "title": "Presença nas Américas", "description": "Atendimento local" },
+          { "title": "Mais de 30 anos de experiência", "description": "em soluções industriais" },
+          { "title": "Suporte 24/7", "description": "Assistência técnica especializada" },
+          { "title": "Sustentabilidade", "description": "Eficiência energética e ESG" }
+        ]
+      },
+      "especificacoes": {
+        "prime-ip": {
+          "forcaTonelagem": "60 Toneladas",
+          "tieBar": "290 x 270 mm",
+          "aplicacoesIndicadas": "Utilidades, peças técnicas, consumo e componentes industriais",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        }
+      },
+      "linhas": {
+        "prime-ip": {
+          "description": "Precisão, versatilidade e performance para aplicações gerais."
+        }
+      }
+    }
+  }
+}

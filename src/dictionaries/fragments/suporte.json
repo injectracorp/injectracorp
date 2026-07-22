@@ -1,0 +1,94 @@
+{
+  "suporte": {
+    "banner": {
+      "eyebrow": "SUPORTE",
+      "title": "Estamos aqui para manter sua produção sem em movimento",
+      "description": "Suporte completo e especializado para garantir o melhor desempenho das soluções Injectra em todas as etapas da sua operação.",
+      "openTicketLabel": "Abrir Chamado",
+      "talkToSpecialistLabel": "Falar com um Especialista",
+      "highlights": [
+        { "label": "Especialistas Dedicados" },
+        { "label": "Suporte Rápido e Eficiente" },
+        { "label": "Atendimento em Toda América" },
+        { "label": "Tecnologia que Não Para" }
+      ]
+    },
+    "solucoes": {
+      "title": "Nossas soluções de suporte",
+      "accessLabel": "Acessar",
+      "items": [
+        {
+          "title": "Assistência Técnica",
+          "description": "Atendimento especializada para diagnóstico remoto ou presencial, resolução de problemas orientações técnicas completas."
+        },
+        {
+          "title": "Garantia",
+          "description": "Consulte a cobertura de garantia dos equipamentos Injectra e registre sua garantia de forma rápida e fácil."
+        },
+        {
+          "title": "Manuais",
+          "description": "Acesse manuais de instalação, operação e manutenção dos equipamentos Injectra."
+        },
+        {
+          "title": "Downloads",
+          "description": "Baixe softwares, firmwares, documentações técnicas e outros recursos importantes."
+        },
+        {
+          "title": "FAQ",
+          "description": "Encontre respostas rápidas para as principais dúvidas sobre nossos produtos e serviços."
+        },
+        {
+          "title": "Solicitação de Peças",
+          "description": "Solicite peças de reposição originais com segurança e agilidade."
+        }
+      ]
+    },
+    "atendimento": {
+      "title": "Atendimento em toda América",
+      "description": "Suporte local e distribuidores autorizados prontos para atender você onde estiver.",
+      "ctaLabel": "Ver pontos de atendimento",
+      "stats": [
+        { "value": "+30", "label": "Países atendidos" },
+        { "value": "+100", "label": "Técnicos certificados" },
+        { "value": "+5.000", "label": "Clientes satisfeitos" }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Como funciona",
+      "description": "Um processo simples e consultivo para você chegar na melhor solução.",
+      "etapas": [
+        {
+          "title": "1. Entre em contato",
+          "description": "Abra um chamado pelo site, telefone ou e-mail."
+        },
+        {
+          "title": "2. Diagnóstico",
+          "description": "Nossa equipe analisa sua solicitação e identifica a melhor solução."
+        },
+        {
+          "title": "3. Solução",
+          "description": "Fornecemos a solução ideal: remova, orientação e visita técnica."
+        },
+        {
+          "title": "4. Acompanhamento",
+          "description": "Acompanhamos o caso até a resolução completa do problema."
+        },
+        {
+          "title": "5. Sua produção não para",
+          "description": "Suporte Injectra garantindo performance e produtividade sempre."
+        }
+      ]
+    },
+    "pecas": {
+      "title": "Peças originais Injectra",
+      "description": "Máxima qualidade e durabilidade para o seu equipamento. Solicite agora suas peças de reposição originais.",
+      "imageAlt": "Peças originais Injectra",
+      "requestPartsLabel": "Solicitar peças",
+      "items": [
+        { "title": "Qualidade Garantida" },
+        { "title": "Entrega Rápida" },
+        { "title": "Compatibilidade Total" }
+      ]
+    }
+  }
+}

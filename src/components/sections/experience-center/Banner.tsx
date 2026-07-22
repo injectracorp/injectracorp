@@ -1,81 +1,120 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
-// Conteúdo exato extraído via Figma MCP (get_design_context, node 7191:4319).
-const TRUST_ITEMS = [
-  { icon: "/assets/experience-center/icon-tecnologia-ponta.svg", label: "Tecnologia de Ponta" },
-  { icon: "/assets/experience-center/icon-resultados-comprovados.svg", label: "Resultados Comprovados" },
-  { icon: "/assets/experience-center/icon-especialistas.svg", label: "Especialistas Dedicados" },
-  { icon: "/assets/experience-center/icon-seguranca-confiabilidade.svg", label: "Segurança e Confiabilidade" },
+// Conteúdo exato extraído via Figma MCP (componente com as 3 variações de
+// breakpoint do banner — node 7191:4319 é "Padrão" (>=1280), node 7311:9203
+// é "1279" (1024-1279px) e node 7316:9355 é "Variante 3" (<1024px)).
+// - "Padrão": foto como background full-bleed da seção; título 48/55;
+//   barra de confiança confinada à coluna de texto (max-w-520), à esquerda.
+// - "1279": foto contida num card à direita (rounded-2xl, sem full-bleed);
+//   título 40/40; barra de confiança em linha própria, largura total.
+// - "Variante 3": tudo centralizado em coluna única; foto como card
+//   full-width abaixo dos CTAs; título 40/40 (sem quebra forçada); barra de
+//   confiança em linha própria, largura total.
+const TRUST_ICONS = [
+  "/assets/experience-center/icon-tecnologia-ponta.svg",
+  "/assets/experience-center/icon-resultados-comprovados.svg",
+  "/assets/experience-center/icon-especialistas.svg",
+  "/assets/experience-center/icon-seguranca-confiabilidade.svg",
 ];
 
-export default function Banner() {
+export default function Banner({ dict }: { dict: Dictionary }) {
+  const t = dict.experienceCenter.banner;
+  const titleLines: string[] = t.title.split("\n");
+
   return (
-    <div
-      className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-center"
-      style={{ backgroundImage: "url(/assets/shared/banner-bg.png)" }}
-    >
+    <div className="flex w-full flex-col bg-wt lg:min-h-[calc(100vh-80px)] xl:bg-cover xl:bg-center xl:bg-[url('/assets/experience-center/experience-center-banner-padrao.png')]">
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">
-          <div className="flex w-full min-w-[280px] max-w-[520px] flex-1 flex-col items-start gap-10">
-            <div className="flex flex-col items-start gap-5">
+          <div className="flex w-full min-w-[280px] flex-1 flex-col items-center gap-10 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+            <div className="flex flex-col items-center gap-5 lg:items-start">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">
-                EXPERIENCE CENTER
+                {t.eyebrow}
               </span>
               <span
                 className="h-[3px] w-10 rounded-full"
                 style={{ background: "var(--gradient-brand)" }}
               />
             </div>
-            {/* TÍTULO 48 — 48px/55px, 95 Black (800) */}
-            <h1 className="text-4xl font-extrabold leading-[42px] tracking-normal text-dark-blue sm:text-[48px] sm:leading-[55px]">
-              Viva a tecnologia.
-              <br />
-              Transforme resultados.
+            {/* TÍTULO 40 (<1280) — 40px/40px | TÍTULO 48 (>=1280) — 48px/55px, 95 Black (800) */}
+            <h1 className="text-[40px] font-extrabold leading-[40px] tracking-normal text-dark-blue xl:text-[48px] xl:leading-[55px]">
+              {titleLines.map((line, index) => (
+                <span key={line}>
+                  {line}
+                  {index < titleLines.length - 1 ? " " : ""}
+                  {index < titleLines.length - 1 && <br className="hidden lg:block" />}
+                </span>
+              ))}
             </h1>
             {/* Subtítulo 20 — 20px/26px, 55 Roman (400) */}
             <p className="text-xl font-normal leading-[26px] tracking-normal text-texto">
-              O Experience Center Injectra foi criado para que você veja, teste
-              e comprove na prática como nossas soluções podem elevar a
-              produtividade, a qualidade e a competividade da sua indústria.
+              {t.subtitle}
             </p>
-            <div className="flex w-full flex-wrap items-center gap-5">
+            <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
               <a
                 href="#contato"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
               >
-                Agendar uma Visita
+                {t.ctaVisita}
                 <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
               </a>
               <Link
                 href="/fale-com-especialista"
                 className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
-                Falar com um Especialista
+                {t.ctaEspecialista}
                 <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </Link>
             </div>
-            <div className="flex w-full items-center gap-5">
-              {TRUST_ITEMS.map((item) => (
-                <div
-                  key={item.label}
-                  className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
-                >
-                  <Image src={item.icon} alt="" width={40} height={40} />
-                  {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-                  <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
-                    {item.label}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
 
-          {/* Espaço reservado à direita — máquina + globo já fazem parte da
-              imagem de fundo full-bleed da seção. */}
-          <div className="hidden min-h-[280px] min-w-[280px] flex-1 lg:block" />
+          {/* <1024: card inline abaixo do texto. 1024-1279: imagem contida dentro
+              deste bloco (rounded-2xl, sem full-bleed). >=1280: a foto já é o
+              background full-bleed da seção — este bloco só reserva o espaço
+              à direita. */}
+          <div className="w-full overflow-hidden rounded-2xl lg:hidden">
+            <Image
+              src="/assets/experience-center/experience-center-banner-1024.png"
+              alt=""
+              width={4909}
+              height={2688}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+          <div className="hidden w-full flex-1 overflow-hidden rounded-2xl lg:block xl:hidden">
+            <Image
+              src="/assets/experience-center/experience-center-banner-1280.png"
+              alt=""
+              width={3070}
+              height={2688}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+          <div className="hidden flex-1 xl:block" />
+        </div>
+
+        {/* >=1280: confinada à largura da coluna de texto (520px), à esquerda,
+            replicando a mesma proporção flex-1/max-w da coluna acima. <1280:
+            linha própria, largura total. */}
+        <div className="flex w-full flex-col items-center xl:flex-row">
+          <div className="flex w-full flex-wrap items-center justify-center gap-5 xl:max-w-[520px] xl:flex-1 xl:justify-start">
+            {t.trustItems.map((item: { label: string }, index: number) => (
+              <div
+                key={item.label}
+                className="flex min-w-[80px] flex-1 flex-col items-center justify-center gap-5 xl:min-w-[110px]"
+              >
+                <Image src={TRUST_ICONS[index]} alt="" width={40} height={40} />
+                {/* Label 14 — 14px/17px, 85 Heavy (700) */}
+                <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+                  {item.label}
+                </p>
+              </div>
+            ))}
+          </div>
+          <div className="hidden flex-1 xl:block" />
         </div>
       </Section>
     </div>

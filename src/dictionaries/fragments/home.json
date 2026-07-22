@@ -1,0 +1,110 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "TECNOLOGIA INDUSTRIAL AMERICANA",
+      "titlePrefix": "O Futuro da Indústria Começa",
+      "titleHighlight": "Aqui.",
+      "subtitleLine1": "Máquinas. Robótica. Inteligência Artificial. Software Industrial.",
+      "subtitleLine2": "Tudo conectado em uma única plataforma inteligente.",
+      "ctaPrimary": "Explore a Plataforma",
+      "ctaSecondary": "Falar com Especialista",
+      "trustItems": [
+        { "title": "Especificações", "subtitle": "Americanas" },
+        { "title": "Performance", "subtitle": "Alta Velocidade" },
+        { "title": "Soluções", "subtitle": "PET" },
+        { "title": "Serviço", "subtitle": "Solução Completa" },
+        { "title": "AI", "subtitle": "Injectra" }
+      ]
+    },
+    "aboutEcosystem": {
+      "titleLine1": "O Ecossistema",
+      "titleLine2": "Injectra",
+      "description": "Tudo conectado para criar operações industriais mais produtivas, inteligentes e competitivas.",
+      "exploreLabel": "Explorar o ecossistema"
+    },
+    "capacidade": {
+      "roboticaNeo": {
+        "title": "Robótica Neo",
+        "description": "Automação inteligente que impulsiona resultados.",
+        "items": [
+          "Robô Humanoide Neo",
+          "Robôs Cartesianos",
+          "Células Robotizadas",
+          "Soluções Personalizadas"
+        ],
+        "cta": "Conheça o Neo",
+        "photoAlt": "Robô Humanoide Neo"
+      },
+      "plataformaAi": {
+        "title": "Plataforma Injectra AI",
+        "description": "Dados, inteligência e controle total na palma da sua mão.",
+        "items": [
+          "Dashboard em tempo real",
+          "OEE e Performance",
+          "Manutenção Preditiva",
+          "Produção e Qualidade",
+          "Alertas e Notificações",
+          "Assistente de IA"
+        ],
+        "cta": "Explorar Plataforma",
+        "photoAlt": "Plataforma Injectra AI"
+      },
+      "experienceCenter": {
+        "title": "Experience Center",
+        "description": "Inovação para você ver, testar e transformar.",
+        "cta": "Agendar visita",
+        "photoAlt": "Experience Center Injectra"
+      },
+      "experienceItems": [
+        { "label": "Showroom Tecnológico" },
+        { "label": "Demonstrações ao Vivo" },
+        { "label": "Testes de Aplicação" },
+        { "label": "Treinamentos Especializados" },
+        { "label": "Eventos e Workshops" }
+      ]
+    },
+    "machineLines": {
+      "title": "Nossas Linhas de Máquinas",
+      "subtitle": "Soluções completas para os setores mais exigentes da indústria.",
+      "viewAllLabel": "Ver todas as máquinas",
+      "items": [
+        { "description": "Alta precisão e versatilidade para aplicações gerais." },
+        { "description": "Ciclos rápidos e máxima eficiência para alta produtividade." },
+        { "description": "Ultra alta velocidade e ciclos extremamente rápidos para máxima produtividade." },
+        { "description": "Soluções otimizadas para peças técnicas com alta precisão e acabamento." },
+        { "description": "Linha elétrica de alta precisão, repetibilidade e eficiência energética." },
+        { "description": "Especializada em caixas plásticas, palets e peças de grande porte. Estrutura robusta e alto desempenho." },
+        { "description": "Sistema hidráulico de alta potência para aplicações exigentes e peças de grandes dimensões." },
+        { "description": "Potência extrema para moldes grandes e aplicações industriais de alta exigência." },
+        { "description": "Máxima capacidade e robustez para os maiores desafios da indústria." },
+        { "description": "Híbrida, entregando alta eficiência energética e robustez." }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "NÓS NÃO CONSTRUÍMOS APENAS MÁQUINAS",
+      "titlePrefix": "Construímos",
+      "titleHighlight": " Plataformas Industriais Inteligentes.",
+      "items": [
+        { "label": "Máquinas", "description": "Máquinas de injeção de alta performance para diversas aplicações." },
+        { "label": "Robótica", "description": "Soluções que aumentam a produtividade e reduzem tempos de ciclo." },
+        { "label": "IA", "description": "Inteligência Artificial que transforma dados em decisões inteligentes." },
+        { "label": "IoT", "description": "Dispositivos conectados e sensores para total visibilidade." },
+        { "label": "Software", "description": "Software industrial poderoso para gerenciar toda a operação." },
+        { "label": "Serviços", "description": "Suporte completo da instalação à evolução contínua." }
+      ]
+    },
+    "setoresIndustriais": {
+      "title": "Soluções para os principais setores",
+      "items": [
+        { "label": "Automotivo" },
+        { "label": "Embalagens" },
+        { "label": "Médico" },
+        { "label": "Construção" },
+        { "label": "Eletrônicos" },
+        { "label": "Utilidades Domésticas" },
+        { "label": "Logística" }
+      ],
+      "moreLabel": "E muito mais..."
+    }
+  }
+}

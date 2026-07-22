@@ -4,38 +4,14 @@ import { useState } from "react";
 import Image from "next/image";
 import Section from "@/components/layout/Section";
 import { getMachinePhoto } from "@/data/machinePhotos";
+import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, nodes 7269:8058 e 7269:8242).
-// As 10 linhas reaproveitam a foto genérica já usada em MachineLines/LinhasDeMaquinas
-// (mesma imagem placeholder no Figma para todos os cards desta seção).
-const LINHAS = [
-  { name: "Prime", description: "Confiabilidade e versatilidade." },
-  { name: "Speed", description: "Alta performance e produtividade." },
-  { name: "Velocity", description: "Precisão e força para grandes desafios." },
-  { name: "Form", description: "Precisão para peças técnicas e finas." },
-  { name: "Neo", description: "Eficiência elétrica e baixo consumo." },
-  { name: "Atlas", description: "Força e estabilidade para grandes peças." },
-  { name: "Hydro", description: "Hidráulica avançada e robustez." },
-  { name: "Titan", description: "Máxima força para aplicações extremas." },
-  { name: "Max", description: "Soluções de altíssima capacidade." },
-  { name: "Equora", description: "Equilíbrio entre força, eficiência e economia com tecnologia híbrida." },
-];
-
 // As opções abaixo não estão especificadas no Figma (o design só mostra o campo
 // fechado com placeholder) — conjunto funcional mínimo para o select operar;
 // "Força de Fechamento" reaproveita as tonelagens reais da linha Prime IP
 // (src/data/machineModels.ts).
-const FORCAS = ["60", "70", "108", "138", "170", "188", "198", "228", "300", "368", "380", "400", "450", "530", "550", "650", "800", "1000"].map(
-  (t) => `${t} Toneladas`
-);
-const APLICACOES = ["Embalagens", "Automotivo", "Eletrônicos", "Médico", "Consumo", "Construção", "Outros"];
-const AUTOMACOES = ["Manual", "Semi-automática", "Automação Integrada", "Automação Total com Robótica"];
-const ROBOTICAS = ["Sem robótica", "Robô Cartesiano", "Robô Antropomórfico (6 eixos)", "Robô Colaborativo"];
-const OPCIONAIS = ["Nenhum", "Sistema de Refrigeração Avançado", "Alimentador Automático", "Central de Secagem", "Outros"];
-const VOLTAGENS = ["220V", "380V", "440V", "Outra"];
-const PRODUTIVIDADES = ["Baixo volume", "Médio volume", "Alto volume", "Altíssimo volume (24/7)"];
-const ACESSORIOS = ["Nenhum", "Moldes sob medida", "Sistema de Automação", "Central de Secagem", "Outros"];
-const INTEGRACOES_AI = ["Sem integração", "Monitoramento Básico", "Plataforma Injectra AI Completa"];
+const FORCA_TONELAGENS = ["60", "70", "108", "138", "170", "188", "198", "228", "300", "368", "380", "400", "450", "530", "550", "650", "800", "1000"];
 
 const fieldClass =
   "flex h-[60px] w-full items-center rounded-xl border-[0.5px] border-border-line-bd bg-wt px-5 text-base font-bold leading-5 tracking-normal text-texto-sem-destaque-2 placeholder:text-texto-sem-destaque-2 focus:outline-none focus:border-azul-claro appearance-none pr-10";
@@ -111,7 +87,11 @@ function ConfigSelect({
   );
 }
 
-export default function Configurador() {
+export default function Configurador({ dict }: { dict: Dictionary }) {
+  const t = dict.solicitarCotacao.configurador;
+  const linhas = t.selecaoLinha.linhas as { name: string; description: string }[];
+  const forcas = FORCA_TONELAGENS.map((tonelagem) => `${tonelagem} ${t.configuracaoMaquina.options.forcaUnidade}`);
+
   const [linhaSelecionada, setLinhaSelecionada] = useState<string | null>(null);
   const [config, setConfig] = useState<ConfigState>(CONFIG_INICIAL);
 
@@ -119,16 +99,16 @@ export default function Configurador() {
     setConfig((prev) => ({ ...prev, [field]: value }));
 
   const resumo: { label: string; value: string }[] = [
-    { label: "Linha Selecionada", value: linhaSelecionada ?? "-" },
-    { label: "Força de Fechamento", value: config.forca || "-" },
-    { label: "Aplicação", value: config.aplicacao || "-" },
-    { label: "Automação", value: config.automacao || "-" },
-    { label: "Robótica", value: config.robotica || "-" },
-    { label: "Opcionais", value: config.opcionais || "-" },
-    { label: "Voltagem", value: config.voltagem || "-" },
-    { label: "Produtividade Estimada", value: config.produtividade || "-" },
-    { label: "Acessórios", value: config.acessorios || "-" },
-    { label: "Integração com Injectra AI", value: config.integracaoAI || "-" },
+    { label: t.resumo.linhaSelecionadaLabel, value: linhaSelecionada ?? t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.forca.label, value: config.forca || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.aplicacao.label, value: config.aplicacao || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.automacao.label, value: config.automacao || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.robotica.label, value: config.robotica || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.opcionais.label, value: config.opcionais || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.voltagem.label, value: config.voltagem || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.produtividade.label, value: config.produtividade || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.acessorios.label, value: config.acessorios || t.resumo.emptyValue },
+    { label: t.configuracaoMaquina.fields.integracaoAI.label, value: config.integracaoAI || t.resumo.emptyValue },
   ];
 
   return (
@@ -141,17 +121,17 @@ export default function Configurador() {
             <div className="flex flex-1 flex-col items-start gap-2.5">
               {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
               <h2 className="w-full text-2xl font-bold leading-7 tracking-normal text-azul-claro-plus">
-                Seleção da Linha
+                {t.selecaoLinha.title}
               </h2>
               {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
               <p className="w-full text-lg font-normal leading-[22px] tracking-normal text-texto">
-                Escolha a linha de máquinas de seu interesse
+                {t.selecaoLinha.subtitle}
               </p>
             </div>
           </div>
 
           <div className="flex w-full flex-wrap items-center justify-center gap-5">
-            {LINHAS.map((linha) => {
+            {linhas.map((linha) => {
               const selected = linhaSelecionada === linha.name;
               const photo = getMachinePhoto(linha.name);
               return (
@@ -189,7 +169,7 @@ export default function Configurador() {
             <div className="flex min-w-[280px] flex-1 items-center gap-2.5">
               <Image src="/assets/solicitar-cotacao/icon-alerta.svg" alt="" width={23} height={23} className="shrink-0 object-contain" />
               <p className="flex-1 text-base font-bold leading-5 tracking-normal text-texto">
-                Você poderá configurar todos os detalhes da máquina na próxima etapa.
+                {t.selecaoLinha.alertText}
               </p>
             </div>
             <button
@@ -197,7 +177,7 @@ export default function Configurador() {
               className="flex min-h-[50px] flex-1 items-center justify-center gap-2.5 rounded-md px-[15px] py-2.5 text-xl font-bold leading-[22px] tracking-normal text-wt transition-opacity hover:opacity-90"
               style={{ background: "var(--gradient-injectra)" }}
             >
-              Próximo: Configuração da Máquina
+              {t.selecaoLinha.nextButton}
               <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
             </button>
           </div>
@@ -211,30 +191,84 @@ export default function Configurador() {
             <Image src="/assets/fale-com-especialista/icon-personalizacao.svg" alt="" width={40} height={40} className="shrink-0 object-contain" />
             <div className="flex flex-1 flex-col items-start gap-2.5">
               <h2 className="w-full text-2xl font-bold leading-7 tracking-normal text-azul-claro-plus">
-                Configuração da Máquina
+                {t.configuracaoMaquina.title}
               </h2>
               <p className="w-full text-lg font-normal leading-[22px] tracking-normal text-texto">
-                Personalize sua máquina conforme as necessidades do seu projeto.
+                {t.configuracaoMaquina.subtitle}
               </p>
             </div>
           </div>
 
           <div className="flex w-full flex-wrap items-start gap-5">
-            <ConfigSelect label="Força de Fechamento" placeholder="Selecione a força (ton)" options={FORCAS} value={config.forca} onChange={setField("forca")} />
-            <ConfigSelect label="Tipo de Aplicação" placeholder="Selecione a aplicação" options={APLICACOES} value={config.aplicacao} onChange={setField("aplicacao")} />
-            <ConfigSelect label="Automação" placeholder="Selecione o nível" options={AUTOMACOES} value={config.automacao} onChange={setField("automacao")} />
-            <ConfigSelect label="Robótica" placeholder="Seleciona a opção" options={ROBOTICAS} value={config.robotica} onChange={setField("robotica")} />
-            <ConfigSelect label="Opcionais" placeholder="Selecione os opcionais" options={OPCIONAIS} value={config.opcionais} onChange={setField("opcionais")} />
-            <ConfigSelect label="Voltagem" placeholder="Selecione a voltagem" options={VOLTAGENS} value={config.voltagem} onChange={setField("voltagem")} />
-            <ConfigSelect label="Produtividade Estimada" placeholder="Selecione a produtividade" options={PRODUTIVIDADES} value={config.produtividade} onChange={setField("produtividade")} />
-            <ConfigSelect label="Acessórios" placeholder="Selecione os acessórios" options={ACESSORIOS} value={config.acessorios} onChange={setField("acessorios")} />
-            <ConfigSelect label="Integração com Injectra AI" placeholder="Selecione a integração" options={INTEGRACOES_AI} value={config.integracaoAI} onChange={setField("integracaoAI")} />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.forca.label}
+              placeholder={t.configuracaoMaquina.fields.forca.placeholder}
+              options={forcas}
+              value={config.forca}
+              onChange={setField("forca")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.aplicacao.label}
+              placeholder={t.configuracaoMaquina.fields.aplicacao.placeholder}
+              options={t.configuracaoMaquina.options.aplicacao}
+              value={config.aplicacao}
+              onChange={setField("aplicacao")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.automacao.label}
+              placeholder={t.configuracaoMaquina.fields.automacao.placeholder}
+              options={t.configuracaoMaquina.options.automacao}
+              value={config.automacao}
+              onChange={setField("automacao")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.robotica.label}
+              placeholder={t.configuracaoMaquina.fields.robotica.placeholder}
+              options={t.configuracaoMaquina.options.robotica}
+              value={config.robotica}
+              onChange={setField("robotica")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.opcionais.label}
+              placeholder={t.configuracaoMaquina.fields.opcionais.placeholder}
+              options={t.configuracaoMaquina.options.opcionais}
+              value={config.opcionais}
+              onChange={setField("opcionais")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.voltagem.label}
+              placeholder={t.configuracaoMaquina.fields.voltagem.placeholder}
+              options={t.configuracaoMaquina.options.voltagem}
+              value={config.voltagem}
+              onChange={setField("voltagem")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.produtividade.label}
+              placeholder={t.configuracaoMaquina.fields.produtividade.placeholder}
+              options={t.configuracaoMaquina.options.produtividade}
+              value={config.produtividade}
+              onChange={setField("produtividade")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.acessorios.label}
+              placeholder={t.configuracaoMaquina.fields.acessorios.placeholder}
+              options={t.configuracaoMaquina.options.acessorios}
+              value={config.acessorios}
+              onChange={setField("acessorios")}
+            />
+            <ConfigSelect
+              label={t.configuracaoMaquina.fields.integracaoAI.label}
+              placeholder={t.configuracaoMaquina.fields.integracaoAI.placeholder}
+              options={t.configuracaoMaquina.options.integracaoAI}
+              value={config.integracaoAI}
+              onChange={setField("integracaoAI")}
+            />
           </div>
 
           <div className="flex w-full items-center gap-2.5 rounded-xl border-2 border-azul-claro-plus p-2.5">
             <Image src="/assets/solicitar-cotacao/icon-alerta.svg" alt="" width={23} height={23} className="shrink-0 object-contain" />
             <p className="flex-1 text-base font-bold leading-5 tracking-normal text-azul-claro-plus">
-              Nossa equipe técnica utilizará essas informações para criar a solução ideal para o seu projeto.
+              {t.configuracaoMaquina.alertText}
             </p>
           </div>
         </div>
@@ -242,7 +276,7 @@ export default function Configurador() {
         <div className="flex w-full flex-1 min-w-[335px] max-w-[400px] flex-col items-start overflow-hidden rounded-2xl border-[0.5px] border-border-line-bd bg-wt">
           <div className="flex w-full items-center bg-blue-lt p-5">
             <h3 className="flex-1 text-xl font-bold leading-[22px] tracking-normal text-azul-claro-plus">
-              Configuração Selecionada
+              {t.resumo.title}
             </h3>
           </div>
           <div className="flex w-full flex-1 flex-col gap-5 p-5">
@@ -258,7 +292,7 @@ export default function Configurador() {
             className="flex min-h-[50px] w-full items-center justify-center gap-2.5 px-[15px] py-2.5 text-xl font-bold leading-[22px] tracking-normal text-wt transition-opacity hover:opacity-90"
             style={{ background: "var(--gradient-injectra)" }}
           >
-            Salvar Configuração
+            {t.resumo.saveButton}
             <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
           </button>
         </div>

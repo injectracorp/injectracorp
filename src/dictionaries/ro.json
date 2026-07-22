@@ -1,0 +1,2927 @@
+{
+  "shared": {
+    "meta": {
+      "title": "Injectra | Tehnologie Industrială Americană",
+      "description": "Mașini, robotică, IoT și inteligență artificială conectate într-o singură platformă industrială."
+    },
+    "header": {
+      "logoAriaLabel": "Injectra — pagina principală",
+      "openMenuAriaLabel": "Deschide meniul",
+      "closeMenuAriaLabel": "Închide meniul",
+      "cta": "Solicită Ofertă"
+    },
+    "footer": {
+      "taglinePrefix": "Avansează. ",
+      "taglineHighlight": "Injectează.",
+      "taglineSuffix": " Modelează viitorul.",
+      "description": "Tehnologie premium pentru injecția maselor plastice, cu mașini industriale, inteligență artificială și suport regional, menită să impulsioneze productivitatea industriei din întreaga Americă.",
+      "logoAriaLabel": "Injectra — pagina principală",
+      "socialLabels": {
+        "instagram": "Instagram",
+        "x": "X (Twitter)",
+        "linkedin": "LinkedIn",
+        "youtube": "YouTube",
+        "facebook": "Facebook"
+      },
+      "infoBar": [
+        {
+          "title": "Injectra Corporation",
+          "subtitle": "Orlando, Florida, SUA"
+        },
+        {
+          "title": "+1 (321) 888-7963"
+        },
+        {
+          "title": "info@injectracorp.com"
+        },
+        {
+          "title": "Suport Tehnic Specializat"
+        },
+        {
+          "title": "Servicii pentru întreaga Americă"
+        }
+      ],
+      "ctaBanner": {
+        "title": "Sunteți pregătiți să vă transformați industria?",
+        "description": "Descoperiți cum Injectra poate crește productivitatea, reduce costurile și conecta întreaga operațiune într-o singură platformă industrială inteligentă.",
+        "quoteButton": "Solicită Ofertă",
+        "specialistButton": "Discută cu un Specialist",
+        "machineImageAlt": "Mașină Injectra"
+      },
+      "bottomBar": {
+        "countryBadge": "COMPANIE AMERICANĂ",
+        "location": "Orlando, Florida • SUA",
+        "groupLabel": "Parte din Grup",
+        "groupLogoAlt": "Interfy Group",
+        "copyright": "Injectra Corporation © 2026. Toate drepturile rezervate."
+      },
+      "legalLinks": [
+        {
+          "label": "Politica de Confidențialitate",
+          "href": "/politicas-privacidade"
+        },
+        {
+          "label": "Termeni și Condiții",
+          "href": "/termos-de-uso"
+        },
+        {
+          "label": "Cookie-uri",
+          "href": "/cookies"
+        },
+        {
+          "label": "Garanție și Suport",
+          "href": "/garantia-e-suporte"
+        },
+        {
+          "label": "Conformitate",
+          "href": "/compliance"
+        }
+      ]
+    },
+    "nav": {
+      "columns": [
+        {
+          "title": "PRODUSE",
+          "items": [
+            {
+              "title": "Mașini",
+              "description": "Linii hidraulice și electrice pentru toate segmentele."
+            },
+            {
+              "title": "Robotică",
+              "description": "Robotul Umanoid Neo, roboți carteziani și automatizare."
+            },
+            {
+              "title": "Platforma AI",
+              "description": "Injectra AI, Cloud, IoT, Analytics, OEE și Aplicație Mobilă."
+            },
+            {
+              "title": "Industrii",
+              "description": "Soluții pentru diverse segmente industriale din întreaga Americă."
+            }
+          ]
+        },
+        {
+          "title": "SERVICII",
+          "items": [
+            {
+              "title": "Experience Center",
+              "description": "Demonstrații, teste de aplicație, instruire și showroom."
+            },
+            {
+              "title": "Reprezentanți",
+              "description": "Program de reprezentanți, extindere comercială și suport."
+            },
+            {
+              "title": "Suport",
+              "description": "Asistență tehnică, piese, mentenanță, garanție și întrebări frecvente."
+            },
+            {
+              "title": "Cataloage",
+              "description": "Cataloage digitale, manuale tehnice, fișe tehnice și materiale de descărcat."
+            }
+          ]
+        },
+        {
+          "title": "COMPANIE",
+          "items": [
+            {
+              "title": "Despre Noi",
+              "description": "Despre Injectra, Grupul Interfy, sustenabilitate și carieră."
+            },
+            {
+              "title": "Contact",
+              "description": "Telefoane, e-mailuri, adresă și canale de asistență."
+            },
+            {
+              "title": "Solicită Ofertă",
+              "description": "Primiți o propunere personalizată pentru operațiunea dumneavoastră industrială."
+            },
+            {
+              "title": "Discută cu un Specialist",
+              "description": "Discutați cu echipa noastră tehnică și comercială specializată."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "TEHNOLOGIE INDUSTRIALĂ AMERICANĂ",
+      "titlePrefix": "Viitorul Industriei Începe",
+      "titleHighlight": "Aici.",
+      "subtitleLine1": "Mașini. Robotică. Inteligență Artificială. Software Industrial.",
+      "subtitleLine2": "Totul conectat într-o singură platformă inteligentă.",
+      "ctaPrimary": "Explorați Platforma",
+      "ctaSecondary": "Discută cu un Specialist",
+      "trustItems": [
+        {
+          "title": "Specificații",
+          "subtitle": "Americane"
+        },
+        {
+          "title": "Performanță",
+          "subtitle": "Viteză Mare"
+        },
+        {
+          "title": "Soluții",
+          "subtitle": "PET"
+        },
+        {
+          "title": "Serviciu",
+          "subtitle": "Soluție Completă"
+        },
+        {
+          "title": "AI",
+          "subtitle": "Injectra"
+        }
+      ]
+    },
+    "aboutEcosystem": {
+      "titleLine1": "Ecosistemul",
+      "titleLine2": "Injectra",
+      "description": "Totul conectat pentru a crea operațiuni industriale mai productive, mai inteligente și mai competitive.",
+      "exploreLabel": "Explorați ecosistemul"
+    },
+    "capacidade": {
+      "roboticaNeo": {
+        "title": "Robotică Neo",
+        "description": "Automatizare inteligentă care generează rezultate.",
+        "items": [
+          "Robotul Umanoid Neo",
+          "Roboți Carteziani",
+          "Celule Robotizate",
+          "Soluții Personalizate"
+        ],
+        "cta": "Descoperiți Neo",
+        "photoAlt": "Robotul Umanoid Neo"
+      },
+      "plataformaAi": {
+        "title": "Platforma Injectra AI",
+        "description": "Date, inteligență și control total la îndemâna dumneavoastră.",
+        "items": [
+          "Tablou de bord în timp real",
+          "OEE și Performanță",
+          "Mentenanță Predictivă",
+          "Producție și Calitate",
+          "Alerte și Notificări",
+          "Asistent AI"
+        ],
+        "cta": "Explorați Platforma",
+        "photoAlt": "Platforma Injectra AI"
+      },
+      "experienceCenter": {
+        "title": "Experience Center",
+        "description": "Inovație pe care o puteți vedea, testa și transforma.",
+        "cta": "Programează o vizită",
+        "photoAlt": "Experience Center Injectra"
+      },
+      "experienceItems": [
+        {
+          "label": "Showroom Tehnologic"
+        },
+        {
+          "label": "Demonstrații Live"
+        },
+        {
+          "label": "Teste de Aplicație"
+        },
+        {
+          "label": "Instruiri Specializate"
+        },
+        {
+          "label": "Evenimente și Workshopuri"
+        }
+      ]
+    },
+    "machineLines": {
+      "title": "Liniile Noastre de Mașini",
+      "subtitle": "Soluții complete pentru cele mai exigente sectoare ale industriei.",
+      "viewAllLabel": "Vezi toate mașinile",
+      "items": [
+        {
+          "description": "Precizie ridicată și versatilitate pentru aplicații generale."
+        },
+        {
+          "description": "Cicluri rapide și eficiență maximă pentru productivitate ridicată."
+        },
+        {
+          "description": "Viteză ultra-ridicată și cicluri extrem de rapide pentru productivitate maximă."
+        },
+        {
+          "description": "Soluții optimizate pentru piese tehnice, cu precizie și finisaj superioare."
+        },
+        {
+          "description": "Linie electrică de precizie ridicată, repetabilitate și eficiență energetică."
+        },
+        {
+          "description": "Specializată în lăzi din plastic, paleți și piese de mari dimensiuni. Structură robustă și performanță ridicată."
+        },
+        {
+          "description": "Sistem hidraulic de putere mare pentru aplicații exigente și piese de dimensiuni mari."
+        },
+        {
+          "description": "Putere extremă pentru matrițe mari și aplicații industriale de înaltă exigență."
+        },
+        {
+          "description": "Capacitate și robustețe maxime pentru cele mai mari provocări ale industriei."
+        },
+        {
+          "description": "Hibridă, oferind eficiență energetică ridicată și robustețe."
+        }
+      ]
+    },
+    "pillars": {
+      "eyebrow": "NU CONSTRUIM DOAR MAȘINI",
+      "titlePrefix": "Construim",
+      "titleHighlight": " Platforme Industriale Inteligente.",
+      "items": [
+        {
+          "label": "Mașini",
+          "description": "Mașini de injecție de înaltă performanță pentru diverse aplicații."
+        },
+        {
+          "label": "Robotică",
+          "description": "Soluții care cresc productivitatea și reduc timpii de ciclu."
+        },
+        {
+          "label": "AI",
+          "description": "Inteligență Artificială care transformă datele în decizii inteligente."
+        },
+        {
+          "label": "IoT",
+          "description": "Dispozitive conectate și senzori pentru vizibilitate totală."
+        },
+        {
+          "label": "Software",
+          "description": "Software industrial performant pentru gestionarea întregii operațiuni."
+        },
+        {
+          "label": "Servicii",
+          "description": "Suport complet, de la instalare la evoluție continuă."
+        }
+      ]
+    },
+    "setoresIndustriais": {
+      "title": "Soluții pentru principalele sectoare",
+      "items": [
+        {
+          "label": "Automotive"
+        },
+        {
+          "label": "Ambalaje"
+        },
+        {
+          "label": "Medical"
+        },
+        {
+          "label": "Construcții"
+        },
+        {
+          "label": "Electronice"
+        },
+        {
+          "label": "Bunuri de Uz Casnic"
+        },
+        {
+          "label": "Logistică"
+        }
+      ],
+      "moreLabel": "Și multe altele..."
+    }
+  },
+  "catalogos": {
+    "banner": {
+      "eyebrow": "CATALOAGE",
+      "title": "Cataloage Injectra",
+      "subtitle": "Accesați materialele tehnice și comerciale ale liniilor de mașini, robotică și platformei digitale Injectra.",
+      "ctaPrimary": "Solicită Catalogul",
+      "ctaSecondary": "Discută cu un Specialist",
+      "highlightsTitle": "Ce găsiți în cataloagele noastre",
+      "highlightsSubtitle": "Descoperiți tehnologia Injectra în practică și aflați cum vă putem duce producția la nivelul următor.",
+      "highlights": [
+        "Specificații Tehnice",
+        "Aplicații recomandate",
+        "Avantaje și beneficii",
+        "Opționale și accesorii",
+        "Automatizare și robotică",
+        "Injectra AI și IoT",
+        "Suport și contact comercial"
+      ]
+    },
+    "cta": {
+      "title": "Descărcați catalogul potrivit pentru proiectul dumneavoastră",
+      "subtitle": "Discutați cu specialiștii noștri și găsiți soluția Injectra perfectă pentru industria dumneavoastră.",
+      "ctaPrimary": "Solicită Catalogul",
+      "ctaSecondary": "Discută cu un Specialist",
+      "ctaTertiary": "Solicită Ofertă",
+      "stats": [
+        {
+          "title": "Tehnologie Americană",
+          "description": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "description": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "description": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "description": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "description": "Eficiență energetică și ESG"
+        }
+      ]
+    },
+    "catalogosGerais": {
+      "title": "Cataloage Generale",
+      "items": [
+        {
+          "name": "Catalog General",
+          "description": "Precizie ridicată și versatilitate pentru aplicații generale."
+        }
+      ]
+    },
+    "linhasMaquinas": {
+      "title": "Linii de Mașini",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Precizie ridicată și versatilitate pentru aplicații generale."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Cicluri rapide și eficiență maximă pentru productivitate ridicată."
+        },
+        {
+          "name": "VELOCITY - IV",
+          "description": "Viteză ultra-ridicată și cicluri extrem de rapide pentru productivitate maximă."
+        },
+        {
+          "name": "FORM - IF",
+          "description": "Soluții optimizate pentru piese tehnice, cu precizie și finisaj superioare."
+        },
+        {
+          "name": "NEO EX - IE",
+          "description": "Linie electrică de precizie ridicată, repetabilitate și eficiență energetică."
+        },
+        {
+          "name": "ATLAS - IA",
+          "description": "Specializată în lăzi din plastic, paleți și piese de mari dimensiuni. Structură robustă și performanță ridicată."
+        },
+        {
+          "name": "HYDRO - IH",
+          "description": "Sistem hidraulic de putere mare pentru aplicații exigente și piese de dimensiuni mari."
+        },
+        {
+          "name": "TITAN - IT",
+          "description": "Putere extremă pentru matrițe mari și aplicații industriale de înaltă exigență."
+        },
+        {
+          "name": "MAX - IM",
+          "description": "Capacitate și robustețe maxime pentru cele mai mari provocări ale industriei."
+        },
+        {
+          "name": "EQUORA - IQ",
+          "description": "Hibridă, oferind eficiență energetică ridicată și robustețe."
+        }
+      ]
+    },
+    "solucoesDigitais": {
+      "title": "Soluții Digitale și Automatizare",
+      "items": [
+        {
+          "name": "PRIME - IP",
+          "description": "Precizie ridicată și versatilitate pentru aplicații generale."
+        },
+        {
+          "name": "SPEED - IS",
+          "description": "Cicluri rapide și eficiență maximă pentru productivitate ridicată."
+        }
+      ]
+    }
+  },
+  "legal": {
+    "shared": {
+      "tocHeading": "În această pagină",
+      "contactCardTitle": "Injectra Corporation",
+      "lastUpdated": "Ultima actualizare: 21 iulie 2026",
+      "contactLabels": {
+        "email": "E-mail",
+        "phone": "Telefon",
+        "address": "Adresă"
+      },
+      "contact": {
+        "email": "info@injectracorp.com",
+        "phone": "+1 (321) 888-7963",
+        "address": "Orlando, Florida, SUA"
+      }
+    },
+    "termsOfUse": {
+      "banner": {
+        "eyebrow": "INFORMAȚII LEGALE",
+        "titleMain": "Termeni și",
+        "titleHighlight": "Condiții",
+        "subtitle": "Citiți cu atenție termenii și condițiile care reglementează utilizarea site-ului nostru, a cataloagelor, ofertelor și a celorlalte produse și servicii."
+      },
+      "nav": [
+        "1. Acceptarea Termenilor",
+        "2. Despre Injectra",
+        "3. Utilizarea Permisă a Site-ului",
+        "4. Conturi de Utilizator",
+        "5. Produse, Oferte și Servicii",
+        "6. Proprietate Intelectuală",
+        "7. Limitarea Răspunderii",
+        "8. Linkuri către Terți",
+        "9. Confidențialitate",
+        "10. Despăgubire",
+        "11. Modificări",
+        "12. Încetare",
+        "13. Legislație Aplicabilă",
+        "14. Contact"
+      ],
+      "introP1Before": "Bun venit pe site-ul ",
+      "introP1After": " (\"Injectra\", \"noi\" sau \"al nostru\"). Prin accesarea sau utilizarea site-ului nostru, a cataloagelor, formularelor de ofertă, aplicației sau serviciilor, sunteți de acord cu acești Termeni și Condiții. Dacă nu sunteți de acord cu vreo parte a acestor termeni, vă rugăm să nu utilizați serviciile noastre.",
+      "introP2": "Acești termeni constituie un acord legal între dumneavoastră (utilizatorul) și Injectra Corporation, companie înființată în Statele Unite și parte a Interfy Corporation.",
+      "sections": {
+        "aceitacao": {
+          "title": "1. Acceptarea Termenilor",
+          "p1Before": "Prin accesarea și utilizarea site-ului injectracorp.com (și a subdomeniilor sale) sau a oricărui catalog, formular de ofertă, aplicație sau serviciu oferit de Injectra, declarați că ați citit, înțeles și acceptat acești Termeni și Condiții, precum și ",
+          "p1LinkLabel": "Politica noastră de Confidențialitate",
+          "p1After": ".",
+          "p2": "Dacă accesați serviciile în numele unei companii sau organizații, declarați că aveți autoritatea de a angaja acea entitate în respectarea acestor termeni."
+        },
+        "sobre": {
+          "title": "2. Despre Injectra",
+          "p1": "Injectra Corporation este o companie americană, cu sediul în Orlando, Florida, SUA, specializată în mașini de injecție (linii hidraulice și electrice), robotică industrială și platforma Injectra AI, care integrează software industrial, IoT, cloud și inteligență artificială pentru gestionarea operațiunilor de producție.",
+          "p2": "Injectra face parte din Interfy Corporation, grup global de tehnologie cu peste 26 de ani de activitate în inovație și transformare digitală."
+        },
+        "usoPermitido": {
+          "title": "3. Utilizarea Permisă a Site-ului",
+          "p1": "Puteți utiliza site-ul nostru în scopuri legale și în conformitate cu acești Termeni. Este strict interzis:",
+          "list": [
+            "Utilizarea site-ului într-un mod care încalcă legile sau reglementările aplicabile",
+            "Transmiterea oricărui material publicitar sau promoțional nesolicitat",
+            "Încercarea de a obține acces neautorizat la orice parte a site-ului, portalului sau platformei Injectra AI",
+            "Interferarea sau întreruperea integrității ori performanței site-ului",
+            "Colectarea de date ale altor utilizatori fără consimțământul acestora",
+            "Utilizarea de roboți, scrapere sau alte mijloace automatizate pentru accesarea site-ului",
+            "Realizarea de inginerie inversă, decompilarea sau dezasamblarea oricărui software al platformei"
+          ]
+        },
+        "contas": {
+          "title": "4. Conturi de Utilizator",
+          "subsections": {
+            "criacao": {
+              "title": "4.1 Crearea contului",
+              "p": "Anumite funcționalități, precum portalul clienților și platforma Injectra AI, pot necesita înregistrarea unui cont. La crearea unui cont, vă angajați să furnizați informații adevărate, exacte și complete."
+            },
+            "responsabilidadeConta": {
+              "title": "4.2 Responsabilitatea privind contul",
+              "p": "Sunteți responsabil pentru păstrarea confidențialității credențialelor dumneavoastră de acces și pentru toate activitățile desfășurate prin contul dumneavoastră. Notificați imediat Injectra cu privire la orice utilizare neautorizată."
+            },
+            "cancelamento": {
+              "title": "4.3 Anulare",
+              "p": "Injectra își rezervă dreptul de a anula sau suspenda conturile care încalcă acești Termeni, fără notificare prealabilă."
+            }
+          }
+        },
+        "produtos": {
+          "title": "5. Produse, Oferte și Servicii",
+          "subsections": {
+            "catalogos": {
+              "title": "5.1 Cataloage și specificații",
+              "p": "Depunem eforturi pentru a menține cataloagele, fișele tehnice și specificațiile mașinilor și roboticii precise și actualizate. Cu toate acestea, nu garantăm că aceste informații sunt complete, lipsite de erori sau că reflectă configurația finală a fiecărui proiect, care poate varia în funcție de aplicație."
+            },
+            "cotacao": {
+              "title": "5.2 Solicitarea unei oferte",
+              "p": "Trimiterea unui formular de ofertă sau contactarea unui specialist nu constituie o comandă de cumpărare obligatorie. Prețurile și condițiile comerciale sunt stabilite printr-o propunere specifică, transmisă de echipa noastră comercială."
+            },
+            "plataforma": {
+              "title": "5.3 Platforma Injectra AI și IoT",
+              "p": "Utilizarea platformei Injectra AI, a aplicației mobile și a dispozitivelor IoT conectate este supusă unor termeni specifici, prezentați în momentul activării. Acești termeni completează prezenții Termeni și Condiții generali."
+            },
+            "representantes": {
+              "title": "5.4 Reprezentanți și parteneri",
+              "p": "Reprezentanții și partenerii comerciali autorizați acționează în baza unui contract propriu cu Injectra și nu sunt automat obligați de acești Termeni în relațiile lor cu terții."
+            }
+          }
+        },
+        "propriedade": {
+          "title": "6. Proprietate Intelectuală",
+          "p1": "Întregul conținut prezent pe site-ul Injectra — inclusiv texte, imagini, sigle, pictograme, materiale video, cataloage, software și design — este proprietatea exclusivă a Injectra Corporation sau a licențiatorilor săi și este protejat prin legile privind drepturile de autor, mărcile înregistrate și alte legi aplicabile privind proprietatea intelectuală.",
+          "p2": "Este interzisă reproducerea, distribuirea, modificarea, afișarea publică sau crearea de opere derivate din orice conținut al site-ului fără autorizarea prealabilă și scrisă a Injectra.",
+          "p3": "Numele Injectra, sigla și celelalte mărci comerciale ale Injectra Corporation sunt mărci înregistrate sau în curs de înregistrare. Utilizarea lor neautorizată este interzisă."
+        },
+        "responsabilidade": {
+          "title": "7. Limitarea Răspunderii",
+          "p1": "În limita maximă permisă de legea aplicabilă, Injectra nu va fi răspunzătoare pentru daune indirecte, incidentale, speciale, subsecvente sau punitive rezultate din utilizarea sau imposibilitatea de utilizare a site-ului, produselor sau serviciilor.",
+          "p2": "Injectra nu este răspunzătoare pentru întreruperile cauzate de factori aflați în afara controlului său, inclusiv defecțiuni ale infrastructurii unor terți, dezastre naturale sau atacuri cibernetice.",
+          "p3": "Utilizatorul recunoaște că folosește site-ul și serviciile pe propriul risc, în limitele prevăzute de lege."
+        },
+        "links": {
+          "title": "8. Linkuri către Terți",
+          "p1": "Site-ul nostru poate conține linkuri către site-uri ale unor terți, inclusiv reprezentanți, parteneri și rețele sociale. Aceste linkuri sunt oferite doar pentru conveniență și informare. Injectra nu deține control asupra conținutului acestor site-uri și nu este răspunzătoare pentru conținutul, practicile de confidențialitate sau disponibilitatea lor.",
+          "p2": "Accesarea site-urilor terților se face pe răspunderea exclusivă a utilizatorului, care trebuie să verifice termenii și politicile acestor site-uri înainte de a le utiliza."
+        },
+        "privacidade": {
+          "title": "9. Confidențialitate",
+          "p1Before": "Prelucrarea datelor cu caracter personal colectate de Injectra este guvernată de ",
+          "p1LinkLabel": "Politica noastră de Confidențialitate",
+          "p1After": ", care face parte integrantă din acești Termeni și Condiții. Prin utilizarea serviciilor noastre, sunteți de acord cu practicile de colectare și utilizare a datelor descrise în această politică.",
+          "p2": "Injectra este dedicată respectării legislației aplicabile privind protecția datelor, inclusiv Legea Generală privind Protecția Datelor (LGPD) din Brazilia și celorlalte legi privind protecția datelor în vigoare în țările în care activăm."
+        },
+        "indenizacao": {
+          "title": "10. Despăgubire",
+          "p1": "Sunteți de acord să apărați, să despăgubiți și să exonerați de răspundere Injectra Corporation, directorii, angajații, partenerii și agenții săi, de orice pretenții, răspunderi, daune, pierderi și cheltuieli (inclusiv onorarii avocațiale rezonabile) rezultate din utilizarea de către dumneavoastră a site-ului sau din încălcarea acestor Termeni."
+        },
+        "modificacoes": {
+          "title": "11. Modificarea Termenilor",
+          "p1": "Injectra își rezervă dreptul de a modifica acești Termeni și Condiții în orice moment. Modificările vor intra în vigoare imediat după publicarea pe site, odată cu actualizarea datei din partea de sus a acestei pagini.",
+          "p2": "Utilizarea continuă a site-ului după publicarea modificărilor constituie acceptarea noilor Termeni. Vă recomandăm să revizuiți periodic această pagină."
+        },
+        "rescisao": {
+          "title": "12. Încetare",
+          "p1": "Injectra poate întrerupe sau suspenda accesul dumneavoastră la site, la portalul clienților sau la platforma Injectra AI în orice moment, cu sau fără notificare prealabilă, din orice motiv, inclusiv încălcarea acestor Termeni.",
+          "p2": "După încetare, prevederile acestor Termeni care, prin natura lor, trebuie să rămână în vigoare vor continua să se aplice, inclusiv secțiunile privind proprietatea intelectuală, limitarea răspunderii și despăgubirea."
+        },
+        "legislacao": {
+          "title": "13. Legislația Aplicabilă și Jurisdicția",
+          "p1": "Acești Termeni și Condiții sunt guvernați de legile Statului Florida, Statele Unite, fără a aduce atingere legilor privind protecția consumatorilor aplicabile în țara de reședință a utilizatorului.",
+          "p2": "În Brazilia, relațiile cu utilizatorii și clienții brazilieni sunt supuse și Codului de Protecție a Consumatorului (Legea nr. 8.078/1990) și legislației braziliene aplicabile.",
+          "p3": "Orice litigiu rezultat din acești Termeni va fi soluționat de preferință prin mediere. Dacă acest lucru nu este posibil, se stabilește ca instanță competentă cea de la reședința utilizatorului, conform legislației aplicabile."
+        },
+        "contato": {
+          "title": "14. Contact",
+          "p1": "În cazul în care aveți întrebări, sugestii sau reclamații legate de acești Termeni și Condiții, contactați Injectra:"
+        }
+      }
+    },
+    "privacyPolicy": {
+      "banner": {
+        "eyebrow": "CONFIDENȚIALITATE ȘI TRANSPARENȚĂ",
+        "titleMain": "Politica de",
+        "titleHighlight": "Confidențialitate",
+        "subtitle": "Aflați cum Injectra colectează, utilizează, distribuie și protejează datele cu caracter personal prelucrate prin site-ul nostru, cataloagele, ofertele și platforma Injectra AI."
+      },
+      "nav": [
+        "1. Operatorul de Date",
+        "2. Date Colectate",
+        "3. Scopurile Prelucrării",
+        "4. Temeiuri Legale",
+        "5. Distribuirea Datelor",
+        "6. Cookie-uri",
+        "7. Păstrarea Datelor",
+        "8. Securitate",
+        "9. Drepturile Dumneavoastră",
+        "10. Transferuri Internaționale",
+        "11. Minori",
+        "12. Modificări",
+        "13. Responsabilul cu Protecția Datelor"
+      ],
+      "introP1Before": "Această Politică de Confidențialitate descrie modul în care ",
+      "introP1After": " (\"Injectra\", \"noi\" sau \"al nostru\") colectează, utilizează, stochează și protejează datele cu caracter personal ale vizitatorilor site-ului, solicitanților de oferte, clienților, reprezentanților și utilizatorilor platformei Injectra AI.",
+      "introP2Before": "Prin utilizarea canalelor noastre, sunteți de acord cu practicile descrise în această Politică, care completează ",
+      "introP2LinkLabel": "Termenii și Condițiile",
+      "introP2After": " noastre.",
+      "sections": {
+        "controlador": {
+          "title": "1. Operatorul de Date",
+          "p1": "Operatorul datelor cu caracter personal prelucrate pe acest site este Injectra Corporation, companie înființată în Statele Unite, cu sediul în Orlando, Florida, și parte a Interfy Corporation."
+        },
+        "coleta": {
+          "title": "2. Date Colectate",
+          "p1": "Putem colecta următoarele categorii de date:",
+          "list": [
+            "Date de identificare și contact: nume, e-mail, telefon, companie și funcție, furnizate în formularele de ofertă, contact sau descărcare de cataloage",
+            "Date comerciale: segment industrial, produse de interes, volum de producție și alte informații furnizate pentru elaborarea propunerilor",
+            "Date de navigare: adresă IP, tip de dispozitiv, pagini vizitate și sursa accesării, colectate prin cookie-uri și tehnologii similare",
+            "Date operaționale și de telemetrie: după caz, date privind performanța și utilizarea mașinilor conectate la platforma Injectra AI/IoT, conform contractului specific încheiat cu clientul"
+          ]
+        },
+        "finalidades": {
+          "title": "3. Scopurile Prelucrării",
+          "list": [
+            "Răspunsul la solicitări de ofertă, contact și suport tehnic",
+            "Elaborarea propunerilor comerciale și facilitarea vânzării de mașini, robotică și servicii",
+            "Furnizarea și îmbunătățirea platformei Injectra AI, a aplicației mobile și a serviciilor IoT/analytics",
+            "Trimiterea de comunicări comerciale, cataloage și noutăți, atunci când utilizatorul și-a dat acordul",
+            "Îndeplinirea obligațiilor legale, de reglementare și contractuale",
+            "Prevenirea fraudelor și asigurarea securității site-ului și platformei"
+          ]
+        },
+        "basesLegais": {
+          "title": "4. Temeiuri Legale",
+          "p1": "Prelucrarea datelor cu caracter personal de către Injectra se bazează, după caz, pe executarea unui contract sau a demersurilor premergătoare acestuia (precum elaborarea ofertelor), pe îndeplinirea unei obligații legale, pe interesul legitim al Injectra și pe consimțământul persoanei vizate, în special pentru trimiterea de comunicări de marketing și utilizarea cookie-urilor neesențiale."
+        },
+        "compartilhamento": {
+          "title": "5. Distribuirea Datelor",
+          "p1": "Datele dumneavoastră pot fi distribuite către:",
+          "list": [
+            "Companii din cadrul Interfy Corporation, în scopuri administrative și de suport corporativ",
+            "Reprezentanți și parteneri comerciali autorizați, exclusiv pentru facilitarea ofertelor și a serviciilor locale",
+            "Furnizori de servicii (găzduire, marketing prin e-mail, analiza datelor), sub obligații contractuale de confidențialitate și securitate",
+            "Autorități publice, atunci când este cerut de lege, printr-un ordin judecătoresc sau o solicitare de reglementare"
+          ],
+          "p2": "Injectra nu vinde date cu caracter personal către terți."
+        },
+        "cookies": {
+          "title": "6. Cookie-uri",
+          "p1Before": "Utilizăm cookie-uri și tehnologii similare pentru a permite și îmbunătăți navigarea pe site. Detaliile privind tipurile de cookie-uri utilizate și modul de gestionare a preferințelor dumneavoastră sunt disponibile în ",
+          "p1LinkLabel": "Politica noastră privind Cookie-urile",
+          "p1After": "."
+        },
+        "retencao": {
+          "title": "7. Păstrarea Datelor",
+          "p1": "Păstrăm datele cu caracter personal pe durata necesară îndeplinirii scopurilor descrise în această Politică, cu respectarea termenelor legale, contractuale și de reglementare aplicabile. Datele privind relația comercială și propunerile sunt păstrate pe durata relației și pentru o perioadă suplimentară impusă în scopuri fiscale, contabile și de apărare în cadrul unor proceduri judiciare sau administrative."
+        },
+        "seguranca": {
+          "title": "8. Securitatea Informațiilor",
+          "p1": "Adoptăm măsuri tehnice și organizatorice adecvate pentru a proteja datele cu caracter personal împotriva accesului neautorizat, pierderii, modificării sau divulgării necorespunzătoare, inclusiv controale de acces, criptare pe durata transmiterii și monitorizarea sistemelor noastre și a platformei Injectra AI."
+        },
+        "direitos": {
+          "title": "9. Drepturile Dumneavoastră",
+          "p1": "Conform legislației aplicabile privind protecția datelor, puteți solicita:",
+          "list": [
+            "Confirmarea existenței prelucrării și accesul la datele dumneavoastră",
+            "Corectarea datelor incomplete, inexacte sau neactualizate",
+            "Anonimizarea, blocarea sau ștergerea datelor inutile sau prelucrate cu nerespectarea legii",
+            "Portabilitatea datelor către un alt furnizor de servicii sau produse",
+            "Retragerea consimțământului și opoziția față de prelucrările realizate în baza interesului legitim"
+          ],
+          "p2": "Pentru a vă exercita aceste drepturi, contactați-ne prin canalele indicate în secțiunea 13."
+        },
+        "transferencias": {
+          "title": "10. Transferuri Internaționale",
+          "p1": "Fiind o companie americană cu activitate în întreaga Americă, Injectra poate transfera date cu caracter personal între țări, inclusiv către Statele Unite, în scopurile descrise în această Politică. În cadrul acestor transferuri, adoptăm garanții contractuale și tehnice compatibile cu legislația aplicabilă, inclusiv cu LGPD, atunci când persoana vizată se află în Brazilia."
+        },
+        "menores": {
+          "title": "11. Minori",
+          "p1": "Produsele și serviciile noastre sunt destinate companiilor și profesioniștilor și nu se adresează minorilor. Nu colectăm în mod intenționat date cu caracter personal ale copiilor sau adolescenților."
+        },
+        "alteracoes": {
+          "title": "12. Modificări ale acestei Politici",
+          "p1": "Injectra poate actualiza periodic această Politică de Confidențialitate pentru a reflecta schimbări în practicile noastre sau în legislația aplicabilă. Data ultimei actualizări este indicată în partea de sus a acestei pagini. Vă recomandăm revizuirea periodică a acestui document."
+        },
+        "contato": {
+          "title": "13. Responsabilul cu Protecția Datelor",
+          "p1": "În cazul în care aveți întrebări despre această Politică sau doriți să vă exercitați drepturile ca persoană vizată, contactați Responsabilul nostru cu Protecția Datelor (DPO):"
+        }
+      }
+    },
+    "warrantySupport": {
+      "banner": {
+        "eyebrow": "INFORMAȚII LEGALE",
+        "titleMain": "Garanție și",
+        "titleHighlight": "Suport",
+        "subtitle": "Aflați condițiile de garanție pentru mașinile și robotica Injectra și cum puteți accesa asistență tehnică, piese și suport specializat."
+      },
+      "nav": [
+        "1. Acoperirea Garanției",
+        "2. Perioada de Garanție",
+        "3. Excluderi din Garanție",
+        "4. Cum Solicitați Asistență",
+        "5. Piese de Schimb",
+        "6. Canale de Suport",
+        "7. Contracte și Garanție Extinsă",
+        "8. Modificări",
+        "9. Contact"
+      ],
+      "introBefore": "Această politică descrie condițiile generale de garanție aplicabile mașinilor de injecție și soluțiilor de robotică ale ",
+      "introAfter": ", precum și canalele disponibile pentru asistență tehnică și suport. Condițiile specifice fiecărui echipament prevalează asupra acestei politici generale atunci când sunt prevăzute în contract sau pe factură.",
+      "sections": {
+        "cobertura": {
+          "title": "1. Acoperirea Garanției",
+          "p1": "Garanția Injectra acoperă defectele de fabricație ale materialelor și componentelor mașinilor de injecție (linii hidraulice și electrice) și ale soluțiilor de robotică industrială, atunci când echipamentul este operat, instalat și întreținut conform specificațiilor tehnice și manualelor furnizate de Injectra."
+        },
+        "prazo": {
+          "title": "2. Perioada de Garanție",
+          "p1": "Perioada standard de garanție este indicată în propunerea comercială, în contractul de vânzare și în documentația tehnică ce însoțește fiecare echipament, putând varia în funcție de linia de mașini (PRIME, SPEED, VELOCITY, FORM, NEO, ATLAS, HYDRO, TITAN, MAX, EQUORA) și de componentă (de exemplu, sisteme electronice, hidraulice și periferice).",
+          "p2": "Perioada de garanție începe să curgă de la data livrării sau a punerii în funcțiune a echipamentului, conform celor stabilite în contract."
+        },
+        "exclusoes": {
+          "title": "3. Excluderi din Garanție",
+          "p1": "Nu sunt acoperite de garanție:",
+          "list": [
+            "Uzura naturală a pieselor consumabile, precum garnituri, filtre și componente supuse frecării",
+            "Daunele cauzate de operarea necorespunzătoare, instalarea neconformă cu specificațiile tehnice sau utilizarea peste capacitatea nominală a echipamentului",
+            "Intervențiile tehnice efectuate de terți neautorizați de Injectra",
+            "Utilizarea de piese sau consumabile care nu sunt originale sau omologate de Injectra",
+            "Daunele rezultate din instalații electrice, hidraulice sau infrastructură necorespunzătoare a clientului",
+            "Evenimente de forță majoră, precum întreruperi de curent, dezastre naturale sau accidente"
+          ]
+        },
+        "comoSolicitar": {
+          "title": "4. Cum Solicitați Asistență în Garanție",
+          "p1": "Pentru a solicita asistență în garanție, clientul trebuie să contacteze Injectra sau reprezentantul autorizat responsabil pentru regiunea sa, furnizând numărul de serie al echipamentului, factura de achiziție și descrierea incidentului. Echipa noastră tehnică va evalua cazul și va stabili procedura adecvată, care poate include asistență la distanță, vizită tehnică sau expedierea de piese."
+        },
+        "pecas": {
+          "title": "5. Piese de Schimb și Asistență Tehnică",
+          "p1Before": "Injectra și rețeaua sa de reprezentanți pun la dispoziție piese de schimb originale și asistență tehnică specializată pentru întreaga linie de mașini și robotică, chiar și după expirarea perioadei de garanție. Consultați ",
+          "p1LinkLabel": "cataloagele noastre tehnice",
+          "p1After": " pentru specificațiile pieselor și manuale."
+        },
+        "canais": {
+          "title": "6. Canale de Suport Tehnic",
+          "p1Before": "Pe lângă această politică, avem un centru de suport dedicat, cu asistență tehnică, solicitare de piese, mentenanță preventivă și corectivă și întrebări frecvente. Accesați pagina de ",
+          "p1LinkLabel": "Suport",
+          "p1After": " pentru a deschide un tichet sau a discuta cu echipa noastră tehnică."
+        },
+        "contratos": {
+          "title": "7. Contracte de Mentenanță și Garanție Extinsă",
+          "p1": "Injectra oferă contracte de mentenanță preventivă și programe de garanție extinsă pentru clienții care doresc să extindă acoperirea standard sau să formalizeze rutine periodice de mentenanță. Condițiile comerciale ale acestor contracte sunt negociate individual cu echipa noastră sau cu reprezentantul autorizat."
+        },
+        "alteracoes": {
+          "title": "8. Modificări ale acestei Politici",
+          "p1": "Injectra poate actualiza periodic această politică de garanție și suport. Modificările intră în vigoare de la publicarea pe această pagină, fără a afecta condițiile de garanție deja formalizate în contractele și facturile în vigoare."
+        },
+        "contato": {
+          "title": "9. Contact",
+          "p1": "Pentru întrebări despre garanție, piese sau asistență tehnică, contactați-ne:"
+        }
+      }
+    },
+    "cookies": {
+      "banner": {
+        "eyebrow": "INFORMAȚII LEGALE",
+        "titleMain": "Politica de",
+        "titleHighlight": "Cookie-uri",
+        "subtitle": "Aflați ce sunt cookie-urile, ce tipuri utilizăm pe site-ul Injectra și cum vă puteți gestiona preferințele."
+      },
+      "nav": [
+        "1. Ce sunt Cookie-urile",
+        "2. Cum le Utilizăm",
+        "3. Tipuri de Cookie-uri",
+        "4. Cookie-uri de la Terți",
+        "5. Cum le Gestionați",
+        "6. Actualizări",
+        "7. Contact"
+      ],
+      "introBefore": "Această Politică privind Cookie-urile explică modul în care ",
+      "introMiddle": " utilizează cookie-uri și tehnologii similare pe site-ul injectracorp.com, completând ",
+      "introLinkLabel": "Politica noastră de Confidențialitate",
+      "introAfter": ".",
+      "sections": {
+        "oQueSao": {
+          "title": "1. Ce sunt Cookie-urile",
+          "p1": "Cookie-urile sunt fișiere text de mici dimensiuni stocate în browserul sau dispozitivul dumneavoastră atunci când vizitați un site. Acestea permit site-ului să recunoască dispozitivul dumneavoastră, să rețină preferințele și să colecteze informații despre modul în care este utilizat site-ul."
+        },
+        "comoUsamos": {
+          "title": "2. Cum Utilizăm Cookie-urile",
+          "p1": "Utilizăm cookie-uri pentru a:",
+          "list": [
+            "Asigura funcționarea corectă a site-ului și a formularului de solicitare a ofertei",
+            "Reține preferințele de navigare, precum limba și regiunea",
+            "Înțelege modul în care vizitatorii utilizează site-ul nostru și care cataloage și linii de mașini generează cel mai mare interes",
+            "Măsura eficiența campaniilor de marketing și comunicare"
+          ]
+        },
+        "tipos": {
+          "title": "3. Tipuri de Cookie-uri pe care le Utilizăm",
+          "subsections": {
+            "essenciais": {
+              "title": "3.1 Cookie-uri esențiale",
+              "p": "Necesare pentru funcționarea de bază a site-ului, precum navigarea între pagini și trimiterea formularelor. Nu pot fi dezactivate în sistemele noastre."
+            },
+            "desempenho": {
+              "title": "3.2 Cookie-uri de performanță și analiză",
+              "p": "Colectează informații despre modul în care vizitatorii utilizează site-ul — paginile cele mai accesate, timpul de navigare și sursa traficului — pentru a ne ajuta să îmbunătățim conținutul și experiența de utilizare."
+            },
+            "funcionalidade": {
+              "title": "3.3 Cookie-uri de funcționalitate",
+              "p": "Permit reținerea opțiunilor făcute de utilizator, precum limba, regiunea sau completarea prealabilă a formularelor, pentru o experiență mai personalizată."
+            },
+            "marketing": {
+              "title": "3.4 Cookie-uri de marketing",
+              "p": "Utilizate pentru a afișa comunicări și reclame mai relevante, pe baza interesului dumneavoastră față de liniile noastre de mașini, robotică și platforma Injectra AI, atât pe site-ul nostru, cât și în afara acestuia."
+            }
+          }
+        },
+        "terceiros": {
+          "title": "4. Cookie-uri de la Terți",
+          "p1": "Unele cookie-uri sunt definite de servicii ale unor terți care apar pe paginile noastre, precum instrumente de analiză a traficului, hărți și materiale video încorporate. Injectra nu controlează aceste cookie-uri, care sunt supuse politicilor de confidențialitate ale furnizorilor respectivi."
+        },
+        "gerenciar": {
+          "title": "5. Cum vă Gestionați Preferințele privind Cookie-urile",
+          "p1": "Puteți gestiona sau dezactiva cookie-urile direct din setările browserului dumneavoastră, blocând cookie-urile noi sau eliminându-le pe cele deja stocate. Rețineți că dezactivarea cookie-urilor esențiale poate afecta funcționarea corectă a site-ului, inclusiv trimiterea formularelor de ofertă și contact."
+        },
+        "alteracoes": {
+          "title": "6. Actualizări ale acestei Politici",
+          "p1": "Această Politică privind Cookie-urile poate fi actualizată periodic pentru a reflecta schimbări în practicile noastre sau în tehnologiile utilizate. Data ultimei actualizări este indicată în partea de sus a acestei pagini."
+        },
+        "contato": {
+          "title": "7. Contact",
+          "p1": "Pentru întrebări despre utilizarea cookie-urilor pe site-ul nostru, contactați-ne:"
+        }
+      }
+    },
+    "compliance": {
+      "banner": {
+        "eyebrow": "ETICĂ ȘI INTEGRITATE",
+        "titleMain": "Conformitate",
+        "titleHighlight": "Injectra",
+        "subtitle": "Aflați angajamentul Injectra Corporation față de etică, integritate, anticorupție și conformitate în întregul nostru lanț valoric."
+      },
+      "nav": [
+        "1. Angajamentul Nostru",
+        "2. Codul de Conduită",
+        "3. Anticorupție",
+        "4. Protecția Datelor",
+        "5. Furnizori și Parteneri",
+        "6. Concurență Loială",
+        "7. Canal de Raportare",
+        "8. Actualizări",
+        "9. Contact"
+      ],
+      "introBefore": "",
+      "introAfter": ", parte a Interfy Corporation, își desfășoară activitatea pe baza eticii, transparenței și conformității legale și de reglementare în toate țările în care operează. Acest document rezumă principiile de conformitate care ghidează relațiile noastre cu clienții, reprezentanții, furnizorii și angajații.",
+      "sections": {
+        "compromisso": {
+          "title": "1. Angajamentul Nostru față de Etică și Integritate",
+          "p1": "Injectra se angajează să își conducă afacerile cu onestitate, respectând legile aplicabile și responsabilitatea față de clienți, angajați, reprezentanți, furnizori și comunitățile în care activează, susținând creșterea sustenabilă a industriei din întreaga Americă."
+        },
+        "codigoConduta": {
+          "title": "2. Codul de Conduită",
+          "p1": "Angajații, directorii și reprezentanții Injectra trebuie să respecte principiile de integritate, respect reciproc, nediscriminare și siguranță la locul de muncă, evitând totodată conflictele de interese și acționând întotdeauna în conformitate cu legislația în vigoare și cu politicile interne ale companiei."
+        },
+        "anticorrupcao": {
+          "title": "3. Anticorupție și Combaterea Fraudei",
+          "p1": "Injectra nu tolerează nicio formă de corupție, mită sau plată necuvenită în relațiile sale comerciale, fie cu autorități publice, fie cu entități private. Fiind o companie americană, respectăm principiile Foreign Corrupt Practices Act (FCPA) și celelalte legi anticorupție aplicabile în țările în care activăm, inclusiv Brazilia.",
+          "p2": "Reprezentanții și partenerii comerciali autorizați sunt, de asemenea, supuși acestor directive în relațiile pe care le desfășoară în numele Injectra."
+        },
+        "protecaoDados": {
+          "title": "4. Conformitatea cu Legile privind Protecția Datelor",
+          "p1Before": "Injectra prelucrează datele cu caracter personal în conformitate cu legile aplicabile privind protecția datelor, inclusiv Legea Generală privind Protecția Datelor (LGPD) din Brazilia, conform detaliilor din ",
+          "p1LinkLabel": "Politica noastră de Confidențialitate",
+          "p1After": "."
+        },
+        "fornecedores": {
+          "title": "5. Relații cu Furnizorii și Partenerii",
+          "p1": "Ne așteptăm ca furnizorii, reprezentanții și partenerii comerciali ai Injectra să adopte standarde de etică, legalitate și respect pentru drepturile omului și drepturile muncii echivalente cu ale noastre, inclusiv respingerea muncii copiilor, a muncii forțate și a practicilor anticoncurențiale."
+        },
+        "concorrencia": {
+          "title": "6. Concurență Loială",
+          "p1": "Injectra concurează pe piață pe baza calității produselor și serviciilor sale, respectând legile privind concurența aplicabile și evitând acordurile sau practicile care restrâng nejustificat libera concurență."
+        },
+        "canalDenuncias": {
+          "title": "7. Canal de Raportare",
+          "p1": "Angajații, clienții, reprezentanții și furnizorii pot raporta, în mod confidențial, suspiciuni de încălcare a acestui angajament de conformitate, inclusiv conduite neetice, acte de corupție sau nerespectarea legilor aplicabile, prin canalul indicat în secțiunea de contact de mai jos."
+        },
+        "alteracoes": {
+          "title": "8. Actualizări",
+          "p1": "Acest document poate fi actualizat periodic pentru a reflecta evoluțiile practicilor noastre de conformitate sau ale legislației aplicabile. Data ultimei actualizări este indicată în partea de sus a acestei pagini."
+        },
+        "contato": {
+          "title": "9. Contact",
+          "p1": "Pentru a raporta o preocupare sau pentru a obține mai multe informații despre programul nostru de conformitate, contactați-ne:"
+        }
+      }
+    }
+  },
+  "contato": {
+    "banner": {
+      "eyebrow": "CONTACT",
+      "titlePrefix": "Discutați cu ",
+      "titleHighlight": "Injectra",
+      "description": "Echipa noastră este pregătită să sprijine compania dumneavoastră în întreaga Americă, cu mașini, robotică, platformă AI, servicii și consultanță industrială.",
+      "quoteButton": "Solicită Ofertă",
+      "specialistButton": "Discută cu un Specialist",
+      "atendimento": {
+        "title": "Servicii Injectra",
+        "description": "Echipa noastră este disponibilă pentru a sprijini compania dumneavoastră.",
+        "items": [
+          "Consultanță Specializată",
+          "Soluții Complete",
+          "Tehnologie de Vârf",
+          "Suport Continuu"
+        ]
+      },
+      "performance": {
+        "title": "Performanța Industriei",
+        "stats": [
+          {
+            "label": "Producție",
+            "description": "față de luna anterioară"
+          },
+          {
+            "label": "Eficiență",
+            "description": "obiectiv atins"
+          },
+          {
+            "label": "Disponibilitate",
+            "description": "în funcțiune"
+          }
+        ],
+        "roboticaTitle": "Robotică Neo"
+      },
+      "infoCards": [
+        {
+          "title": "Birou SUA",
+          "description": "Orlando, Florida, SUA"
+        },
+        {
+          "title": "Telefon Comercial",
+          "description": "+1 (321) 888-7963"
+        },
+        {
+          "title": "E-mail",
+          "description": "info@injectracorp.com"
+        },
+        {
+          "title": "Servicii Regionale",
+          "description": "Activitate în întreaga Americă"
+        },
+        {
+          "title": "Suport Tehnic",
+          "description": "Echipă specializată pentru mașini, robotică și platforma AI"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sunteți pregătiți să vă transformați operațiunea industrială?",
+      "description": "Discutați cu echipa noastră și găsiți cea mai bună soluție în mașini, robotică, software și automatizare.",
+      "quoteButton": "SOLICITĂ OFERTĂ",
+      "specialistButton": "DISCUTĂ CU UN SPECIALIST"
+    },
+    "presenca": {
+      "regionCard": {
+        "title": "Prezență în America",
+        "description": "Cu sediul în Statele Unite, Injectra sprijină clienți, parteneri și proiecte industriale în întreaga Americă de Nord, Centrală și de Sud.",
+        "linkLabel": "Vezi regiunile de activitate"
+      },
+      "highlightsCard": {
+        "title": "Prezență în America",
+        "items": [
+          {
+            "title": "Răspuns consultativ",
+            "description": "Înțelegem provocarea dumneavoastră și propunem cea mai bună soluție."
+          },
+          {
+            "title": "Soluții complete",
+            "description": "Mașini, robotică, software și servicii integrate."
+          },
+          {
+            "title": "Specialiști industriali",
+            "description": "Echipă cu experiență și cunoștințe practice despre aplicații."
+          },
+          {
+            "title": "Integrare cu Injectra AI",
+            "description": "Tehnologie și date pentru creșterea productivității."
+          }
+        ]
+      }
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    }
+  },
+  "experienceCenter": {
+    "banner": {
+      "eyebrow": "EXPERIENCE CENTER",
+      "title": "Descoperiți tehnologia.\nTransformați rezultatele.",
+      "subtitle": "Experience Center Injectra a fost creat pentru ca dumneavoastră să vedeți, testați și confirmați în practică modul în care soluțiile noastre pot crește productivitatea, calitatea și competitivitatea industriei dumneavoastră.",
+      "ctaVisita": "Programează o Vizită",
+      "ctaEspecialista": "Discută cu un Specialist",
+      "trustItems": [
+        {
+          "label": "Tehnologie de Vârf"
+        },
+        {
+          "label": "Rezultate Dovedite"
+        },
+        {
+          "label": "Specialiști Dedicați"
+        },
+        {
+          "label": "Siguranță și Fiabilitate"
+        }
+      ]
+    },
+    "confianca": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "description": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "description": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "description": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "description": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "description": "Eficiență energetică și ESG"
+        }
+      ]
+    },
+    "diferenciais": {
+      "title": "De ce să vizitați Experience Center-ul nostru?",
+      "stats": [
+        {
+          "label": "Vizite realizate"
+        },
+        {
+          "label": "Teste de aplicație"
+        },
+        {
+          "label": "Clienți mulțumiți"
+        },
+        {
+          "label": "Specialiști dedicați"
+        }
+      ]
+    },
+    "esperar": {
+      "title": "Ce puteți aștepta",
+      "items": [
+        {
+          "label": "Servicii personalizate"
+        },
+        {
+          "label": "Soluții adaptate nevoilor dumneavoastră"
+        },
+        {
+          "label": "Tehnologie de ultimă generație"
+        },
+        {
+          "label": "Mediu modern și interactiv"
+        },
+        {
+          "label": "Rezultate reale dovedite"
+        }
+      ]
+    },
+    "experiencias": {
+      "title": "Experiențele Noastre",
+      "saibaMais": "Aflați mai multe",
+      "items": [
+        {
+          "title": "Demonstrații",
+          "description": "Vedeți mașinile și soluțiile noastre în funcțiune și descoperiți cum tehnologia Injectra poate transforma producția dumneavoastră."
+        },
+        {
+          "title": "Teste de Aplicație",
+          "description": "Aduceți matrița, materialul sau piesa dumneavoastră și efectuați teste reale cu sprijinul specialiștilor noștri."
+        },
+        {
+          "title": "Showroom",
+          "description": "Descoperiți îndeaproape gama noastră completă de mașini, robotică și soluții inteligente într-un mediu inovator."
+        },
+        {
+          "title": "Instruiri",
+          "description": "Pregătiți-vă echipa cu instruiri tehnice și operaționale pentru a obține performanța maximă."
+        },
+        {
+          "title": "Validarea Proiectelor",
+          "description": "Validăm împreună cu dumneavoastră cea mai bună soluție pentru proiectul dumneavoastră, asigurând performanță și randament al investiției."
+        }
+      ]
+    },
+    "agendamento": {
+      "title": "Programați-vă experiența acum",
+      "description": "Descoperiți tehnologia Injectra în practică și aflați cum vă putem duce producția la nivelul următor.",
+      "ctaVisita": "Programează o Vizită",
+      "ctaEspecialista": "Discută cu un Specialist"
+    }
+  },
+  "faleComEspecialista": {
+    "hero": {
+      "eyebrow": "SPECIALIȘTI",
+      "titlePrefix": "Discutați cu un specialist",
+      "titleHighlight": "Injectra.",
+      "subtitle": "Consultanță comercială, tehnică și de inginerie pentru a ajuta operațiunea dumneavoastră să aleagă soluția ideală.",
+      "body": "Echipa noastră de specialiști vă sprijină în selecția mașinilor, automatizării, roboticii, integrării cu Injectra AI și validării aplicațiilor — mereu axați pe performanță, eficiență și rezultate reale pentru industria dumneavoastră.",
+      "ctaSchedule": "Programează Întâlnire",
+      "ctaWhatsapp": "Discută pe WhatsApp",
+      "cards": [
+        {
+          "title": "Consultanță Comercială",
+          "description": "Înțelegem nevoia dumneavoastră și prezentăm cele mai bune opțiuni de mașini, robotică și soluții Injectra."
+        },
+        {
+          "title": "Consultanță Tehnică",
+          "description": "Analiză tehnică specializată pentru validarea cerințelor, proceselor și fezabilității aplicației dumneavoastră."
+        },
+        {
+          "title": "Inginerie de Aplicație",
+          "description": "Dezvoltăm soluții personalizate axate pe performanță, productivitate și integrare."
+        },
+        {
+          "title": "Programare de Întâlnire",
+          "description": "Vă conectăm cu specialiștii potriviți pentru întâlniri tehnice sau prezentări."
+        }
+      ]
+    },
+    "comoAjudamos": {
+      "title": "Cum vă putem ajuta",
+      "subtitle": "Soluții complete pentru cele mai exigente sectoare ale industriei.",
+      "items": [
+        {
+          "title": "Selecția liniei ideale",
+          "description": "Vă ajutăm să alegeți mașina perfectă pentru producția dumneavoastră."
+        },
+        {
+          "title": "Analiza aplicației",
+          "description": "Studiem procesul dumneavoastră și recomandăm cea mai bună configurație."
+        },
+        {
+          "title": "Automatizare și robotică",
+          "description": "Soluții care cresc eficiența, calitatea și siguranța producției."
+        },
+        {
+          "title": "Integrare Digitală",
+          "description": "Conectați-vă mașinile la Injectra AI și transformați datele în rezultate."
+        },
+        {
+          "title": "Reducerea Costurilor",
+          "description": "Mai multă productivitate, mai puține pierderi și eficiență crescută."
+        },
+        {
+          "title": "Extinderea Producției",
+          "description": "Scalabilitate și soluții pentru a susține creșterea afacerii dumneavoastră."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Cum funcționează",
+      "subtitle": "Un proces simplu și consultativ pentru a ajunge la cea mai bună soluție.",
+      "steps": [
+        {
+          "title": "Trimiteți-vă nevoia",
+          "description": "Completați formularul cu informațiile și obiectivul dumneavoastră."
+        },
+        {
+          "title": "Echipa noastră analizează",
+          "description": "Specialiștii evaluează cererea și cerințele dumneavoastră."
+        },
+        {
+          "title": "Recomandăm cea mai bună soluție",
+          "description": "Prezentăm opțiunile ideale pentru aplicația dumneavoastră."
+        },
+        {
+          "title": "Programăm întâlnirea tehnică/comercială",
+          "description": "Întâlnire personalizată pentru detalii și pașii următori."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Servicii consultative pentru a accelera decizia dumneavoastră industrială.",
+      "subtitle": "Discutați cu un specialist și descoperiți cum Injectra poate transforma producția dumneavoastră prin tehnologie și inteligență.",
+      "quoteButton": "Solicită Ofertă",
+      "meetingButton": "Programează Întâlnire"
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    }
+  },
+  "industria": {
+    "banner": {
+      "kicker": "INDUSTRIE",
+      "title": "Soluții inteligente pentru a impulsiona toate segmentele industriei.",
+      "subtitle": "Injectra oferă mașini, robotică și platforme inteligente pentru a crește productivitatea, calitatea și competitivitatea în diferite sectoare industriale.",
+      "ctaCatalogos": "Vezi toate cataloagele",
+      "ctaEspecialista": "Discută cu un Specialist",
+      "highlights": [
+        "Soluții Personalizate",
+        "Productivitate Ridicată",
+        "Calitate și Fiabilitate",
+        "Prezență în America"
+      ]
+    },
+    "porQueEscolher": {
+      "title": "De ce să alegeți Injectra pentru industria dumneavoastră?",
+      "items": [
+        {
+          "title": "Tehnologie Avansată",
+          "description": "Mașini electrice și hidraulice de ultimă generație."
+        },
+        {
+          "title": "Automatizare Inteligentă",
+          "description": "Robotică și sisteme integrate pentru eficiență maximă."
+        },
+        {
+          "title": "Suport Specializat",
+          "description": "Echipă tehnică cu experiență în segmentul dumneavoastră."
+        },
+        {
+          "title": "Performanță Dovedită",
+          "description": "Mai multă productivitate, calitate și reducerea costurilor."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "CATALOAGE PE INDUSTRIE",
+        "description": "Descărcați cataloage și studii de caz specifice segmentului dumneavoastră.",
+        "cta": "Vezi cataloagele"
+      },
+      "ajuda": {
+        "kicker": "AVEȚI NEVOIE DE AJUTOR?",
+        "description": "Echipa noastră înțelege segmentul dumneavoastră și vă ajută să găsiți cea mai bună soluție.",
+        "cta": "Contactați-ne"
+      },
+      "tecnologia": {
+        "kicker": "Tehnologie care se adaptează segmentului dumneavoastră",
+        "description": "Echipamente, automatizare și inteligență pentru rezultate reale.",
+        "cta": "Discută cu un specialist"
+      }
+    },
+    "segmentos": {
+      "title": "Segmentele și Activitatea Noastră",
+      "ctaLabel": "Vezi soluțiile",
+      "items": [
+        {
+          "title": "Automotive",
+          "description": "Soluții complete pentru injecția materialelor plastice, componente, finisaje, automatizare și procese."
+        },
+        {
+          "title": "Ambalaje",
+          "description": "Mașini de mare viteză și precizie pentru ambalaje din plastic și sisteme de automatizare."
+        },
+        {
+          "title": "Medical",
+          "description": "Echipamente pentru producția de piese medicale, cu precizie și trasabilitate maxime."
+        },
+        {
+          "title": "Consum",
+          "description": "Soluții pentru produse de uz zilnic, cu eficiență, calitate și competitivitate ridicate."
+        },
+        {
+          "title": "Electronice",
+          "description": "Injecție de precizie pentru componente electronice și automatizarea asamblării."
+        },
+        {
+          "title": "Construcții",
+          "description": "Soluții robuste pentru piese tehnice, țevi, racorduri și materiale de construcții."
+        },
+        {
+          "title": "Logistică",
+          "description": "Sisteme și soluții pentru optimizarea proceselor, depozitării și manipulării."
+        },
+        {
+          "title": "Alte Segmente",
+          "description": "Deservim diverse segmente industriale cu soluții personalizate și tehnologie avansată."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    }
+  },
+  "maquinas": {
+    "banner": {
+      "kicker": "MAȘINI",
+      "title": "Tehnologie de injecție pentru toate segmentele industriei.",
+      "subtitle": "Nouă linii complete de mașini hidraulice și electrice, dezvoltate pentru performanță, precizie și eficiență maxime în orice aplicație.",
+      "ctaCatalogos": "Vezi toate cataloagele",
+      "ctaEspecialista": "Discută cu un Specialist",
+      "stats": [
+        "101 Modele de mașini",
+        "70+ Accesorii și Periferice",
+        "Tehnologie 100% Integrată"
+      ]
+    },
+    "comoFunciona": {
+      "title": "Cum funcționează navigarea între modele",
+      "description": "Alegeți o linie și navigați ușor prin toate modelele disponibile. Fiecare pagină prezintă specificațiile tehnice, catalogul și opțiunile de ofertă.",
+      "sidebarItemLabel": "Prime IP - X",
+      "detailTitle": "Prime IP - X",
+      "detailDescription": "Precizie, versatilitate și performanță pentru aplicații generale.",
+      "ctaCatalogos": "Vezi toate cataloagele",
+      "ctaEspecialista": "Discută cu un Specialist",
+      "specs": [
+        {
+          "title": "X T Forță",
+          "subtitle": "de închidere"
+        },
+        {
+          "title": "Tie Bar",
+          "subtitle": "X x X mm"
+        },
+        {
+          "title": "Precizie Ridicată"
+        },
+        {
+          "title": "Suport tehnic",
+          "subtitle": "specializat"
+        }
+      ]
+    },
+    "comparativo": {
+      "title": "Comparativ între linii",
+      "subtitle": "Găsiți rapid linia ideală pentru nevoia dumneavoastră.",
+      "rows": [
+        "Aplicație",
+        "Acționare",
+        "Interval de Tonaj",
+        "Punct forte"
+      ],
+      "columns": [
+        {
+          "name": "Prime",
+          "aplicacao": "General",
+          "acionamento": "Hidraulică",
+          "tonelagem": "60 - 1.000 t",
+          "destaque": "Precizie și Versatilitate"
+        },
+        {
+          "name": "Speed",
+          "aplicacao": "Viteză Mare",
+          "acionamento": "Hidraulică",
+          "tonelagem": "70 - 800 t",
+          "destaque": "Cicluri rapide și eficiență"
+        },
+        {
+          "name": "Velocity",
+          "aplicacao": "Productivitate Ridicată",
+          "acionamento": "Hidraulică",
+          "tonelagem": "80 - 500 t",
+          "destaque": "Viteză Extremă"
+        },
+        {
+          "name": "Form",
+          "aplicacao": "Piese Tehnice Precise",
+          "acionamento": "Hidraulică",
+          "tonelagem": "100 - 800 t",
+          "destaque": "Precizie Ridicată"
+        },
+        {
+          "name": "Neo",
+          "aplicacao": "Energie și Precizie Ridicată",
+          "acionamento": "100% Electrică",
+          "tonelagem": "60 - 350 t",
+          "destaque": "Eficiență energetică și precizie"
+        },
+        {
+          "name": "Altas",
+          "aplicacao": "Piese și ambalaje mari",
+          "acionamento": "Hidraulică",
+          "tonelagem": "400 - 4.000 t",
+          "destaque": "Robustețe pentru piese mari"
+        },
+        {
+          "name": "Hydro",
+          "aplicacao": "Aplicații Grele",
+          "acionamento": "Hidraulică",
+          "tonelagem": "180 - 3.000 t",
+          "destaque": "Forță pentru aplicații exigente"
+        },
+        {
+          "name": "Titan",
+          "aplicacao": "Matrițe Robuste",
+          "acionamento": "Hidraulică",
+          "tonelagem": "650 - 4.000 t",
+          "destaque": "Tonaje mari"
+        },
+        {
+          "name": "Max",
+          "aplicacao": "Piese Mari și Exigență Ridicată",
+          "acionamento": "Hidraulică",
+          "tonelagem": "800 - 5.000 t",
+          "destaque": "Capacitate Maximă"
+        },
+        {
+          "name": "Equora",
+          "aplicacao": "Aplicații Exigente și Versatile",
+          "acionamento": "Hibridă",
+          "tonelagem": "100 - 2.000 t",
+          "destaque": "Echilibru între forță și eficiență"
+        }
+      ]
+    },
+    "linhasDeMaquinas": {
+      "title": "Liniile Noastre de Mașini",
+      "subtitle": "Găsiți rapid linia ideală pentru nevoia dumneavoastră.",
+      "ctaVerModelos": "Vezi Modelele",
+      "machines": [
+        {
+          "name": "PRIME",
+          "description": "Precizie ridicată și versatilitate pentru aplicații generale."
+        },
+        {
+          "name": "SPEED",
+          "description": "Cicluri rapide și eficiență maximă."
+        },
+        {
+          "name": "VELOCITY",
+          "description": "Viteză ultra-ridicată și productivitate extremă."
+        },
+        {
+          "name": "FORM",
+          "description": "Soluții pentru piese tehnice cu precizie ridicată."
+        },
+        {
+          "name": "NEO",
+          "description": "Linie 100% electrică, cu repetabilitate ridicată și eficiență energetică."
+        },
+        {
+          "name": "ATLAS",
+          "description": "Specializată în lăzi din plastic, paleți și piese de mari dimensiuni."
+        },
+        {
+          "name": "HYDRO",
+          "description": "Putere hidraulică pentru aplicații exigente."
+        },
+        {
+          "name": "TITAN",
+          "description": "Tonaje mari pentru matrițe robuste și exigență ridicată."
+        },
+        {
+          "name": "MAX",
+          "description": "Capacitate și robustețe maxime pentru cele mai mari provocări."
+        },
+        {
+          "name": "EQUORA",
+          "description": "Echilibru între forță, eficiență și economie prin tehnologie hibridă."
+        }
+      ]
+    },
+    "recursos": {
+      "catalogos": {
+        "kicker": "CATALOAGE",
+        "description": "Descărcați cataloagele complete ale tuturor liniilor și mașinilor",
+        "cta": "Vezi toate cataloagele"
+      },
+      "ajuda": {
+        "kicker": "AVEȚI NEVOIE DE AJUTOR?",
+        "description": "Discutați cu specialistul nostru și alegeți cea mai bună soluție pentru aplicația dumneavoastră.",
+        "cta": "Discută cu un specialist"
+      },
+      "video": {
+        "title": "Tehnologie care mișcă industria.",
+        "description": "Vizionați videoclipul și descoperiți avantajele Injectra.",
+        "ariaPlay": "Vizionează videoclipul"
+      }
+    },
+    "tecnologias": {
+      "title": "Tehnologii Injectra",
+      "subtitle": "Inovație care transformă performanța în rezultate.",
+      "items": [
+        {
+          "title": "Servo Drive Inteligent",
+          "description": "Control precis al mișcărilor pentru repetabilitate maximă."
+        },
+        {
+          "title": "Hidraulică Avansată",
+          "description": "Sisteme hidraulice de înaltă performanță și eficiență."
+        },
+        {
+          "title": "Injecție de Precizie Ridicată",
+          "description": "Control avansat al injecției pentru piese de calitate superioară."
+        },
+        {
+          "title": "Eficiență Energetică",
+          "description": "Tehnologii care reduc consumul și cresc sustenabilitatea."
+        },
+        {
+          "title": "Conectivitate Totală",
+          "description": "Mașini conectate la Injectra AI pentru gestionare inteligentă."
+        },
+        {
+          "title": "Siguranță Integrată",
+          "description": "Sisteme complete de siguranță pentru operator și proces."
+        }
+      ]
+    },
+    "tecnologiasDasLinhas": {
+      "tags": [
+        "Hidraulică",
+        "100% Electrică",
+        "Hibridă",
+        "Robotică",
+        "Injectra AI",
+        "IoT Industrial",
+        "OEE & Analytics",
+        "Aplicație Mobilă",
+        "Asistență Tehnică"
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    },
+    "modelo": {
+      "breadcrumb": {
+        "home": "Acasă",
+        "maquinas": "Mașini"
+      },
+      "hero": {
+        "ctaCotacao": "Solicită Ofertă",
+        "ctaCatalogo": "Descarcă Catalogul",
+        "ctaEspecialista": "Discută cu un Specialist"
+      },
+      "quickSpecs": {
+        "forca": {
+          "title": "T Forță",
+          "subtitle": "de închidere"
+        },
+        "tieBar": {
+          "title": "Tie Bar"
+        },
+        "precisao": {
+          "title": "Precizie Ridicată"
+        },
+        "suporte": {
+          "title": "Suport tehnic",
+          "subtitle": "specializat"
+        }
+      },
+      "comparativo": {
+        "title": "Comparativ între linii",
+        "subtitle": "Găsiți rapid linia ideală pentru nevoia dumneavoastră.",
+        "rows": {
+          "serie": "Serie",
+          "modelo": "Model",
+          "forcaFechamento": "Forța de închidere",
+          "tieBar": "Distanța dintre coloane (Tie Bar)",
+          "tecnologia": "Tehnologie",
+          "aplicacoesIndicadas": "Aplicații recomandate",
+          "configuracaoComercial": "Configurație comercială",
+          "suporte": "Suport"
+        }
+      },
+      "aplicacoesBeneficios": {
+        "title": "Aplicații și Beneficii",
+        "items": {
+          "pecasTecnicas": {
+            "title": "Piese Tehnice",
+            "description": "Ideal pentru componente care necesită precizie și repetabilitate."
+          },
+          "consumo": {
+            "title": "Consum",
+            "description": "Soluții eficiente pentru produse de zi cu zi, cu calitate ridicată."
+          },
+          "automacaoIntegrada": {
+            "title": "Automatizare integrată",
+            "description": "Compatibil cu periferice și sisteme de automatizare moderne."
+          },
+          "baixoCusto": {
+            "title": "Cost operațional redus",
+            "description": "Proiect eficient care reduce consumul de energie și costurile de mentenanță."
+          }
+        }
+      },
+      "ctaConfigurar": {
+        "titleTemplate": "Sunteți pregătiți să configurați {model}?",
+        "description": "Faceți parte dintr-o rețea de parteneri care transformă industria din întreaga Americă prin tehnologie și inovație.",
+        "ctaCotacao": "Solicită Ofertă",
+        "ctaEspecialista": "Discută cu un Specialist",
+        "trustItems": [
+          {
+            "title": "Tehnologie Americană",
+            "description": "Dezvoltată în SUA"
+          },
+          {
+            "title": "Prezență în America",
+            "description": "Servicii locale"
+          },
+          {
+            "title": "Peste 30 de ani de experiență",
+            "description": "în soluții industriale"
+          },
+          {
+            "title": "Suport 24/7",
+            "description": "Asistență tehnică specializată"
+          },
+          {
+            "title": "Sustenabilitate",
+            "description": "Eficiență energetică și ESG"
+          }
+        ]
+      },
+      "especificacoes": {
+        "prime-ip": {
+          "forcaTonelagem": "60 Tone",
+          "tieBar": "290 x 270 mm",
+          "aplicacoesIndicadas": "Utilități, piese tehnice, consum și componente industriale",
+          "configuracaoComercial": "Disponibil pentru ofertă personalizată",
+          "suporte": "Asistență tehnică și consultanță specializată"
+        }
+      },
+      "linhas": {
+        "prime-ip": {
+          "description": "Precizie, versatilitate și performanță pentru aplicații generale."
+        }
+      }
+    }
+  },
+  "plataformaAi": {
+    "banner": {
+      "eyebrow": "PLATFORMĂ AI",
+      "title": "Date, conectivitate și inteligență pentru a vă transforma producția.",
+      "subtitle": "Platforma Injectra AI conectează mașini, oameni și procese într-un ecosistem inteligent, pentru a crește productivitatea, a reduce opririle și a genera decizii în timp real.",
+      "ctaPrimary": "Solicită o Demonstrație",
+      "ctaSecondary": "Discută cu un Specialist",
+      "trustItems": [
+        {
+          "label": "Cloud 100% Securizat"
+        },
+        {
+          "label": "Inteligență Artificială"
+        },
+        {
+          "label": "Decizii în Timp Real"
+        },
+        {
+          "label": "Siguranță și Fiabilitate Maxime"
+        }
+      ]
+    },
+    "fluxo": {
+      "title": "Programați-vă experiența acum",
+      "description": "Descoperiți tehnologia Injectra în practică și aflați cum vă putem duce producția la nivelul următor.",
+      "etapas": [
+        {
+          "title": "Mașini Injectra",
+          "description": "Date în timp real"
+        },
+        {
+          "title": "Senzori și Dispozitive",
+          "description": "Colectare de date"
+        },
+        {
+          "title": "Platforma AI Cloud",
+          "description": "Procesare și AI"
+        },
+        {
+          "title": "Tablouri de Bord și Rapoarte",
+          "description": "Vizualizare și analiză"
+        },
+        {
+          "title": "Acțiuni și Decizii",
+          "description": "Rezultate și eficiență"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Soluții care impulsionează industria dumneavoastră",
+      "items": [
+        {
+          "title": "Tablou de Bord Cloud",
+          "description": "Urmăriți toți indicatorii producției dumneavoastră în timp real, de oriunde și de pe orice dispozitiv."
+        },
+        {
+          "title": "Aplicație Mobilă",
+          "description": "Aveți controlul producției la îndemână. Monitorizați, primiți alerte și luați decizii de oriunde."
+        },
+        {
+          "title": "IoT Industrial",
+          "description": "Conectați mașini, senzori și dispozitive pentru colectarea datelor în timp real, cu securitate maximă."
+        },
+        {
+          "title": "OEE",
+          "description": "Monitorizați Disponibilitatea, Performanța și Calitatea în timp real, crescând eficiența operațiunii dumneavoastră."
+        },
+        {
+          "title": "Analitice",
+          "description": "Transformați datele în informații valoroase prin analize avansate și rapoarte personalizate."
+        },
+        {
+          "title": "Mentenanță Predictivă",
+          "description": "Anticipați defecțiunile și reduceți opririle neplanificate prin algoritmi de AI și Machine Learning."
+        },
+        {
+          "title": "Alerte Inteligente",
+          "description": "Primiți alerte critice și recomandări inteligente pentru a acționa înainte ca problemele să afecteze producția."
+        },
+        {
+          "title": "Actualizări OTA",
+          "description": "Actualizările de software și firmware la distanță mențin platforma dumneavoastră mereu actualizată și sigură."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Inteligență Artificială aplicată industriei pentru a optimiza continuu procesele, calitatea și productivitatea."
+        }
+      ]
+    }
+  },
+  "representantes": {
+    "banner": {
+      "badge": "PROGRAM DE REPREZENTANȚI",
+      "title": "Deveniți reprezentant Injectra și aduceți tehnologie de vârf în regiunea dumneavoastră.",
+      "subtitle": "Parteneriat, suport și tehnologie pentru a crește alături de un brand global lider în soluții industriale.",
+      "ctaPrimary": "Vreau să Devin Reprezentant",
+      "ctaSecondary": "Discută cu un Specialist",
+      "highlights": [
+        "Tehnologie Lider Global",
+        "Produse de Înaltă Performanță",
+        "Suport Complet",
+        "Parteneriat pentru a Crește Împreună"
+      ]
+    },
+    "beneficios": {
+      "title": "Beneficiile de a fi reprezentant Injectra",
+      "items": [
+        {
+          "title": "Comisioane Atractive",
+          "description": "Câștigați comisioane competitive și creștere continuă."
+        },
+        {
+          "title": "Produse de Înaltă Calitate",
+          "description": "Soluții inovatoare și fiabile pentru diverse segmente industriale."
+        },
+        {
+          "title": "Suport și Instruire",
+          "description": "Instruiri tehnice și comerciale continue pentru succesul dumneavoastră."
+        },
+        {
+          "title": "Marketing și Materiale",
+          "description": "Sprijin în marketing, materiale exclusive și generare de cerere."
+        },
+        {
+          "title": "Brand Global și de Încredere",
+          "description": "Reprezentați un brand recunoscut în întreaga Americă."
+        },
+        {
+          "title": "Oportunități de Creștere",
+          "description": "Extindeți-vă portofoliul și dezvoltați-vă afacerea."
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Beneficiile de a fi reprezentant Injectra",
+      "items": [
+        {
+          "title": "Înregistrare",
+          "description": "Completați formularul integral și trimiteți-vă datele."
+        },
+        {
+          "title": "Evaluare",
+          "description": "Echipa noastră vă va evalua profilul și potențialul pentru regiunea dumneavoastră."
+        },
+        {
+          "title": "Aprobare",
+          "description": "Veți fi aprobat și integrat oficial în program."
+        },
+        {
+          "title": "Instruire",
+          "description": "Primiți instruiri tehnice și comerciale complete."
+        },
+        {
+          "title": "Activitate",
+          "description": "Începeți să reprezentați și să aduceți tehnologia Injectra în regiunea dumneavoastră."
+        }
+      ]
+    },
+    "nossasExperiencias": {
+      "title": "Experiențele Noastre",
+      "mapAlt": "Harta Americii",
+      "ctaLabel": "Vezi oportunitățile",
+      "regioes": [
+        {
+          "title": "America de Nord",
+          "description": "Statele Unite, Canada și Mexic"
+        },
+        {
+          "title": "America Centrală",
+          "description": "Guatemala, Panama, Costa Rica și altele."
+        },
+        {
+          "title": "Caraibe",
+          "description": "Insulele Caraibe și națiunile caraibiene."
+        },
+        {
+          "title": "America de Sud",
+          "description": "Brazilia, Argentina, Chile, Columbia și altele."
+        },
+        {
+          "title": "Regiunea Andină",
+          "description": "Ecuador, Peru, Bolivia și Venezuela."
+        },
+        {
+          "title": "Alte Piețe",
+          "description": "Oportunități pe piețe noi."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Haideți să creștem împreună!",
+      "description": "Faceți parte dintr-o rețea de parteneri care transformă industria din întreaga Americă prin tehnologie și inovație.",
+      "stats": [
+        {
+          "label": "Reprezentanți activi"
+        },
+        {
+          "label": "Țări deservite"
+        },
+        {
+          "label": "Mașini instalate"
+        },
+        {
+          "label": "De experiență globală"
+        }
+      ],
+      "trustItems": [
+        {
+          "title": "Tehnologie Americană",
+          "description": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "description": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "description": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "description": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "description": "Eficiență energetică și ESG"
+        }
+      ]
+    }
+  },
+  "robotica": {
+    "banner": {
+      "badge": "ROBOTICĂ",
+      "title": "Automatizare inteligentă care generează rezultate.",
+      "subtitle": "Soluții complete de robotică și automatizare pentru manipulare, manevrare, paletizare și integrare cu mașinile Injectra.",
+      "highlights": [
+        {
+          "label": "Productivitate Ridicată"
+        },
+        {
+          "label": "Precizie și Repetabilitate"
+        },
+        {
+          "label": "Flexibilitate Totală"
+        },
+        {
+          "label": "Integrare cu Injectra AI"
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    },
+    "aplicacoes": {
+      "title": "Aplicații în Diferite Sectoare",
+      "items": [
+        {
+          "title": "Injecție Materiale Plastice",
+          "description": "Extragerea pieselor și alimentare."
+        },
+        {
+          "title": "Manipulare",
+          "description": "Pick & Place de mare viteză"
+        },
+        {
+          "title": "Asamblare",
+          "description": "Asamblare și inserare de componente"
+        },
+        {
+          "title": "Inspecție",
+          "description": "Viziune inteligentă și control al calității."
+        },
+        {
+          "title": "Paletizare",
+          "description": "Formarea straturilor și paletizare."
+        },
+        {
+          "title": "Ambalare",
+          "description": "Încartonare și ambalare."
+        },
+        {
+          "title": "Logistică Internă",
+          "description": "Manipulare și transport autonom."
+        }
+      ]
+    },
+    "capacidade": {
+      "title": "Robotul Umanoid Neo",
+      "subtitle": "Dezvoltat pentru a interacționa cu oamenii și mediile industriale în mod sigur, flexibil și inteligent.",
+      "checklist": [
+        "Percepție 3D și viziune computerizată",
+        "Mobilitate avansată și echilibru dinamic",
+        "Interacțiune sigură cu oamenii",
+        "Învățare și adaptare continuă",
+        "Integrare nativă cu Injectra AI"
+      ],
+      "ctaLabel": "Descoperiți Neo",
+      "robotImageAlt": "Robotul Umanoid Neo",
+      "specs": [
+        "Grade de libertate",
+        "Viziune și percepție",
+        "Viteză maximă",
+        "Sarcină utilă",
+        "Protecție industrială"
+      ],
+      "videoThumbAlt": "Robotul Neo în funcțiune",
+      "videoTitle": "Automatizare care merge mai departe.",
+      "videoDescription": "Vedeți Neo în acțiune în industrie",
+      "watchLabel": "Vizionează demonstrația"
+    },
+    "solucoes": {
+      "title": "Soluțiile Noastre de Robotică",
+      "detailsLabel": "Vezi detalii",
+      "items": [
+        {
+          "title": "Robotul Umanoid Neo",
+          "description": "Viitorul automatizării inteligente. Mobilitate, percepție și interacțiune pentru sarcini complexe."
+        },
+        {
+          "title": "Roboți Carteziani",
+          "description": "Viteză și precizie ridicate pentru manipulare, pick & place și extragerea pieselor."
+        },
+        {
+          "title": "Celule Robotizate",
+          "description": "Soluții complete și personalizate pentru diferite aplicații și niveluri de automatizare."
+        },
+        {
+          "title": "Paletizare",
+          "description": "Sisteme de paletizare eficiente pentru creșterea productivității și standardizarea proceselor."
+        },
+        {
+          "title": "Automatizare Inteligentă",
+          "description": "Integrarea proceselor, senzorilor și controalelor pentru fabrici mai inteligente și conectate."
+        },
+        {
+          "title": "Integrare cu Injectra AI",
+          "description": "Integrare totală cu platforma Injectra AI pentru monitorizare și decizii inteligente."
+        }
+      ]
+    },
+    "integracao": {
+      "title": "Integrare Completă cu Industria",
+      "subtitle": "Soluții care se conectează perfect la procesul dumneavoastră de producție.",
+      "etapas": [
+        {
+          "title": "Mașini Injectra",
+          "description": "Mașini de injecție hidraulice și electrice."
+        },
+        {
+          "title": "Roboți și Automatizare",
+          "description": "Roboți carteziani Neo și celule robotizate."
+        },
+        {
+          "title": "Transport și Benzi Transportoare",
+          "description": "Manipulare Inteligentă"
+        },
+        {
+          "title": "Paletizare",
+          "description": "Organizare și stivuire."
+        },
+        {
+          "title": "Platforma Injectra AI",
+          "description": "Monitorizare și control în timp real."
+        }
+      ],
+      "cardTitle": "Totul conectat.",
+      "cardDescription": "Monitorizare, date și decizii în timp real pentru eficiență maximă.",
+      "ctaLabel": "Descoperiți Platforma AI"
+    },
+    "comparativo": {
+      "title": "Comparativ: Care soluție este ideală pentru nevoia dumneavoastră?",
+      "columns": {
+        "solucao": "Soluție",
+        "velocidade": "Viteză",
+        "precisao": "Precizie",
+        "flexibilidade": "Flexibilitate",
+        "cargaUtil": "Sarcină Utilă",
+        "aplicacoes": "Aplicații",
+        "integracaoAi": "Integrare AI"
+      },
+      "rows": [
+        {
+          "solucao": "Robotul Umanoid Neo",
+          "cargaUtil": "10+ kg",
+          "aplicacoes": "Interacțiune, inspecție, asistență",
+          "integracaoAi": "Nativă"
+        },
+        {
+          "solucao": "Roboți Carteziani",
+          "cargaUtil": "Până la 50kg",
+          "aplicacoes": "Pick & place, manipulare",
+          "integracaoAi": "Totală"
+        },
+        {
+          "solucao": "Celule Robotizate",
+          "cargaUtil": "Până la 200kg",
+          "aplicacoes": "Procese automatizate",
+          "integracaoAi": "Totală"
+        },
+        {
+          "solucao": "Paletizare",
+          "cargaUtil": "Până la 500kg",
+          "aplicacoes": "Paletizare, depaletizare",
+          "integracaoAi": "Totală"
+        },
+        {
+          "solucao": "Automatizare Inteligentă",
+          "cargaUtil": "Variabilă",
+          "aplicacoes": "Integrarea proceselor",
+          "integracaoAi": "Totală"
+        },
+        {
+          "solucao": "Integrare cu AI",
+          "cargaUtil": "Nelimitată",
+          "aplicacoes": "Monitorizare și decizii",
+          "integracaoAi": "Nativă"
+        }
+      ],
+      "helpTitle": "Aveți nevoie de ajutor pentru a alege?",
+      "helpDescription": "Echipa noastră de specialiști vă va indica cea mai bună soluție pentru operațiunea dumneavoastră.",
+      "helpCta": "Discută cu un Specialist"
+    },
+    "cta": {
+      "title": "Sunteți pregătiți să duceți producția la nivelul următor?",
+      "description": "Discutați cu specialiștii noștri și descoperiți cum robotica Injectra poate transforma industria dumneavoastră cu mai multă productivitate și siguranță.",
+      "quoteButton": "Solicită Ofertă",
+      "specialistButton": "Discută cu un Specialist"
+    }
+  },
+  "sobreNos": {
+    "banner": {
+      "eyebrow": "DESPRE NOI",
+      "title": "Despre Injectra",
+      "subtitle": "Tehnologie industrială pentru a transforma producția din întreaga Americă.",
+      "description": "Injectra Corporation este o companie americană axată pe mașini de injecție, robotică, software industrial, IoT, cloud și inteligență artificială. Obiectivul nostru este să oferim productivitate, automatizare și eficiență industriilor care doresc să crească prin tehnologie.",
+      "highlights": [
+        {
+          "label": "Companie Americană"
+        },
+        {
+          "label": "Prezență în America"
+        },
+        {
+          "label": "Axare pe Industrie și Inovație"
+        }
+      ]
+    },
+    "quemSomos": {
+      "title": "Cine Suntem",
+      "paragraph1": "Injectra s-a născut pentru a uni ingineria industrială, automatizarea și inteligența digitală într-o singură platformă.",
+      "paragraph2": "Mai mult decât vânzarea de mașini, construim un ecosistem complet cu echipamente, robotică, servicii și software.",
+      "pilares": [
+        {
+          "title": "Mașini de Injecție",
+          "description": "Tehnologie de vârf pentru performanță și fiabilitate maxime."
+        },
+        {
+          "title": "Robotică Industrială",
+          "description": "Automatizare inteligentă pentru creșterea productivității și calității."
+        },
+        {
+          "title": "Platforma Injectra AI",
+          "description": "Software industrial cu AI, date și analitice pentru decizii mai bune."
+        },
+        {
+          "title": "Servicii și Suport",
+          "description": "Suport tehnic, instruiri și servicii pentru a vă asigura rezultatele."
+        }
+      ]
+    },
+    "missaoVisaoValores": {
+      "title": "Misiunea, Viziunea și Valorile Noastre",
+      "items": [
+        {
+          "title": "Misiune",
+          "description": "Să impulsionăm industria cu soluții inteligente, accesibile și scalabile."
+        },
+        {
+          "title": "Viziune",
+          "description": "Să construim una dintre principalele platforme industriale inteligente din întreaga Americă."
+        },
+        {
+          "title": "Valori",
+          "description": "Inovație, încredere, eficiență, apropiere de client și creștere sustenabilă."
+        }
+      ]
+    },
+    "ecossistema": {
+      "title": "Ecosistemul Nostru",
+      "items": [
+        {
+          "title": "Mașini",
+          "description": "Mașini de injecție de precizie ridicată și performanță superioară."
+        },
+        {
+          "title": "Robotul Neo",
+          "description": "Robotică colaborativă și soluții de automatizare."
+        },
+        {
+          "title": "IoT Industrial",
+          "description": "Conectivitate și monitorizare în timp real."
+        },
+        {
+          "title": "Injectra AI",
+          "description": "Inteligență Artificială aplicată industriei."
+        },
+        {
+          "title": "Aplicație Mobilă",
+          "description": "Control și monitorizare de oriunde v-ați afla."
+        },
+        {
+          "title": "Cloud și Analitice",
+          "description": "Date securizate și analize pentru decizii strategice."
+        },
+        {
+          "title": "Experience Center",
+          "description": "Mediu imersiv pentru teste, instruiri și inovație."
+        },
+        {
+          "title": "Suport Tehnic",
+          "description": "Specialiști pregătiți să vă sprijine operațiunea."
+        }
+      ]
+    },
+    "grupoInterfy": {
+      "logoAlt": "Interfy Corporation",
+      "paragraph1": "Injectra face parte din Grupul Interfy Corporation, cu peste 26 de ani de experiență în tehnologie, software, transformare digitală și extindere a afacerilor.",
+      "paragraph2": "Această bază consolidează Injectra cu o viziune globală, structură corporativă, experiență în inovație și capacitate de creștere internațională.",
+      "destaques": [
+        {
+          "title": "Peste 26 de ani de experiență"
+        },
+        {
+          "title": "Viziune Globală"
+        },
+        {
+          "title": "Structură Corporativă"
+        },
+        {
+          "title": "Inovație și Tehnologie"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Sunteți pregătiți să descoperiți Injectra?",
+      "description": "Discutați cu specialiștii noștri și descoperiți cum soluțiile noastre vă pot transforma industria.",
+      "quoteButton": "Solicită Ofertă",
+      "specialistButton": "Discută cu un Specialist",
+      "trustItems": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    }
+  },
+  "solicitarCotacao": {
+    "banner": {
+      "eyebrow": "SOLICITĂ OFERTĂ",
+      "title": "Solicită Ofertă",
+      "subtitle": "Solicitați o propunere personalizată pentru mașini, robotică și platforma industrială Injectra.",
+      "description": "Bazați-vă pe expertiza noastră pentru a dezvolta cea mai bună soluție pentru proiectul dumneavoastră, cu tehnologie, inovație și performanță.",
+      "highlights": [
+        {
+          "lines": [
+            "Tehnologie",
+            "de Vârf"
+          ]
+        },
+        {
+          "lines": [
+            "Soluții",
+            "Integrate"
+          ]
+        },
+        {
+          "lines": [
+            "Performanță Dovedită"
+          ]
+        }
+      ]
+    },
+    "configurador": {
+      "selecaoLinha": {
+        "title": "Selecția Liniei",
+        "subtitle": "Alegeți linia de mașini de interes",
+        "linhas": [
+          {
+            "name": "Prime",
+            "description": "Fiabilitate și versatilitate."
+          },
+          {
+            "name": "Speed",
+            "description": "Performanță și productivitate ridicate."
+          },
+          {
+            "name": "Velocity",
+            "description": "Precizie și forță pentru provocări majore."
+          },
+          {
+            "name": "Form",
+            "description": "Precizie pentru piese tehnice și fine."
+          },
+          {
+            "name": "Neo",
+            "description": "Eficiență electrică și consum redus."
+          },
+          {
+            "name": "Atlas",
+            "description": "Forță și stabilitate pentru piese mari."
+          },
+          {
+            "name": "Hydro",
+            "description": "Hidraulică avansată și robustețe."
+          },
+          {
+            "name": "Titan",
+            "description": "Forță maximă pentru aplicații extreme."
+          },
+          {
+            "name": "Max",
+            "description": "Soluții de capacitate foarte ridicată."
+          },
+          {
+            "name": "Equora",
+            "description": "Echilibru între forță, eficiență și economie prin tehnologie hibridă."
+          }
+        ],
+        "alertText": "Veți putea configura toate detaliile mașinii în etapa următoare.",
+        "nextButton": "Următorul: Configurarea Mașinii"
+      },
+      "configuracaoMaquina": {
+        "title": "Configurarea Mașinii",
+        "subtitle": "Personalizați-vă mașina în funcție de nevoile proiectului dumneavoastră.",
+        "fields": {
+          "forca": {
+            "label": "Forța de Închidere",
+            "placeholder": "Selectați forța (tone)"
+          },
+          "aplicacao": {
+            "label": "Tipul Aplicației",
+            "placeholder": "Selectați aplicația"
+          },
+          "automacao": {
+            "label": "Automatizare",
+            "placeholder": "Selectați nivelul"
+          },
+          "robotica": {
+            "label": "Robotică",
+            "placeholder": "Selectați opțiunea"
+          },
+          "opcionais": {
+            "label": "Opționale",
+            "placeholder": "Selectați opționalele"
+          },
+          "voltagem": {
+            "label": "Tensiune",
+            "placeholder": "Selectați tensiunea"
+          },
+          "produtividade": {
+            "label": "Productivitate Estimată",
+            "placeholder": "Selectați productivitatea"
+          },
+          "acessorios": {
+            "label": "Accesorii",
+            "placeholder": "Selectați accesoriile"
+          },
+          "integracaoAI": {
+            "label": "Integrare cu Injectra AI",
+            "placeholder": "Selectați integrarea"
+          }
+        },
+        "options": {
+          "forcaUnidade": "Tone",
+          "aplicacao": [
+            "Ambalaje",
+            "Automotive",
+            "Electronice",
+            "Medical",
+            "Consum",
+            "Construcții",
+            "Altele"
+          ],
+          "automacao": [
+            "Manuală",
+            "Semi-automată",
+            "Automatizare Integrată",
+            "Automatizare Totală cu Robotică"
+          ],
+          "robotica": [
+            "Fără robotică",
+            "Robot Cartezian",
+            "Robot Antropomorf (6 axe)",
+            "Robot Colaborativ"
+          ],
+          "opcionais": [
+            "Niciunul",
+            "Sistem de Răcire Avansat",
+            "Alimentator Automat",
+            "Centrală de Uscare",
+            "Altele"
+          ],
+          "voltagem": [
+            "220V",
+            "380V",
+            "440V",
+            "Alta"
+          ],
+          "produtividade": [
+            "Volum redus",
+            "Volum mediu",
+            "Volum ridicat",
+            "Volum foarte ridicat (24/7)"
+          ],
+          "acessorios": [
+            "Niciunul",
+            "Matrițe personalizate",
+            "Sistem de Automatizare",
+            "Centrală de Uscare",
+            "Altele"
+          ],
+          "integracaoAI": [
+            "Fără integrare",
+            "Monitorizare de Bază",
+            "Platforma Injectra AI Completă"
+          ]
+        },
+        "alertText": "Echipa noastră tehnică va utiliza aceste informații pentru a crea soluția ideală pentru proiectul dumneavoastră."
+      },
+      "resumo": {
+        "title": "Configurație Selectată",
+        "linhaSelecionadaLabel": "Linia Selectată",
+        "emptyValue": "-",
+        "saveButton": "Salvează Configurația"
+      }
+    },
+    "cta": {
+      "title": "Sunteți pregătiți să primiți propunerea dumneavoastră personalizată?",
+      "description": "Completați informațiile, configurați mașina și trimiteți solicitarea. Echipa noastră vă va contacta în curând cu cea mai bună soluție pentru proiectul dumneavoastră.",
+      "primaryButton": "SOLICITĂ OFERTĂ",
+      "secondaryButton": "DISCUTĂ CU UN SPECIALIST"
+    },
+    "envioDaProposta": {
+      "title": "Trimiterea Propunerii",
+      "etapas": [
+        {
+          "title": "Analiză Tehnică",
+          "description": "Echipa noastră tehnică analizează informațiile proiectului dumneavoastră și identifică cea mai bună soluție."
+        },
+        {
+          "title": "Validare Comercială",
+          "description": "Validarea fezabilității și a condițiilor comerciale personalizate."
+        },
+        {
+          "title": "Propunere Personalizată",
+          "description": "Trimitem o propunere completă cu specificații, termene și condiții pentru proiectul dumneavoastră."
+        },
+        {
+          "title": "Suportul Specialistului",
+          "description": "Specialistul nostru vă însoțește în toate etapele, până la implementare."
+        }
+      ]
+    },
+    "porQueEscolher": {
+      "title": "De ce să alegeți Injectra?",
+      "razoes": [
+        {
+          "title": "Servicii Consultative",
+          "description": "Înțelegem proiectul dumneavoastră pentru a oferi cea mai bună soluție."
+        },
+        {
+          "title": "Proiect la comandă",
+          "description": "Fiecare detaliu este dezvoltat pentru nevoile dumneavoastră."
+        },
+        {
+          "title": "Răspuns rapid",
+          "description": "Rapiditate în răspuns și propuneri personalizate."
+        },
+        {
+          "title": "Suport Tehnic",
+          "description": "Asistență specializată înainte, în timpul și după vânzare."
+        },
+        {
+          "title": "Soluții Integrate",
+          "description": "Mașini, robotică și platformă AI conectate pentru eficiență maximă."
+        },
+        {
+          "title": "Prezență în America",
+          "description": "Servicii locale și suport în întreaga Americă."
+        }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        {
+          "title": "Tehnologie Americană",
+          "subtitle": "Dezvoltată în SUA"
+        },
+        {
+          "title": "Prezență în America",
+          "subtitle": "Servicii locale"
+        },
+        {
+          "title": "Peste 30 de ani de experiență",
+          "subtitle": "în soluții industriale"
+        },
+        {
+          "title": "Suport 24/7",
+          "subtitle": "Asistență tehnică specializată"
+        },
+        {
+          "title": "Sustenabilitate",
+          "subtitle": "Eficiență energetică și ESG"
+        }
+      ]
+    }
+  },
+  "suporte": {
+    "banner": {
+      "eyebrow": "SUPORT",
+      "title": "Suntem aici pentru a menține producția dumneavoastră mereu în mișcare",
+      "description": "Suport complet și specializat pentru a asigura cea mai bună performanță a soluțiilor Injectra în toate etapele operațiunii dumneavoastră.",
+      "openTicketLabel": "Deschide un Tichet",
+      "talkToSpecialistLabel": "Discută cu un Specialist",
+      "highlights": [
+        {
+          "label": "Specialiști Dedicați"
+        },
+        {
+          "label": "Suport Rapid și Eficient"
+        },
+        {
+          "label": "Servicii în Întreaga Americă"
+        },
+        {
+          "label": "Tehnologie care nu se Oprește"
+        }
+      ]
+    },
+    "solucoes": {
+      "title": "Soluțiile Noastre de Suport",
+      "accessLabel": "Accesează",
+      "items": [
+        {
+          "title": "Asistență Tehnică",
+          "description": "Servicii specializate pentru diagnosticare la distanță sau la fața locului, rezolvarea problemelor și îndrumare tehnică completă."
+        },
+        {
+          "title": "Garanție",
+          "description": "Consultați acoperirea garanției echipamentelor Injectra și înregistrați-vă garanția rapid și ușor."
+        },
+        {
+          "title": "Manuale",
+          "description": "Accesați manualele de instalare, operare și mentenanță ale echipamentelor Injectra."
+        },
+        {
+          "title": "Descărcări",
+          "description": "Descărcați software, firmware, documentație tehnică și alte resurse importante."
+        },
+        {
+          "title": "Întrebări Frecvente",
+          "description": "Găsiți răspunsuri rapide la principalele întrebări despre produsele și serviciile noastre."
+        },
+        {
+          "title": "Solicitare de Piese",
+          "description": "Solicitați piese de schimb originale cu siguranță și rapiditate."
+        }
+      ]
+    },
+    "atendimento": {
+      "title": "Servicii în întreaga Americă",
+      "description": "Suport local și distribuitori autorizați pregătiți să vă asiste oriunde v-ați afla.",
+      "ctaLabel": "Vezi punctele de servicii",
+      "stats": [
+        {
+          "value": "+30",
+          "label": "Țări deservite"
+        },
+        {
+          "value": "+100",
+          "label": "Tehnicieni certificați"
+        },
+        {
+          "value": "+5.000",
+          "label": "Clienți mulțumiți"
+        }
+      ]
+    },
+    "comoFunciona": {
+      "title": "Cum funcționează",
+      "description": "Un proces simplu și consultativ pentru a ajunge la cea mai bună soluție.",
+      "etapas": [
+        {
+          "title": "1. Contactați-ne",
+          "description": "Deschideți un tichet prin site, telefon sau e-mail."
+        },
+        {
+          "title": "2. Diagnosticare",
+          "description": "Echipa noastră analizează solicitarea dumneavoastră și identifică cea mai bună soluție."
+        },
+        {
+          "title": "3. Soluție",
+          "description": "Oferim soluția ideală: reparație la distanță, îndrumare și vizită tehnică."
+        },
+        {
+          "title": "4. Monitorizare",
+          "description": "Monitorizăm cazul până la rezolvarea completă a problemei."
+        },
+        {
+          "title": "5. Producția dumneavoastră nu se oprește",
+          "description": "Suportul Injectra asigură mereu performanță și productivitate."
+        }
+      ]
+    },
+    "pecas": {
+      "title": "Piese originale Injectra",
+      "description": "Calitate și durabilitate maxime pentru echipamentul dumneavoastră. Solicitați acum piesele de schimb originale.",
+      "imageAlt": "Piese originale Injectra",
+      "requestPartsLabel": "Solicită piese",
+      "items": [
+        {
+          "title": "Calitate Garantată"
+        },
+        {
+          "title": "Livrare Rapidă"
+        },
+        {
+          "title": "Compatibilitate Totală"
+        }
+      ]
+    }
+  },
+  "forms": {
+    "shared": {
+      "title": "Trimiteți un mesaj",
+      "subtitle": "Soluții complete pentru cele mai exigente sectoare ale industriei.",
+      "fields": {
+        "nome": {
+          "placeholder": "Nume complet"
+        },
+        "empresa": {
+          "placeholder": "Companie"
+        },
+        "email": {
+          "placeholder": "E-mail corporativ"
+        },
+        "telefone": {
+          "placeholder": "Telefon / WhatsApp"
+        },
+        "pais": {
+          "placeholder": "Țară / Regiune"
+        },
+        "segmento": {
+          "placeholder": "Segment Industrial"
+        },
+        "solucao": {
+          "placeholder": "Soluție de Interes"
+        },
+        "mensagem": {
+          "placeholder": "Mesaj (opțional)"
+        }
+      },
+      "submitButton": "Trimite Solicitarea",
+      "consent": {
+        "prefix": "Am citit și sunt de acord cu ",
+        "linkLabel": "Politica de Confidențialitate."
+      },
+      "validation": {
+        "emailInvalid": "Introduceți o adresă de e-mail corporativă validă.",
+        "phoneInvalid": "Număr de telefon invalid pentru țara selectată.",
+        "requiredField": "Câmp obligatoriu."
+      },
+      "options": {
+        "segmentos": [
+          "Auto",
+          "Ambalaje",
+          "Medical",
+          "Bunuri de Consum",
+          "Electronice",
+          "Construcții",
+          "Logistică",
+          "Alte Segmente"
+        ],
+        "solucoes": [
+          "Mașini",
+          "Robotică",
+          "Platforma AI",
+          "Industrii",
+          "Altul"
+        ],
+        "tiposProjeto": [
+          "Proiect Nou",
+          "Extindere a Producției",
+          "Înlocuire Echipament",
+          "Consultanță și Evaluare Tehnică",
+          "Altul"
+        ],
+        "prazosProjeto": [
+          "Imediat",
+          "1 până la 3 luni",
+          "3 până la 6 luni",
+          "6 până la 12 luni",
+          "De stabilit"
+        ]
+      }
+    },
+    "contato": {
+      "canaisAtendimentoTitle": "Canale de Asistență",
+      "canaisAtendimento": [
+        {
+          "title": "Consultanță Comercială",
+          "description": "Soluții și propuneri personalizate"
+        },
+        {
+          "title": "Consultanță Tehnică",
+          "description": "Suport tehnic și specificații"
+        },
+        {
+          "title": "Inginerie de Aplicații",
+          "description": "Analiza și dezvoltarea soluțiilor"
+        },
+        {
+          "title": "Programare Întâlnire",
+          "description": "Întâlniri față în față sau online"
+        },
+        {
+          "title": "Suport Post-Vânzare",
+          "description": "Urmărire și sprijin continuu"
+        }
+      ],
+      "equipeTitle": "Discutați cu echipa noastră",
+      "equipeLinks": [
+        {
+          "title": "Solicită Ofertă"
+        },
+        {
+          "title": "Discută cu un Specialist"
+        },
+        {
+          "title": "Suport Tehnic"
+        },
+        {
+          "title": "Cataloage și Materiale"
+        },
+        {
+          "title": "Experience Center"
+        },
+        {
+          "title": "Reprezentanți"
+        }
+      ],
+      "horario": {
+        "title": "Program de Asistență",
+        "dias": "Luni până Vineri",
+        "horas": "8:00 - 18:00",
+        "tipo": "Suport comercial și tehnic"
+      }
+    },
+    "faleComEspecialista": {
+      "equipeTitle": "Discutați cu echipa noastră",
+      "equipeSubtitle": "Specialiști gata să vă ajute.",
+      "contatos": [
+        {
+          "title": "Specialist Comercial",
+          "description": "Soluții și propuneri comerciale"
+        },
+        {
+          "title": "Specialist Tehnic",
+          "description": "Specificații și cerințe tehnice"
+        },
+        {
+          "title": "Inginerie de Aplicații",
+          "description": "Soluții și procese personalizate"
+        },
+        {
+          "title": "Suport Regional",
+          "description": "Servicii locale specializate"
+        }
+      ],
+      "destaques": [
+        {
+          "label": "Asistență în toată America"
+        },
+        {
+          "label": "Răspuns rapid și personalizat"
+        },
+        {
+          "label": "Suport în PT · EN · ES"
+        }
+      ]
+    },
+    "solicitarCotacao": {
+      "title": "Formular Inteligent",
+      "fields": {
+        "nome": {
+          "label": "Nume",
+          "placeholder": "Introduceți numele dumneavoastră"
+        },
+        "empresa": {
+          "label": "Companie",
+          "placeholder": "Introduceți numele companiei"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "email@companie.com"
+        },
+        "telefone": {
+          "label": "Telefon"
+        },
+        "pais": {
+          "label": "Țară",
+          "placeholder": "Selectați țara"
+        },
+        "segmento": {
+          "label": "Segment",
+          "placeholder": "Selectați segmentul"
+        },
+        "tipoProjeto": {
+          "label": "Tipul proiectului",
+          "placeholder": "Selectați tipul proiectului"
+        },
+        "capacidade": {
+          "label": "Capacitate dorită",
+          "placeholder": "Selectați capacitatea"
+        },
+        "prazoProjeto": {
+          "label": "Termenul proiectului",
+          "placeholder": "Selectați termenul"
+        },
+        "mensagem": {
+          "label": "Mesaj",
+          "placeholder": "Spuneți-ne mai multe despre proiectul, obiectivele și nevoile dumneavoastră specifice."
+        }
+      },
+      "consent": {
+        "prefix": "Am citit și sunt de acord cu ",
+        "linkLabel": "Politica de Confidențialitate."
+      },
+      "submitButton": "Următorul: Selectați Linia",
+      "validation": {
+        "emailInvalid": "Introduceți o adresă de e-mail validă.",
+        "phoneInvalid": "Număr de telefon invalid pentru țara selectată.",
+        "requiredField": "Câmp obligatoriu."
+      }
+    }
+  }
+}

@@ -5,39 +5,58 @@
 // Os demais modelos da linha (nomes reais, extraídos do mesmo node) ainda não
 // têm especificações técnicas reais fornecidas — por isso `specs` é opcional.
 // Sem `specs`, a rota de modelo retorna 404 em vez de exibir dados inventados.
+//
+// i18n: a maior parte do texto exibido (descrição da linha, aplicações e
+// benefícios, e os campos de ficha técnica além de `tecnologia`/`modeloLabel`)
+// vive no dicionário, em dict.maquinas.modelo.linhas[line.slug],
+// dict.maquinas.modelo.aplicacoesBeneficios.items[item.key] e
+// dict.maquinas.modelo.especificacoes[line.slug] — ver
+// src/components/sections/maquinas/modelo/*.tsx e
+// src/dictionaries/fragments/maquinas.json.
+// `model.name` e `specs.tecnologia` permanecem como texto literal aqui porque
+// são lidos diretamente (sem acesso ao dicionário) por generateMetadata em
+// src/app/[lang]/maquinas/[linha]/[modelo]/page.tsx, fora do escopo deste grupo.
+// `specs.modeloLabel` também permanece literal: o comparativo do modelo
+// (modelo/Comparativo.tsx) recebe apenas `specs`/`line`, sem o slug do
+// modelo, então esse campo não pode ser indexado no dicionário por linha.
 
 export type ModelSpecs = {
-  /** Texto da linha "Modelo" no comparativo — mantido literal ao Figma. */
-  modeloLabel: string;
-  forcaTonelagem: string;
-  tieBar: string;
+  /** Usado diretamente por generateMetadata (fora do escopo deste grupo) para
+   * montar a <meta description> da página — por isso permanece literal aqui
+   * em vez de mover para o dicionário. */
   tecnologia: string;
-  aplicacoesIndicadas: string;
-  configuracaoComercial: string;
-  suporte: string;
+  /** Rótulo da linha "Modelo" no comparativo (ex.: "Prime IP -60"). O
+   * componente de comparativo (modelo/Comparativo.tsx) só recebe `specs` e
+   * `line`, sem o slug do modelo — por isso este campo, atrelado à
+   * identidade do modelo, permanece aqui em vez de ir para o dicionário. Os
+   * demais campos da ficha técnica vivem em
+   * dict.maquinas.modelo.especificacoes[line.slug]. */
+  modeloLabel: string;
 };
 
 export type MachineModel = {
   slug: string;
+  /** Usado diretamente por generateMetadata (fora do escopo deste grupo) para
+   * montar o <title> da página — por isso permanece literal aqui em vez de
+   * mover para o dicionário. */
   name: string;
   specs?: ModelSpecs;
 };
 
 export type ApplicationBenefit = {
   icon: string;
-  title: string;
-  description: string;
+  /** Chave estável usada para localizar o texto (title/description) em
+   * dict.maquinas.modelo.aplicacoesBeneficios.items — o texto em si vive no
+   * dicionário, não aqui. */
+  key: string;
 };
 
 export type MachineLineDetail = {
   slug: string;
-  /** Rótulo usado no breadcrumb, ex.: "Prime Series". */
-  seriesLabel: string;
-  /** Rótulo curto usado na linha "Série" do comparativo, ex.: "Prime". */
+  /** Rótulo curto usado na linha "Série" do comparativo e na busca de fotos
+   * (getMachinePhoto), ex.: "Prime". */
   shortName: string;
   color: string;
-  /** Subtítulo exibido abaixo do H1 na página do modelo. */
-  description: string;
   applicationsAndBenefits: ApplicationBenefit[];
   models: MachineModel[];
 };
@@ -45,44 +64,21 @@ export type MachineLineDetail = {
 export const MACHINE_LINE_DETAILS: MachineLineDetail[] = [
   {
     slug: "prime-ip",
-    seriesLabel: "Prime Series",
     shortName: "Prime",
     color: "var(--color-prime-ip)",
-    description: "Precisão, versatilidade e performance para aplicações gerais.",
     applicationsAndBenefits: [
-      {
-        icon: "/assets/maquinas/icon-pecas-tecnicas.svg",
-        title: "Peças Técnicas",
-        description: "Ideal para componentes que exigem precisão e repetibilidade.",
-      },
-      {
-        icon: "/assets/maquinas/icon-consumo.svg",
-        title: "Consumo",
-        description: "Soluções eficientes para produtos do dia a dia com alta qualidade.",
-      },
-      {
-        icon: "/assets/maquinas/icon-automacao-integrada.svg",
-        title: "Automação integrada",
-        description: "Compatível com periféricos e sistemas de automação modernos.",
-      },
-      {
-        icon: "/assets/maquinas/icon-baixo-custo.svg",
-        title: "Baixo custo operacional",
-        description: "Projeto eficiente que reduz consumo de energia e custos de manutenção.",
-      },
+      { icon: "/assets/maquinas/icon-pecas-tecnicas.svg", key: "pecasTecnicas" },
+      { icon: "/assets/maquinas/icon-consumo.svg", key: "consumo" },
+      { icon: "/assets/maquinas/icon-automacao-integrada.svg", key: "automacaoIntegrada" },
+      { icon: "/assets/maquinas/icon-baixo-custo.svg", key: "baixoCusto" },
     ],
     models: [
       {
         slug: "60",
         name: "Prime IP - 60",
         specs: {
-          modeloLabel: "Prime IP -60",
-          forcaTonelagem: "60 Toneladas",
-          tieBar: "290 x 270 mm",
           tecnologia: "Máquina injetora hidráulica premium",
-          aplicacoesIndicadas: "Utilidades, peças técnicas, consumo e componentes industriais",
-          configuracaoComercial: "Disponível para cotação personalizada",
-          suporte: "Assistência técnica e consultoria especializada",
+          modeloLabel: "Prime IP -60",
         },
       },
       { slug: "70", name: "Prime IP - 70" },

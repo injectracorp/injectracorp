@@ -1,0 +1,103 @@
+{
+  "solicitarCotacao": {
+    "banner": {
+      "eyebrow": "SOLICITAR COTAÇÃO",
+      "title": "Solicitar Cotação",
+      "subtitle": "Solicite uma proposta personalizada para máquinas, robótica e plataforma industrial Injectra.",
+      "description": "Conte com a nossa expertise para desenvolver a melhor solução para o seu projeto, com tecnologia, inovação e performance.",
+      "highlights": [
+        { "lines": ["Tecnologia", "de Ponta"] },
+        { "lines": ["Soluções", "Integradas"] },
+        { "lines": ["Performance Comprovada"] }
+      ]
+    },
+    "configurador": {
+      "selecaoLinha": {
+        "title": "Seleção da Linha",
+        "subtitle": "Escolha a linha de máquinas de seu interesse",
+        "linhas": [
+          { "name": "Prime", "description": "Confiabilidade e versatilidade." },
+          { "name": "Speed", "description": "Alta performance e produtividade." },
+          { "name": "Velocity", "description": "Precisão e força para grandes desafios." },
+          { "name": "Form", "description": "Precisão para peças técnicas e finas." },
+          { "name": "Neo", "description": "Eficiência elétrica e baixo consumo." },
+          { "name": "Atlas", "description": "Força e estabilidade para grandes peças." },
+          { "name": "Hydro", "description": "Hidráulica avançada e robustez." },
+          { "name": "Titan", "description": "Máxima força para aplicações extremas." },
+          { "name": "Max", "description": "Soluções de altíssima capacidade." },
+          { "name": "Equora", "description": "Equilíbrio entre força, eficiência e economia com tecnologia híbrida." }
+        ],
+        "alertText": "Você poderá configurar todos os detalhes da máquina na próxima etapa.",
+        "nextButton": "Próximo: Configuração da Máquina"
+      },
+      "configuracaoMaquina": {
+        "title": "Configuração da Máquina",
+        "subtitle": "Personalize sua máquina conforme as necessidades do seu projeto.",
+        "fields": {
+          "forca": { "label": "Força de Fechamento", "placeholder": "Selecione a força (ton)" },
+          "aplicacao": { "label": "Tipo de Aplicação", "placeholder": "Selecione a aplicação" },
+          "automacao": { "label": "Automação", "placeholder": "Selecione o nível" },
+          "robotica": { "label": "Robótica", "placeholder": "Seleciona a opção" },
+          "opcionais": { "label": "Opcionais", "placeholder": "Selecione os opcionais" },
+          "voltagem": { "label": "Voltagem", "placeholder": "Selecione a voltagem" },
+          "produtividade": { "label": "Produtividade Estimada", "placeholder": "Selecione a produtividade" },
+          "acessorios": { "label": "Acessórios", "placeholder": "Selecione os acessórios" },
+          "integracaoAI": { "label": "Integração com Injectra AI", "placeholder": "Selecione a integração" }
+        },
+        "options": {
+          "forcaUnidade": "Toneladas",
+          "aplicacao": ["Embalagens", "Automotivo", "Eletrônicos", "Médico", "Consumo", "Construção", "Outros"],
+          "automacao": ["Manual", "Semi-automática", "Automação Integrada", "Automação Total com Robótica"],
+          "robotica": ["Sem robótica", "Robô Cartesiano", "Robô Antropomórfico (6 eixos)", "Robô Colaborativo"],
+          "opcionais": ["Nenhum", "Sistema de Refrigeração Avançado", "Alimentador Automático", "Central de Secagem", "Outros"],
+          "voltagem": ["220V", "380V", "440V", "Outra"],
+          "produtividade": ["Baixo volume", "Médio volume", "Alto volume", "Altíssimo volume (24/7)"],
+          "acessorios": ["Nenhum", "Moldes sob medida", "Sistema de Automação", "Central de Secagem", "Outros"],
+          "integracaoAI": ["Sem integração", "Monitoramento Básico", "Plataforma Injectra AI Completa"]
+        },
+        "alertText": "Nossa equipe técnica utilizará essas informações para criar a solução ideal para o seu projeto."
+      },
+      "resumo": {
+        "title": "Configuração Selecionada",
+        "linhaSelecionadaLabel": "Linha Selecionada",
+        "emptyValue": "-",
+        "saveButton": "Salvar Configuração"
+      }
+    },
+    "cta": {
+      "title": "Pronto para receber sua proposta personalizada?",
+      "description": "Preencha as informações, configure sua máquina e envie sua solicitação. Nossa equipe retornará em breve com a melhor solução para o seu projeto.",
+      "primaryButton": "SOLICITAR COTAÇÃO",
+      "secondaryButton": "FALAR COM ESPECIALISTA"
+    },
+    "envioDaProposta": {
+      "title": "Envio da Proposta",
+      "etapas": [
+        { "title": "Análise Técnica", "description": "Nossa equipe técnica analisa as informações do seu projeto e identifica a melhor solução." },
+        { "title": "Validação Comercial", "description": "Validação de viabilidade e condições comerciais personalizadas." },
+        { "title": "Proposta Personalizada", "description": "Enviamos uma proposta completa com especificações, prazos e condições para o seu projeto." },
+        { "title": "Suporte do Especialista", "description": "Nosso especialista acompanha você em todas as etapas até a implementação." }
+      ]
+    },
+    "porQueEscolher": {
+      "title": "Porque escolher a Injectra?",
+      "razoes": [
+        { "title": "Atendimento Consultivo", "description": "Entendemos seu projeto para entregar a melhor solução." },
+        { "title": "Projeto sob medida", "description": "Cada detalhe é desenvolvido para suas necessidades." },
+        { "title": "Resposta rápida", "description": "Agilidade no retorno e propostas personalizadas." },
+        { "title": "Suporte Técnico", "description": "Acompanhamento especializado antes, durante e pós-venda." },
+        { "title": "Soluções Integradas", "description": "Máquinas, robótica e plataforma AI conectadas para máxima eficiência." },
+        { "title": "Presença nas Américas", "description": "Atendimento local e suporte em toda a América." }
+      ]
+    },
+    "trustBar": {
+      "items": [
+        { "title": "Tecnologia Americana", "subtitle": "Desenvolvida nos EUA" },
+        { "title": "Presença nas Américas", "subtitle": "Atendimento local" },
+        { "title": "Mais de 30 anos de experiência", "subtitle": "em soluções industriais" },
+        { "title": "Suporte 24/7", "subtitle": "Assistência técnica especializada" },
+        { "title": "Sustentabilidade", "subtitle": "Eficiência energética e ESG" }
+      ]
+    }
+  }
+}
