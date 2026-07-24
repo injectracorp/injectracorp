@@ -1727,16 +1727,86 @@
       },
       "especificacoes": {
         "prime-ip": {
-          "forcaTonelagem": "60 Tons",
-          "tieBar": "290 x 270 mm",
           "aplicacoesIndicadas": "Household goods, technical parts, consumer goods, and industrial components",
           "configuracaoComercial": "Available for custom quote",
           "suporte": "Specialized technical assistance and consulting"
+        },
+        "speed-is": {
+          "aplicacoesIndicadas": "Embalagens de parede fina, descartáveis e potes de alta produção",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "velocity-iv": {
+          "aplicacoesIndicadas": "Tampas, potes e embalagens de ciclo ultrarrápido",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "atlas-ia": {
+          "aplicacoesIndicadas": "Peças grandes, componentes automotivos e industriais de grande volume",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "form-if": {
+          "aplicacoesIndicadas": "Peças técnicas de alta precisão, componentes médicos e eletrônicos",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "hydro-ih": {
+          "aplicacoesIndicadas": "Peças espessas e componentes que exigem alta força de fechamento",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "titan-it": {
+          "aplicacoesIndicadas": "Peças grandes com moldes pesados, baldes, paletes e caixas industriais",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "max-im": {
+          "aplicacoesIndicadas": "Peças de grande porte com ciclo otimizado e baixo consumo energético",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "neo-ex-ie": {
+          "aplicacoesIndicadas": "Peças de precisão para os setores médico, eletrônico e clean room",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
+        },
+        "equora-iq": {
+          "aplicacoesIndicadas": "Aplicações que exigem equilíbrio entre velocidade, precisão e eficiência energética",
+          "configuracaoComercial": "Disponível para cotação personalizada",
+          "suporte": "Assistência técnica e consultoria especializada"
         }
       },
       "linhas": {
         "prime-ip": {
           "description": "Precision, versatility, and performance for general applications."
+        },
+        "speed-is": {
+          "description": "Alta velocidade de ciclo para embalagens e descartáveis de parede fina."
+        },
+        "velocity-iv": {
+          "description": "Ultra alta velocidade para os ciclos mais rápidos do mercado."
+        },
+        "atlas-ia": {
+          "description": "Grande porte e alta força de fechamento para peças robustas."
+        },
+        "form-if": {
+          "description": "Alta precisão para peças técnicas e componentes de tolerância apertada."
+        },
+        "hydro-ih": {
+          "description": "Alta potência hidráulica para peças espessas e de grande volume."
+        },
+        "titan-it": {
+          "description": "Estrutura de três colunas (three-platen) para moldes grandes e pesados."
+        },
+        "max-im": {
+          "description": "Estrutura de duas colunas (two-platen) com eficiência energética otimizada."
+        },
+        "neo-ex-ie": {
+          "description": "100% elétrica, alta precisão e repetibilidade para ambientes limpos."
+        },
+        "equora-iq": {
+          "description": "Tecnologia híbrida, unindo velocidade hidráulica e precisão elétrica."
         }
       }
     }

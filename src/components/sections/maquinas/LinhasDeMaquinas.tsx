@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import { getMachineLine } from "@/data/machineModels";
 import { getMachinePhoto } from "@/data/machinePhotos";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
@@ -25,20 +26,20 @@ type MachineText = {
   description: string;
 };
 
-// Cor e rota acompanham a linha correspondente em dict.maquinas.linhasDeMaquinas.machines
-// (mesma ordem/índice) — "#" enquanto a linha não tiver dados de modelo cadastrados em
-// machineModels.ts.
-const MACHINE_META: { color: string; href: string }[] = [
-  { color: "var(--color-azul-claro-plus)", href: "/maquinas/prime-ip/60" },
-  { color: "var(--color-speed-is)", href: "#" },
-  { color: "var(--color-velocity-iv)", href: "#" },
-  { color: "var(--color-form-if)", href: "#" },
-  { color: "var(--color-neo-ex-ie)", href: "#" },
-  { color: "var(--color-atlas-ia)", href: "#" },
-  { color: "var(--color-hydro-ih)", href: "#" },
-  { color: "var(--color-titan-it)", href: "#" },
-  { color: "var(--color-max-im)", href: "#" },
-  { color: "var(--color-equora-iq)", href: "#" },
+// Cor e linha acompanham a linha correspondente em dict.maquinas.linhasDeMaquinas.machines
+// (mesma ordem/índice). A rota é resolvida em runtime a partir do primeiro
+// modelo cadastrado em machineModels.ts para cada linha.
+const MACHINE_META: { color: string; lineSlug: string }[] = [
+  { color: "var(--color-azul-claro-plus)", lineSlug: "prime-ip" },
+  { color: "var(--color-speed-is)", lineSlug: "speed-is" },
+  { color: "var(--color-velocity-iv)", lineSlug: "velocity-iv" },
+  { color: "var(--color-form-if)", lineSlug: "form-if" },
+  { color: "var(--color-neo-ex-ie)", lineSlug: "neo-ex-ie" },
+  { color: "var(--color-atlas-ia)", lineSlug: "atlas-ia" },
+  { color: "var(--color-hydro-ih)", lineSlug: "hydro-ih" },
+  { color: "var(--color-titan-it)", lineSlug: "titan-it" },
+  { color: "var(--color-max-im)", lineSlug: "max-im" },
+  { color: "var(--color-equora-iq)", lineSlug: "equora-iq" },
 ];
 
 export default function LinhasDeMaquinas({ dict }: { dict: Dictionary }) {
@@ -60,6 +61,9 @@ export default function LinhasDeMaquinas({ dict }: { dict: Dictionary }) {
         {t.machines.map((machine: MachineText, i: number) => {
           const meta = MACHINE_META[i];
           const photo = getMachinePhoto(machine.name);
+          const line = getMachineLine(meta.lineSlug);
+          const firstModel = line?.models[0];
+          const href = firstModel ? `/maquinas/${meta.lineSlug}/${firstModel.slug}` : "#";
           return (
           <div
             key={machine.name}
@@ -88,7 +92,7 @@ export default function LinhasDeMaquinas({ dict }: { dict: Dictionary }) {
               {machine.description}
             </p>
             <Link
-              href={meta.href}
+              href={href}
               className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
               style={{ borderColor: meta.color, color: meta.color }}
             >

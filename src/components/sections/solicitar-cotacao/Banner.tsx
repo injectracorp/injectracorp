@@ -21,7 +21,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
       className="relative flex w-full min-h-[875px] flex-col items-center justify-center bg-cover bg-center"
       style={{ backgroundImage: "url(/assets/solicitar-cotacao/banner-bg.png)" }}
     >
-      <Section innerClassName="min-h-[280px] gap-10" className="py-10">
+      <Section innerClassName="min-h-[280px] gap-10" className="py-10" direction="row">
         <div className="flex w-full min-w-[280px] max-w-[560px] flex-1 flex-col items-start justify-center gap-5">
           <div className="flex flex-col items-start gap-5">
             {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}

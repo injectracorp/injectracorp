@@ -54,9 +54,9 @@ export default async function ModeloMaquina({ params }: Props) {
       <Header dict={dict} />
       <main className="flex w-full flex-1 flex-col items-center">
         <Hero line={line} model={model} specs={model.specs} dict={dict} />
-        <Comparativo line={line} specs={model.specs} dict={dict} />
+        <Comparativo line={line} model={model} specs={model.specs} dict={dict} />
         <AplicacoesBeneficios items={line.applicationsAndBenefits} dict={dict} />
-        <CtaConfigurar model={model} dict={dict} />
+        <CtaConfigurar line={line} model={model} dict={dict} />
       </main>
       <Footer dict={dict} />
     </div>

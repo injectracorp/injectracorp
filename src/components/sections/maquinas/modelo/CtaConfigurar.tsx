@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
-import type { MachineModel } from "@/data/machineModels";
+import type { MachineLineDetail, MachineModel } from "@/data/machineModels";
 import type { Dictionary } from "@/lib/i18n/dictionary";
+import { ArrowIcon } from "./icons";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7243:9583).
 // A tira de selos é a mesma da INDÚSTRIA (TrustBar.tsx), EXPERIENCE CENTER
@@ -17,7 +18,15 @@ const TRUST_ICONS = [
   "/assets/shared/icon-sustentabilidade.svg",
 ];
 
-export default function CtaConfigurar({ model, dict }: { model: MachineModel; dict: Dictionary }) {
+export default function CtaConfigurar({
+  line,
+  model,
+  dict,
+}: {
+  line: MachineLineDetail;
+  model: MachineModel;
+  dict: Dictionary;
+}) {
   const t = dict.maquinas.modelo.ctaConfigurar;
   // Figma usa o nome do modelo sem espaços ao redor do hífen nesta chamada
   // específica ("Prime IP-60?"), diferente do H1/breadcrumb ("Prime IP - 60").
@@ -27,9 +36,9 @@ export default function CtaConfigurar({ model, dict }: { model: MachineModel; di
   return (
     <Section innerClassName="gap-10">
       <div className="flex w-full flex-wrap items-center gap-5 rounded-2xl bg-bg-cinza p-10">
-        <span className="flex size-[110px] shrink-0 items-center justify-center rounded-full border-[0.5px] border-azul-claro-plus p-1">
-          <span className="flex size-full items-center justify-center rounded-full bg-azul-claro-plus p-7">
-            <Image src="/assets/maquinas/icon-chat-configurar.svg" alt="" width={30} height={30} />
+        <span className="flex size-[110px] shrink-0 items-center justify-center rounded-full border-[0.5px] p-1" style={{ borderColor: line.color }}>
+          <span className="flex size-full items-center justify-center rounded-full p-7" style={{ backgroundColor: line.color }}>
+            <Image src="/assets/maquinas/icon-chat-configurar.svg" alt="" width={46} height={46} />
           </span>
         </span>
         <div className="flex min-w-[200px] flex-1 flex-col items-start gap-5">
@@ -45,17 +54,19 @@ export default function CtaConfigurar({ model, dict }: { model: MachineModel; di
         <div className="flex flex-wrap items-center gap-5">
           <Link
             href="/solicitar-cotacao"
-            className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
+            className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
+            style={{ backgroundColor: line.color }}
           >
             {t.ctaCotacao}
-            <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
+            <ArrowIcon color="#fff" />
           </Link>
           <Link
             href="/fale-com-especialista"
-            className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border border-azul-claro-plus bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] text-azul-claro-plus transition-colors hover:bg-bg-light-clean"
+            className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-colors hover:bg-bg-light-clean"
+            style={{ borderColor: line.color, color: line.color }}
           >
             {t.ctaEspecialista}
-            <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
+            <ArrowIcon color={line.color} />
           </Link>
         </div>
       </div>

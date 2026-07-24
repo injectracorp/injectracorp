@@ -22,11 +22,11 @@ export default function Banner({ dict }: { dict: Dictionary }) {
   return (
     <div
       className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-center"
-      style={{ backgroundImage: "url(/assets/shared/banner-bg.png)" }}
+      style={{ backgroundImage: "url(/assets/plataforma-ai/banner-bg.png)" }}
     >
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">
-          <div className="flex w-full min-w-[280px] max-w-[680px] flex-1 flex-col items-start gap-10">
+          <div className="flex w-full min-w-[280px] max-w-[610px] flex-1 flex-col items-start gap-10">
             <div className="flex flex-col items-start gap-5">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">
@@ -61,25 +61,26 @@ export default function Banner({ dict }: { dict: Dictionary }) {
                 <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </Link>
             </div>
-            <div className="flex w-full items-start gap-5">
-              {trustItems.map((item) => (
-                <div
-                  key={item.label}
-                  className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
-                >
-                  <Image className="object-contain" src={item.icon} alt="" width={40} height={40} />
-                  {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-                  <p className="w-full text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
-                    {item.label}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* Espaço reservado à direita — máquina + globo já fazem parte da
               imagem de fundo full-bleed da seção. */}
           <div className="hidden min-h-[280px] min-w-[280px] flex-1 lg:block" />
+        </div>
+
+        <div className="flex w-full items-start gap-5">
+          {trustItems.map((item) => (
+            <div
+              key={item.label}
+              className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
+            >
+              <Image className="object-contain" src={item.icon} alt="" width={40} height={40} />
+              {/* Label 14 — 14px/17px, 85 Heavy (700) */}
+              <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+                {item.label}
+              </p>
+            </div>
+          ))}
         </div>
       </Section>
     </div>

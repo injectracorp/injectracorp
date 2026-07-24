@@ -1,21 +1,25 @@
 import Section from "@/components/layout/Section";
-import type { MachineLineDetail, ModelSpecs } from "@/data/machineModels";
+import type { MachineLineDetail, MachineModel, ModelSpecs } from "@/data/machineModels";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7237:8410).
 // Diferente do comparativo da página /maquinas (que compara linhas entre si),
 // aqui a tabela é a ficha técnica vertical do modelo selecionado.
-// `modeloLabel`/`tecnologia` vêm de `specs` (machineModels.ts, atrelados à
-// identidade do modelo); os demais valores vivem em
-// dict.maquinas.modelo.especificacoes[line.slug] — este componente só recebe
-// `line`/`specs`, sem o slug do modelo, por isso a ficha não é aninhada por modelo.
+// `model.name`/`model.tonnage`/`model.tieBar`/`specs.tecnologia` vêm de
+// machineModels.ts (atrelados à identidade do modelo — variam por modelo,
+// não por linha); os demais valores (genuinamente por linha) vivem em
+// dict.maquinas.modelo.especificacoes[line.slug]. A linha "Tie Bar" é
+// omitida quando o modelo não tem esse dado (ver comentário em
+// machineModels.ts sobre quais modelos não têm tie bar informado).
 
 export default function Comparativo({
   line,
+  model,
   specs,
   dict,
 }: {
   line: MachineLineDetail;
+  model: MachineModel;
   specs: ModelSpecs;
   dict: Dictionary;
 }) {
@@ -24,9 +28,9 @@ export default function Comparativo({
 
   const rows: { label: string; value: string; header?: boolean }[] = [
     { label: t.rows.serie, value: line.shortName, header: true },
-    { label: t.rows.modelo, value: specs.modeloLabel },
-    { label: t.rows.forcaFechamento, value: ficha.forcaTonelagem },
-    { label: t.rows.tieBar, value: ficha.tieBar },
+    { label: t.rows.modelo, value: model.name },
+    { label: t.rows.forcaFechamento, value: `${model.tonnage} Toneladas` },
+    ...(model.tieBar ? [{ label: t.rows.tieBar, value: model.tieBar }] : []),
     { label: t.rows.tecnologia, value: specs.tecnologia },
     { label: t.rows.aplicacoesIndicadas, value: ficha.aplicacoesIndicadas },
     { label: t.rows.configuracaoComercial, value: ficha.configuracaoComercial },
@@ -35,7 +39,7 @@ export default function Comparativo({
 
   return (
     <Section innerClassName="gap-5">
-      <div className="flex flex-col items-start gap-5">
+      <div className="flex w-full flex-col items-center gap-5 text-center">
         {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
         <h2 className="text-2xl font-extrabold leading-[30px] tracking-normal text-dark-blue sm:text-[32px] sm:leading-[39px]">
           {t.title}
