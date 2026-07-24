@@ -22,7 +22,7 @@ export default function Pecas({ dict }: { dict: Dictionary }) {
       <div className="flex w-full flex-wrap items-center justify-center gap-10 overflow-hidden rounded-2xl bg-dark-blue p-10">
         <div className="w-[280px] shrink-0">
           <Image
-            src="/assets/suporte/pecas-produto.png"
+            src="/assets/suporte/pecas-produto.webp"
             alt={t.imageAlt}
             width={280}
             height={174}

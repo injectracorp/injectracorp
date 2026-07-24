@@ -23,9 +23,9 @@ export default function CatalogCard({
   return (
     <div className="flex min-w-[260px] max-w-[300px] flex-1 flex-col items-center justify-center gap-10 rounded-2xl bg-bg-cinza p-5">
       <div className="relative flex aspect-[363/300] w-full items-center justify-center overflow-hidden rounded-xl p-5">
-        <Image src="/assets/shared/catalog-card-bg.png" alt="" fill className="object-cover" />
+        <Image src="/assets/shared/catalog-card-bg.webp" alt="" fill className="object-cover" />
         <Image
-          src={photo?.src ?? "/assets/shared/machine-photo.png"}
+          src={photo?.src ?? "/assets/shared/machine-photo.webp"}
           alt={name}
           width={photo?.width ?? 300}
           height={photo?.height ?? 112}

@@ -13,7 +13,7 @@ export default function Atendimento({ dict }: { dict: Dictionary }) {
     <Section>
       <div
         className="flex w-full flex-wrap items-center gap-10 rounded-2xl bg-cover bg-center p-10"
-        style={{ backgroundImage: "url(/assets/suporte/banner-atendimento-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/suporte/banner-atendimento-bg.webp)" }}
       >
         <div className="flex min-w-[280px] max-w-[430px] flex-1 flex-col items-start gap-5">
           {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}

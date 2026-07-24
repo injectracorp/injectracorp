@@ -80,7 +80,7 @@ export default function LinhasDeMaquinas({ dict }: { dict: Dictionary }) {
                 ratio diferentes não desalinhem os cards. */}
             <div className="flex min-h-[120px] w-full max-w-[300px] shrink-0 items-center justify-center">
               <Image
-                src={photo?.src ?? "/assets/shared/machine-photo.png"}
+                src={photo?.src ?? "/assets/shared/machine-photo.webp"}
                 alt={machine.name}
                 width={photo?.width ?? 300}
                 height={photo?.height ?? 112}

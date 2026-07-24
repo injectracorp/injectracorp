@@ -5,11 +5,11 @@ import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7259:6970).
 const PHOTOS = [
-  "/assets/robotica/photo-maquina-titan.png",
-  "/assets/robotica/photo-robo-automacao.png",
-  "/assets/robotica/photo-esteira.png",
-  "/assets/robotica/photo-pallet.png",
-  "/assets/robotica/photo-tablet-ai.png",
+  "/assets/robotica/photo-maquina-titan.webp",
+  "/assets/robotica/photo-robo-automacao.webp",
+  "/assets/robotica/photo-esteira.webp",
+  "/assets/robotica/photo-pallet.webp",
+  "/assets/robotica/photo-tablet-ai.webp",
 ];
 
 type Etapa = { title: string; description: string };
@@ -71,7 +71,7 @@ export default function Integracao({ dict }: { dict: Dictionary }) {
 
         <div className="relative flex min-h-[200px] min-w-[260px] flex-col items-start gap-5 overflow-hidden rounded-2xl px-5 py-[30px]">
           <Image
-            src="/assets/robotica/card-bg-tudo-conectado.png"
+            src="/assets/robotica/card-bg-tudo-conectado.webp"
             alt=""
             fill
             className="object-cover"

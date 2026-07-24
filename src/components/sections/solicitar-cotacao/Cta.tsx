@@ -10,7 +10,7 @@ export default function Cta({ dict }: { dict: Dictionary }) {
     <Section innerClassName="gap-10">
       <div
         className="relative flex w-full flex-wrap items-center justify-center gap-10 overflow-hidden rounded-2xl bg-cover bg-center p-10"
-        style={{ backgroundImage: "url(/assets/solicitar-cotacao/cta-banner-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/solicitar-cotacao/cta-banner-bg.webp)" }}
       >
         <div className="flex min-w-[210px] flex-1 flex-col items-start gap-5">
           {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}

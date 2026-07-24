@@ -22,7 +22,7 @@ export default function NossasExperiencias({ dict }: { dict: Dictionary }) {
       <div className="flex w-full flex-col items-center gap-5 lg:flex-row">
         <div className="relative h-[306px] w-full max-w-[197px] shrink-0 self-center lg:self-stretch">
           <Image
-            src="/assets/representantes/mapa-americas.png"
+            src="/assets/representantes/mapa-americas.webp"
             alt={t.mapAlt}
             fill
             className="object-contain object-left"

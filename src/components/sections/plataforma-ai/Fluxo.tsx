@@ -5,7 +5,7 @@ import type { Dictionary } from "@/lib/i18n/dictionary";
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7202:4602).
 // Imagens/ícones fixos no código — title/description vêm de dict.plataformaAi.fluxo.etapas.
 const ETAPAS_MEDIA = [
-  { image: "/assets/shared/machine-photo.png" },
+  { image: "/assets/shared/machine-photo.webp" },
   { icon: "/assets/plataforma-ai/icon-sensores-dispositivos.svg" },
   { icon: "/assets/plataforma-ai/icon-plataforma-ai-cloud.svg" },
   { icon: "/assets/plataforma-ai/icon-dashboards-relatorios.svg" },

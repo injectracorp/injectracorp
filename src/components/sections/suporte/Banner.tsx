@@ -22,7 +22,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
   return (
     <div
       className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-center"
-      style={{ backgroundImage: "url(/assets/suporte/banner-bg.png)" }}
+      style={{ backgroundImage: "url(/assets/suporte/banner-bg.webp)" }}
     >
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">

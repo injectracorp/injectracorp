@@ -6,13 +6,13 @@ import type { Dictionary } from "@/lib/i18n/dictionary";
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7113:3844).
 // Labels (traduzíveis) vivem em dict.home.setoresIndustriais.items, na mesma ordem.
 const SETORES_IMAGES = [
-  "/assets/setores/automotivo.png",
-  "/assets/setores/embalagens.png",
-  "/assets/setores/medico.png",
-  "/assets/setores/construcao.png",
-  "/assets/setores/eletronicos.png",
-  "/assets/setores/utilidades-domesticas.png",
-  "/assets/setores/logistica.png",
+  "/assets/setores/automotivo.webp",
+  "/assets/setores/embalagens.webp",
+  "/assets/setores/medico.webp",
+  "/assets/setores/construcao.webp",
+  "/assets/setores/eletronicos.webp",
+  "/assets/setores/utilidades-domesticas.webp",
+  "/assets/setores/logistica.webp",
 ];
 
 export default function SetoresIndustriais({ dict }: { dict: Dictionary }) {

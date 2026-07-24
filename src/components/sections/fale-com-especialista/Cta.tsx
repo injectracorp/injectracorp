@@ -42,7 +42,7 @@ export default function Cta({ dict }: Props) {
         </div>
         <div className="relative h-[191px] w-[298px] shrink-0 overflow-hidden rounded-2xl">
           <Image
-            src="/assets/fale-com-especialista/machine-cta.png"
+            src="/assets/fale-com-especialista/machine-cta.webp"
             alt=""
             fill
             className="object-cover"

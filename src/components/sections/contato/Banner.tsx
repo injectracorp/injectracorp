@@ -21,7 +21,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
   return (
     <div
       className="relative flex w-full flex-col items-center gap-5 bg-cover bg-center px-5 py-10"
-      style={{ backgroundImage: "url(/assets/contato/banner-bg.png)" }}
+      style={{ backgroundImage: "url(/assets/contato/banner-bg.webp)" }}
     >
       <div className="absolute inset-0 bg-white/35" />
       <Section innerClassName="flex-1 gap-10" className="relative flex-1 p-0">
@@ -115,7 +115,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
               <div className="relative flex w-full items-center justify-center gap-2.5">
                 <div className="relative aspect-[2201/1685] w-[57.14%] overflow-hidden rounded-xl border-[0.5px] border-border-line-bd">
                   <Image
-                    src="/assets/contato/chart-crescimento-producao.png"
+                    src="/assets/contato/chart-crescimento-producao.webp"
                     alt=""
                     fill
                     className="object-cover"
@@ -123,7 +123,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
                 </div>
                 <div className="relative aspect-[1539/1686] w-[39.94%] overflow-hidden rounded-xl border-[0.5px] border-border-line-bd">
                   <Image
-                    src="/assets/contato/chart-unidades-ativas.png"
+                    src="/assets/contato/chart-unidades-ativas.webp"
                     alt=""
                     fill
                     className="object-cover"

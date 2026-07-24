@@ -203,7 +203,7 @@ export default function Hero({
             </div>
 
             <Image
-              src={photo?.src ?? "/assets/shared/machine-photo.png"}
+              src={photo?.src ?? "/assets/shared/machine-photo.webp"}
               alt={model.name}
               width={photo?.width ?? 1000}
               height={photo?.height ?? 375}

@@ -10,7 +10,7 @@ export default function Cta({ dict }: { dict: Dictionary }) {
     <Section>
       <div
         className="flex w-full flex-wrap items-center justify-center gap-10 overflow-hidden rounded-2xl bg-cover bg-center p-10"
-        style={{ backgroundImage: "url(/assets/contato/cta-banner-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/contato/cta-banner-bg.webp)" }}
       >
         <div className="flex min-w-[210px] flex-1 flex-col items-start gap-10">
           <div className="flex flex-col items-start gap-2.5">
@@ -40,7 +40,7 @@ export default function Cta({ dict }: { dict: Dictionary }) {
         </div>
         <div className="relative h-[120px] w-full max-w-[500px] flex-1 sm:h-[188px]">
           <Image
-            src="/assets/contato/machine-titan.png"
+            src="/assets/contato/machine-titan.webp"
             alt=""
             fill
             className="object-contain"

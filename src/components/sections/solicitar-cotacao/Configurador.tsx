@@ -145,7 +145,7 @@ export default function Configurador({ dict }: { dict: Dictionary }) {
                 >
                   <div className="flex min-h-[120px] w-full max-w-[300px] items-center justify-center">
                     <Image
-                      src={photo?.src ?? "/assets/shared/machine-photo.png"}
+                      src={photo?.src ?? "/assets/shared/machine-photo.webp"}
                       alt={linha.name}
                       width={photo?.width ?? 300}
                       height={photo?.height ?? 112}

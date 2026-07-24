@@ -57,7 +57,7 @@ export default function Recursos({ dict }: { dict: Dictionary }) {
 
       <div
         className="relative flex min-h-[200px] min-w-[260px] flex-1 flex-col items-start gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-[30px]"
-        style={{ backgroundImage: "url(/assets/shared/video-card-bg.jpg)" }}
+        style={{ backgroundImage: "url(/assets/shared/video-card-bg.webp)" }}
       >
         <div className="absolute inset-0 bg-[rgba(0,13,89,0.5)]" />
         <div className="relative flex flex-col items-start gap-5">

@@ -18,7 +18,7 @@ export default function CTA({ dict }: { dict: Dictionary }) {
     <Section innerClassName="gap-10">
       <div
         className="flex w-full flex-wrap items-center gap-10 rounded-2xl bg-cover bg-center px-5 py-10 sm:px-20"
-        style={{ backgroundImage: "url(/assets/sobre-nos/cta-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/sobre-nos/cta-bg.webp)" }}
       >
         <div className="flex w-[110px] shrink-0 items-center justify-center">
           <span className="flex size-[110px] items-center justify-center rounded-full border-[0.5px] border-azul-claro-plus p-1">

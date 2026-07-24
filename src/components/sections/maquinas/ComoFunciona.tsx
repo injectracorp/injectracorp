@@ -80,7 +80,7 @@ export default function ComoFunciona({ dict }: { dict: Dictionary }) {
 
           <div className="flex items-center justify-center py-3">
             <Image
-              src={primePhoto?.src ?? "/assets/shared/machine-photo.png"}
+              src={primePhoto?.src ?? "/assets/shared/machine-photo.webp"}
               alt={t.detailTitle}
               width={primePhoto?.width ?? 500}
               height={primePhoto?.height ?? 187}

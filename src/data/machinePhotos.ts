@@ -6,14 +6,14 @@ export type MachinePhoto = { src: string; width: number; height: number };
 // um placeholder genérico como fallback quando `getMachinePhoto` retorna
 // `undefined`.
 export const MACHINE_PHOTOS: Record<string, MachinePhoto> = {
-  PRIME: { src: "/assets/machines/PRIME.png", width: 8000, height: 3354 },
-  SPEED: { src: "/assets/machines/SPEED.png", width: 5254, height: 2181 },
-  VELOCITY: { src: "/assets/machines/VELOCITY.png", width: 5947, height: 2196 },
-  FORM: { src: "/assets/machines/FORM.png", width: 5197, height: 1845 },
-  ATLAS: { src: "/assets/machines/ATLAS.png", width: 8000, height: 2640 },
-  HYDRO: { src: "/assets/machines/HYDRO.png", width: 8000, height: 3312 },
-  TITAN: { src: "/assets/machines/TITAN.png", width: 4707, height: 1124 },
-  MAX: { src: "/assets/machines/MAX.png", width: 8000, height: 3002 },
+  PRIME: { src: "/assets/machines/PRIME.webp", width: 2400, height: 1006 },
+  SPEED: { src: "/assets/machines/SPEED.webp", width: 2400, height: 996 },
+  VELOCITY: { src: "/assets/machines/VELOCITY.webp", width: 2400, height: 886 },
+  FORM: { src: "/assets/machines/FORM.webp", width: 2400, height: 852 },
+  ATLAS: { src: "/assets/machines/ATLAS.webp", width: 2400, height: 792 },
+  HYDRO: { src: "/assets/machines/HYDRO.webp", width: 2400, height: 994 },
+  TITAN: { src: "/assets/machines/TITAN.webp", width: 2400, height: 573 },
+  MAX: { src: "/assets/machines/MAX.webp", width: 2400, height: 901 },
 };
 
 // Aceita variações como "PRIME", "PRIME - IP", "Prime IP - 60" ou "NEO EX - IE"

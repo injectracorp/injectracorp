@@ -39,7 +39,7 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
         {/* Robótica Neo */}
         <div
           className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 pt-5"
-          style={{ backgroundImage: "url(/assets/capacidade/panel-neo-bg.png)" }}
+          style={{ backgroundImage: "url(/assets/capacidade/panel-neo-bg.webp)" }}
         >
           <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 self-stretch pb-5">
             {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
@@ -62,7 +62,7 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
           </div>
           <div className="flex h-[380px] flex-1 items-end justify-end self-end">
             <Image
-              src="/assets/capacidade/robot-photo.png"
+              src="/assets/capacidade/robot-photo.webp"
               alt={t.roboticaNeo.photoAlt}
               width={420}
               height={392}
@@ -74,7 +74,7 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
         {/* Plataforma Injectra AI */}
         <div
           className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-2.5"
-          style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.png)" }}
+          style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.webp)" }}
         >
           <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 py-2.5">
             {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
@@ -95,7 +95,7 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
           </div>
           <div className="flex h-[351px] flex-1 items-center justify-center">
             <Image
-              src="/assets/capacidade/tablet-phone-photo.png"
+              src="/assets/capacidade/tablet-phone-photo.webp"
               alt={t.plataformaAi.photoAlt}
               width={420}
               height={347}
@@ -108,10 +108,10 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
       {/* Experience Center */}
       <div
         className="relative flex w-full flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center p-5"
-        style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.webp)" }}
       >
         <Image
-          src="/assets/capacidade/building-photo.png"
+          src="/assets/capacidade/building-photo.webp"
           alt={t.experienceCenter.photoAlt}
           width={360}
           height={176}

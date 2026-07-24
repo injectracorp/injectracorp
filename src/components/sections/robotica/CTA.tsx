@@ -41,7 +41,7 @@ export default function CTA({ dict }: { dict: Dictionary }) {
         </div>
         <div className="flex w-[180px] shrink-0 items-end justify-center self-stretch pb-2.5 pr-5">
           <Image
-            src="/assets/robotica/photo-braco-robo.png"
+            src="/assets/robotica/photo-braco-robo.webp"
             alt=""
             width={160}
             height={191}

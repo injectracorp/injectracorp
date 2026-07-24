@@ -25,7 +25,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
   const titleLines: string[] = t.title.split("\n");
 
   return (
-    <div className="flex w-full flex-col bg-wt lg:min-h-[calc(100vh-80px)] xl:bg-cover xl:bg-center xl:bg-[url('/assets/experience-center/experience-center-banner-padrao.png')]">
+    <div className="flex w-full flex-col bg-wt lg:min-h-[calc(100vh-80px)] xl:bg-cover xl:bg-center xl:bg-[url('/assets/experience-center/experience-center-banner-padrao.webp')]">
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">
           <div className="flex w-full min-w-[280px] flex-1 flex-col items-center gap-10 text-center lg:max-w-[520px] lg:items-start lg:text-left">
@@ -77,19 +77,19 @@ export default function Banner({ dict }: { dict: Dictionary }) {
               à direita. */}
           <div className="w-full overflow-hidden rounded-2xl lg:hidden">
             <Image
-              src="/assets/experience-center/experience-center-banner-1024.png"
+              src="/assets/experience-center/experience-center-banner-1024.webp"
               alt=""
-              width={4909}
-              height={2688}
+              width={2400}
+              height={1314}
               className="h-auto w-full object-cover"
             />
           </div>
           <div className="hidden w-full flex-1 overflow-hidden rounded-2xl lg:block xl:hidden">
             <Image
-              src="/assets/experience-center/experience-center-banner-1280.png"
+              src="/assets/experience-center/experience-center-banner-1280.webp"
               alt=""
-              width={3070}
-              height={2688}
+              width={2400}
+              height={2101}
               className="h-auto w-full object-cover"
             />
           </div>

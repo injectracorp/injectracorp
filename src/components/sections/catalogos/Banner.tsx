@@ -19,11 +19,11 @@ export default function Banner({ dict }: { dict: Dictionary }) {
   return (
     <div
       className="relative flex w-full min-h-[calc(100vh-80px)] flex-col bg-cover bg-center"
-      style={{ backgroundImage: "url(/assets/catalogos/banner-bg.png)" }}
+      style={{ backgroundImage: "url(/assets/maquinas/banner-bg.webp)" }}
     >
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">
-          <div className="flex w-full min-w-[280px] max-w-[680px] flex-1 flex-col items-start gap-5">
+          <div className="flex w-full min-w-[280px] max-w-[610px] flex-1 flex-col items-start gap-5">
             <div className="flex flex-col items-start gap-5">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">

@@ -35,7 +35,7 @@ export default function Hero({ dict }: { dict: Dictionary }) {
   return (
     <div
       id="top"
-      className="relative flex w-full flex-col bg-bg-cinza lg:min-h-[calc(100vh-80px)] xl:bg-cover xl:bg-center xl:bg-[url('/assets/hero/hero-banner-padrao.png')]"
+      className="relative flex w-full flex-col bg-bg-cinza lg:min-h-[calc(100vh-80px)] xl:bg-cover xl:bg-center xl:bg-[url('/assets/hero/hero-banner-padrao.webp')]"
     >
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         {/* Ocupa todo o espaço acima da barra de confiança e centraliza o conteúdo
@@ -84,19 +84,19 @@ export default function Hero({ dict }: { dict: Dictionary }) {
                 só reserva o espaço à direita (800px). */}
             <div className="w-full overflow-hidden rounded-2xl lg:hidden">
               <Image
-                src="/assets/hero/hero-banner-1024.png"
+                src="/assets/hero/hero-banner-1024.webp"
                 alt=""
-                width={5609}
-                height={3072}
+                width={2400}
+                height={1314}
                 className="h-auto w-full object-cover"
               />
             </div>
             <div className="hidden w-full flex-1 overflow-hidden rounded-2xl lg:block xl:hidden">
               <Image
-                src="/assets/hero/hero-banner-1280.png"
+                src="/assets/hero/hero-banner-1280.webp"
                 alt=""
-                width={3508}
-                height={3072}
+                width={2400}
+                height={2102}
                 className="h-auto w-full object-cover"
               />
             </div>

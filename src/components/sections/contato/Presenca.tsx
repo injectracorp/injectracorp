@@ -32,7 +32,7 @@ export default function Presenca({ dict }: { dict: Dictionary }) {
         </div>
         <div className="hidden h-full items-center justify-end sm:flex">
           <div className="relative aspect-[1019/1471] h-full max-h-[220px] w-auto">
-            <Image src="/assets/contato/map-americas.png" alt="" fill className="object-contain" />
+            <Image src="/assets/contato/map-americas.webp" alt="" fill className="object-contain" />
           </div>
         </div>
       </div>

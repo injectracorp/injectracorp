@@ -51,7 +51,7 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
 
         <div className="flex h-[380px] shrink-0 items-end justify-end pb-10">
           <Image
-            src="/assets/robotica/fybot-full.png"
+            src="/assets/robotica/fybot-full.webp"
             alt={t.robotImageAlt}
             width={309}
             height={380}
@@ -74,13 +74,13 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
         <div className="flex w-[285px] min-w-[200px] flex-col items-start gap-5 border-l-[0.5px] border-border-line-bd pb-10 pl-10">
           <div className="relative flex aspect-square w-full items-center justify-center overflow-hidden rounded-2xl">
             <Image
-              src="/assets/robotica/video-thumb-bg.png"
+              src="/assets/robotica/video-thumb-bg.webp"
               alt=""
               fill
               className="object-cover"
             />
             <Image
-              src="/assets/robotica/fybot-thumb.png"
+              src="/assets/robotica/fybot-thumb.webp"
               alt={t.videoThumbAlt}
               width={200}
               height={200}

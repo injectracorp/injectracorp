@@ -36,7 +36,7 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
     <footer className="relative flex w-full flex-col items-center gap-10 overflow-hidden bg-bg-cinza pt-[50px]">
       <div className="pointer-events-none absolute inset-0 mix-blend-multiply">
         <Image
-          src="/assets/footer/footer-bg.png"
+          src="/assets/footer/footer-bg.webp"
           alt=""
           fill
           className="object-cover opacity-60"

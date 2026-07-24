@@ -11,7 +11,7 @@ export default function Agendamento({ dict }: { dict: Dictionary }) {
     <Section>
       <div
         className="flex w-full flex-wrap items-center gap-5 rounded-2xl bg-cover bg-center p-5"
-        style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.png)" }}
+        style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.webp)" }}
       >
         <div className="flex min-w-[200px] max-w-[520px] flex-1 flex-col items-start gap-5">
           {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
