@@ -28,7 +28,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
     >
       <Section innerClassName="flex-1 gap-10" className="flex-1 py-10">
         <div className="flex w-full flex-1 flex-col items-center gap-10 lg:flex-row">
-          <div className="flex w-full min-w-[280px] flex-1 flex-col items-center justify-center gap-5 text-center lg:max-w-[520px] lg:items-start lg:text-left">
+          <div className="flex w-full min-w-[280px] flex-1 flex-col items-center justify-center gap-10 text-center lg:max-w-[520px] lg:items-start lg:text-left">
             <div className="flex flex-col items-center gap-5 lg:items-start">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-gradient-brand">
@@ -65,20 +65,6 @@ export default function Banner({ dict }: { dict: Dictionary }) {
                 <Image className="object-contain" src="/assets/industria/arrow-side-blue.svg" alt="" width={9} height={9} />
               </Link>
             </div>
-            <div className="flex w-full items-center gap-5">
-              {HIGHLIGHT_ICONS.map((icon, index) => (
-                <div
-                  key={icon}
-                  className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
-                >
-                  <Image className="object-contain" src={icon} alt="" width={40} height={40} />
-                  {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-                  <p className="w-full text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
-                    {t.highlights[index]}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
 
           {/* <1024: card inline abaixo do texto. 1024-1279: imagem contida
@@ -104,6 +90,21 @@ export default function Banner({ dict }: { dict: Dictionary }) {
             />
           </div>
           <div className="hidden flex-1 xl:block xl:min-w-[800px]" />
+        </div>
+
+        <div className="flex w-full flex-wrap items-center justify-center gap-10 rounded-2xl bg-bg-cinza p-5 lg:h-[110px] lg:justify-between lg:rounded-xl lg:bg-wt lg:p-10 xl:h-auto xl:justify-center xl:rounded-2xl xl:bg-bg-cinza xl:p-5">
+          {HIGHLIGHT_ICONS.map((icon, index) => (
+            <div
+              key={icon}
+              className="flex flex-1 min-w-[110px] flex-col items-center justify-center gap-5"
+            >
+              <Image className="object-contain" src={icon} alt="" width={40} height={40} />
+              {/* Label 14 — 14px/17px, 85 Heavy (700) */}
+              <p className="w-full text-center text-sm font-bold leading-[17px] tracking-normal text-dark-blue">
+                {t.highlights[index]}
+              </p>
+            </div>
+          ))}
         </div>
       </Section>
     </div>

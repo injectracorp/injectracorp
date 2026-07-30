@@ -328,7 +328,13 @@
           "label": "Logistik"
         }
       ],
-      "moreLabel": "Och mycket mer..."
+      "moreLabel": "Och mycket mer...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "i drift"
           }
         ],
-        "roboticaTitle": "Neo-robotik"
+        "roboticaTitle": "Neo-robotik",
+        "crescimento": {
+          "title": "Produktionstillväxt",
+          "months": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "Maj",
+            "Jun"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "Aktiva enheter",
+          "region": "Amerika",
+          "value": "1.250+",
+          "unit": "enheter"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "MASKINER",
-      "title": "Injektionsteknik för alla industrisegment.",
-      "subtitle": "Nio kompletta hydrauliska och elektriska maskinserier, utvecklade för maximal prestanda, precision och effektivitet i alla tillämpningar.",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "Se alla kataloger",
       "ctaEspecialista": "Prata med en specialist",
       "stats": [
         "101 maskinmodeller",
         "70+ tillbehör och kringutrustning",
         "100% integrerad teknik"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

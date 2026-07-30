@@ -328,7 +328,13 @@
           "label": "물류"
         }
       ],
-      "moreLabel": "그 외 다양한 분야..."
+      "moreLabel": "그 외 다양한 분야...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "운영 중"
           }
         ],
-        "roboticaTitle": "로보틱스 Neo"
+        "roboticaTitle": "로보틱스 Neo",
+        "crescimento": {
+          "title": "생산량 성장",
+          "months": [
+            "1월",
+            "2월",
+            "3월",
+            "4월",
+            "5월",
+            "6월"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "활성 유닛",
+          "region": "아메리카",
+          "value": "1.250+",
+          "unit": "유닛"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "기계",
-      "title": "모든 산업 분야를 위한 사출 기술.",
-      "subtitle": "최고의 성능, 정밀도, 효율성을 위해 개발된 9개의 완전한 유압식 및 전동식 기계 라인업.",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "전체 카탈로그 보기",
       "ctaEspecialista": "전문가와 상담",
       "stats": [
         "101개 기계 모델",
         "70개 이상의 액세서리 및 주변장치",
         "100% 통합 기술"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

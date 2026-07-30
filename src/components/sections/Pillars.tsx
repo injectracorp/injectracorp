@@ -38,14 +38,13 @@ export default function Pillars({ dict }: { dict: Dictionary }) {
         />
       </div>
 
-      {/* Cards com largura fixa (216.67px, igual ao Figma) e centralizados —
-          não usam flex-1 para não esticar de forma desigual quando a última
-          linha do wrap tem menos itens que as demais. */}
+      {/* Cards sem largura máxima — só a mínima (216.67px, igual ao Figma) —
+          para crescerem de forma responsiva e quebrar linha livremente. */}
       <div className="flex w-full flex-wrap items-stretch justify-center gap-5">
         {pillars.map((pillar) => (
           <div
             key={pillar.label}
-            className={`flex min-h-[235px] w-[216.67px] flex-none flex-col items-center justify-center gap-5 rounded-2xl px-5 py-[30px] ${pillar.bg}`}
+            className={`flex min-h-[235px] min-w-[216.67px] flex-1 flex-col items-center justify-center gap-5 rounded-2xl px-5 py-[30px] ${pillar.bg}`}
           >
             <Image src={pillar.icon} alt="" width={60} height={60} />
             {/* Subtítulo BK 20 — 20px/22px, 85 Heavy (700) */}

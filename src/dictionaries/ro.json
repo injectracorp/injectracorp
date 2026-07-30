@@ -328,7 +328,13 @@
           "label": "Logistică"
         }
       ],
-      "moreLabel": "Și multe altele..."
+      "moreLabel": "Și multe altele...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "în funcțiune"
           }
         ],
-        "roboticaTitle": "Robotică Neo"
+        "roboticaTitle": "Robotică Neo",
+        "crescimento": {
+          "title": "Creșterea Producției",
+          "months": [
+            "Ian",
+            "Feb",
+            "Mar",
+            "Apr",
+            "Mai",
+            "Iun"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "Unități Active",
+          "region": "America",
+          "value": "1.250+",
+          "unit": "unități"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "MAȘINI",
-      "title": "Tehnologie de injecție pentru toate segmentele industriei.",
-      "subtitle": "Nouă linii complete de mașini hidraulice și electrice, dezvoltate pentru performanță, precizie și eficiență maxime în orice aplicație.",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "Vezi toate cataloagele",
       "ctaEspecialista": "Discută cu un Specialist",
       "stats": [
         "101 Modele de mașini",
         "70+ Accesorii și Periferice",
         "Tehnologie 100% Integrată"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

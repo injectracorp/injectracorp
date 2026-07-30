@@ -328,7 +328,13 @@
           "label": "לוגיסטיקה"
         }
       ],
-      "moreLabel": "ועוד רבים נוספים..."
+      "moreLabel": "ועוד רבים נוספים...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "בתפעול"
           }
         ],
-        "roboticaTitle": "רובוטיקת Neo"
+        "roboticaTitle": "רובוטיקת Neo",
+        "crescimento": {
+          "title": "צמיחת הייצור",
+          "months": [
+            "ינו",
+            "פבר",
+            "מרץ",
+            "אפר",
+            "מאי",
+            "יונ"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "יחידות פעילות",
+          "region": "אמריקה",
+          "value": "1.250+",
+          "unit": "יחידות"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "מכונות",
-      "title": "טכנולוגיית הזרקה לכל תחומי התעשייה.",
-      "subtitle": "תשעה קווי מכונות הידראוליים וחשמליים מלאים, המפותחים לביצועים, דיוק ויעילות מרביים בכל יישום.",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "צפייה בכל הקטלוגים",
       "ctaEspecialista": "שיחה עם מומחה",
       "stats": [
         "101 דגמי מכונות",
         "70+ אביזרים ותוספות",
         "טכנולוגיה משולבת ב-100%"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

@@ -328,7 +328,13 @@
           "label": "Logistica"
         }
       ],
-      "moreLabel": "E molto altro..."
+      "moreLabel": "E molto altro...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "in funzione"
           }
         ],
-        "roboticaTitle": "Robotica Neo"
+        "roboticaTitle": "Robotica Neo",
+        "crescimento": {
+          "title": "Crescita della Produzione",
+          "months": [
+            "Gen",
+            "Feb",
+            "Mar",
+            "Apr",
+            "Mag",
+            "Giu"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "Unità Attive",
+          "region": "Americhe",
+          "value": "1.250+",
+          "unit": "unità"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "MACCHINE",
-      "title": "Tecnologia per lo stampaggio a iniezione per tutti i settori dell'industria.",
-      "subtitle": "Nove linee complete di macchine idrauliche ed elettriche, sviluppate per la massima performance, precisione ed efficienza in qualsiasi applicazione.",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "Vedi tutti i cataloghi",
       "ctaEspecialista": "Parla con uno Specialista",
       "stats": [
         "101 Modelli di macchine",
         "70+ Accessori e Periferiche",
         "Tecnologia 100% Integrata"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

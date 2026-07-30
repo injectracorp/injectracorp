@@ -107,16 +107,17 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
 
       {/* Experience Center */}
       <div
-        className="relative flex w-full flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center p-5"
+        className="relative flex w-full flex-col items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center p-5 lg:flex-row lg:flex-wrap"
         style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.webp)" }}
       >
-        <Image
-          src="/assets/capacidade/building-photo.webp"
-          alt={t.experienceCenter.photoAlt}
-          width={360}
-          height={176}
-          className="h-[176px] w-[360px] max-w-full rounded-xl object-cover"
-        />
+        <div className="relative aspect-[360/176] w-full overflow-hidden rounded-xl lg:w-[360px]">
+          <Image
+            src="/assets/capacidade/building-photo.webp"
+            alt={t.experienceCenter.photoAlt}
+            fill
+            className="object-cover"
+          />
+        </div>
         <div className="flex min-w-[300px] flex-1 flex-col items-start gap-5">
           <div className="flex w-full flex-wrap items-center justify-center gap-5">
             <div className="flex min-w-[200px] flex-1 flex-col items-start gap-5 text-dark-blue">

@@ -1,8 +1,23 @@
 import Image from "next/image";
 import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
+import { getMachineLine } from "@/data/machineModels";
 import { getMachinePhoto } from "@/data/machinePhotos";
 import type { Dictionary } from "@/lib/i18n/dictionary";
+
+// A cor do botão "Ver Modelos" muda por linha de máquina — a seta precisa
+// acompanhar via currentColor, então é um SVG inline (não um asset <img> fixo).
+// Mesmo ícone usado em maquinas/LinhasDeMaquinas.tsx.
+function ArrowIcon() {
+  return (
+    <svg viewBox="0 0 11.2 8.83675" width={9} height={9} fill="none" aria-hidden="true">
+      <path
+        d="M0.6 3.81838C0.268629 3.81838 0 4.08701 0 4.41838C0 4.74975 0.268629 5.01838 0.6 5.01838V4.41838V3.81838ZM11.0243 4.84264C11.2586 4.60833 11.2586 4.22843 11.0243 3.99411L7.20589 0.175736C6.97157 -0.0585785 6.59167 -0.0585785 6.35736 0.175736C6.12304 0.410051 6.12304 0.78995 6.35736 1.02426L9.75147 4.41838L6.35736 7.81249C6.12304 8.0468 6.12304 8.4267 6.35736 8.66102C6.59167 8.89533 6.97157 8.89533 7.20589 8.66102L11.0243 4.84264ZM0.6 4.41838V5.01838H10.6V4.41838V3.81838H0.6V4.41838Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
 
 // Cada linha (ex.: PRIME - IP) representa uma família de máquinas com variações/modelos
 // internos (ex.: tonelagens ou capacidades diferentes dentro da mesma linha). A UI ainda
@@ -18,75 +33,91 @@ type Machine = {
   color: string;
   icon: string;
   variants: MachineVariant[];
+  lineSlug: string;
 };
 
 // Conteúdo exato extraído via Figma MCP (get_metadata + get_design_context, node 7011:2371).
 // Descrições (traduzíveis) vivem em dict.home.machineLines.items, na mesma ordem.
+// lineSlug segue o mesmo mapeamento de maquinas/LinhasDeMaquinas.tsx, usado para
+// montar o link do botão "Ver Modelos" (primeiro modelo cadastrado da linha).
 const MACHINES: Machine[] = [
   {
     name: "PRIME",
     color: "var(--color-prime-ip)",
     icon: "/assets/machines/icon-prime.svg",
     variants: [],
+    lineSlug: "prime-ip",
   },
   {
     name: "SPEED",
     color: "var(--color-speed-is)",
     icon: "/assets/machines/icon-speed.svg",
     variants: [],
+    lineSlug: "speed-is",
   },
   {
     name: "VELOCITY",
     color: "var(--color-velocity-iv)",
     icon: "/assets/machines/icon-velocity.svg",
     variants: [],
+    lineSlug: "velocity-iv",
   },
   {
     name: "FORM",
     color: "var(--color-form-if)",
     icon: "/assets/machines/icon-form.svg",
     variants: [],
+    lineSlug: "form-if",
   },
   {
     name: "NEO",
     color: "var(--color-neo-ex-ie)",
     icon: "/assets/machines/icon-neo.svg",
     variants: [],
+    lineSlug: "neo-ex-ie",
   },
   {
     name: "ATLAS",
     color: "var(--color-atlas-ia)",
     icon: "/assets/machines/icon-atlas.svg",
     variants: [],
+    lineSlug: "atlas-ia",
   },
   {
     name: "HYDRO",
     color: "var(--color-hydro-ih)",
     icon: "/assets/machines/icon-hydro.svg",
     variants: [],
+    lineSlug: "hydro-ih",
   },
   {
     name: "TITAN",
     color: "var(--color-titan-it)",
     icon: "/assets/machines/icon-titan.svg",
     variants: [],
+    lineSlug: "titan-it",
   },
   {
     name: "MAX",
     color: "var(--color-max-im)",
     icon: "/assets/machines/icon-max.svg",
     variants: [],
+    lineSlug: "max-im",
   },
   {
     name: "EQUORA",
     color: "var(--color-equora-iq)",
     icon: "/assets/machines/icon-equora.svg",
     variants: [],
+    lineSlug: "equora-iq",
   },
 ];
 
 export default function MachineLines({ dict }: { dict: Dictionary }) {
   const t = dict.home.machineLines;
+  // Mesmo rótulo do botão "Ver Modelos" da página MÁQUINAS (dict.maquinas.linhasDeMaquinas) —
+  // reaproveitado em vez de duplicado, já que é o mesmo botão/link em ambas as páginas.
+  const ctaVerModelos = dict.maquinas.linhasDeMaquinas.ctaVerModelos;
   return (
     <Section innerClassName="gap-5">
       <div className="flex w-full flex-col items-start justify-between gap-5 sm:flex-row sm:items-center">
@@ -110,17 +141,19 @@ export default function MachineLines({ dict }: { dict: Dictionary }) {
         </Link>
       </div>
 
-      {/* Largura fixa de 264px por card, igual ao Figma (5 cards por fileira,
-          2 fileiras) e centralizados; não usam flex-1 para não esticar de
-          forma desigual quando a última linha tem menos itens. */}
+      {/* Sem largura máxima nos cards — só a mínima (264px, igual ao Figma) —
+          para crescerem de forma responsiva e quebrar linha livremente. */}
       <div className="flex w-full flex-wrap items-stretch justify-center gap-5">
         {MACHINES.map((machine, index) => {
           const photo = getMachinePhoto(machine.name);
           const description = t.items[index].description;
+          const line = getMachineLine(machine.lineSlug);
+          const firstModel = line?.models[0];
+          const href = firstModel ? `/maquinas/${machine.lineSlug}/${firstModel.slug}` : "#";
           return (
           <div
             key={machine.name}
-            className="flex w-[264px] flex-none flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-[15px] py-[30px]"
+            className="flex min-w-[264px] flex-1 flex-col items-center gap-5 rounded-2xl bg-bg-cinza px-[15px] py-[30px]"
           >
             <div className="flex w-full flex-col items-center gap-5">
               {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
@@ -153,6 +186,14 @@ export default function MachineLines({ dict }: { dict: Dictionary }) {
                 {description}
               </p>
             </div>
+            <Link
+              href={href}
+              className="mt-auto flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
+              style={{ borderColor: machine.color, color: machine.color }}
+            >
+              {ctaVerModelos}
+              <ArrowIcon />
+            </Link>
           </div>
           );
         })}

@@ -328,7 +328,13 @@
           "label": "物流"
         }
       ],
-      "moreLabel": "及更多领域……"
+      "moreLabel": "及更多领域……",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "正常运行"
           }
         ],
-        "roboticaTitle": "Neo 机器人技术"
+        "roboticaTitle": "Neo 机器人技术",
+        "crescimento": {
+          "title": "生产增长",
+          "months": [
+            "1月",
+            "2月",
+            "3月",
+            "4月",
+            "5月",
+            "6月"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "活跃单位",
+          "region": "美洲",
+          "value": "1.250+",
+          "unit": "单位"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "机械设备",
-      "title": "面向工业各领域的注塑技术。",
-      "subtitle": "九大液压与电动机械产品线,专为各类应用场景的极致性能、精度与效率而设计。",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "查看全部产品目录",
       "ctaEspecialista": "咨询专家",
       "stats": [
         "101 款机械型号",
         "70+ 配件与外围设备",
         "100% 全面集成技术"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

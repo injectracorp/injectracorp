@@ -328,7 +328,13 @@
           "label": "物流"
         }
       ],
-      "moreLabel": "その他多数..."
+      "moreLabel": "その他多数...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "稼働中"
           }
         ],
-        "roboticaTitle": "ロボティクス Neo"
+        "roboticaTitle": "ロボティクス Neo",
+        "crescimento": {
+          "title": "生産量の成長",
+          "months": [
+            "1月",
+            "2月",
+            "3月",
+            "4月",
+            "5月",
+            "6月"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "稼働ユニット",
+          "region": "アメリカ大陸",
+          "value": "1.250+",
+          "unit": "ユニット"
+        }
       },
       "infoCards": [
         {
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "機械",
-      "title": "あらゆる産業分野に対応する射出成形テクノロジー。",
-      "subtitle": "あらゆる用途において最高の性能、精度、効率を発揮するよう開発された、9つの油圧式・電動式機械ラインナップ。",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "すべてのカタログを見る",
       "ctaEspecialista": "専門家に相談する",
       "stats": [
         "機械モデル101種",
         "アクセサリー・周辺機器70種以上",
         "完全統合型テクノロジー"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {

@@ -1,10 +1,14 @@
 import Image from "next/image";
+import Link from "@/components/LocaleLink";
 import Section from "@/components/layout/Section";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
-// Conteúdo exato extraído via Figma MCP (get_design_context, node 7174:3546).
-// As fotos dos segmentos ainda não existem no Figma — os cards usam um
-// retângulo cinza (#9a9a9a) como placeholder de imagem, igual ao design.
+// Conteúdo exato extraído via Figma MCP (get_design_context, node 7174:3553).
+// Slot de imagem com aspect-ratio 4:3 (375/281.25 no Figma) preenchido por
+// foto real (object-cover); badge do ícone mora dentro do slot, ancorado ao
+// bottom (bottom-0) — assim ele fica sempre encostado no limite inferior da
+// foto mesmo com a altura variando de forma responsiva (equivalente ao
+// top:221.25px fixo do Figma, calculado para a largura de referência 375px).
 const SEGMENTOS_ICONS = [
   "/assets/industria/icon-automotiva.svg",
   "/assets/industria/icon-embalagens.svg",
@@ -14,6 +18,16 @@ const SEGMENTOS_ICONS = [
   "/assets/industria/icon-construcao.svg",
   "/assets/industria/icon-logistica.svg",
   "/assets/industria/icon-outros-segmentos.svg",
+];
+const SEGMENTOS_IMAGES = [
+  "/assets/industria/segmento-automotiva.webp",
+  "/assets/industria/segmento-embalagens.webp",
+  "/assets/industria/segmento-medico.webp",
+  "/assets/industria/segmento-consumo.webp",
+  "/assets/industria/segmento-eletronicos.webp",
+  "/assets/industria/segmento-construcao.webp",
+  "/assets/industria/segmento-logistica.webp",
+  "/assets/industria/segmento-outros.webp",
 ];
 
 export default function Segmentos({ dict }: { dict: Dictionary }) {
@@ -38,29 +52,37 @@ export default function Segmentos({ dict }: { dict: Dictionary }) {
           return (
             <div
               key={icon}
-              className="relative flex min-w-[320px] flex-1 flex-col items-center overflow-hidden rounded-2xl bg-wt pb-10 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]"
+              className="flex min-w-[320px] flex-1 flex-col items-center gap-[50px] overflow-hidden rounded-2xl bg-wt pb-10 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]"
             >
-              <div className="h-[250px] w-full shrink-0 bg-[#9a9a9a]" />
-              <div className="flex w-full flex-col items-start justify-center gap-5 px-5 pt-[50px]">
+              <div className="relative aspect-[4/3] w-full shrink-0 bg-bg-cinza">
+                <Image
+                  src={SEGMENTOS_IMAGES[index]}
+                  alt={segmento.title}
+                  fill
+                  sizes="(min-width: 1024px) 320px, 100vw"
+                  className="object-cover"
+                />
+                <span className="absolute -bottom-[30px] left-5 flex size-[60px] items-center justify-center rounded-full bg-wt p-4 shadow-[2px_2px_6px_0px_rgba(76,95,224,0.25)]">
+                  <Image src={icon} alt="" width={30} height={30} />
+                </span>
+              </div>
+              <div className="flex w-full flex-col items-start justify-center gap-5 px-5">
                 {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
-                <span className="w-full text-lg font-bold leading-[22px] tracking-normal text-azul-claro-plus">
+                <span className="min-h-[25px] w-full text-lg font-bold leading-[22px] tracking-normal text-azul-claro-plus">
                   {segmento.title}
                 </span>
                 {/* Texto menor 16 — 16px/20px, 55 Roman (400) */}
                 <p className="min-h-[55px] w-full text-base font-normal leading-5 tracking-normal text-texto">
                   {segmento.description}
                 </p>
-                <a
-                  href="#solucoes"
+                <Link
+                  href="/fale-com-especialista"
                   className="flex items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
                 >
                   {t.ctaLabel}
                   <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
-                </a>
+                </Link>
               </div>
-              <span className="absolute left-5 top-[220px] flex size-[60px] items-center justify-center rounded-full bg-wt p-4 shadow-[2px_2px_6px_0px_rgba(76,95,224,0.25)]">
-                <Image src={icon} alt="" width={30} height={30} />
-              </span>
             </div>
           );
         })}

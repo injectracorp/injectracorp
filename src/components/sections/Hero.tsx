@@ -42,7 +42,7 @@ export default function Hero({ dict }: { dict: Dictionary }) {
             verticalmente nele — a barra de confiança fica sempre colada na base do banner. */}
         <div className="flex w-full flex-1 items-center">
           <div className="flex w-full flex-col items-center gap-10 lg:flex-row">
-            <div className="flex w-full min-w-[280px] max-w-[540px] flex-1 flex-col items-center justify-center gap-5 text-center lg:max-w-[492px] lg:items-start lg:text-left xl:max-w-[540px]">
+            <div className="flex w-full min-w-[280px] flex-1 flex-col items-center justify-center gap-5 text-center lg:max-w-[492px] lg:items-start lg:text-left xl:max-w-[540px]">
               {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
               <span className="text-base font-bold leading-5 tracking-normal text-dark-blue">
                 {t.eyebrow}

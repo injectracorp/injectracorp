@@ -20,18 +20,59 @@
       "performance": {
         "title": "Performance da Indústria",
         "stats": [
-          { "label": "Produção", "description": "vs mês anterior" },
-          { "label": "Eficiência", "description": "meta atingida" },
-          { "label": "Disponibilidade", "description": "em operação" }
+          {
+            "label": "Produção",
+            "description": "vs mês anterior"
+          },
+          {
+            "label": "Eficiência",
+            "description": "meta atingida"
+          },
+          {
+            "label": "Disponibilidade",
+            "description": "em operação"
+          }
         ],
-        "roboticaTitle": "Robótica Neo"
+        "roboticaTitle": "Robótica Neo",
+        "crescimento": {
+          "title": "Crescimento de Produção",
+          "months": [
+            "Jan",
+            "Fev",
+            "Mar",
+            "Abr",
+            "Mai",
+            "Jun"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "Unidades Ativas",
+          "region": "Américas",
+          "value": "1.250+",
+          "unit": "unidades"
+        }
       },
       "infoCards": [
-        { "title": "Escritório EUA", "description": "Orlando, Flórida, USA" },
-        { "title": "Telefone Comercial", "description": "+1 (321) 888-7963" },
-        { "title": "E-mail", "description": "info@injectracorp.com" },
-        { "title": "Atendimento Regional", "description": "Atuação em toda a América" },
-        { "title": "Suporte Técnico", "description": "Equipe especializada para máquinas, robótica e plataforma AI" }
+        {
+          "title": "Escritório EUA",
+          "description": "Orlando, Flórida, USA"
+        },
+        {
+          "title": "Telefone Comercial",
+          "description": "+1 (321) 888-7963"
+        },
+        {
+          "title": "E-mail",
+          "description": "info@injectracorp.com"
+        },
+        {
+          "title": "Atendimento Regional",
+          "description": "Atuação em toda a América"
+        },
+        {
+          "title": "Suporte Técnico",
+          "description": "Equipe especializada para máquinas, robótica e plataforma AI"
+        }
       ]
     },
     "cta": {
@@ -49,20 +90,47 @@
       "highlightsCard": {
         "title": "Presença nas Américas",
         "items": [
-          { "title": "Resposta consultiva", "description": "Entendemos seu desafio e sugerimos a melhor solução." },
-          { "title": "Soluções completas", "description": "Máquinas, robótica, software e serviço integrados." },
-          { "title": "Especialistas industriais", "description": "Equipe experiente com conhecimento de aplicação real." },
-          { "title": "Integração com Injectra AI", "description": "Tecnologia e dados para elevar a produtividade." }
+          {
+            "title": "Resposta consultiva",
+            "description": "Entendemos seu desafio e sugerimos a melhor solução."
+          },
+          {
+            "title": "Soluções completas",
+            "description": "Máquinas, robótica, software e serviço integrados."
+          },
+          {
+            "title": "Especialistas industriais",
+            "description": "Equipe experiente com conhecimento de aplicação real."
+          },
+          {
+            "title": "Integração com Injectra AI",
+            "description": "Tecnologia e dados para elevar a produtividade."
+          }
         ]
       }
     },
     "trustBar": {
       "items": [
-        { "title": "Tecnologia Americana", "subtitle": "Desenvolvida nos EUA" },
-        { "title": "Presença nas Américas", "subtitle": "Atendimento local" },
-        { "title": "Mais de 30 anos de experiência", "subtitle": "em soluções industriais" },
-        { "title": "Suporte 24/7", "subtitle": "Assistência técnica especializada" },
-        { "title": "Sustentabilidade", "subtitle": "Eficiência energética e ESG" }
+        {
+          "title": "Tecnologia Americana",
+          "subtitle": "Desenvolvida nos EUA"
+        },
+        {
+          "title": "Presença nas Américas",
+          "subtitle": "Atendimento local"
+        },
+        {
+          "title": "Mais de 30 anos de experiência",
+          "subtitle": "em soluções industriais"
+        },
+        {
+          "title": "Suporte 24/7",
+          "subtitle": "Assistência técnica especializada"
+        },
+        {
+          "title": "Sustentabilidade",
+          "subtitle": "Eficiência energética e ESG"
+        }
       ]
     }
   }

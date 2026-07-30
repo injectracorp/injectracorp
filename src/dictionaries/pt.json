@@ -328,7 +328,13 @@
           "label": "Logística"
         }
       ],
-      "moreLabel": "E muito mais..."
+      "moreLabel": "E muito mais...",
+      "expandLabel": "Ampliar imagem",
+      "closeLabel": "Fechar",
+      "prevLabel": "Anterior",
+      "nextLabel": "Próximo",
+      "seeMoreLabel": "Veja Mais",
+      "plasticDisclaimer": "As peças plásticas mostradas nas fotos são produzidas pela Injectra. As demais peças (metálicas, madeira, eletrônicos etc.) aparecem apenas como referência visual e não são fabricadas por nós."
     }
   },
   "catalogos": {
@@ -958,7 +964,24 @@
             "description": "em operação"
           }
         ],
-        "roboticaTitle": "Robótica Neo"
+        "roboticaTitle": "Robótica Neo",
+        "crescimento": {
+          "title": "Crescimento de Produção",
+          "months": [
+            "Jan",
+            "Fev",
+            "Mar",
+            "Abr",
+            "Mai",
+            "Jun"
+          ]
+        },
+        "unidadesAtivas": {
+          "title": "Unidades Ativas",
+          "region": "Américas",
+          "value": "1.250+",
+          "unit": "unidades"
+        }
       },
       "infoCards": [
         {
@@ -1323,7 +1346,7 @@
     },
     "segmentos": {
       "title": "Nossos Segmentos e Atuação",
-      "ctaLabel": "Ver soluções",
+      "ctaLabel": "Falar com Especialista",
       "items": [
         {
           "title": "Automotiva",
@@ -1387,14 +1410,21 @@
   "maquinas": {
     "banner": {
       "kicker": "MÁQUINAS",
-      "title": "Tecnologia em injeção para todos os segmentos da indústria.",
-      "subtitle": "Nove linhas de máquinas hidráulicas e elétricas completas, desenvolvidas para máxima performance, precisão e eficiência em qualquer aplicação.",
+      "title": "Linhas de Máquinas Injectra",
+      "subtitle": "Centralize todas as famílias de máquinas Injectra, suas tecnologias, catálogos individuais e acesso rápido a cada modelo numerado para você escolher a solução ideal.",
       "ctaCatalogos": "Ver todos os catálogos",
       "ctaEspecialista": "Falar com Especialista",
       "stats": [
         "101 Modelos de máquinas",
         "70+ Acessórios e Periféricos",
         "Tecnologia 100% Integrada"
+      ],
+      "subtitle2": "10 Linhas industriais para cada aplicação.",
+      "navSteps": [
+        "Escolha a Linha",
+        "Navegue pelos Modelos",
+        "Compare Tecnologias",
+        "Solicite Cotação"
       ]
     },
     "comoFunciona": {
