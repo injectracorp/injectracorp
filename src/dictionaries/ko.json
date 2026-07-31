@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "미국 플로리다주 올랜도"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "전문 기술 지원"
-        },
-        {
-          "title": "아메리카 전역 서비스"
-        }
-      ],
+      "infoBar": {
+        "heading": "아메리카 전역 서비스",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "미국 플로리다주 올랜도"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "전문 기술 지원"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "귀사의 산업을 혁신할 준비가 되셨습니까?",
         "description": "Injectra가 어떻게 생산성을 높이고 비용을 절감하며, 하나의 지능형 산업 플랫폼으로 전체 운영을 연결할 수 있는지 확인해 보십시오.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "전체 카탈로그 보기",
       "ctaEspecialista": "전문가와 상담",
       "stats": [
-        "101개 기계 모델",
+        "138개 기계 모델",
         "70개 이상의 액세서리 및 주변장치",
         "100% 통합 기술"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "전체 카탈로그 보기",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "전문가와 상담",
       "title": "모델 탐색 방법",
       "description": "원하는 라인을 선택하고 이용 가능한 모든 모델을 쉽게 탐색하십시오. 각 페이지에는 기술 사양, 카탈로그, 견적 옵션이 제공됩니다.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "일반 애플리케이션을 위한 정밀도, 다목적성, 성능.",
-      "ctaCatalogos": "전체 카탈로그 보기",
-      "ctaEspecialista": "전문가와 상담",
       "specs": [
         {
           "title": "X톤의 힘",

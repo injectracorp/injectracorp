@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "@/components/LocaleLink";
 import Logo from "@/components/Logo";
+import FooterNavColumn from "@/components/layout/FooterNavColumn";
 import { getNavColumns } from "@/data/navColumns";
 import { MACHINE_PHOTOS } from "@/data/machinePhotos";
 import type { Dictionary } from "@/lib/i18n/dictionary";
@@ -20,13 +21,14 @@ const INFO_BAR_ICONS = [
   "/assets/footer/icon-telefone.svg",
   "/assets/footer/icon-mail.svg",
   "/assets/footer/icon-suporte-header.svg",
-  "/assets/footer/icon-americas.svg",
 ];
 
 export default function Footer({ dict }: { dict?: Dictionary }) {
   const footer = dict?.shared?.footer ?? {};
   const columns = getNavColumns(dict ?? {});
-  const infoBar: Array<{ title: string; subtitle?: string }> = footer.infoBar ?? [];
+  const infoBar: { heading?: string; items?: Array<{ title: string; subtitle?: string }> } =
+    footer.infoBar ?? {};
+  const infoBarItems = infoBar.items ?? [];
   const legalLinks: Array<{ label: string; href: string }> = footer.legalLinks ?? [];
   const socialLabels: Record<string, string> = footer.socialLabels ?? {};
   const ctaBanner = footer.ctaBanner ?? {};
@@ -45,25 +47,25 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
 
       {/* Colunas principais */}
       <div className="relative flex w-full flex-col items-center px-5">
-        <div className="flex w-full max-w-[1400px] flex-wrap justify-center gap-x-5 gap-y-10">
-          <div className="flex max-w-[450px] flex-1 flex-col items-start gap-5 pr-0 lg:pr-[30px]">
-            <div className="flex w-full flex-col items-start gap-[15px]">
+        <div className="flex w-full max-w-[1400px] flex-col items-center gap-10 lg:flex-row lg:flex-wrap lg:items-start lg:justify-center lg:gap-x-5 lg:gap-y-10">
+          <div className="flex w-full flex-col items-center justify-center gap-5 pr-[30px] lg:w-auto lg:max-w-[450px] lg:flex-1 lg:items-start lg:justify-start">
+            <div className="flex w-full flex-col items-center gap-[15px] lg:items-start">
               <Link href="/" aria-label={footer.logoAriaLabel}>
                 <Logo src="/assets/footer/injectra-logo.svg" className="h-auto max-h-16 w-full max-w-[270px]" />
               </Link>
               {/* Texto Padrão 18 — 18px/22px, 55 Roman (400) */}
-              <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
+              <p className="text-center text-lg font-normal leading-[22px] tracking-normal text-texto lg:text-left">
                 {footer.taglinePrefix}
                 <span className="font-bold text-azul-claro">{footer.taglineHighlight}</span>
                 {footer.taglineSuffix}
               </p>
             </div>
             {/* Texto menor 16 — 16px/20px, 55 Roman (400) */}
-            <p className="text-base font-normal leading-5 tracking-normal text-texto">
+            <p className="text-center text-base font-normal leading-5 tracking-normal text-texto lg:text-left">
               {footer.description}
             </p>
-            {/* Alinhado à base do bloco pai (que agora estica para a altura das colunas ao lado) */}
-            <div className="mt-auto flex flex-wrap items-center gap-[15px]">
+            {/* Alinhado à base do bloco pai (que agora estica para a altura das colunas ao lado) em telas grandes */}
+            <div className="flex w-full flex-wrap items-center justify-center gap-[15px] lg:mt-auto lg:w-auto lg:justify-start">
               {SOCIAL_ICONS.map((social) => (
                 <a
                   key={social.key}
@@ -77,65 +79,51 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
             </div>
           </div>
 
-          {columns.map((column) => (
-            <div key={column.title} className="flex min-w-[220px] flex-1 flex-col gap-10">
-              <div className="flex flex-col items-start gap-2.5">
-                {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
-                <span className="text-gradient-navy text-lg font-bold leading-[22px] tracking-normal">
-                  {column.title}
-                </span>
-                <span className="h-[1.5px] w-[30px] rounded-full bg-azul-claro-plus" />
-              </div>
-              <div className="flex flex-col items-start gap-5">
-                {column.items.map((item) => (
-                  <Link
-                    key={item.title}
-                    href={item.href}
-                    className="group flex w-full items-center gap-2.5"
-                  >
-                    <Image src={item.icon} alt="" width={36} height={36} className="shrink-0 object-contain" />
-                    <div className="flex flex-1 flex-col items-start gap-1 text-texto">
-                      {/* 16px/20px, 85 Heavy (700) */}
-                      <span className="text-base font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
-                        {item.title}
-                      </span>
-                      {/* Desc 14 — 14px/16px, 55 Roman (400) */}
-                      <span className="text-sm font-normal leading-4 tracking-normal transition-colors group-hover:text-azul-claro">
-                        {item.description}
-                      </span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ))}
+          {/* Mobile (<768): toggles colapsáveis (título + seta), itens escondidos até abrir.
+              Tablet (md, <1024): colunas completas lado a lado, sempre abertas.
+              Desktop (lg): retorna a linha única com o bloco acima. */}
+          <div className="flex w-full flex-col items-start gap-10 md:flex-row md:flex-wrap lg:contents">
+            {columns.map((column) => (
+              <FooterNavColumn key={column.title} column={column} />
+            ))}
+          </div>
         </div>
       </div>
 
       {/* Barra de informações */}
       <div className="relative flex w-full items-center justify-center px-5">
-        <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 rounded-2xl bg-wt px-10 py-5">
-          {infoBar.map((info, i) => (
-            <div key={info.title ?? i} className="flex min-w-[160px] shrink-0 items-center justify-center gap-2.5">
-              <Image src={INFO_BAR_ICONS[i]} alt="" width={24} height={24} className="shrink-0 object-contain" />
-              <div className="flex flex-col items-start gap-1 whitespace-nowrap text-dark-blue">
-                {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
-                <span className="text-base font-bold leading-5 tracking-normal">{info.title}</span>
-                {info.subtitle && (
-                  <span className="text-sm font-normal leading-4 tracking-normal">
-                    {info.subtitle}
-                  </span>
-                )}
+        <div className="flex w-full max-w-[1400px] flex-col items-center gap-5 rounded-2xl bg-wt p-5 lg:gap-10 lg:px-10 lg:py-5">
+          {infoBar.heading && (
+            <p className="w-full text-center text-base font-bold leading-5 tracking-normal text-dark-blue">
+              {infoBar.heading}
+            </p>
+          )}
+          <div className="flex w-full flex-wrap items-center justify-center gap-10">
+            {infoBarItems.map((info, i) => (
+              <div
+                key={info.title ?? i}
+                className="flex min-w-[150px] flex-1 flex-col items-center gap-2.5 lg:min-w-[160px] lg:flex-none lg:flex-row lg:justify-center"
+              >
+                <Image src={INFO_BAR_ICONS[i]} alt="" width={24} height={24} className="shrink-0 object-contain" />
+                <div className="flex flex-col items-center gap-2.5 text-center text-dark-blue lg:items-start lg:gap-1 lg:whitespace-nowrap lg:text-left">
+                  {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}
+                  <span className="text-base font-bold leading-5 tracking-normal">{info.title}</span>
+                  {info.subtitle && (
+                    <span className="text-sm font-normal leading-4 tracking-normal">
+                      {info.subtitle}
+                    </span>
+                  )}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
 
       {/* CTA final */}
       <div className="relative flex w-full items-center justify-center px-5">
-        <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-center gap-10 overflow-hidden rounded-2xl bg-wt p-10">
-          <div className="flex min-w-px flex-1 flex-col items-start gap-10">
+        <div className="flex w-full max-w-[1400px] flex-col items-center justify-center gap-10 overflow-hidden rounded-2xl bg-wt p-10 xl:flex-row xl:flex-wrap">
+          <div className="flex w-full min-w-px flex-1 flex-col items-start gap-10 xl:w-auto">
             <div className="flex w-full min-w-[210px] flex-wrap items-center justify-center gap-5">
               <span className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full bg-bg-cinza p-6">
                 <Image src="/assets/footer/icon-scale-graphic.svg" alt="" width={30} height={30} />
@@ -150,17 +138,17 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
                 </p>
               </div>
             </div>
-            <div className="flex w-full max-w-[480px] min-w-[250px] flex-wrap items-center justify-center gap-5">
+            <div className="flex w-full min-w-[250px] flex-wrap items-center justify-center gap-5">
               <Link
                 href="/solicitar-cotacao"
-                className="flex min-w-[200px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal uppercase text-wt transition-opacity hover:opacity-90"
+                className="flex min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal uppercase text-wt transition-opacity hover:opacity-90"
               >
                 <Image className="object-contain" src="/assets/footer/icon-doc.svg" alt="" width={18} height={18} />
                 {ctaBanner.quoteButton}
               </Link>
               <Link
                 href="/fale-com-especialista"
-                className="flex min-w-[200px] items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal uppercase text-azul-claro transition-colors hover:bg-bg-light-clean"
+                className="flex min-w-[200px] flex-1 items-center justify-center gap-2.5 rounded-md border border-azul-claro bg-wt px-5 py-[15px] text-sm font-bold leading-[17px] tracking-normal uppercase text-azul-claro transition-colors hover:bg-bg-light-clean"
               >
                 <Image className="object-contain" src="/assets/footer/icon-headset.svg" alt="" width={18} height={18} />
                 {ctaBanner.specialistButton}
@@ -179,8 +167,8 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
 
       {/* Barra inferior */}
       <div className="flex min-h-[100px] w-full flex-col items-center justify-center bg-dark-blue p-5">
-        <div className="flex w-full max-w-[1400px] flex-wrap items-center justify-between gap-y-3.5">
-          <div className="flex w-full max-w-[618px] flex-wrap items-center justify-center gap-5 sm:w-auto sm:flex-1 sm:min-w-[400px] sm:justify-start">
+        <div className="flex w-full max-w-[1400px] flex-col items-start gap-y-3.5 lg:flex-row lg:flex-wrap lg:items-center lg:justify-between">
+          <div className="flex w-full flex-wrap items-center justify-center gap-[40px] lg:w-auto lg:max-w-[618px] lg:flex-1 lg:min-w-[400px] lg:flex-nowrap lg:justify-start">
             <div className="flex min-w-[200px] shrink-0 items-center gap-2.5">
               <Image src="/assets/footer/usa-flag.svg" alt="" width={30} height={30} />
               <div className="flex flex-col items-start gap-2.5 whitespace-nowrap text-wt">
@@ -192,8 +180,8 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
                 </span>
               </div>
             </div>
-            <div className="flex shrink-0 flex-col items-start justify-center gap-2.5">
-              <span className="text-sm font-normal leading-4 tracking-normal text-wt">
+            <div className="flex shrink-0 flex-col items-start justify-center gap-[5px]">
+              <span className="text-[10px] font-normal leading-4 tracking-normal text-wt">
                 {bottomBar.groupLabel}
               </span>
               <Image
@@ -208,8 +196,8 @@ export default function Footer({ dict }: { dict?: Dictionary }) {
               {bottomBar.copyright}
             </p>
           </div>
-          <span className="hidden h-[53px] w-px bg-white/20 sm:block" />
-          <div className="flex w-full max-w-[580px] flex-wrap items-center justify-center gap-x-5 gap-y-2.5 text-sm font-normal leading-4 tracking-normal text-wt sm:w-auto sm:flex-1 sm:min-w-[400px] sm:justify-end">
+          <span className="hidden h-[53px] w-px bg-white/20 lg:block" />
+          <div className="flex w-full flex-wrap items-center justify-center gap-x-5 gap-y-2.5 text-sm font-normal leading-4 tracking-normal text-wt lg:w-auto lg:max-w-[420px] lg:flex-none lg:min-w-[200px] lg:justify-end">
             {legalLinks.map((link) => (
               <Link key={link.label} href={link.href} className="hover:opacity-80">
                 {link.label}

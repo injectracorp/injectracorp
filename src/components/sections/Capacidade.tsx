@@ -38,10 +38,10 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
       <div className="flex w-full flex-col gap-5 lg:flex-row">
         {/* Robótica Neo */}
         <div
-          className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 pt-5"
+          className="relative flex min-h-[400px] flex-1 flex-wrap items-center justify-center gap-5 overflow-hidden rounded-2xl bg-cover bg-center px-5 py-2.5"
           style={{ backgroundImage: "url(/assets/capacidade/panel-neo-bg.webp)" }}
         >
-          <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 self-stretch pb-5">
+          <div className="flex max-w-[280px] min-w-[200px] flex-1 flex-col items-start gap-5 py-2.5">
             {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
             <h3 className="flex min-h-[60px] items-center text-2xl font-extrabold leading-[30px] tracking-normal text-gradient-brand sm:min-h-[78px] sm:text-[32px] sm:leading-[39px]">
               {t.roboticaNeo.title}
@@ -52,21 +52,21 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
             </p>
             <Checklist items={t.roboticaNeo.items} />
             {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-            <a
-              href="#robotica-neo"
+            <Link
+              href="/robotica"
               className="mt-auto flex items-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-sm font-bold leading-[17px] tracking-normal text-wt transition-opacity hover:opacity-90"
             >
               {t.roboticaNeo.cta}
               <Image className="object-contain" src="/assets/shared/arrow-side-white.svg" alt="" width={9} height={9} />
-            </a>
+            </Link>
           </div>
-          <div className="flex h-[380px] flex-1 items-end justify-end self-end">
+          <div className="flex h-[351px] flex-1 items-center justify-center">
             <Image
               src="/assets/capacidade/robot-photo.webp"
               alt={t.roboticaNeo.photoAlt}
-              width={420}
-              height={392}
-              className="h-auto w-full max-w-[420px]"
+              width={309}
+              height={804}
+              className="h-full w-auto max-w-full"
             />
           </div>
         </div>
@@ -97,8 +97,8 @@ export default function Capacidade({ dict }: { dict: Dictionary }) {
             <Image
               src="/assets/capacidade/tablet-phone-photo.webp"
               alt={t.plataformaAi.photoAlt}
-              width={420}
-              height={347}
+              width={1600}
+              height={1192}
               className="h-auto w-full max-w-[420px]"
             />
           </div>

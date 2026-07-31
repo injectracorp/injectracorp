@@ -28,8 +28,8 @@ export default function Esperar({ dict }: { dict: Dictionary }) {
             className="flex min-w-[180px] flex-1 flex-col items-center gap-5"
           >
             <Image src={ICONS[index]} alt="" width={50} height={50} />
-            {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
-            <span className="min-h-[35px] w-full text-center text-lg font-bold leading-[22px] tracking-normal text-dark-blue">
+            {/* Texto BK 16 — 16px/22px, 85 Heavy (700) */}
+            <span className="min-h-[35px] w-full text-center text-base font-bold leading-[22px] tracking-normal text-dark-blue">
               {item.label}
             </span>
           </div>

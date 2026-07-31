@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "אורלנדו, פלורידה, ארה״ב"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "תמיכה טכנית מקצועית"
-        },
-        {
-          "title": "שירות לכל יבשת אמריקה"
-        }
-      ],
+      "infoBar": {
+        "heading": "שירות לכל יבשת אמריקה",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "אורלנדו, פלורידה, ארה״ב"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "תמיכה טכנית מקצועית"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "מוכנים לחולל שינוי בתעשייה שלכם?",
         "description": "גלו כיצד Injectra יכולה להגביר את הפריון, לצמצם עלויות ולחבר את כל הפעילות התפעולית שלכם לכדי פלטפורמה תעשייתית חכמה אחת.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "צפייה בכל הקטלוגים",
       "ctaEspecialista": "שיחה עם מומחה",
       "stats": [
-        "101 דגמי מכונות",
+        "138 דגמי מכונות",
         "70+ אביזרים ותוספות",
         "טכנולוגיה משולבת ב-100%"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "צפייה בכל הקטלוגים",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "שיחה עם מומחה",
       "title": "כיצד פועל הניווט בין הדגמים",
       "description": "בחרו קו מכונות ונווטו בקלות בין כל הדגמים הזמינים. כל עמוד מציג את המפרטים הטכניים, הקטלוג ואפשרויות הצעת המחיר.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "דיוק, רב-תכליתיות וביצועים ליישומים כלליים.",
-      "ctaCatalogos": "צפייה בכל הקטלוגים",
-      "ctaEspecialista": "שיחה עם מומחה",
       "specs": [
         {
           "title": "X טון כוח",

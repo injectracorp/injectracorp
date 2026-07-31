@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "米国フロリダ州オーランド"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "専門的な技術サポート"
-        },
-        {
-          "title": "南北アメリカ全域対応"
-        }
-      ],
+      "infoBar": {
+        "heading": "南北アメリカ全域対応",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "米国フロリダ州オーランド"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "専門的な技術サポート"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "貴社の産業を変革する準備はできていますか?",
         "description": "Injectraが生産性を高め、コストを削減し、業務全体を単一のスマート産業プラットフォームで統合する方法をご紹介します。",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "すべてのカタログを見る",
       "ctaEspecialista": "専門家に相談する",
       "stats": [
-        "機械モデル101種",
+        "機械モデル138種",
         "アクセサリー・周辺機器70種以上",
         "完全統合型テクノロジー"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "すべてのカタログを見る",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "専門家に相談する",
       "title": "モデルの選び方",
       "description": "ラインを選択し、利用可能なすべてのモデルを簡単に閲覧できます。各ページには、技術仕様、カタログ、見積もりオプションが掲載されています。",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "汎用用途に向けた精度、汎用性、性能。",
-      "ctaCatalogos": "すべてのカタログを見る",
-      "ctaEspecialista": "専門家に相談する",
       "specs": [
         {
           "title": "型締力 X トン",

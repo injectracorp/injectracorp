@@ -96,11 +96,9 @@ export default function Banner({ dict }: { dict: Dictionary }) {
           <div className="hidden flex-1 xl:block" />
         </div>
 
-        {/* >=1280: confinada à largura da coluna de texto (520px), à esquerda,
-            replicando a mesma proporção flex-1/max-w da coluna acima. <1280:
-            linha própria, largura total. */}
+        {/* Ocupa a largura total do banner em todos os breakpoints. */}
         <div className="flex w-full flex-col items-center xl:flex-row">
-          <div className="flex w-full flex-wrap items-center justify-center gap-5 xl:max-w-[520px] xl:flex-1 xl:justify-start">
+          <div className="flex w-full flex-wrap items-center justify-center gap-5 rounded-2xl bg-wt p-5">
             {t.trustItems.map((item: { label: string }, index: number) => (
               <div
                 key={item.label}

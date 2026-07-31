@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "Orlando, Florida, USA"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "Specialiserad teknisk support"
-        },
-        {
-          "title": "Kundservice i hela Amerika"
-        }
-      ],
+      "infoBar": {
+        "heading": "Kundservice i hela Amerika",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "Orlando, Florida, USA"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "Specialiserad teknisk support"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "Redo att transformera din industri?",
         "description": "Upptäck hur Injectra kan öka produktiviteten, sänka kostnaderna och koppla samman hela din verksamhet i en enda intelligent industriplattform.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "Se alla kataloger",
       "ctaEspecialista": "Prata med en specialist",
       "stats": [
-        "101 maskinmodeller",
+        "138 maskinmodeller",
         "70+ tillbehör och kringutrustning",
         "100% integrerad teknik"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "Se alla kataloger",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "Prata med en specialist",
       "title": "Så fungerar navigeringen mellan modeller",
       "description": "Välj en serie och bläddra enkelt bland alla tillgängliga modeller. Varje sida visar tekniska specifikationer, katalog och offertalternativ.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "Precision, mångsidighet och prestanda för generella applikationer.",
-      "ctaCatalogos": "Se alla kataloger",
-      "ctaEspecialista": "Prata med en specialist",
       "specs": [
         {
           "title": "X T kraft",

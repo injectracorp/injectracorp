@@ -3,12 +3,24 @@ import Section from "@/components/layout/Section";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7191:3805).
+// Slot de imagem aspect-[4/3] (300/225 no Figma) preenchido por foto real
+// (object-cover); badge do ícone ancorado ao bottom do slot (mesma técnica
+// validada em industria/Segmentos.tsx) para ficar sempre centrado na
+// transição imagem/conteúdo, mesmo com a altura do slot variando de forma
+// responsiva.
 const ICONS = [
   "/assets/experience-center/icon-card-demonstracoes.svg",
   "/assets/experience-center/icon-card-testes.svg",
   "/assets/experience-center/icon-card-showroom.svg",
   "/assets/experience-center/icon-card-treinamentos.svg",
   "/assets/experience-center/icon-card-validacao.svg",
+];
+const IMAGES = [
+  "/assets/experience-center/card-demonstracoes.webp",
+  "/assets/experience-center/card-testes.webp",
+  "/assets/experience-center/card-showroom.webp",
+  "/assets/experience-center/card-treinamentos.webp",
+  "/assets/experience-center/card-validacao.webp",
 ];
 
 export default function Experiencias({ dict }: { dict: Dictionary }) {
@@ -32,9 +44,20 @@ export default function Experiencias({ dict }: { dict: Dictionary }) {
         {items.map((item, index) => (
           <div
             key={item.title}
-            className="relative flex min-w-[230px] flex-1 flex-col items-center gap-[50px] overflow-hidden rounded-2xl bg-wt pb-[30px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]"
+            className="flex min-w-[260px] flex-1 flex-col items-center gap-[50px] overflow-hidden rounded-2xl bg-wt pb-[30px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]"
           >
-            <div className="h-[250px] w-full shrink-0 bg-[#9a9a9a]" />
+            <div className="relative aspect-[4/3] w-full shrink-0 bg-bg-cinza">
+              <Image
+                src={IMAGES[index]}
+                alt={item.title}
+                fill
+                sizes="(min-width: 1024px) 260px, 100vw"
+                className="object-cover"
+              />
+              <span className="absolute -bottom-[30px] left-5 flex size-[60px] shrink-0 items-center justify-center rounded-full bg-wt p-4 shadow-[2px_2px_6px_0px_rgba(76,95,224,0.25)]">
+                <Image src={ICONS[index]} alt="" width={30} height={30} />
+              </span>
+            </div>
             <div className="flex w-full flex-col items-start justify-center gap-5 px-5">
               {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
               <h3 className="min-h-[25px] w-full text-lg font-bold leading-[22px] tracking-normal text-azul-claro-plus">
@@ -52,9 +75,6 @@ export default function Experiencias({ dict }: { dict: Dictionary }) {
                 <Image className="object-contain" src="/assets/shared/arrow-side-blue-light.svg" alt="" width={9} height={9} />
               </div>
             </div>
-            <span className="absolute left-5 top-[220px] flex size-[60px] shrink-0 items-center justify-center rounded-full bg-wt p-4 shadow-[2px_2px_6px_0px_rgba(76,95,224,0.25)]">
-              <Image src={ICONS[index]} alt="" width={30} height={30} />
-            </span>
           </div>
         ))}
       </div>

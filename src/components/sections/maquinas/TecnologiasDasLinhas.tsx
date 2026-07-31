@@ -25,7 +25,7 @@ export default function TecnologiasDasLinhas({ dict }: { dict: Dictionary }) {
         {t.tags.map((label: string, i: number) => (
           <div
             key={label}
-            className="flex min-w-[140px] flex-1 flex-col items-center justify-center gap-5 rounded-2xl bg-bg-cinza p-5"
+            className="flex min-w-[120px] flex-1 flex-col items-center justify-center gap-5 rounded-2xl bg-bg-cinza p-5"
           >
             <Image className="object-contain" src={TAG_ICONS[i]} alt="" width={40} height={40} />
             {/* Texto Menor BK 16 — 16px/20px, 85 Heavy (700) */}

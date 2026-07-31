@@ -21,10 +21,10 @@ export default function TrustBar({ dict }: { dict: Dictionary }) {
           <div key={item.title} className="flex min-w-[180px] flex-1 items-center gap-5">
             <Image src={ITEMS_ICONS[index]} alt="" width={40} height={40} className="shrink-0 object-contain" />
             <div className="flex flex-1 flex-col items-start gap-2.5">
-              <span className="w-full text-xs font-bold leading-[13px] tracking-normal text-dark-blue">
+              <span className="w-full text-sm font-bold leading-[13px] tracking-normal text-dark-blue">
                 {item.title}
               </span>
-              <p className="w-full text-xs font-normal leading-[14px] tracking-normal text-texto">
+              <p className="w-full text-sm font-normal leading-[14px] tracking-normal text-texto">
                 {item.subtitle}
               </p>
             </div>

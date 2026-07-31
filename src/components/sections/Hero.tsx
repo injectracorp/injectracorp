@@ -104,19 +104,19 @@ export default function Hero({ dict }: { dict: Dictionary }) {
           </div>
         </div>
 
-        <div className="flex w-full shrink-0 flex-col items-center justify-center gap-2.5 rounded-[20px] px-5 lg:px-0 xl:px-5">
-          <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-between lg:gap-8">
+        <div className="flex w-full shrink-0 flex-col items-center justify-center gap-2.5 rounded-[20px]">
+          <div className="flex w-full flex-wrap items-center justify-center gap-2.5">
             {trustItems.map((item) => (
               <div
                 key={item.title}
-                className="flex min-w-[290px] flex-1 flex-col flex-wrap items-center justify-center gap-5 lg:min-w-0 lg:flex-none xl:min-w-[160px] xl:flex-1 xl:flex-row"
+                className="flex min-w-[160px] flex-1 flex-col flex-wrap items-center justify-center gap-5"
               >
                 <span
                   className={`flex h-[60px] w-[60px] shrink-0 items-center justify-center rounded-full ${item.bg}`}
                 >
                   <Image src={item.icon} alt="" width={item.iconSize} height={item.iconSize} />
                 </span>
-                <div className="flex flex-1 flex-col items-center gap-1 text-center xl:items-start xl:text-left">
+                <div className="flex w-full flex-1 flex-col items-center gap-1 text-center">
                   {/* Subtítulo BK 20 — 20px/22px, 85 Heavy (700) */}
                   <span className="text-xl font-bold leading-[22px] tracking-normal text-dark-blue">
                     {item.title}

@@ -11,9 +11,9 @@ export default function Agendamento({ dict }: { dict: Dictionary }) {
     <Section>
       <div
         className="flex w-full flex-wrap items-center gap-5 rounded-2xl bg-cover bg-center p-5"
-        style={{ backgroundImage: "url(/assets/shared/panel-gradient-bg.webp)" }}
+        style={{ backgroundImage: "url(/assets/suporte/banner-atendimento-bg.webp)" }}
       >
-        <div className="flex min-w-[200px] max-w-[520px] flex-1 flex-col items-start gap-5">
+        <div className="flex min-w-[200px] max-w-[520px] flex-1 flex-col items-center gap-5 text-center lg:items-start lg:text-left">
           {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
           <h2 className="text-[26px] font-bold leading-[28px] tracking-normal text-dark-blue">
             {t.title}
@@ -22,7 +22,7 @@ export default function Agendamento({ dict }: { dict: Dictionary }) {
           <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
             {t.description}
           </p>
-          <div className="flex w-full flex-wrap items-center gap-5">
+          <div className="flex w-full flex-wrap items-center justify-center gap-5 lg:justify-start">
             <a
               href="#contato"
               className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md bg-azul-claro-plus px-[15px] py-2.5 text-base font-bold leading-[normal] text-wt transition-opacity hover:opacity-90"
@@ -39,7 +39,7 @@ export default function Agendamento({ dict }: { dict: Dictionary }) {
             </Link>
           </div>
         </div>
-        <div className="min-h-[135px] min-w-[200px] flex-1" />
+        <div className="hidden min-h-[135px] min-w-[200px] flex-1 lg:block" />
       </div>
     </Section>
   );

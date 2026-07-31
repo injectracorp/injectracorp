@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "Orlando, Florida, SUA"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "Suport Tehnic Specializat"
-        },
-        {
-          "title": "Servicii pentru întreaga Americă"
-        }
-      ],
+      "infoBar": {
+        "heading": "Servicii pentru întreaga Americă",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "Orlando, Florida, SUA"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "Suport Tehnic Specializat"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "Sunteți pregătiți să vă transformați industria?",
         "description": "Descoperiți cum Injectra poate crește productivitatea, reduce costurile și conecta întreaga operațiune într-o singură platformă industrială inteligentă.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "Vezi toate cataloagele",
       "ctaEspecialista": "Discută cu un Specialist",
       "stats": [
-        "101 Modele de mașini",
+        "138 Modele de mașini",
         "70+ Accesorii și Periferice",
         "Tehnologie 100% Integrată"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "Vezi toate cataloagele",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "Discută cu un Specialist",
       "title": "Cum funcționează navigarea între modele",
       "description": "Alegeți o linie și navigați ușor prin toate modelele disponibile. Fiecare pagină prezintă specificațiile tehnice, catalogul și opțiunile de ofertă.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "Precizie, versatilitate și performanță pentru aplicații generale.",
-      "ctaCatalogos": "Vezi toate cataloagele",
-      "ctaEspecialista": "Discută cu un Specialist",
       "specs": [
         {
           "title": "X T Forță",

@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "Orlando, Florida, Yhdysvallat"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "Erikoistunut tekninen tuki"
-        },
-        {
-          "title": "Palvelemme koko Amerikan mannerta"
-        }
-      ],
+      "infoBar": {
+        "heading": "Palvelemme koko Amerikan mannerta",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "Orlando, Florida, Yhdysvallat"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "Erikoistunut tekninen tuki"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "Valmiina uudistamaan teollisuutenne?",
         "description": "Katso, miten Injectra voi kasvattaa tuottavuutta, alentaa kustannuksia ja yhdistää koko toimintanne yhdelle älykkäälle teolliselle alustalle.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "Katso kaikki tuoteluettelot",
       "ctaEspecialista": "Keskustele asiantuntijan kanssa",
       "stats": [
-        "101 konemallia",
+        "138 konemallia",
         "Yli 70 lisävarustetta ja oheislaitetta",
         "100 % integroitu teknologia"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "Katso kaikki tuoteluettelot",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "Keskustele asiantuntijan kanssa",
       "title": "Näin mallien selaus toimii",
       "description": "Valitse konelinja ja selaa helposti kaikkia saatavilla olevia malleja. Jokainen sivu esittää tekniset tiedot, tuoteluettelon ja tarjousvaihtoehdot.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "Tarkkuutta, monikäyttöisyyttä ja suorituskykyä yleisiin sovelluksiin.",
-      "ctaCatalogos": "Katso kaikki tuoteluettelot",
-      "ctaEspecialista": "Keskustele asiantuntijan kanssa",
       "specs": [
         {
           "title": "X t voimaa",

@@ -3,9 +3,22 @@ import Section from "@/components/layout/Section";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7257:6958).
-// As fotos das soluções ainda não existem no Figma — os cards usam um
-// retângulo cinza (#9a9a9a) como placeholder de imagem, igual ao design.
+// O slot de imagem (h-220, pt-5 px-2.5, bg-cinza) é igual nos 6 cards, mas o
+// justify-content muda por card: os 4 primeiros (fotos em pé/retrato) usam
+// justify-end para ancorar a foto embaixo (o topo é cortado pelo
+// overflow-hidden do slot); os 2 últimos (fotos deitadas/paisagem) usam
+// justify-center. A imagem interna preserva seu próprio aspect-ratio real
+// (não estica para preencher o slot inteiro).
 type Solucao = { title: string; description: string };
+
+const SOLUCAO_IMAGES: { src: string; aspect: string; align: "end" | "center" }[] = [
+  { src: "/assets/robotica/solucao-neo.webp", aspect: "1386/1947", align: "end" },
+  { src: "/assets/robotica/solucao-cartesianos.webp", aspect: "2231/2761", align: "end" },
+  { src: "/assets/robotica/solucao-celulas.webp", aspect: "1/1", align: "end" },
+  { src: "/assets/robotica/solucao-paletizacao.webp", aspect: "3175/3573", align: "end" },
+  { src: "/assets/robotica/solucao-automacao.webp", aspect: "3675/1779", align: "center" },
+  { src: "/assets/robotica/solucao-integracao-ai.webp", aspect: "3962/2302", align: "center" },
+];
 
 export default function Solucoes({ dict }: { dict: Dictionary }) {
   const t = dict.robotica.solucoes;
@@ -30,7 +43,15 @@ export default function Solucoes({ dict }: { dict: Dictionary }) {
             key={solucao.title}
             className="relative flex min-w-[200px] flex-1 flex-col items-center overflow-hidden rounded-2xl bg-wt pb-[30px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]"
           >
-            <div className="h-[220px] w-full shrink-0 bg-[#9a9a9a]" />
+            <div
+              className={`flex h-[220px] max-h-[220px] min-h-[220px] w-full shrink-0 flex-col items-center overflow-hidden bg-bg-cinza px-2.5 pt-5 ${
+                SOLUCAO_IMAGES[i].align === "end" ? "justify-end" : "justify-center"
+              }`}
+            >
+              <div className="relative w-full shrink-0" style={{ aspectRatio: SOLUCAO_IMAGES[i].aspect }}>
+                <Image src={SOLUCAO_IMAGES[i].src} alt="" fill className="object-cover" />
+              </div>
+            </div>
             <div className="flex w-full flex-col items-start justify-center gap-5 px-5 pt-5">
               {/* Texto BK 18 — 18px/22px, 85 Heavy (700) */}
               <span className="w-full text-lg font-bold leading-[22px] tracking-normal text-azul-claro-plus">

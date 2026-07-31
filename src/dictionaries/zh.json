@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "美国佛罗里达州奥兰多"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "专业技术支持"
-        },
-        {
-          "title": "服务覆盖全美洲"
-        }
-      ],
+      "infoBar": {
+        "heading": "服务覆盖全美洲",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "美国佛罗里达州奥兰多"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "专业技术支持"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "准备好改变您的产业了吗?",
         "description": "了解 Injectra 如何提升生产力、降低成本,并通过统一的智能工业平台连接您的整个运营。",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "查看全部产品目录",
       "ctaEspecialista": "咨询专家",
       "stats": [
-        "101 款机械型号",
+        "138 款机械型号",
         "70+ 配件与外围设备",
         "100% 全面集成技术"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "查看全部产品目录",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "咨询专家",
       "title": "如何浏览各型号产品",
       "description": "选择一个产品线,轻松浏览所有可用型号。每个页面均提供技术规格、产品目录及报价选项。",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "精度、多功能性与性能,适用于通用领域应用。",
-      "ctaCatalogos": "查看全部产品目录",
-      "ctaEspecialista": "咨询专家",
       "specs": [
         {
           "title": "X 吨锁模力",

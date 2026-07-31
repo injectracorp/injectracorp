@@ -188,7 +188,7 @@ export default function MachineLines({ dict }: { dict: Dictionary }) {
             </div>
             <Link
               href={href}
-              className="mt-auto flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
+              className="mt-auto flex w-full min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
               style={{ borderColor: machine.color, color: machine.color }}
             >
               {ctaVerModelos}

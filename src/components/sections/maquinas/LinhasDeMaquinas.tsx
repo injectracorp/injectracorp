@@ -93,7 +93,7 @@ export default function LinhasDeMaquinas({ dict }: { dict: Dictionary }) {
             </p>
             <Link
               href={href}
-              className="flex min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
+              className="mt-auto flex w-full max-w-[220px] min-h-[30px] items-center justify-center gap-2.5 rounded-md border bg-wt px-[15px] py-2.5 text-base font-bold leading-[normal] transition-opacity hover:opacity-90"
               style={{ borderColor: meta.color, color: meta.color }}
             >
               {t.ctaVerModelos}

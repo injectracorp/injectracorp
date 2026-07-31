@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "Orlando, Florida, EE. UU."
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "Soporte Técnico Especializado"
-        },
-        {
-          "title": "Atención en toda América"
-        }
-      ],
+      "infoBar": {
+        "heading": "Atención en toda América",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "Orlando, Florida, EE. UU."
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "Soporte Técnico Especializado"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "¿Listo para transformar tu industria?",
         "description": "Descubre cómo Injectra puede aumentar la productividad, reducir costos y conectar toda tu operación en una única plataforma industrial inteligente.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "Ver todos los catálogos",
       "ctaEspecialista": "Hablar con un Especialista",
       "stats": [
-        "101 Modelos de máquinas",
+        "138 Modelos de máquinas",
         "70+ Accesorios y Periféricos",
         "Tecnología 100% Integrada"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "Ver todos los catálogos",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "Hablar con un Especialista",
       "title": "Cómo funciona la navegación de los modelos",
       "description": "Elige una línea y navega fácilmente por todos los modelos disponibles. Cada página presenta las especificaciones técnicas, el catálogo y las opciones de cotización.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "Precisión, versatilidad y rendimiento para aplicaciones generales.",
-      "ctaCatalogos": "Ver todos los catálogos",
-      "ctaEspecialista": "Hablar con un Especialista",
       "specs": [
         {
           "title": "X T de Fuerza",

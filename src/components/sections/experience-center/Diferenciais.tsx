@@ -15,7 +15,7 @@ export default function Diferenciais({ dict }: { dict: Dictionary }) {
   const stats: { label: string }[] = t.stats;
 
   return (
-    <Section className="bg-bg-cinza" innerClassName="gap-10" direction="row">
+    <Section className="bg-bg-cinza" innerClassName="flex-col gap-10 lg:flex-row lg:flex-wrap">
       <div className="flex max-w-[510px] flex-1 flex-col items-start gap-5">
         {/* TÍTULO 26 — 26px/28px, 85 Heavy (700) */}
         <h2 className="text-[26px] font-bold leading-[28px] tracking-normal text-dark-blue">

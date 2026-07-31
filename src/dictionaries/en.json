@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "Orlando, Florida, USA"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "Specialized Technical Support"
-        },
-        {
-          "title": "Service Across the Americas"
-        }
-      ],
+      "infoBar": {
+        "heading": "Service Across the Americas",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "Orlando, Florida, USA"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "Specialized Technical Support"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "Ready to transform your industry?",
         "description": "Discover how Injectra can boost productivity, cut costs, and connect your entire operation on a single intelligent industrial platform.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "View all catalogs",
       "ctaEspecialista": "Talk to a Specialist",
       "stats": [
-        "101 Machine models",
+        "138 Machine models",
         "70+ Accessories and Peripherals",
         "100% Integrated Technology"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "View all catalogs",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "Talk to a Specialist",
       "title": "How model navigation works",
       "description": "Choose a line and easily browse all available models. Each page presents technical specifications, catalog access, and quote options.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "Precision, versatility, and performance for general applications.",
-      "ctaCatalogos": "View all catalogs",
-      "ctaEspecialista": "Talk to a Specialist",
       "specs": [
         {
           "title": "X T of Force",

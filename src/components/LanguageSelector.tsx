@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { usePathname, useRouter } from "next/navigation";
-import { useLang, ALL_LANGS, type Lang } from "@/context/LanguageContext";
+import { useLang, ALL_LANGS, SCROLL_RESTORE_KEY, type Lang } from "@/context/LanguageContext";
 
 // Conteúdo replicado do seletor de idiomas do projeto ACQUAFY (mesma lista de
 // idiomas, bandeiras e comportamento), adaptado aos tokens visuais da Injectra.
@@ -139,10 +139,15 @@ export default function LanguageSelector() {
   const current = FLAG_BY_LANG[lang];
 
   function handleSelect(newLang: Lang) {
+    // O layout remonta a árvore inteira ao trocar de idioma (LanguageProvider
+    // usa key={locale}), o que por si só já reseta o scroll — scroll:false
+    // no router não é suficiente sozinho. Guardamos a posição aqui e
+    // restauramos no mount effect do LanguageProvider (mesmo idioma novo).
+    sessionStorage.setItem(SCROLL_RESTORE_KEY, String(window.scrollY));
     setLang(newLang);
     const pathWithoutLocale = stripLocaleSegment(pathname);
     const newPath = `/${newLang}${pathWithoutLocale === "/" ? "" : pathWithoutLocale}`;
-    router.push(newPath);
+    router.push(newPath, { scroll: false });
   }
 
   return (

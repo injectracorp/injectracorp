@@ -44,7 +44,7 @@ function NavDropdown({ label, items }: { label: string; items: NavItem[] }) {
                   <span className="text-base font-bold leading-5 tracking-normal transition-colors group-hover:text-azul-claro">
                     {item.title}
                   </span>
-                  <span className="text-sm font-normal leading-4 tracking-normal transition-colors group-hover:text-azul-claro">
+                  <span className="text-xs font-normal leading-4 tracking-normal transition-colors group-hover:text-azul-claro">
                     {item.description}
                   </span>
                 </div>

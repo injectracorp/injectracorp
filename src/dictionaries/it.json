@@ -23,24 +23,24 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        {
-          "title": "Injectra Corporation",
-          "subtitle": "Orlando, Florida, USA"
-        },
-        {
-          "title": "+1 (321) 888-7963"
-        },
-        {
-          "title": "info@injectracorp.com"
-        },
-        {
-          "title": "Assistenza Tecnica Specializzata"
-        },
-        {
-          "title": "Servizio in tutte le Americhe"
-        }
-      ],
+      "infoBar": {
+        "heading": "Servizio in tutte le Americhe",
+        "items": [
+          {
+            "title": "Injectra Corporation",
+            "subtitle": "Orlando, Florida, USA"
+          },
+          {
+            "title": "+1 (321) 888-7963"
+          },
+          {
+            "title": "info@injectracorp.com"
+          },
+          {
+            "title": "Assistenza Tecnica Specializzata"
+          }
+        ]
+      },
       "ctaBanner": {
         "title": "Pronto a trasformare la tua industria?",
         "description": "Scopri come Injectra può aumentare la produttività, ridurre i costi e connettere l'intera operazione in un'unica piattaforma industriale intelligente.",
@@ -1415,7 +1415,7 @@
       "ctaCatalogos": "Vedi tutti i cataloghi",
       "ctaEspecialista": "Parla con uno Specialista",
       "stats": [
-        "101 Modelli di macchine",
+        "138 Modelli di macchine",
         "70+ Accessori e Periferiche",
         "Tecnologia 100% Integrata"
       ],
@@ -1428,13 +1428,14 @@
       ]
     },
     "comoFunciona": {
+      "ctaCatalogos": "Vedi tutti i cataloghi",
+      "ctaBaixarCatalogo": "Baixar Catálogo",
+      "ctaEspecialista": "Parla con uno Specialista",
       "title": "Come funziona la navigazione dei modelli",
       "description": "Scegli una linea e naviga facilmente tra tutti i modelli disponibili. Ogni pagina presenta le specifiche tecniche, il catalogo e le opzioni di preventivo.",
       "sidebarItemLabel": "Prime IP - X",
       "detailTitle": "Prime IP - X",
       "detailDescription": "Precisione, versatilità e prestazioni per applicazioni generali.",
-      "ctaCatalogos": "Vedi tutti i cataloghi",
-      "ctaEspecialista": "Parla con uno Specialista",
       "specs": [
         {
           "title": "X T di Forza",

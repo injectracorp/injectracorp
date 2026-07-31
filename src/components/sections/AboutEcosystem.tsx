@@ -1,12 +1,11 @@
-import Image from "next/image";
 import Section from "@/components/layout/Section";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
 export default function AboutEcosystem({ dict }: { dict: Dictionary }) {
   const t = dict.home.aboutEcosystem;
   return (
-    <Section direction="row" innerClassName="gap-10" className="bg-bg-cinza">
-      <div className="flex w-full min-w-[280px] max-w-[450px] flex-1 flex-col items-start justify-center gap-5">
+    <Section innerClassName="gap-10 xl:flex-row xl:flex-wrap" className="bg-bg-cinza">
+      <div className="flex w-full min-w-[280px] flex-1 flex-col items-center justify-center gap-5 text-center xl:max-w-[450px] xl:items-start xl:text-left">
         <div className="flex flex-col gap-1">
           {/* TÍTULO 32 — 32px/39px, 95 Black (800) */}
           <h2 className="text-2xl font-extrabold leading-[30px] tracking-normal text-dark-blue sm:text-[32px] sm:leading-[39px]">
@@ -21,14 +20,6 @@ export default function AboutEcosystem({ dict }: { dict: Dictionary }) {
         <p className="text-lg font-normal leading-[22px] tracking-normal text-texto">
           {t.description}
         </p>
-        {/* Label 14 — 14px/17px, 85 Heavy (700) */}
-        <a
-          href="#ecossistema"
-          className="flex items-center gap-1.5 text-sm font-bold leading-[17px] tracking-normal text-azul-claro-plus hover:opacity-80"
-        >
-          {t.exploreLabel}
-          <Image className="object-contain" src="/assets/shared/arrow-side-blue.svg" alt="" width={9} height={9} />
-        </a>
       </div>
 
       <div className="relative flex w-full flex-1 items-center justify-center overflow-hidden rounded-2xl bg-bg-cinza">

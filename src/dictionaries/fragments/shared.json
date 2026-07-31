@@ -23,13 +23,15 @@
         "youtube": "YouTube",
         "facebook": "Facebook"
       },
-      "infoBar": [
-        { "title": "Injectra Corporation", "subtitle": "Orlando, Flórida, EUA" },
-        { "title": "+1 (321) 888-7963" },
-        { "title": "info@injectracorp.com" },
-        { "title": "Suporte Técnico Especializado" },
-        { "title": "Atendimento para toda a América" }
-      ],
+      "infoBar": {
+        "heading": "Atendimento para toda a América",
+        "items": [
+          { "title": "Injectra Corporation", "subtitle": "Orlando, Flórida, EUA" },
+          { "title": "+1 (321) 888-7963" },
+          { "title": "info@injectracorp.com" },
+          { "title": "Suporte Técnico Especializado" }
+        ]
+      },
       "ctaBanner": {
         "title": "Pronto para transformar sua indústria?",
         "description": "Descubra como a Injectra pode aumentar a produtividade, reduzir custos e conectar toda a sua operação em uma única plataforma industrial inteligente.",
