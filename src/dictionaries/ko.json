@@ -2293,16 +2293,16 @@
     }
   },
   "sobreNos": {
-    "banner": {
-      "eyebrow": "회사 소개",
-      "title": "Injectra 소개",
-      "subtitle": "아메리카의 제조업을 혁신하는 산업 기술.",
     "headquarters": {
       "label": "본사: 미국 플로리다주 올랜도",
       "copy": "주소 복사",
       "copied": "복사됨",
       "map": "지도에서 보기"
     },
+    "banner": {
+      "eyebrow": "회사 소개",
+      "title": "Injectra 소개",
+      "subtitle": "아메리카의 제조업을 혁신하는 산업 기술.",
       "description": "Injectra Corporation은 사출 성형기, 로보틱스, 산업용 소프트웨어, IoT, 클라우드, 인공지능에 주력하는 미국 기업입니다. 당사의 목표는 기술로 성장을 추구하는 산업에 생산성, 자동화, 효율성을 제공하는 것입니다.",
       "highlights": [
         {

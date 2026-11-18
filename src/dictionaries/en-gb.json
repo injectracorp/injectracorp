@@ -2293,16 +2293,16 @@
     }
   },
   "sobreNos": {
-    "banner": {
-      "eyebrow": "ABOUT US",
-      "title": "About Injectra",
-      "subtitle": "Industrial technology to transform manufacturing across the Americas.",
     "headquarters": {
       "label": "Headquarters: Orlando, FL, USA",
       "copy": "Copy address",
       "copied": "Copied",
       "map": "Find on map"
     },
+    "banner": {
+      "eyebrow": "ABOUT US",
+      "title": "About Injectra",
+      "subtitle": "Industrial technology to transform manufacturing across the Americas.",
       "description": "Injectra Corporation is an American company focused on injection moulding machinery, robotics, industrial software, IoT, cloud and artificial intelligence. Our goal is to deliver productivity, automation and efficiency for industries looking to grow through technology.",
       "highlights": [
         {

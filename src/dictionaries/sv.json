@@ -2293,16 +2293,16 @@
     }
   },
   "sobreNos": {
-    "banner": {
-      "eyebrow": "OM OSS",
-      "title": "Om Injectra",
-      "subtitle": "Industriell teknik för att omvandla tillverkningsindustrin i Amerika.",
     "headquarters": {
       "label": "Huvudkontor: Orlando, FL, USA",
       "copy": "Kopiera adress",
       "copied": "Kopierad",
       "map": "Visa på karta"
     },
+    "banner": {
+      "eyebrow": "OM OSS",
+      "title": "Om Injectra",
+      "subtitle": "Industriell teknik för att omvandla tillverkningsindustrin i Amerika.",
       "description": "Injectra Corporation är ett amerikanskt företag med fokus på injektionsmaskiner, robotik, industriell programvara, IoT, molntjänster och artificiell intelligens. Vårt mål är att leverera produktivitet, automation och effektivitet till industrier som vill växa med hjälp av teknik.",
       "highlights": [
         {
