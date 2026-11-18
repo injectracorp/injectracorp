@@ -2297,6 +2297,12 @@
       "eyebrow": "MEISTÄ",
       "title": "Injectrasta",
       "subtitle": "Teollisuusteknologiaa, joka muuttaa valmistusta kautta Amerikan mantereen.",
+    "headquarters": {
+      "label": "Pääkonttori: Orlando, FL, USA",
+      "copy": "Kopioi osoite",
+      "copied": "Kopioitu",
+      "map": "Näytä kartalla"
+    },
       "description": "Injectra Corporation on amerikkalainen yritys, joka keskittyy ruiskuvalukoneisiin, robotiikkaan, teollisuusohjelmistoihin, IoT:hen, pilvipalveluihin ja tekoälyyn. Tavoitteemme on tarjota tuottavuutta, automaatiota ja tehokkuutta teollisuudelle, joka haluaa kasvaa teknologian avulla.",
       "highlights": [
         {

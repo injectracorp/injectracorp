@@ -2297,6 +2297,12 @@
       "eyebrow": "关于我们",
       "title": "关于 Injectra",
       "subtitle": "以工业技术改变美洲制造业。",
+    "headquarters": {
+      "label": "总部：美国佛罗里达州奥兰多",
+      "copy": "复制地址",
+      "copied": "已复制",
+      "map": "在地图上查看"
+    },
       "description": "Injectra Corporation 是一家专注于注塑机、机器人技术、工业软件、物联网、云计算与人工智能的美国企业。我们的目标是为追求以技术实现增长的工业企业,带来生产力、自动化与效率的提升。",
       "highlights": [
         {

@@ -1,5 +1,11 @@
 {
   "sobreNos": {
+    "headquarters": {
+      "label": "Sede: Orlando, FL, EUA",
+      "copy": "Copiar endereço",
+      "copied": "Copiado",
+      "map": "Ver no mapa"
+    },
     "banner": {
       "eyebrow": "SOBRE NÓS",
       "title": "Sobre a Injectra",

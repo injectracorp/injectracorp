@@ -2297,6 +2297,12 @@
       "eyebrow": "DESPRE NOI",
       "title": "Despre Injectra",
       "subtitle": "Tehnologie industrială pentru a transforma producția din întreaga Americă.",
+    "headquarters": {
+      "label": "Sediu central: Orlando, FL, SUA",
+      "copy": "Copiază adresa",
+      "copied": "Copiat",
+      "map": "Vezi pe hartă"
+    },
       "description": "Injectra Corporation este o companie americană axată pe mașini de injecție, robotică, software industrial, IoT, cloud și inteligență artificială. Obiectivul nostru este să oferim productivitate, automatizare și eficiență industriilor care doresc să crească prin tehnologie.",
       "highlights": [
         {

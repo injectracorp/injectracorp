@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Section from "@/components/layout/Section";
+import AddressPopover from "./AddressPopover";
 import type { Dictionary } from "@/lib/i18n/dictionary";
 
 // Conteúdo exato extraído via Figma MCP (get_design_context, node 7260:8461).
@@ -56,6 +57,7 @@ export default function Banner({ dict }: { dict: Dictionary }) {
                 </div>
               ))}
             </div>
+            <AddressPopover labels={dict.sobreNos.headquarters} />
           </div>
 
           {/* <1024: card inline abaixo do texto. 1024-1279: imagem contida

@@ -2297,6 +2297,12 @@
       "eyebrow": "SOBRE NÓS",
       "title": "Sobre a Injectra",
       "subtitle": "Tecnologia industrial para transformar a manufatura nas Américas.",
+    "headquarters": {
+      "label": "Sede: Orlando, FL, EUA",
+      "copy": "Copiar morada",
+      "copied": "Copiada",
+      "map": "Ver no mapa"
+    },
       "description": "A Injectra Corporation é uma empresa americana focada em máquinas injetoras, robótica, software industrial, IoT, cloud e inteligência artificial. O nosso objetivo é entregar produtividade, automação e eficiência às indústrias que procuram crescer com tecnologia.",
       "highlights": [
         {
